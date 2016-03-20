@@ -5,7 +5,7 @@ This repo is for our public-facing site, which will be hosted on a to-be-decided
 
 Soon, this repo will also contain our assets on [whitehouse.gov](https://www.whitehouse.gov/digital/united-states-digital-service).
 
-The site is built on the (U.S. Web Design Standards)[https://playbook.cio.gov/designstandards/].
+The site is built on the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards/).
 
 Use
 ---
@@ -19,7 +19,7 @@ While this is a static site at this time, we may add some dynamic content later 
 Build
 -----
 
-If you'd like to build the assets yourself, you'll need (npm)[https://www.npmjs.com/].
+If you'd like to build the assets yourself, you'll need [npm](https://www.npmjs.com/).
 
     git checkout https://github.com/usds/website-redesign.git
     cd website-redesign
