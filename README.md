@@ -14,15 +14,20 @@ Production-ready assets can be found in /dist.  Just open `dist/index.html` in a
 
 While this is a static site at this time, we may add some dynamic content later on.  To that end, we provide a small express.js server, which you can run via:
 
-    npm run
+    npm start 
 
 Build
 -----
 
-If you'd like to build the assets yourself, you'll need [npm](https://www.npmjs.com/).
+If you'd like to build the assets yourself, you'll need [npm](https://www.npmjs.com/) and browserify.
 
     git checkout https://github.com/usds/website-redesign.git
     cd website-redesign
+    npm install -g browserify
     npm install
-    npm build
+    npm run build 
 
+If you're actively developing, you may watch to use watchify instead:
+    
+    npm install -g watchify 
+    npm run watch 
