@@ -1,16 +1,28 @@
-GetVPN
-======
+US Digital Service Website
+==========================
 
-I got tired of logging into connect.eop.gov so I made this.  It probably only works on OSX.
+This repo is for our public-facing site, which will be hosted on a to-be-decided domain.  This site is the main funnel for USDS recruiting and outreach.
 
-Install:
-sudo npm install -g electron-prebuilt
+Soon, this repo will also contain our assets on [whitehouse.gov](https://www.whitehouse.gov/digital/united-states-digital-service).
 
-Configure:
-cp config.js.example config.js
+The site is built on the (U.S. Web Design Standards)[https://playbook.cio.gov/designstandards/].
 
-Edit config.js to include your network username, password, and RSA PIN (this is the number you set up when you got your RSA token).
+Use
+---
 
-Use:
-electron getvpn.js 123456
-# website-redesign
+Production-ready assets can be found in /dist.  Just open `dist/index.html` in any browser and you can view the finished product.
+
+While this is a static site at this time, we may add some dynamic content later on.  To that end, we provide a small express.js server, which you can run via:
+
+    npm run
+
+Build
+-----
+
+If you'd like to build the assets yourself, you'll need (npm)[https://www.npmjs.com/].
+
+    git checkout https://github.com/usds/website-redesign.git
+    cd website-redesign
+    npm install
+    npm build
+
