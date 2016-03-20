@@ -1,0 +1,19 @@
+{
+  "name": "usds-website",
+  "version": "0.0.0",
+  "description": "United States Digital Service home page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usds/website-redesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usds/website-redesign/issues"
+  },
+  "homepage": "https://github.com/usds/website-redesign#readme"
+}
