@@ -4,7 +4,7 @@ body {
 }
 
 .usa-site a {
-  color: #205593
+  color: #205593;
 }
 
 .usa-site h1{
@@ -118,6 +118,37 @@ body {
   position: absolute;
   left: 0; right: 0; bottom: 2em;
   margin: 0 auto;
+}
+
+.usa-site-jumbotron-teaser{
+  position: absolute;
+  top: 50px; right: 0;
+  background: #fff;
+  cursor: pointer;
+}
+
+.usa-site-jumbotron-teaser-image, 
+.usa-site-jumbotron-teaser-arrow, 
+.usa-site-jumbotron-teaser p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.usa-site-jumbotron-teaser-image {
+  border-left: 6px solid #dec622;
+}
+
+.usa-site-jumbotron-teaser p {
+  color: #0e2643;
+  max-width: 120px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 30px;
+  text-align: left;
+}
+
+.usa-site-jumbotron-teaser-arrow {
+  margin-right: 15px;
 }
 
 .usa-site-banner,
