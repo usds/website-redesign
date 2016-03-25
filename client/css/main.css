@@ -1,5 +1,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.usa-site a {
+  color: #205593
 }
 
 .usa-site h1{
@@ -9,19 +14,14 @@ body {
   line-height: 1.2em;
 }
 
+.usa-site h2{
+  font-size: 2.5em;
+}
+
 .usa-site h2,
 .usa-site h3,
 .usa-site h4 {
-  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
-}
-
-.usa-site h2 {
-  font-size: 1.2em;
-  font-weight: 300;
-  margin-top: .35em;
-  line-height: 2.2em;
-  font-weight: 300;
 }
 
 .usa-site h3 {
@@ -29,7 +29,6 @@ body {
 }
 
 .usa-site-header{
-  text-align: center;
   padding-bottom: 13px;
 }
 
@@ -39,7 +38,6 @@ body {
   font-style: italic;
   padding: 5px 0;
   width: 100%;
-  text-align: center;
   color: #777;
 }
 
@@ -103,9 +101,17 @@ body {
   height: 643px;
   background: url('../img/experts.jpg') center center no-repeat;
   background-size: cover;
-  text-align: center;
   color: #fff;
   position: relative;
+}
+
+.usa-site-jumbotron h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: .35em;
+  line-height: 2.2em;
+  font-weight: 300;
 }
 
 .usa-site-jumbotron .usa-site-jumbotron-text {
@@ -117,7 +123,6 @@ body {
 .usa-site-banner,
 .usa-site-join {
   width: 100%;
-  text-align: center;
 }
 
 .usa-site-banner {
@@ -127,6 +132,16 @@ body {
   overflow: auto;
 }
 
+.usa-site-banner h3,
+.usa-site-banner h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.usa-site-banner h3 {
+  font-size: 1.8em;
+}
+
 .usa-site-join-button {
   height: 60px;
   width: 200px;
@@ -134,4 +149,38 @@ body {
   margin-top: -30px;
   color: #000;
   font-size: 1.3em;
+}
+
+.usa-site-join-button:hover {
+  background-color: #dec622;
+}
+
+.usa-site-story,
+.usa-site-story-more {
+  display: block;
+  text-align: left;
+  padding: 0 20px;
+  font-size: .85em;
+}
+
+.usa-site-story .usa-site-story-image {
+  width: 100%;
+  max-height: 170px;
+  border-top: 6px solid #dec622;
+  padding-top: 8px;
+}
+
+.usa-site-more-button {
+  height: 50px;
+  width: 320px;
+  background: #fff;
+  border: 1px solid #0071BB;
+  color: #0071BB;
+  margin: 100px 0;
+}
+
+.usa-site-more-button:hover {
+  background: #fff;
+  color: #205593; 
+  border: 1px solid #205593;
 }
