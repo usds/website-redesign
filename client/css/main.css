@@ -2,9 +2,34 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.usa-site h1{
+  font-family: Georgia, 'Times New Roman', 'DejaVu Serif', serif;
+  font-weight: normal;
+  font-size: 3em;
+  line-height: 1.2em;
+}
+
+.usa-site h2,
+.usa-site h3,
+.usa-site h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+.usa-site h2 {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: .35em;
+  line-height: 2.2em;
+  font-weight: 300;
+}
+
+.usa-site h3 {
+  font-size: 1.6em;
+}
+
 .usa-site-header{
   text-align: center;
-  text-transform: uppercase;
   padding-bottom: 13px;
 }
 
@@ -13,6 +38,23 @@ body {
   font-size: .8em;
   font-style: italic;
   padding: 5px 0;
+  width: 100%;
+  text-align: center;
+  color: #777;
+}
+
+.usa-site-header-bar .upper{
+  text-transform: uppercase;
+}
+
+.usa-site-header-bar span,
+.usa-site-header-bar img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.usa-site-header-bar img {
+  padding: 0 10px 4px;
 }
 
 .usa-site-header .header-bar-president{
@@ -72,22 +114,24 @@ body {
   margin: 0 auto;
 }
 
-.usa-site-jumbotron h1, 
-.usa-site-jumbotron h2 {
-  font-weight: normal;
-  margin: 0;
+.usa-site-banner,
+.usa-site-join {
+  width: 100%;
+  text-align: center;
 }
 
-.usa-site-jumbotron h1 {
-  font-size: 3em;
-  font-family: Georgia, 'Times New Roman', 'DejaVu Serif', serif;
-  line-height: 1.2em;
+.usa-site-banner {
+  background-color: #103052;
+  color: #fff;
+  padding-bottom: 60px;
+  overflow: auto;
 }
 
-.usa-site-jumbotron h2 {
-  font-size: 1.2em;
-  font-weight: 300;
-  font-family: 'Open Sans', sans-serif;
-  margin-top: .35em;
-  line-height: 2.2em;
+.usa-site-join-button {
+  height: 60px;
+  width: 200px;
+  background-color: #dec622;
+  margin-top: -30px;
+  color: #000;
+  font-size: 1.3em;
 }
