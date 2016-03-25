@@ -1,0 +1,93 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.usa-site-header{
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+}
+
+.usa-site-header-bar{
+  font-family: Georgia, 'Times New Roman', 'DejaVu Serif', serif;
+  font-size: .8em;
+  font-style: italic;
+  padding: 5px 0;
+}
+
+.usa-site-header .header-bar-president{
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+.usa-site-header .usa-site-navbar{
+  font-size: .75em;
+  font-weight: bold;
+}
+
+.usa-site-header .usa-site-navbar ul{
+  padding: 0;
+  display: inline;
+}
+
+.usa-site-header .usa-site-navbar li{
+  display: table-cell;
+  position: relative;
+  width: 180px;
+  height: 110px;
+}
+
+.usa-site-header .usa-site-navbar li a{
+  color: #0e2643;
+  position: absolute;
+  left: 0; right: 0; bottom: 8px;
+}
+
+.usa-site-header .usa-site-navbar .usa-nav-centerpiece{
+  width: 250px;
+}
+
+.usa-site-header .usa-site-navbar .usa-nav-centerpiece a{
+  bottom: 0;
+}
+
+.usa-site-header .usa-site-navbar li.usa-nav-centerpiece a img{
+  width: 155px;
+  bottom: 0;
+}
+
+.usa-site-jumbotron {
+  width: 100%;
+  height: 643px;
+  background: url('../img/experts.jpg') center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.usa-site-jumbotron .usa-site-jumbotron-text {
+  position: absolute;
+  left: 0; right: 0; bottom: 2em;
+  margin: 0 auto;
+}
+
+.usa-site-jumbotron h1, 
+.usa-site-jumbotron h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.usa-site-jumbotron h1 {
+  font-size: 3em;
+  font-family: Georgia, 'Times New Roman', 'DejaVu Serif', serif;
+  line-height: 1.2em;
+}
+
+.usa-site-jumbotron h2 {
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: .35em;
+  line-height: 2.2em;
+}
