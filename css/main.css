@@ -264,3 +264,40 @@ body {
   font-size: 0.8em;
   font-weight: bold;
 }
+
+
+.usa-site-album {
+  background-color: #56A8DF;
+  color: #fff;
+}
+
+.usa-site-footer {
+  text-align: left;
+  font-size: 0.8em;
+  padding: 60px 0;
+}
+
+.usa-site-footer .usa-site-footer-logo{
+  max-width: 165px;
+}
+
+.usa-site-footer header{
+  font-weight: bold;
+  padding: 7px 0;
+}
+
+.usa-site-footer ul {
+  margin: 0;
+}
+
+.usa-site-footer ul li {
+  line-height: 2em;
+}
+
+.usa-site-footer ul li:before {
+  content: none;
+}
+
+.usa-site-footer ul li:after {
+  content: none;
+}
