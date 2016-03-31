@@ -165,10 +165,6 @@ body {
   overflow: auto;
 }
 
-.usa-site-banner h3 {
-  font-style: italic;
-}
-
 .usa-site-banner h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -205,7 +201,7 @@ body {
 }
 
 .usa-site-people {
-  padding-top: 2em;
+  padding: 40px 0 100px;
 }
 
 .usa-site-story .usa-site-story-image {
@@ -243,11 +239,28 @@ body {
   background: #fff;
   border: 1px solid #0071BB;
   color: #0071BB;
-  margin: 100px 0;
+  margin: 80px 0;
 }
 
 .usa-site-more-button:hover {
   background: #fff;
   color: #205593; 
   border: 1px solid #205593;
+}
+
+.usa-site-press {
+  text-align: left;
+  padding: 20px;
+}
+
+.usa-site-press h3 {
+  font-style: none;
+}
+
+.usa-site-press .usa-site-press-author {
+  display: block;
+  padding: 0.45em 0;
+  color: #56A8DF;
+  font-size: 0.8em;
+  font-weight: bold;
 }
