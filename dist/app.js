@@ -1,1 +1,0 @@
-console.error("Error: Cannot find module './app.css' from '/Users/alexose/website-redesign/client/js'");
