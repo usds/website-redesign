@@ -8,10 +8,11 @@ body {
 }
 
 .usa-site h1{
-  font-family: Georgia, 'Times New Roman', 'DejaVu Serif', serif;
+  font-family: 'Merriweather', Georgia, 'Times New Roman', 'DejaVu Serif', serif;
   font-weight: normal;
-  font-size: 3em;
-  line-height: 1.2em;
+  font-size: 2.9em;
+  font-weight: 700;
+  line-height: 1.25em;
 }
 
 .usa-site h2{
@@ -21,7 +22,7 @@ body {
 .usa-site h2,
 .usa-site h3,
 .usa-site h4 {
-  font-weight: normal;
+  font-weight: 700;
 }
 
 .usa-site h3 {
@@ -33,7 +34,7 @@ body {
 }
 
 .usa-site-header-bar{
-  font-family: Georgia, 'Times New Roman', 'DejaVu Serif', serif;
+  font-family: 'Merriweather', Georgia, 'Times New Roman', 'DejaVu Serif', serif;
   font-size: .8em;
   font-style: italic;
   padding: 5px 0;
@@ -105,12 +106,15 @@ body {
   position: relative;
 }
 
+.usa-site-jumbotron h1 {
+  margin-bottom: 0;
+}
+
 .usa-site-jumbotron h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
-  font-weight: 300;
   margin-top: .35em;
-  line-height: 2.2em;
+  line-height: 1.9em;
   font-weight: 300;
 }
 
@@ -163,7 +167,10 @@ body {
   overflow: auto;
 }
 
-.usa-site-banner h3,
+.usa-site-banner h3 {
+  font-style: italic;
+}
+
 .usa-site-banner h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -187,11 +194,16 @@ body {
 }
 
 .usa-site-story,
-.usa-site-story-more {
+.usa-site-story-more,
+.usa-site-people {
   display: block;
-  text-align: left;
   padding: 0 20px;
   font-size: .85em;
+}
+
+.usa-site-story,
+.usa-site-story-more {
+  text-align: left;
 }
 
 .usa-site-story .usa-site-story-image {
@@ -199,6 +211,12 @@ body {
   max-height: 170px;
   border-top: 6px solid #dec622;
   padding-top: 8px;
+}
+
+.usa-site-people .usa-site-people-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 .usa-site-more-button {
