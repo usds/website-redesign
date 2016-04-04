@@ -265,17 +265,22 @@ body {
   font-weight: bold;
 }
 
-
 .usa-site-album {
   background-color: #56A8DF;
   color: #fff;
+  padding-bottom: 0;
 }
 
-.usa-site-album img{
+.usa-site-album img {
   margin: 0; padding: 0;
   display: block;
   float: left;
-  max-width: 245px;
+  width: 245px;
+  height: 160px;
+}
+
+.usa-site-album img.hidden {
+  display: none;
 }
 
 .usa-site-footer {
