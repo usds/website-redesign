@@ -269,19 +269,13 @@ body {
 .usa-site-album {
   background-color: #56A8DF;
   color: #fff;
-  padding-bottom: 0;
 }
 
 .usa-site-album img{
-  width: 245px; height: 160px;
   margin: 0; padding: 0;
   display: block;
   float: left;
-  opacity: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  max-width: 245px;
 }
 
 .usa-site-footer {
