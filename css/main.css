@@ -271,6 +271,13 @@ body {
   color: #fff;
 }
 
+.usa-site-album img{
+  margin: 0; padding: 0;
+  display: block;
+  float: left;
+  max-width: 245px;
+}
+
 .usa-site-footer {
   text-align: left;
   font-size: 0.8em;
