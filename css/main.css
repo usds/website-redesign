@@ -271,17 +271,36 @@ body {
   padding-bottom: 0;
 }
 
+.usa-site-album .wrapper {
+  position: relative;
+  float: left;
+}
+  
+.usa-site-album img,
+.usa-site-album .wrapper { 
+  width: 245px; height: 160px;
+}
+
 .usa-site-album img {
   margin: 0; padding: 0;
   display: block;
-  float: left;
-  width: 245px;
-  height: 160px;
+  position: absolute;
+  left: 0; top: 0;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
-.usa-site-album img.hidden {
+.usa-site-album img.visible {
+  opacity: 1;
+}
+
+.usa-site-album img.reserve {
   display: none;
 }
+
 
 .usa-site-footer {
   text-align: left;
