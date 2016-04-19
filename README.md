@@ -5,13 +5,19 @@ This repo is for our public-facing site, which will be hosted on a to-be-decided
 
 Soon, this repo will also contain our assets on [whitehouse.gov](https://www.whitehouse.gov/digital/united-states-digital-service).
 
-The site is built on the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards/).
+The site is built on the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards/) and uses Jekyll to generate static pages.
 
-Use
+Setup
 ---
 
-Production-ready assets can be found in /dist.  Just open `dist/index.html` in any browser and you can view the finished product.
+Install Jekyll
 
-While this is a static site right now, we might add some dynamic content later on.  To that end, we provide a small express.js server, which you can run via:
+  gem install jekyll
+  
+Running
+---
 
-    npm start 
+  jekyll serve
+
+
+Production-ready assets can be found in /_site.  Just open `dist/index.html` in any browser and you can view the finished product.
