@@ -301,36 +301,49 @@ body {
   display: none;
 }
 
-.join-page {
-  
-}
+.join-page { }
+
 .join-page .faqs {
   font-family: 'Merriweather';
   font-weight: 700;
   font-size: 17px;
   line-height: 1.3em/22px;
   text-align: left;
+  margin-top: 90px;
 }
+
 .join-page .faqs li {
   border-left: 7px solid #ffffff;
   padding-left: 0.5em;
   margin-bottom: 1em;
 }
+
 .join-page .faqs li:hover,
 .join-page .faqs li:active,
 .join-page .faqs li.active {
   border-left: 7px solid #dec623;
 }
+
 .join-page .faqs li:before {
   content: none;
 }
+
 .join-page .form {
   text-align: left;
 }
+
 .join-page .form label {
   font-weight: bold;
 }
 
+.join-page .form label.sub-label {
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.join-page .usa-fieldset-inputs {
+  margin: 20px 0;
+}
 
 .usa-site-footer {
   text-align: left;
