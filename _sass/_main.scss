@@ -200,8 +200,33 @@ body {
   text-align: left;
 }
 
-.usa-site-people {
-  padding: 40px 0 100px;
+//HACK: see https://github.com/18F/web-design-standards/issues/1120
+.usa-site-people[aria-hidden=true]{
+  display: block !important;
+}
+
+// Override USWDS button styles
+.slick-slider button, 
+.slick-slider button:hover,
+.slick-slider button:focus {
+  background: none;
+  padding: 0;
+  font-size: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.slick-slider button.slick-prev:before{
+  content: "<";
+}
+
+.slick-slider button.slick-next:before{
+  content: ">";
+}
+
+.slick-slider button.slick-arrow:before{
+  font-size: 30px; 
+  color: #bbb;
 }
 
 .usa-site-story .usa-site-story-image {
@@ -215,6 +240,7 @@ body {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  display: inline-block;
 }
 
 .usa-site-people h4,

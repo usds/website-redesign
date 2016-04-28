@@ -56,6 +56,8 @@ $spacing-unit:     30px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "main",
-        "syntax-highlighting"
+  "main",
+  "slick",
+  "slick-theme",
+  "syntax-highlighting"
 ;
