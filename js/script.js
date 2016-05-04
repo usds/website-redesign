@@ -29,7 +29,6 @@ $.fn.randomize = function(selector){
 };
 
 $('#usa-site-zeitgeist').zeitgeist();
-$('#usa-site-people').find('>div').randomize();
 $('#usa-site-people').slick({
   infinite: false,
   useTransform: true,
