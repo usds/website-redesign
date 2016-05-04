@@ -104,6 +104,11 @@ body {
   position: relative;
 }
 
+.usa-site-jumbotron.about{
+  background: url('../img/about.jpg') center center no-repeat;
+  background-size: cover;
+}
+
 .usa-site-jumbotron h1 {
   margin-bottom: 0;
 }
@@ -198,6 +203,22 @@ body {
 .usa-site-story,
 .usa-site-story-more {
   text-align: left;
+}
+
+.usa-site-values{
+  padding-bottom: 40px;
+}
+
+.usa-site-value{
+  font-size: 0.8em;
+  text-align: left;
+  margin: 10px;
+  padding-left: 20px;
+  border-left: 14px solid $background-color-secondary;
+}
+
+.usa-site-value h3{
+  color: $link-color;
 }
 
 //HACK: see https://github.com/18F/web-design-standards/issues/1120
