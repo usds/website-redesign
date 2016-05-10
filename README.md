@@ -1,7 +1,7 @@
 US Digital Service Website
 ==========================
 
-This repo is for our public-facing site, which will be hosted on a to-be-decided domain.  This site is the main funnel for USDS recruiting and outreach.
+This repo is for our public-facing site, which will be hosted on a usds.gov.  This site is the main funnel for USDS recruiting and outreach.
 
 Soon, this repo will also contain our assets on [whitehouse.gov](https://www.whitehouse.gov/digital/united-states-digital-service).
 
@@ -9,15 +9,12 @@ The site is built on the [U.S. Web Design Standards](https://playbook.cio.gov/de
 
 Setup
 ---
-
-Install Jekyll
-
-  gem install jekyll
+1. If you're using a Mac, install homebrew (see http://brew.sh/)
+2. After installing git (`brew install git`), `cd` to the directory where you want to check-out the site, and then clone it (`git clone https://github.com/usds/website-redesign.git`)
+3. Install rvm (`\curl -sSL https://get.rvm.io | sudo bash -s stable`), make your current user a member of the rvm group, and then install a new version of ruby (`rvm install 2.3.1`)
+4. Install jekyll (`gem install jekyll`)
   
 Running
 ---
-
-  jekyll serve
-
-
-Production-ready assets can be found in /_site.  Just open `dist/index.html` in any browser and you can view the finished product.
+1. In the directory you checked out the website into, run `jekyll serve` to start the webserver
+2. Navigate to http://localhost:4000 in your browser to see your changes
