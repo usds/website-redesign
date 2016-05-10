@@ -30,6 +30,7 @@ body {
 
 .usa-site-header {
   padding-bottom: 13px;
+  margin: auto;
 }
 
 .usa-site-header-bar {
@@ -38,6 +39,7 @@ body {
   padding: 5px 0;
   width: 100%;
   color: #777;
+  font-family: Georgia,"Times New Roman","DejaVu Serif",serif;
 }
 
 .usa-site-header-bar .upper {
@@ -66,7 +68,6 @@ body {
 
 .usa-site-header .usa-site-navbar ul{
   padding: 0;
-  display: inline;
 }
 
 .usa-site-header .usa-site-navbar li{
@@ -80,6 +81,10 @@ body {
   color: $text-secondary-color;
   position: absolute;
   left: 0; right: 0; bottom: 8px;
+}
+
+.usa-site-header .usa-button-list {
+  margin: auto;
 }
 
 .usa-site-header .usa-site-navbar .usa-nav-centerpiece{
@@ -351,7 +356,7 @@ body {
 .join-page { }
 
 .join-page .faqs {
-  font-family: 'Merriweather';
+  font-family: $header-font-family;
   font-weight: 700;
   font-size: 17px;
   line-height: 1.3em/22px;

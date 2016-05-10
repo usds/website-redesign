@@ -7,6 +7,7 @@
 
 // Our variables
 $base-font-family:            'Open Sans', sans-serif;
+$header-font-family:          "Merriweather","Georgia","Times New Roman",serif;
 
 $background-color:            #ffffff;
 $background-color-secondary:  #dec622;
@@ -56,6 +57,7 @@ $spacing-unit:     30px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+  "mixins",
   "main",
   "slick",
   "slick-theme",

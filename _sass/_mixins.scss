@@ -1,0 +1,65 @@
+// css3-prefix from https://github.com/matthieua/sass-css3-mixins/blob/master/css3-mixins.scss
+
+/* ADDS A BROWSER PREFIX TO THE PROPERTY */
+@mixin css3-prefix($property, $value) {
+  -webkit-#{$property}: #{$value};
+   -khtml-#{$property}: #{$value};
+     -moz-#{$property}: #{$value};
+      -ms-#{$property}: #{$value};
+       -o-#{$property}: #{$value};
+          #{$property}: #{$value};
+}
+
+@mixin vertical-align-relative {
+  position: relative;
+  top: 50%;
+  @include css3-prefix('transform', 'translateY(-50%)');
+}
+
+@mixin vertical-align-flexbox {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  display: flex;
+  @include css3-prefix('flex-direction', 'column');
+  @include css3-prefix('justify-content', 'center');
+}
+
+@mixin vertically-aligned-parent {
+  @include css3-prefix('transform-style', 'preserve-3d');  
+}
+
+@mixin background-cover {
+  @include css3-prefix('background-size', 'cover !important');
+  background-attachment: fixed;
+}
+
+@mixin grayscale($percent: 100) {
+  @include css3-prefix('filter', 'grayscale(' + $percent + '%)');
+  filter: url(grayscale.svg); /* Firefox 4+ */
+  filter: gray; /* IE 6-9 */;
+}
+@mixin greyscale($percent: 100) {
+  @include grayscale($percent);
+}
+@mixin border-radius($radius) {
+  @include css3-prefix('border-radius', $radius);
+}
+
+/* OPACITY */
+@mixin opacity($opacity: 0.5) {
+  $opacityMultiplied: ($opacity * 100);
+  
+  filter:         alpha(opacity=$opacityMultiplied);
+  -ms-filter:     "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + $opacityMultiplied + ")";
+  @include css3-prefix('opacity', $opacity);
+}
+
+@mixin background-with-overlay($url, $color, $position: center center, $opacity: 0.9) {
+  background: linear-gradient(
+        rgba($color, $opacity), 
+        rgba($color, $opacity)
+      ),
+      image-url($url) $position no-repeat;
+}
