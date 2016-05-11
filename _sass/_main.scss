@@ -3,104 +3,87 @@ body {
   text-align: center;
 }
 
-.usa-site a {
-  color: $link-color;
+.usds-site {
+  
+  a {
+    color: $link-color;
+  }
+  a:hover {
+    color: $link-color-hover;
+  }
+  h2, h3, h4 {
+    font-weight: 700;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: 2.9em;
+    font-weight: 700;
+    line-height: 1.25em;
+  } 
+  h2 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 1.6em;
+  }
+  
+  header {
+    
+    padding-bottom: 13px;
+    margin: auto;
+    
+    .disclaimer-bar {
+      color: #777;
+      background-color: #f1f1f1;
+      padding-bottom: .5rem;
+      padding-top: .5rem;
+      font-size: 1.3rem;
+      text-align: left;
+      
+      img.eop-seal {
+        display: inline-block;
+        vertical-align: top;
+        height: 20px;
+        margin-right: 0.5rem;
+      }
+    }
+    
+    .site-navbar {
+      font-size: .75em;
+      font-weight: bold;
+      ul {
+        margin: auto;
+        padding: 0;
+        li {
+          display: table-cell;
+          position: relative;
+          width: 180px;
+          height: 110px;
+          a {
+            color: $text-secondary-color;
+            position: absolute;
+            left: 0; right: 0; bottom: 8px;
+          }
+        }
+        .nav-centerpiece {
+          width: 250px;
+          a {
+            bottom: 0;
+            img {
+              width: 155px;
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  
 }
 
-.usa-site h1 {
-  font-weight: normal;
-  font-size: 2.9em;
-  font-weight: 700;
-  line-height: 1.25em;
-}
 
-.usa-site h2 {
-  font-size: 2.5em;
-}
-
-.usa-site h2,
-.usa-site h3,
-.usa-site h4 {
-  font-weight: 700;
-}
-
-.usa-site h3 {
-  font-size: 1.6em;
-}
-
-.usa-site-header {
-  padding-bottom: 13px;
-  margin: auto;
-}
-
-.usa-site-header-bar {
-  font-size: .8em;
-  font-style: italic;
-  padding: 5px 0;
-  width: 100%;
-  color: #777;
-  font-family: Georgia,"Times New Roman","DejaVu Serif",serif;
-}
-
-.usa-site-header-bar .upper {
-  text-transform: uppercase;
-}
-
-.usa-site-header-bar span,
-.usa-site-header-bar img {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.usa-site-header-bar img {
-  padding: 0 10px 4px;
-}
-
-.usa-site-header .header-bar-president{
-  font-variant: small-caps;
-  text-transform: lowercase;
-}
-
-.usa-site-header .usa-site-navbar{
-  font-size: .75em;
-  font-weight: bold;
-}
-
-.usa-site-header .usa-site-navbar ul{
-  padding: 0;
-}
-
-.usa-site-header .usa-site-navbar li{
-  display: table-cell;
-  position: relative;
-  width: 180px;
-  height: 110px;
-}
-
-.usa-site-header .usa-site-navbar li a{
-  color: $text-secondary-color;
-  position: absolute;
-  left: 0; right: 0; bottom: 8px;
-}
-
-.usa-site-header .usa-button-list {
-  margin: auto;
-}
-
-.usa-site-header .usa-site-navbar .usa-nav-centerpiece{
-  width: 250px;
-}
-
-.usa-site-header .usa-site-navbar .usa-nav-centerpiece a {
-  bottom: 0;
-}
-
-.usa-site-header .usa-site-navbar li.usa-nav-centerpiece a img {
-  width: 155px;
-  bottom: 0;
-}
-
-.usa-site-jumbotron {
+.jumbotron {
   width: 100%;
   height: 643px;
   background: url('../img/experts.jpg') center center no-repeat;
@@ -109,16 +92,16 @@ body {
   position: relative;
 }
 
-.usa-site-jumbotron.about{
+.jumbotron.about{
   background: url('../img/about.jpg') center center no-repeat;
   background-size: cover;
 }
 
-.usa-site-jumbotron h1 {
+.jumbotron h1 {
   margin-bottom: 0;
 }
 
-.usa-site-jumbotron h2 {
+.jumbotron h2 {
   font-family: $base-font-family;
   font-size: 1.2em;
   margin-top: .35em;
@@ -126,31 +109,31 @@ body {
   font-weight: 300;
 }
 
-.usa-site-jumbotron .usa-site-jumbotron-text {
+.jumbotron .jumbotron-text {
   position: absolute;
   left: 0; right: 0; bottom: 2em;
   margin: 0 auto;
 }
 
-.usa-site-jumbotron-teaser{
+.jumbotron-teaser{
   position: absolute;
   top: 50px; right: 0;
   background: #fff;
   cursor: pointer;
 }
 
-.usa-site-jumbotron-teaser-image, 
-.usa-site-jumbotron-teaser-arrow, 
-.usa-site-jumbotron-teaser p {
+.jumbotron-teaser-image, 
+.jumbotron-teaser-arrow, 
+.jumbotron-teaser p {
   display: inline-block;
   vertical-align: middle;
 }
 
-.usa-site-jumbotron-teaser-image {
+.jumbotron-teaser-image {
   border-left: 6px solid $background-color-secondary;
 }
 
-.usa-site-jumbotron-teaser p {
+.jumbotron-teaser p {
   color: $text-secondary-color;
   max-width: 120px;
   font-weight: bold;
@@ -159,7 +142,7 @@ body {
   text-align: left;
 }
 
-.usa-site-jumbotron-teaser-arrow {
+.jumbotron-teaser-arrow {
   margin-right: 15px;
 }
 
