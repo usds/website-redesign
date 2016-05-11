@@ -4,11 +4,10 @@
   {% include head.html %}
 
   <body class="usds-site usa-site {{ page.url | replace:'.html','' | slugify }}-page">
-
     {% include header.html %}
-    
-    {{ content }}
-
+    <main>
+      {{ content }}
+    </main>
     {% include footer.html %}
 
   </body>

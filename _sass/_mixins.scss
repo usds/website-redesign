@@ -10,6 +10,31 @@
           #{$property}: #{$value};
 }
 
+@mixin linear-gradient($origin, $startColor, $middleColor, $endColor) {
+  $direction: to bottom;
+  @if $origin == top {
+    @debug "I'm here!!!!";
+    $direction: to bottom;
+  } @else if $origin == bottom {
+    $direction: to top;
+  } @else if $origin == left {
+    $direction: to right;
+  } @else if $origin == right {
+    $direction: to left;
+  }
+  /* FF3.6-15 */
+  background: -moz-linear-gradient($origin, $startColor, $middleColor, $endColor);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient($origin, $startColor, $middleColor, $endColor);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient($direction, $startColor, $middleColor, $endColor);
+  /* IE6-9
+   *    Currently unsupported
+   * filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+   */
+}
+
+
 @mixin vertical-align-relative {
   position: relative;
   top: 50%;

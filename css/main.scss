@@ -6,16 +6,19 @@
 
 
 // Our variables
-$base-font-family:            'Open Sans', sans-serif;
-$header-font-family:          "Merriweather","Georgia","Times New Roman",serif;
+$base-font-family:                      'Open Sans', sans-serif;
+$header-font-family:                    "Merriweather","Georgia","Times New Roman",serif;
 
-$background-color:            #ffffff;
-$background-color-secondary:  #dec622;
+$background-color:                      #ffffff;
+$background-color-secondary:            #dec622;
+                                        
+$text-color:                            #000000;
+$text-secondary-color:                  #0e2643;
+$link-color:                            #0071bc;
+$link-color-hover:                      #205593;
 
-$text-color:                  #000000;
-$text-secondary-color:        #0e2643;
-$link-color:                  #0071bc;
-$link-color-hover:            #205593;
+$fixed-header-height-desktop:           155px;
+$fixed-header-height-desktop-collapsed: 77px;
 
 
 // $base-font-size:   16px;
