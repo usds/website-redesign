@@ -68,7 +68,6 @@ $( document ).ready(function() {
     var headerCollapsed = false;
     $( window ).scroll(function() {
       var scrollTopPos = $(window).scrollTop();
-      console.log( "ready! " + scrollTopPos );
       if (scrollTopPos > 78 && !headerCollapsed) { // 155 (expanded header) - 77 (collapsed header)
         header.addClass('collapsed');
         headerCollapsed = true;
