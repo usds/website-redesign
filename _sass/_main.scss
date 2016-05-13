@@ -5,10 +5,10 @@ body {
 
 .usds-site {
   
-  a {
+  a, a:visited {
     color: $link-color;
   }
-  a:hover, a:visited {
+  a:hover {
     color: $link-color-hover;
   }
   h2, h3, h4 {
@@ -122,9 +122,254 @@ body {
   
   main {
     margin-top: $fixed-header-height-desktop;
+    
+    .jumbotron {
+      width: 100%;
+      height: 643px;
+      background: url('../img/experts.jpg') center center no-repeat;
+      background-size: cover;
+      color: #fff;
+      position: relative;
+      h1 {
+        margin-bottom: 0;
+      }
+      h2 {
+        font-family: $base-font-family;
+        font-size: 1.2em;
+        margin-top: .35em;
+        line-height: 1.9em;
+        font-weight: 300;
+      }
+      .jumbotron-text {
+        position: absolute;
+        left: 0; right: 0; bottom: 2em;
+        margin: 0 auto;
+      }
+      .jumbotron-teaser{
+        position: absolute;
+        top: 50px; right: 0;
+        background: #fff;
+        cursor: pointer;
+      }
+      .jumbotron-teaser-image, 
+      .jumbotron-teaser-arrow, 
+      .jumbotron-teaser p {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .jumbotron-teaser-image {
+        border-left: 6px solid $background-color-secondary;
+      }
+
+      .jumbotron-teaser p {
+        color: $text-secondary-color;
+        max-width: 120px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0 30px;
+        text-align: left;
+      }
+
+      .jumbotron-teaser-arrow {
+        margin-right: 15px;
+      }
+    }
+
+    .jumbotron.about{
+      background: url('../img/about.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    
+    .more-button {
+      height: 50px;
+      width: 320px;
+      background-color: #fff;
+      border: 1px solid #0071BB;
+      color: #0071BB;
+      margin: 40px 0px;
+      
+      &:hover {
+        background: #fff;
+        color: #205593; 
+        border: 1px solid #205593;
+      }
+    }
+    
+  }
+  
+  section.our-work {
+    .story, .story-more {
+      display: block;
+      padding: 0 20px;
+      font-size: .85em;
+      text-align: left;
+    }
+    .story {
+      margin-top: 5rem;
+      img {
+        max-height: 170px;
+        border-top: 6px solid $background-color-secondary;
+        padding-top: 8px;
+      }
+    }
+    .story-more {
+      margin-bottom: 5rem;
+    } 
+  }
+
+  section.staff-members {
+    #staff-member-carousel {
+      margin-top: 5rem;
+    }
+    .staffer {
+      display: block;
+      padding: 0 20px;
+      font-size: .85em;
+      img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+      }
+      h4, h5 {
+        margin: 10px 0;
+        font-weight: 500;
+      }
+      h5 {
+        font-family: $base-font-family;
+        font-size: 0.9em;
+        margin-bottom: 20px;
+      }
+      .company {
+        font-weight: 700;
+      }
+    }
+    //HACK: see https://github.com/18F/web-design-standards/issues/1120
+    .staffer[aria-hidden=true]{
+      display: block !important;
+    }
+  }
+  
+  section.press {
+    margin-top: 5rem;
+    .story {
+      text-align: left;
+      padding: 20px 20px 20px 0;
+      border-top: 1px solid #ffffff;
+      h3 {
+        font-style: none;
+      }
+      a, a:hover {
+        color: #ffffff;
+      }
+      .author {
+        display: block;
+        padding: 0.45em 0;
+        color: #56A8DF;
+        font-size: 0.8em;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  .feature-panel,
+  .join-button-container {
+    width: 100%;
+  }
+  .feature-panel {
+    background-color: #103052;
+    color: #fff;
+    padding-bottom: 60px;
+    overflow: auto;
+    h4 {
+      font-family: $base-font-family;
+      font-weight: 300;
+    }
+    h3 {
+      font-size: 1.8em;
+    }
+  }
+  .join-button {
+    height: 60px;
+    width: 200px;
+    background-color: $background-color-secondary;
+    margin-top: -30px;
+    color: #000;
+    font-size: 1.3em;
+    &:hover {
+      background-color: $background-color-secondary;
+    }
+  }
+  
+  
+}
+footer {
+  text-align: left;
+  padding: 60px 0;
+  .usds-logo {
+    max-width: 165px;
+  }
+  .wh-logo {
+    max-width: 165px;
+  }
+  h4 {
+    margin-top: 0;
+    font-family: $base-font-family;
+  }
+  h4, .fa {
+    color: #112e51;
+  }
+  .fa {
+    margin-right: 1rem;
+  }
+  ul {
+    margin: 0;
+    li {
+      line-height: 2em;
+      &:before, &:after {
+        content: none;
+      }
+    }
   }
 }
 
+
+
+.usa-site-footer {
+  
+}
+
+.usa-site-footer .usa-site-footer-logo{
+  max-width: 165px;
+}
+
+.usa-site-footer header{
+  font-weight: bold;
+  padding: 7px 0;
+}
+
+.usa-site-footer ul {
+  margin: 0;
+}
+
+.usa-site-footer ul li {
+  
+}
+
+.usa-site-footer ul li:before {
+  content: none;
+}
+
+.usa-site-footer ul li:after {
+  content: none;
+}
+
+
+
+
+
+/* CSS below this line still needs to be organized and cleaned-up */
 .page-width-70 {
   text-align: center;
   width: 70%;
@@ -149,7 +394,7 @@ body {
 }
 
 .infographic-font-main {
-  font-family: Merriweather;
+  font-family: $header-font-family;
   font-size: 18px;
   line-height: 30px;
 }
@@ -158,149 +403,10 @@ body {
   text-align: left;
 }
 
-.jumbotron {
-  width: 100%;
-  height: 643px;
-  background: url('../img/experts.jpg') center center no-repeat;
-  background-size: cover;
-  color: #fff;
-  position: relative;
-}
 
-.jumbotron.about{
-  background: url('../img/about.jpg') center center no-repeat;
-  background-size: cover;
-}
 
-.jumbotron h1 {
-  margin-bottom: 0;
-}
 
-.jumbotron h2 {
-  font-family: $base-font-family;
-  font-size: 1.2em;
-  margin-top: .35em;
-  line-height: 1.9em;
-  font-weight: 300;
-}
 
-.jumbotron .jumbotron-text {
-  position: absolute;
-  left: 0; right: 0; bottom: 2em;
-  margin: 0 auto;
-}
-
-.jumbotron-teaser{
-  position: absolute;
-  top: 50px; right: 0;
-  background: #fff;
-  cursor: pointer;
-}
-
-.jumbotron-teaser-image, 
-.jumbotron-teaser-arrow, 
-.jumbotron-teaser p {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.jumbotron-teaser-image {
-  border-left: 6px solid $background-color-secondary;
-}
-
-.jumbotron-teaser p {
-  color: $text-secondary-color;
-  max-width: 120px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0 30px;
-  text-align: left;
-}
-
-.jumbotron-teaser-arrow {
-  margin-right: 15px;
-}
-
-.usa-site-banner,
-.usa-site-join {
-  width: 100%;
-}
-
-.usa-site-banner {
-  background-color: #103052;
-  color: #fff;
-  padding-bottom: 60px;
-  overflow: auto;
-}
-
-.usa-site-banner h4 {
-  font-family: $base-font-family;
-  font-weight: 300;
-}
-
-.usa-site-banner h3 {
-  font-size: 1.8em;
-}
-
-.usa-site-join-button {
-  height: 60px;
-  width: 200px;
-  background-color: $background-color-secondary;
-  margin-top: -30px;
-  color: #000;
-  font-size: 1.3em;
-}
-
-.usa-site-join-button:hover {
-  background-color: $background-color-secondary;
-}
-
-section.our-work {
-  .story, .story-more {
-    display: block;
-    padding: 0 20px;
-    font-size: .85em;
-    text-align: left;
-  }
-  .story {
-    margin-top: 5rem;
-    img {
-      max-height: 170px;
-      border-top: 6px solid $background-color-secondary;
-      padding-top: 8px;
-    }
-  }
-  .story-more {
-    margin-bottom: 5rem;
-  } 
-}
-
-section.staff-members {
-  .staffer {
-    display: block;
-    padding: 0 20px;
-    font-size: .85em;
-    img {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      display: inline-block;
-    }
-    h4, h5 {
-      margin: 10px 0;
-      font-weight: 500;
-    }
-    h5 {
-      font-family: $base-font-family;
-      font-size: 0.9em;
-      margin-bottom: 20px;
-    }
-    .company {
-      font-weight: 700;
-    }
-  }
-  
-}
 
 
 
@@ -318,11 +424,6 @@ section.staff-members {
 
 .usa-site-value h3{
   color: $link-color;
-}
-
-//HACK: see https://github.com/18F/web-design-standards/issues/1120
-.staff-members .staffer[aria-hidden=true]{
-  display: block !important;
 }
 
 // Override USWDS button styles
@@ -349,43 +450,11 @@ section.staff-members {
   color: #bbb;
 }
 
-.usa-site-story .usa-site-story-image {
-  
-}
 
 
 
-.more-button {
-  height: 50px;
-  width: 320px;
-  background-color: #fff;
-  border: 1px solid #0071BB;
-  color: #0071BB;
-  margin: 40px 0px;
-}
 
-.more-button:hover {
-  background: #fff;
-  color: #205593; 
-  border: 1px solid #205593;
-}
 
-.usa-site-press {
-  text-align: left;
-  padding: 20px;
-}
-
-.usa-site-press h3 {
-  font-style: none;
-}
-
-.usa-site-press .usa-site-press-author {
-  display: block;
-  padding: 0.45em 0;
-  color: #56A8DF;
-  font-size: 0.8em;
-  font-weight: bold;
-}
 
 .usa-site-album {
   background-color: #56A8DF;
@@ -467,33 +536,3 @@ section.staff-members {
   margin: 20px 0;
 }
 
-.usa-site-footer {
-  text-align: left;
-  font-size: 0.8em;
-  padding: 60px 0;
-}
-
-.usa-site-footer .usa-site-footer-logo{
-  max-width: 165px;
-}
-
-.usa-site-footer header{
-  font-weight: bold;
-  padding: 7px 0;
-}
-
-.usa-site-footer ul {
-  margin: 0;
-}
-
-.usa-site-footer ul li {
-  line-height: 2em;
-}
-
-.usa-site-footer ul li:before {
-  content: none;
-}
-
-.usa-site-footer ul li:after {
-  content: none;
-}

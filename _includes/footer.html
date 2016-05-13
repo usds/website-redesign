@@ -1,40 +1,27 @@
-<footer class="usa-site-footer">
+<footer>
   <div class="usa-grid">
     <div class="usa-width-one-fourth">
-      <a href="http://wh.gov"><img class="" width="114" alt="The logo of the White House" src="img/layout/the-white-house-logo-on-white.jpg" /></a> 
+      <a href="http://wh.gov"><img class="wh-logo" alt="The logo of the White House" src="img/layout/the-white-house-logo-on-white.jpg" /></a> 
     </div>
     <div class="usa-width-one-fourth">
-      <a href="#"><img class="usa-site-footer-logo" alt="The logo of the United States Digital Service" src="img/usds-logo-onwhite.png" /></a> 
+      <a href="#"><img class="usds-logo" alt="The logo of the United States Digital Service" src="img/usds-logo-onwhite.png" /></a> 
     </div>
     <div class="usa-width-one-fourth">
-      <header>Resources</header>
+      <h4>Resources</h4>
       <ul>
-        <li>
-          <a href="#">U.S. Digital Services Playbook</a>
-        <li>
-        </li>
-          <a href="#">U.S. Web Design Standards</a>
-        </li>
-        <li>
-          <a href="#">TechFAR Handbook</a>
-        </li>
+        <li><a href="#">U.S. Digital Services Playbook</a></li>
+        <li><a href="#">U.S. Web Design Standards</a></li>
+        <li><a href="#">TechFAR Handbook</a></li>
       </ul>
     </div>
     <div class="usa-width-one-fourth">
-      <header>Follow us</header>
-      <ul class="social-media-list">
-        {% if site.github_username %}
-        <li>
-          {% include icon-github.html username=site.github_username %}
-        </li>
-        {% endif %}
-
-        {% if site.twitter_username %}
-        <li>
-          {% include icon-twitter.html username=site.twitter_username %}
-        </li>
-        {% endif %}
-      </ul>
+      <h4>Follow us</h4>
+      <a href="https://twitter.com/usds" target="_blank"><i
+        class="fa fa-2x fa-twitter" title="Twitter"></i><span class="sr-only">Twitter</span></a>
+      <a href="https://medium.com/@USDigitalService" target="_blank"><i
+        class="fa fa-2x fa-medium" title="Medium"></i><span class="sr-only">Medium</span></a>
+      <a href="https://github.com/usds/" target="_blank"><i
+        class="fa fa-2x fa-github" title="Github"></i><span class="sr-only">Github</span></a>
     </div>
   </div>
 </footer>
