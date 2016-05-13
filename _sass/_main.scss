@@ -129,14 +129,14 @@ body {
   text-align: center;
   width: 70%;
   display: block;
-  margin-left: 15%;
+  margin: auto;
 }
 
 .infographic-container {
   text-align: center;
   width: 70%;
   display: block;
-  margin-left: 15%;
+  margin: auto;
 }
 
 .infographic-verticalalign {
@@ -251,8 +251,30 @@ body {
   background-color: $background-color-secondary;
 }
 
-.usa-site-story,
-.usa-site-story-more,
+section.our-work {
+  .story {
+    display: block;
+    margin-top: 5rem;
+    padding: 0 20px;
+    font-size: .85em;
+    text-align: left;
+    img {
+      max-height: 170px;
+      border-top: 6px solid $background-color-secondary;
+      padding-top: 8px;
+    }
+  }
+  .story-more {
+    display: block;
+    margin-bottom: 5rem;
+    padding: 0 20px;
+    font-size: .85em;
+    text-align: left;
+  }
+  
+}
+
+
 .usa-site-people {
   display: block;
   padding: 0 20px;
@@ -310,10 +332,7 @@ body {
 }
 
 .usa-site-story .usa-site-story-image {
-  width: 100%;
-  max-height: 170px;
-  border-top: 6px solid $background-color-secondary;
-  padding-top: 8px;
+  
 }
 
 .usa-site-people .usa-site-people-image {
@@ -330,7 +349,7 @@ body {
 }
 
 .usa-site-people h5 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $base-font-family;
   font-size: 0.9em;
   margin-bottom: 20px;
 }
@@ -339,16 +358,16 @@ body {
   font-weight: 700;
 }
 
-.usa-site-more-button {
+.more-button {
   height: 50px;
   width: 320px;
-  background: #fff;
+  background-color: #fff;
   border: 1px solid #0071BB;
   color: #0071BB;
   margin: 40px 0px;
 }
 
-.usa-site-more-button:hover {
+.more-button:hover {
   background: #fff;
   color: #205593; 
   border: 1px solid #205593;
