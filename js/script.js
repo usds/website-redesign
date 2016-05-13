@@ -29,7 +29,7 @@ $.fn.randomize = function(selector){
 };
 
 $('#usa-site-zeitgeist').zeitgeist();
-$('#usa-site-people').slick({
+$('#staff-member-carousel').slick({
   infinite: false,
   useTransform: true,
   slidesToShow: 3,

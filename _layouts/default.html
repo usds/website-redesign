@@ -3,11 +3,14 @@
 
   {% include head.html %}
 
-  <body class="usds-site usa-site {{ page.url | replace:'.html','' | slugify }}-page">
+  <body class="usds-site usa-site {{ page.url | replace:'index','home' | replace:'.html','' | slugify }}-page">
     {% include header.html %}
     <main>
       {{ content }}
     </main>
+    {% if page.url != '/join.html' %}
+      {% include extended_footer.html %}
+    {% endif %}
     {% include footer.html %}
 
   </body>
