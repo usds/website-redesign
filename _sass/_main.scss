@@ -252,12 +252,14 @@ body {
 }
 
 section.our-work {
-  .story {
+  .story, .story-more {
     display: block;
-    margin-top: 5rem;
     padding: 0 20px;
     font-size: .85em;
     text-align: left;
+  }
+  .story {
+    margin-top: 5rem;
     img {
       max-height: 170px;
       border-top: 6px solid $background-color-secondary;
@@ -265,26 +267,38 @@ section.our-work {
     }
   }
   .story-more {
-    display: block;
     margin-bottom: 5rem;
+  } 
+}
+
+section.staff-members {
+  .staffer {
+    display: block;
     padding: 0 20px;
     font-size: .85em;
-    text-align: left;
+    img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      display: inline-block;
+    }
+    h4, h5 {
+      margin: 10px 0;
+      font-weight: 500;
+    }
+    h5 {
+      font-family: $base-font-family;
+      font-size: 0.9em;
+      margin-bottom: 20px;
+    }
+    .company {
+      font-weight: 700;
+    }
   }
   
 }
 
 
-.usa-site-people {
-  display: block;
-  padding: 0 20px;
-  font-size: .85em;
-}
-
-.usa-site-story,
-.usa-site-story-more {
-  text-align: left;
-}
 
 .usa-site-values{
   padding-bottom: 40px;
@@ -303,7 +317,7 @@ section.our-work {
 }
 
 //HACK: see https://github.com/18F/web-design-standards/issues/1120
-.usa-site-people[aria-hidden=true]{
+.staff-members .staffer[aria-hidden=true]{
   display: block !important;
 }
 
@@ -335,28 +349,7 @@ section.our-work {
   
 }
 
-.usa-site-people .usa-site-people-image {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-}
 
-.usa-site-people h4,
-.usa-site-people h5 {
-  margin: 10px 0;
-  font-weight: 500;
-}
-
-.usa-site-people h5 {
-  font-family: $base-font-family;
-  font-size: 0.9em;
-  margin-bottom: 20px;
-}
-
-.usa-site-people .usa-site-people-company {
-  font-weight: 700;
-}
 
 .more-button {
   height: 50px;
