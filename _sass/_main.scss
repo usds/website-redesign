@@ -118,7 +118,7 @@ body {
       }
       
     }
-  }
+  } // </footer>
   
   main {
     margin-top: $fixed-header-height-desktop;
@@ -300,70 +300,49 @@ body {
     &:hover {
       background-color: $background-color-secondary;
     }
-  }
+  } // </main>
   
   
-}
-footer {
-  text-align: left;
-  padding: 60px 0;
-  .usds-logo {
-    max-width: 165px;
-  }
-  .wh-logo {
-    max-width: 165px;
-  }
-  h4 {
-    margin-top: 0;
-    font-family: $base-font-family;
-  }
-  h4, .fa {
-    color: #112e51;
-  }
-  .fa {
-    margin-right: 1rem;
-  }
-  ul {
-    margin: 0;
-    li {
-      line-height: 2em;
-      &:before, &:after {
-        content: none;
+  footer {
+    text-align: left;
+    padding: 60px 0;
+    font-size: 0.8em;
+    .wh-logo {
+      width: 165px;
+      height: 120px;
+      margin-right: 1em;
+    }
+    .eop-logo {
+      max-height: 100px;
+    }
+    .usds-logo {
+      position: relative;
+      bottom: 10px;
+      width: 165px;
+      height: 104px;
+    }
+    h4 {
+      margin-top: 0;
+      font-family: $base-font-family;
+    }
+    h4, .fa {
+      color: #112e51;
+    }
+    .fa {
+      margin-right: 1rem;
+    }
+    ul {
+      margin: 0;
+      li {
+        line-height: 2em;
+        &:before, &:after {
+          content: none;
+        }
       }
     }
-  }
-}
-
-
-
-.usa-site-footer {
+  } // </footer>
   
-}
-
-.usa-site-footer .usa-site-footer-logo{
-  max-width: 165px;
-}
-
-.usa-site-footer header{
-  font-weight: bold;
-  padding: 7px 0;
-}
-
-.usa-site-footer ul {
-  margin: 0;
-}
-
-.usa-site-footer ul li {
-  
-}
-
-.usa-site-footer ul li:before {
-  content: none;
-}
-
-.usa-site-footer ul li:after {
-  content: none;
-}
+} // </.usds-site>
 
 
 
