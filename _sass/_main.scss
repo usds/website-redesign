@@ -417,11 +417,11 @@ body {
 }
 
 .slick-slider button.slick-prev:before{
-  content: "<";
+  content: url('/img/arrow_left.png');
 }
 
 .slick-slider button.slick-next:before{
-  content: ">";
+  content: url('/img/arrow_right.png');
 }
 
 .slick-slider button.slick-arrow:before{
