@@ -142,9 +142,6 @@ body {
     // Adjust the margin for mobile screen
     @media (max-width: $screen-xs-max) {
       margin-top: 0;
-      //&:before {
-      //  content: "";
-      //}
     }
     
     .jumbotron {
@@ -411,6 +408,9 @@ body {
       margin: 20px 0;
     }
   }
+}
+.privacy-page {
+  text-align: left;
 }
 
 

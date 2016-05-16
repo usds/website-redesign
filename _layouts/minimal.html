@@ -1,17 +1,9 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body class="usds-site {{ page.url | replace:'index','home' | replace:'.html','' | slugify }}-page">
-    {% include header.html %}
     <main>
       {{ content }}
     </main>
-    {% if page.url != '/join.html' %}
-      {% include extended_footer.html %}
-    {% endif %}
-    {% include footer.html %}
-
   </body>
 </html>
