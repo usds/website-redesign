@@ -77,12 +77,16 @@ $( document ).ready(function() {
       }
     });
     
+    $( ".join-page .answers .answer:not(.application)" ).hide();
     $( ".join-page .faqs a" ).on( "click", function() {
       var hash = this.hash.substr(1);
       // Hide all the answers that are not this one
       $( ".join-page .answers .answer:not(." + hash + ")" ).hide();
       $( ".join-page .answers .answer." + hash).show();
-      console.log( this.hash.substr(1) );
+      // Remove the 'active' class from all list elements and then
+      // only add it to the one to which it applies
+      $( ".join-page .faqs li" ).removeClass('active');
+      $( ".join-page .faqs li" ).has( "a[href$='#" + hash + "']" ).addClass('active');
     });
     
 });
