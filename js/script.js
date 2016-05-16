@@ -63,12 +63,11 @@ $('#staff-member-carousel').slick({
 });
 
 
-$( document ).ready(function() {    
-    var header = $('#fixed-header');
-    var headerCollapsed = false;
+var header = $('#fixed-header');
+var headerCollapsed = false;
+$( document ).ready(function() {
     $( window ).scroll(function() {
       var scrollTopPos = $(window).scrollTop();
-      console.log( "ready! " + scrollTopPos );
       if (scrollTopPos > 78 && !headerCollapsed) { // 155 (expanded header) - 77 (collapsed header)
         header.addClass('collapsed');
         headerCollapsed = true;
@@ -77,4 +76,13 @@ $( document ).ready(function() {
         headerCollapsed = false;
       }
     });
+    
+    $( ".join-page .faqs a" ).on( "click", function() {
+      var hash = this.hash.substr(1);
+      // Hide all the answers that are not this one
+      $( ".join-page .answers .answer:not(." + hash + ")" ).hide();
+      $( ".join-page .answers .answer." + hash).show();
+      console.log( this.hash.substr(1) );
+    });
+    
 });

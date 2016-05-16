@@ -26,6 +26,10 @@ body {
   h3 {
     font-size: 1.6em;
   }
+  //HACK: see https://github.com/18F/web-design-standards/issues/1120
+  .fa[aria-hidden=true]{
+    display: inline-block !important;
+  }
   
   header#fixed-header {
     top: 0;
@@ -56,7 +60,7 @@ body {
       }
     }
     
-    .site-navbar {
+    .site-navbar.desktop {
       font-size: .75em;
       font-weight: bold;
       ul {
@@ -116,12 +120,32 @@ body {
           }
         }
       }
-      
+    }
+    
+    // Responsive elements of the header
+    @media (max-width: $screen-xs-max) {
+      height: $fixed-header-height-mobile;
+      .site-navbar.desktop {
+        display: none;
+      }
+    }
+    @media (min-width: $screen-sm-min) {
+      .site-navbar.mobile {
+        display: none;
+      }
     }
   } // </footer>
   
   main {
     margin-top: $fixed-header-height-desktop;
+    
+    // Adjust the margin for mobile screen
+    @media (max-width: $screen-xs-max) {
+      margin-top: 0;
+      //&:before {
+      //  content: "";
+      //}
+    }
     
     .jumbotron {
       width: 100%;
@@ -196,8 +220,12 @@ body {
       }
     }
     
-  }
+  } // </main>
   
+  //
+  // Sections that are re-used on multiple parts of the site
+  // For CSS that is page-specific, see below
+  //
   section.our-work {
     .story, .story-more {
       display: block;
@@ -216,7 +244,7 @@ body {
     .story-more {
       margin-bottom: 5rem;
     } 
-  }
+  } // section.our-work
 
   section.staff-members {
     #staff-member-carousel {
@@ -249,7 +277,7 @@ body {
     .staffer[aria-hidden=true]{
       display: block !important;
     }
-  }
+  } // </section.staff-members>
   
   section.press {
     margin-top: 5rem;
@@ -271,7 +299,7 @@ body {
         font-weight: bold;
       }
     }
-  }
+  } // </section.press>
   
   .feature-panel,
   .join-button-container {
@@ -289,7 +317,7 @@ body {
     h3 {
       font-size: 1.8em;
     }
-  }
+  } // .feature-panel
   .join-button {
     height: 60px;
     width: 200px;
@@ -300,8 +328,7 @@ body {
     &:hover {
       background-color: $background-color-secondary;
     }
-  } // </main>
-  
+  } // .join-button  
   
   footer {
     text-align: left;
@@ -345,22 +372,65 @@ body {
 } // </.usds-site>
 
 
+//
+// CSS that is page-specific and not re-used elsewhere
+// (for re-usable code, see "sections" above)
+// Before adding code here, consider if it could be generalized and
+// added above
+//
+.join-page { 
+  .faqs {
+    font-family: $header-font-family;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.3em/22px;
+    text-align: left;
+    margin-top: 90px;
+    li {
+      border-left: 7px solid #ffffff;
+      padding-left: 0.5em;
+      margin-bottom: 1em;
+      &:hover, &.active {
+        border-left: 7px solid #dec623;
+      }
+      &:before {
+        content: none;
+      }
+    }
+  }
+  .answers {
+    text-align: left;
+    label {
+      font-weight: bold;
+      &.sub-label {
+        font-weight: normal;
+        white-space: nowrap;
+      }
+    }
+    .usa-fieldset-inputs {
+      margin: 20px 0;
+    }
+  }
+}
+
+
+
 
 
 
 /* CSS below this line still needs to be organized and cleaned-up */
-.page-width-70 {
+.page-width-70, .infographic-container {
   text-align: center;
-  width: 70%;
-  display: block;
   margin: auto;
 }
 
-.infographic-container {
-  text-align: center;
-  width: 70%;
-  display: block;
-  margin: auto;
+@media (min-width: $screen-md-min) {
+  .page-width-70 {
+    width: 70%;
+  }
+  .infographic-container {
+    width: 70%;
+  }
 }
 
 .infographic-verticalalign {
@@ -469,49 +539,5 @@ body {
 
 .usa-site-album img.reserve {
   display: none;
-}
-
-.join-page { }
-
-.join-page .faqs {
-  font-family: $header-font-family;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 1.3em/22px;
-  text-align: left;
-  margin-top: 90px;
-}
-
-.join-page .faqs li {
-  border-left: 7px solid #ffffff;
-  padding-left: 0.5em;
-  margin-bottom: 1em;
-}
-
-.join-page .faqs li:hover,
-.join-page .faqs li:active,
-.join-page .faqs li.active {
-  border-left: 7px solid #dec623;
-}
-
-.join-page .faqs li:before {
-  content: none;
-}
-
-.join-page .form {
-  text-align: left;
-}
-
-.join-page .form label {
-  font-weight: bold;
-}
-
-.join-page .form label.sub-label {
-  font-weight: normal;
-  white-space: nowrap;
-}
-
-.join-page .usa-fieldset-inputs {
-  margin: 20px 0;
 }
 

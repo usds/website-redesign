@@ -4,8 +4,6 @@
 @charset "utf-8";
 
 
-
-// Our variables
 $base-font-family:                      'Open Sans', sans-serif;
 $header-font-family:                    'Merriweather','Georgia','Times New Roman',serif;
 
@@ -19,6 +17,19 @@ $link-color-hover:                      #205593;
 
 $fixed-header-height-desktop:           155px;
 $fixed-header-height-desktop-collapsed: 77px;
+$fixed-header-height-mobile:            80px;
+
+// Responsive variables
+// Mobile phones
+$screen-xs-max:                         767px;
+// Tablets
+$screen-sm-min:                         768px;
+$screen-sm-max:                         991px;
+// Medium desktops
+$screen-md-min:                         992px;
+$screen-md-max:                         1199px;
+// Large desktops
+$screen-lg-min:                         1200px;
 
 
 // $base-font-size:   16px;
@@ -62,6 +73,7 @@ $spacing-unit:     30px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "mixins",
+  "responsive",
   "main",
   "slick",
   "slick-theme",
