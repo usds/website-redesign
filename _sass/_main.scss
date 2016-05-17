@@ -46,6 +46,9 @@ body {
     padding-bottom: 13px;
     margin: auto;
     
+    #beta-notice {
+      float: right;
+    }
     .disclaimer-bar {
       height: 30px;
       padding-bottom: .5rem;
@@ -62,6 +65,10 @@ body {
         vertical-align: top;
         height: 20px;
         margin-right: 0.5rem;
+      }
+      a, a:hover {
+        text-decoration: underline;
+        color: #777;
       }
     }
     
