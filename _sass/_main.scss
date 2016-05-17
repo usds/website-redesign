@@ -14,17 +14,19 @@ body {
   h2, h3, h4 {
     font-weight: 700;
   }
-  h1 {
-    font-weight: normal;
-    font-size: 2.9em;
-    font-weight: 700;
-    line-height: 1.25em;
-  } 
-  h2 {
-    font-size: 2.5em;
-  }
-  h3 {
-    font-size: 1.6em;
+  @media (min-width: $screen-sm-min) {
+    h1 {
+      font-weight: normal;
+      font-size: 2.9em;
+      font-weight: 700;
+      line-height: 1.25em;
+    } 
+    h2 {
+      font-size: 2.5em;
+    }
+    h3 {
+      font-size: 1.6em;
+    }
   }
   //HACK: see https://github.com/18F/web-design-standards/issues/1120
   .fa[aria-hidden=true]{
@@ -45,10 +47,13 @@ body {
     margin: auto;
     
     .disclaimer-bar {
-      color: #777;
-      background-color: #f1f1f1;
+      height: 30px;
       padding-bottom: .5rem;
       padding-top: .5rem;
+      
+      color: #777;
+      background-color: #f1f1f1;
+      
       font-size: 1.3rem;
       text-align: left;
       
@@ -80,7 +85,7 @@ body {
         .nav-centerpiece {
           width: 250px;
           a#logo-desktop-full {
-            top: -22px;
+            top: -23px;
             img {
               width: 205px;
               bottom: 0;
@@ -97,7 +102,7 @@ body {
       height: $fixed-header-height-desktop-collapsed;
       @include opacity(0.99);
       @include css3-prefix('transition', 'height 100ms linear');
-      .site-navbar {
+      .site-navbar.desktop {
         ul {
           li {
             height: $fixed-header-height-desktop-collapsed - 32px;
@@ -122,6 +127,42 @@ body {
       }
     }
     
+    .site-navbar.mobile {
+      height: $fixed-header-height-mobile - 30px;
+      img {
+        float: left;
+        margin-left: 1em;
+        margin-top: ($fixed-header-height-mobile - 30px - 40px) / 2;
+        height: 40px;
+      }
+       
+      .navbar-toggle {
+        float: right;
+        // Override the default button styles
+        border: none;
+        width: auto;
+        // This choice of padding & margin comes from Bootstrap
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: #f9f9f9;
+        // Create hamburger with spans
+        .hamburger-patty {
+          display: block;
+          margin: auto;
+          // The choice of width and height comes from Bootstrap
+          width: 22px;
+          height: 2px;
+          border-radius: 1px;
+          background-color: $text-secondary-color;
+        }
+        .hamburger-patty+.hamburger-patty {
+          margin-top: 4px;
+        }
+      }
+    }
+    
     // Responsive elements of the header
     @media (max-width: $screen-xs-max) {
       height: $fixed-header-height-mobile;
@@ -141,7 +182,7 @@ body {
     
     // Adjust the margin for mobile screen
     @media (max-width: $screen-xs-max) {
-      margin-top: 0;
+      margin-top: $fixed-header-height-mobile;
     }
     
     .jumbotron {
@@ -166,40 +207,63 @@ body {
         left: 0; right: 0; bottom: 2em;
         margin: 0 auto;
       }
-      .jumbotron-teaser{
+      .ted-teaser {
         position: absolute;
         top: 50px; right: 0;
         background: #fff;
         cursor: pointer;
-      }
-      .jumbotron-teaser-image, 
-      .jumbotron-teaser-arrow, 
-      .jumbotron-teaser p {
-        display: inline-block;
-        vertical-align: middle;
-      }
-
-      .jumbotron-teaser-image {
-        border-left: 6px solid $background-color-secondary;
-      }
-
-      .jumbotron-teaser p {
-        color: $text-secondary-color;
-        max-width: 120px;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin: 0 30px;
-        text-align: left;
-      }
-
-      .jumbotron-teaser-arrow {
-        margin-right: 15px;
+        .ted-teaser-image, div {
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .ted-teaser-image {
+          border-left: 6px solid $background-color-secondary;
+        }
+        div {
+          max-width: 120px;
+          margin: 0 30px;
+        }
       }
     }
+    
+    .ted-teaser div {
+      color: $text-secondary-color;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: left;
+      a {
+        color: $text-secondary-color;
+      }
+    }
+    
 
     .jumbotron.about{
       background: url('../img/about.jpg') center center no-repeat;
       background-size: cover;
+    }
+    
+    .mobile-lede {
+      h2 {
+        margin-top: 0.5em;
+      }
+      .ted-teaser {
+        height: 132px;
+        margin-bottom: 1.5em;
+        border: 1px solid #f1f1f1;
+        border-width: 1px 0;
+        img, div {
+          float: left;
+        }
+        img {
+          border-left: 6px solid $background-color-secondary;
+        }
+        div {
+          height: 100%;
+          width: 152px;
+          padding-left: 1em;
+          @include vertical-align-flexbox();
+        }
+      }
     }
     
     .more-button {
@@ -244,6 +308,11 @@ body {
   } // section.our-work
 
   section.staff-members {
+    // This prevents the arrows on the staff nav
+    // to screw up width of the page beyond 100%
+    // TODO: fix this for realz
+    max-width: 100%;
+    overflow: hidden;
     #staff-member-carousel {
       margin-top: 5rem;
     }
@@ -253,8 +322,8 @@ body {
       font-size: .85em;
       img {
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
+        max-width: 200px;
+        max-height: 200px;
         display: inline-block;
       }
       h4, h5 {
