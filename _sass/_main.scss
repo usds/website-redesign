@@ -400,6 +400,28 @@ body {
     }
   } // </section.press>
   
+  section.site-album {
+    width: 100%;
+    font-size: 0;
+    background-color: #56A8DF;
+    overflow: hidden;
+    .album-row {
+      width: 150%;
+      position: relative;
+      left: -25%;
+      margin: auto;
+      height: $site-album-image-height;
+      overflow: hidden;
+    }
+    img {
+      display: inline-block;
+      width: $site-album-image-width;
+      height: $site-album-image-height;
+      margin: auto;
+      padding: 0;
+    }
+  } // </section.site-album>
+  
   .feature-panel,
   .join-button-container {
     width: 100%;
@@ -599,47 +621,5 @@ body {
 .slick-slider button.slick-arrow:before{
   font-size: 30px; 
   color: #bbb;
-}
-
-
-
-
-
-
-
-.usa-site-album {
-  background-color: #56A8DF;
-  color: #fff;
-  padding-bottom: 0;
-}
-
-.usa-site-album .wrapper {
-  position: relative;
-  float: left;
-}
-  
-.usa-site-album img,
-.usa-site-album .wrapper { 
-  width: 245px; height: 160px;
-}
-
-.usa-site-album img {
-  margin: 0; padding: 0;
-  display: block;
-  position: absolute;
-  left: 0; top: 0;
-  opacity: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-.usa-site-album img.visible {
-  opacity: 1;
-}
-
-.usa-site-album img.reserve {
-  display: none;
 }
 
