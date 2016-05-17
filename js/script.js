@@ -65,6 +65,7 @@ $('#staff-member-carousel').slick({
 
 var header = $('#fixed-header');
 var headerCollapsed = false;
+var awesomeCounter = 0;
 $( document ).ready(function() {
     $( window ).scroll(function() {
       var scrollTopPos = $(window).scrollTop();
@@ -102,5 +103,15 @@ $( document ).ready(function() {
       $( ".join-page .faqs li" ).removeClass('active');
       $( ".join-page .faqs li" ).has( "a[href$='#" + hash + "']" ).addClass('active');
     });
+    
+    $('#everything-is-awesome').on( "click", function() {
+      // Yes, there were more important things to get done, but everyone needs a mental break sometimes
+      if (awesomeCounter >= 10) {
+        window.open('https://www.youtube.com/watch?v=StTqXEQ2l-Y');
+      }
+      // Not yet awesome
+      awesomeCounter++;
+    });
+    
     
 });
