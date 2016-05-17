@@ -400,6 +400,27 @@ body {
     }
   } // </section.press>
   
+  section.site-album {
+    width: 100%;
+    font-size: 0;
+    
+    .album-row {
+      width: 150%;
+      position: relative;
+      left: -25%;
+      margin: auto;
+      height: $site-album-image-height;
+      overflow: hidden;
+    }
+    img {
+      display: inline-block;
+      width: $site-album-image-width;
+      height: 160px;
+      margin: auto;
+      padding: 0;
+    }
+  } // </section.site-album>
+  
   .feature-panel,
   .join-button-container {
     width: 100%;
