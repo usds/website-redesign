@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="usds-site {{ page.url | replace:'index','home' | replace:'.html','' | slugify }}-page">
+  <body class="usds-site {{ page.url | replace:'index','home' | replace: '404','notfound' | replace:'.html','' | slugify }}-page">
     <main>
       {{ content }}
     </main>
