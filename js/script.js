@@ -1,4 +1,4 @@
-$.fn.zeitgeist = function(){
+/*$.fn.zeitgeist = function(){
   this.find('img:not(.reserve)').each(function(i, d){
 
     // Append backing image for crossfading
@@ -28,7 +28,7 @@ $.fn.randomize = function(selector){
   return this;
 };
 
-$('#usa-site-zeitgeist').zeitgeist();
+$('#usa-site-zeitgeist').zeitgeist();*/
 $('#staff-member-carousel').slick({
   infinite: false,
   useTransform: true,
