@@ -15,10 +15,10 @@
     <div class="desktop">
       <ul class="usa-unstyled-list">
         <li class="nav-item">
-          <a href="/about">About</a> 
+          <a href="/about" class="{% if page.url == '/about.html' %}active{% endif %}"><span>About</span></a> 
         </li>
         <li class="nav-item">
-          <a href="/work">Our Work</a> 
+          <a href="/work" class="{% if page.url == '/work.html' %}active{% endif %}"><span>Our work</span></a> 
         </li>
         <li class="nav-centerpiece">
           <a id="logo-desktop-full" href="/">
@@ -29,10 +29,10 @@
           </a> 
         </li>
         <li class="nav-item">
-          <a href="https://medium.com/@USDigitalService" target="_blank">Blog</a> 
+          <a href="https://medium.com/@USDigitalService" target="_blank"><span>Blog</span></a> 
         </li>
         <li class="nav-item">
-          <a href="/join">Join Us</a> 
+          <a href="/join" class="{% if page.url == '/join.html' %}active{% endif %}"><span>Join us</span></a> 
         </li>
       </ul>
     </div>
