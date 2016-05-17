@@ -77,6 +77,20 @@ $( document ).ready(function() {
       }
     });
     
+    $( '.navbar-toggle' ).on( 'click', function() {
+      if ( $(this).hasClass('collapsed') ) {
+        // expand the mobile nav layer
+        
+        $(this).removeClass('collapsed');
+        $('.mobile-nav').removeClass('collapsed');
+      } else {
+        // collapse the mobile nav layer
+        $(this).addClass('collapsed');
+        $('.mobile-nav').addClass('collapsed');
+      }
+      
+    });
+    
     $( ".join-page .answers .answer:not(.application)" ).hide();
     $( ".join-page .faqs a" ).on( "click", function() {
       var hash = this.hash.substr(1);

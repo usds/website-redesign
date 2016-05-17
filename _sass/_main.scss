@@ -65,7 +65,7 @@ body {
       }
     }
     
-    .site-navbar.desktop {
+    .site-navbar .desktop {
       font-size: .75em;
       font-weight: bold;
       ul {
@@ -98,28 +98,31 @@ body {
       }
     }
     
-    &.collapsed {
-      height: $fixed-header-height-desktop-collapsed;
-      @include opacity(0.99);
-      @include css3-prefix('transition', 'height 100ms linear');
-      .site-navbar.desktop {
-        ul {
-          li {
-            height: $fixed-header-height-desktop-collapsed - 32px;
-            @include css3-prefix('transition', 'height 100ms linear');
-          }
-          .nav-centerpiece {
-            a#logo-desktop-full {
-              @include opacity(0);
-              @include css3-prefix('transition', 'opacity 200ms linear');
+    // Collapsed at the header-level only applies to larger screen sizes
+    @media (min-width: $screen-sm-min) {
+      &.collapsed {
+        height: $fixed-header-height-desktop-collapsed;
+        @include opacity(0.99);
+        @include css3-prefix('transition', 'height 100ms linear');
+        .site-navbar .desktop {
+          ul {
+            li {
+              height: $fixed-header-height-desktop-collapsed - 32px;
+              @include css3-prefix('transition', 'height 100ms linear');
             }
-            a#logo-desktop-collapsed {
-              @include opacity(1.00);
-              @include css3-prefix('transition', 'opacity 200ms linear');
-              bottom: -15px;
-              img {
-                width: 100px;
-                bottom: 0;
+            .nav-centerpiece {
+              a#logo-desktop-full {
+                @include opacity(0);
+                @include css3-prefix('transition', 'opacity 200ms linear');
+              }
+              a#logo-desktop-collapsed {
+                @include opacity(1.00);
+                @include css3-prefix('transition', 'opacity 200ms linear');
+                bottom: -15px;
+                img {
+                  width: 100px;
+                  bottom: 0;
+                }
               }
             }
           }
@@ -127,7 +130,7 @@ body {
       }
     }
     
-    .site-navbar.mobile {
+    .site-navbar .mobile {
       height: $fixed-header-height-mobile - 30px;
       img {
         float: left;
@@ -161,17 +164,47 @@ body {
           margin-top: 4px;
         }
       }
+      
+      .mobile-nav {
+        position: fixed;
+        top: $fixed-header-height-mobile;
+        width: 100%;
+        background-color: #ffffff;
+        text-align: left;
+        border-bottom: 1px solid #f1f1f1;
+        // see here why this is using max-height instead of height: (tl;dr: animation)
+        // http://stackoverflow.com/questions/3508605/how-can-i-transition-height-0-to-height-auto-using-css
+        max-height: 500px;
+        overflow: hidden;
+        @include css3-prefix('transition', 'max-height 250ms linear');
+        ul, li {
+          width: 100%;
+        }
+        a {
+          display: block;
+          width: 100%;
+          text-decoration: none;
+          padding: 1em 2em;
+          &:hover {
+            background-color: #f9f9f9;
+          }
+        }
+        &.collapsed {
+          @include opacity(0);
+          max-height: 0;
+        }
+      }
     }
     
     // Responsive elements of the header
     @media (max-width: $screen-xs-max) {
       height: $fixed-header-height-mobile;
-      .site-navbar.desktop {
+      .site-navbar .desktop {
         display: none;
       }
     }
     @media (min-width: $screen-sm-min) {
-      .site-navbar.mobile {
+      .site-navbar .mobile {
         display: none;
       }
     }
