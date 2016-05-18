@@ -11,10 +11,13 @@ email: no-reply@usds.gov
 description: > # this means to ignore newlines until "baseurl:"
   The United States Digital Service is transforming how the federal government
   works for the American people. And we need you.
-baseurl: "./" # the subpath of your site, e.g. /blog
+# baseurl: "./" # the subpath of your site, e.g. /blog
 url: "https://www.usds.gov" # the base hostname & protocol for your site
 twitter_username: usds
 github_username:  usds
 
 # Build settings
 markdown: kramdown
+
+collections:
+  - blog_summaries
