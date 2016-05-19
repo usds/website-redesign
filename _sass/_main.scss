@@ -13,6 +13,7 @@ body {
   }
   h2, h3, h4 {
     font-weight: 700;
+    color: #205493;
   }
   @media (min-width: $screen-sm-min) {
     h1 {
@@ -20,6 +21,7 @@ body {
       font-size: 2.9em;
       font-weight: 700;
       line-height: 1.25em;
+      color: #205493;
     } 
     h2 {
       font-size: 2.5em;
