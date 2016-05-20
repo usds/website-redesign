@@ -6,6 +6,8 @@ title: Our Work
 <br>
 <br>
 
+{% assign sorted_projects = site.project_summaries | sort: 'id' %}
+
 <section class="our-work">
   <div class="usa-grid">
     <div class="usa-width-one-whole">
@@ -13,9 +15,6 @@ title: Our Work
       <p class="page-width-70">
         We live in a world where any new public policy is only as good as its underlying technology. Explore a few of the projects we&#8217;ve tackled:</p>
     </div>
-
-
-    {% assign sorted_projects = site.project_summaries | sort: 'id' %}
 
     <!-- First Story -->
     {% assign project = sorted_projects[0] %}
@@ -28,70 +27,32 @@ title: Our Work
     <!-- Third Story -->
     {% assign project = sorted_projects[2] %}
     {% include project.html project_param = project %} 
-    </div>
   </div>
   
+  <!-- First Three Grid-Friendly Links -->
+  {% include project_clean_grid_links.html projects_param=sorted_projects first_link=0 second_link=1 third_link=2 %}
+
   <div class="usa-grid">
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://www.vets.gov/">Visit Vets.gov</a> 
-    </div>
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://my.uscis.gov/exploremyoptions">Visit MyUSCIS</a>
-    </div>
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://collegescorecard.ed.gov/">Visit College Scorecard</a>
-    </div>
+
+    <!-- Fourth story here -->
+    {% assign project = sorted_projects[3] %}
+    {% include project.html project_param = project %} 
+
+    <!-- Fifth story here -->
+    {% assign project = sorted_projects[4] %}
+    {% include project.html project_param = project %} 
+    
+    <!-- Sixth story here -->
+    {% assign project = sorted_projects[5] %}
+    {% include project.html project_param = project %} 
+
   </div>
 
-  <div class="usa-grid">
-    <!-- Caseflow story here -->
-    <div class="usa-width-one-third story">
-      <img src="img/work/vets-caseflow.png" alt="Screenshot of the Caseflow system at Veterans Affairs" />
-      <h3>Caseflow Certification</h3>
-      <p>
-        Hundreds of thousands of Veterans have waited more than three years for a final disability claim appeal decision, relying on a complex and duplicative process. A comprehensive solution requires Congress to act and the Administration has called on them to do just that, but we are also doing what we can in the meantime. With the Board of Veterans&#8217; Appeals, we launched Caseflow Certification, a simple web-app to improve paperless appeals processing by detecting if required documentation has been added before an appeal can move forward. This simple check helps reduce preventable errors and avoidable delays caused by disjointed, manual processing.
-      </p>
-      <p class="project-link">
-        <a href="https://medium.com/@USDigitalService/new-tool-launches-to-improve-the-benefits-claim-appeals-process-at-the-va-59c2557a4a1c#.7cp6wmd0t" target="_blank">Learn More</a>
-      </p>
-    </div>
-        
-    <!-- HTP story goes here --> 
-    <div class="usa-width-one-third story">
-      <img src="img/work/dod-hack-the-pentagon.png" alt="Logo for the Hack the Pentagon bug bounty program" />
-      <h3>Hack the Pentagon</h3>
-      <p>To strengthen data security at the Department of Defense (DoD), the Defense Digital Service launched &#8220;Hack the Pentagon,&#8221; the first bug bounty program in the history of the federal government. Adopting this commercial sector best practice allows the Department to crowdsource quick security solutions for DoD assets at low cost. The program won praise from Secretary of Defense Ash Carter, who wrote: &#8220;I am confident this innovative initiative will strengthen our digital defenses and ultimately enhance our national security.&#8221;</p>
-      <p class="project-link">
-        <a href="" target="_blank"></a>
-      </p>
-    </div>
-
-    <!-- PMI story goes here -->
-    <div class="usa-width-one-third story">
-      <img src="img/work/hhs-precision-medicine-initiative.jpg" alt="Logo for the Precision Medicine Initiative" />
-      <h3>Precision Medicine</h3>
-      <p>
-        Announced in the 2015 State of the Union, the Precision Medicine Initiative is a new effort to revolutionize how we improve health and treat disease by taking each unique person&#8217;s genes, environment, and lifestyle into account. The U.S. Digital Service team at the Department of Health &amp; Human Services is working to enable this medical transformation, partnering with NIH and VA to build their volunteer research platforms and the supporting technology, with the goal of gaining new insights for the development of individualized care. 
-      </p>
-      <p class="project-link">
-        <a href="" target="_blank"></a>
-      </p>
-    </div>
-  </div>
+  <!-- 4-6 Grid-Friendly Links -->
+  {% include project_clean_grid_links.html projects_param=sorted_projects first_link=3 second_link=4 third_link=5 %}
 
   <div class="usa-grid">
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://medium.com/@USDigitalService/new-tool-launches-to-improve-the-benefits-claim-appeals-process-at-the-va-59c2557a4a1c#.7cp6wmd0t">Learn More</a> 
-    </div>
-    <div class="usa-width-one-third">
-      <a class="story-more" href="http://techcrunch.com/2016/04/10/uncle-sam-wants-you-to-hack-the-pentagon/">Learn More</a>
-    </div>
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://www.whitehouse.gov/precision-medicine">Learn More</a>
-    </div>
-  </div>
 
-  <div class="usa-grid">
     <!-- StudentLoans.Gov story here -->
     <div class="usa-width-one-third story">
       <img src="img/work/ed-repay-student-loans.png" alt="Screenshot of the student loan repayment site" />
