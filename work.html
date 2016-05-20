@@ -29,7 +29,7 @@ title: Our Work
     {% include project.html project_param = project %} 
   </div>
   
-  <!-- First Three Grid-Friendly Links -->
+  <!-- First Three Grid-Friendly Links not visible on mobile -->
   {% include project_clean_grid_links.html projects_param=sorted_projects first_link=0 second_link=1 third_link=2 %}
 
   <div class="usa-grid">
@@ -48,110 +48,45 @@ title: Our Work
 
   </div>
 
-  <!-- 4-6 Grid-Friendly Links -->
+  <!-- 7-9 Grid-Friendly Links, not visible on mobile -->
   {% include project_clean_grid_links.html projects_param=sorted_projects first_link=3 second_link=4 third_link=5 %}
 
   <div class="usa-grid">
 
-    <!-- StudentLoans.Gov story here -->
-    <div class="usa-width-one-third story">
-      <img src="img/work/ed-repay-student-loans.png" alt="Screenshot of the student loan repayment site" />
-      <h3>Student Loans</h3>
-      <p>
-        To help borrowers easily navigate the complexity of student loan repayments, the U.S. Digital Service and the Department of Education&#8217;s
-        Federal Student Aid (FSA) office launched StudentLoans.gov/Repay. Built mobile-first and using human-centered design,
-        the site helps students find their best repayment options in five steps or less. 
-      </p>
-      <p class="project-link">
-        <a href="" target="_blank"></a>
-      </p>
-    </div>
-        
-    <!-- Acquisition story goes here --> 
-    <div class="usa-width-one-third story">
-      <img src="img/work/acquisition-training.jpg" alt="Photo of the first class of Acquisition Training specialists" />
-      <h3>Acquisition Training</h3>
-      <p>
-        In partnership with the Office of Federal Procurement Policy (OFPP), we&#8217;re developing a more efficient procurement process for IT goods and services. To start, we posted on Challenge.gov, asking for training program ideas to make contracting officers successful in the era of digital government. The challenge winner created a training pilot to test with 30 contracting officers, who will complete the program empowered to act as business advisors to their agencies on digital service procurements.
-      </p>
-      <p class="project-link">
-        <a href="" target="_blank"></a>
-      </p>
-    </div>
+    <!-- 7th story here -->
+    {% assign project = sorted_projects[6] %}
+    {% include project.html project_param = project %} 
 
-    <!-- HealthCare.gov story goes here -->
-    <div class="usa-width-one-third story">
-      <img src="img/work/hhs-healthcare.gov.png" alt="The healthcare.gov logo" />
-      <h3>HealthCare.Gov</h3>
-      <p>
-        In the 2013-2014 Open Enrollment season, our team helped overhaul, update, and simplify the design and infrastructure of HealthCare.gov, helping eight million Americans sign up for coverage. Since then, U.S. Digital Service engineers have supported the day-to-day operations of the site, <a href="http://www.nytimes.com/2016/03/04/us/politics/obama-heads-to-wisconsin-to-promote-successes-of-affordable-care-act.html?_r=0">helping 20 million citizens get health insurance under
-        the Affordable Care Act</a> by 2016.
-      </p>
-      <p class="project-link">
-        <a href="" target="_blank"></a>
-      </p>
-    </div>
+    <!-- 8th story here -->
+    {% assign project = sorted_projects[7] %}
+    {% include project.html project_param = project %} 
+    
+    <!-- 9th story here -->
+    {% assign project = sorted_projects[8] %}
+    {% include project.html project_param = project %} 
+
   </div>
+
+  <!-- 7-9th Grid-Friendly Links, not visible on mobile -->
+  {% include project_clean_grid_links.html projects_param=sorted_projects first_link=6 second_link=7 third_link=8 %}
 
   <div class="usa-grid">
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://studentloans.gov/myDirectLoan/repayOptions.action">Visit StudentLoans.gov/Repay</a> 
-    </div>
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://medium.com/@USDigitalService/congratulating-our-challenge-gov-winners-f6ec5deefbd6#.icjzextcy">Learn More</a>
-    </div>
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://www.healthcare.gov">Visit HealthCare.gov</a>
-    </div>
+
+    <!-- 10th story here -->
+    {% assign project = sorted_projects[9] %}
+    {% include project.html project_param = project %} 
+
+    <!-- 11th story here -->
+    {% assign project = sorted_projects[10] %}
+    {% include project.html project_param = project %} 
+    
+    <!-- 12th story here -->
+    {% assign project = sorted_projects[11] %}
+    {% include project.html project_param = project %} 
+
   </div>
 
-  <div class="usa-grid">
-    <!-- Design Standards story here -->
-    <div class="usa-width-one-third story">
-      <img src="img/work/us-web-design-standards.png" alt="A partial screenshot of the US web design standards site" />
-      <h3>Draft U.S. Web Design Standards</h3>
-      <p>
-       <a href="https://medium.com/@USDigitalService/introducing-u-s-web-design-standards-aff21383afd6#.1vunnmtyr">Built in collaboration with 18F designers and developers</a>, we created the Draft U.S. Web Design Standards to bring consistency and good user experience to government websites. This new UI system provides guidance for creating easy-to-use digital interfaces by unifying visual language and interaction patterns that meet high standards of web accessibility. 
-      </p>
-      <p class="project-link">
-        <a href="https://standards.usa.gov/" target="_blank">See the U.S. Web Design Standards</a>
-      </p>
-    </div>
-        
-    <!-- SBA story goes here --> 
-    <div class="usa-width-one-third story">
-      <img src="img/work/sba-certify.jpg" alt="A screenshot of certify.sba.gov" />
-      <h3>SBA Certification Modernization</h3>
-      <p>
-       For small business owners, navigating the contractor certification process is burdensome, involving hours of paperwork and manually scanning dozens of documents. We assisted the Small Business Administration (SBA) in establishing an agile procurement to modernize technology and streamline the certification process. The newly launched certify.SBA.gov saves small businesses time and money, and it increases the SBA&#8217;s capacity to provide small businesses access to federal contracting space and capital.
-      </p>
-      <p class="project-link">
-        <a href="https://certify.sba.gov/" target="_blank">Visit certify.SBA.gov</a>
-      </p>
-    </div>
+  <!-- 10-12th Grid-Friendly Links, not visible on mobile -->
+  {% include project_clean_grid_links.html projects_param=sorted_projects first_link=9 second_link=10 third_link=11 %}
 
-    <!-- QPP story goes here -->
-    <div class="usa-width-one-third story">
-      <img src="img/work/cms-quality-payment-program.png" alt="The CMS logo" />
-      <h3>Quality Payment Program</h3>
-      <p>
-        In addition to supporting healthcare for 55 million Americans, Medicare also uses data and payments to understand and improve patient care. But for the 1.2 million clinicians providing care, and the Centers for Medicare &amp; Medicaid Services (CMS) employees running Medicare, the outdated technology is difficult to use. Working with CMS, the U.S. Digital Service team at HHS is redesigning and upgrading the technology infrastructure and user experience, to provide patients and clinicians with a better system.
-      </p>
-      <p class="project-link">
-        <a href="https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/Value-Based-Programs/MACRA-MIPS-and-APMs/MACRA-MIPS-and-APMs.html" target="_blank">Learn More</a>
-      </p>
-    </div>
-  </div>
-
-  <div class="usa-grid">
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://standards.usa.gov/" target="_blank">See the U.S. Web Design Standards</a> 
-    </div>
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://certify.sba.gov/" target="_blank">Visit certify.SBA.gov</a>
-    </div>
-    <div class="usa-width-one-third">
-      <a class="story-more" href="https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/Value-Based-Programs/MACRA-MIPS-and-APMs/MACRA-MIPS-and-APMs.html" target="_blank">Learn More</a>
-    </div>
-  </div>
 </section>
