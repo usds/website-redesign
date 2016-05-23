@@ -107,7 +107,7 @@ $( document ).ready(function() {
     $( 'a[href^="http"]:not(.target-link)' ).on( "click", function() {
       var domain = this.href.split('/')[2];
       var tld = domain.substring(domain.length - 3);
-      if (tld != 'gov' && tld != 'mil') {
+      if (tld != 'gov' && tld != 'mil' && domain != 'facebook.com' && domain != 'github.com' && domain != 'twitter.com') {
         $( '#site-alert-overlay' ).show();
         $( '#site-alert' ).show();
         var targetLink = $( '#site-alert .target-link')
@@ -116,7 +116,7 @@ $( document ).ready(function() {
         return false;
       }
     });
-    $( '#site-alert .close, #site-alert .target-link' ).on( "click", function() {
+    $( '#site-alert .close, #site-alert .target-link, #site-alert-overlay' ).on( "click", function() {
       $( '#site-alert-overlay' ).hide();
       $( '#site-alert' ).hide();
     });

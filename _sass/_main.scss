@@ -244,8 +244,11 @@ body {
     //border: 1px solid #efefef;
     border-top: 7px solid $background-color-secondary;
     z-index: 10;
+    a.close {
+      color: #000000;
+    }
     .fa {
-      float: right;
+      float: left;
     }
   }
   @media (max-width: $screen-xs-max) {
