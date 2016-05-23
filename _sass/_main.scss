@@ -239,9 +239,9 @@ body {
     padding: 10px;
     width: 600px;
     height: 300px;
+    overflow: hidden;
     @include css3-prefix('transform', 'translate(-300px, -150px)');
     @include css3-prefix('box-shadow', '0 6px 12px 0px rgba(0, 0, 0, 0.2)');
-    //border: 1px solid #efefef;
     border-top: 7px solid $background-color-secondary;
     z-index: 10;
     a.close {
