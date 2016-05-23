@@ -18,3 +18,5 @@ github_username:  usds
 
 # Build settings
 markdown: kramdown
+collections:
+  - blog_summaries
