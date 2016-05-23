@@ -104,6 +104,24 @@ $( document ).ready(function() {
       $( ".join-page .faqs li" ).has( "a[href$='#" + hash + "']" ).addClass('active');
     });
     
+    $( 'a[href^="http"]:not(.target-link)' ).on( "click", function() {
+      var domain = this.href.split('/')[2];
+      var tld = domain.substring(domain.length - 3);
+      if (tld != 'gov' && tld != 'mil' && domain != 'facebook.com' && domain != 'github.com' && domain != 'twitter.com') {
+        $( '#site-alert-overlay' ).show();
+        $( '#site-alert' ).show();
+        var targetLink = $( '#site-alert .target-link')
+        targetLink.text(this.href);
+        targetLink.attr("href", this.href);
+        return false;
+      }
+    });
+    $( '#site-alert .close, #site-alert .target-link, #site-alert-overlay' ).on( "click", function() {
+      $( '#site-alert-overlay' ).hide();
+      $( '#site-alert' ).hide();
+    });
+    
+    
     $('#everything-is-awesome').on( "click", function() {
       // Yes, there were more important things to get done, but everyone needs a mental break sometimes
       if (awesomeCounter >= 10) {
