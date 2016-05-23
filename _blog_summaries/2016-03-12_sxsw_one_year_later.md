@@ -6,4 +6,4 @@ alternate_image_description: The U.S. Digital Service logo on a white board
 date: 2016-03-12
 ---
 
-Another week, another set of new smiling faces here at the U.S. Digital Service. This edition of “Meet the Team” adds a new twist. Fresh recruits shared their answers to a few question from the famous [Proust Questionnaire](https://en.wikipedia.org/wiki/Proust_Questionnaire). We know, we’re really earning that “Peace Corps for nerds” nickname.
+Last year, I stood on stage at South by Southwest to share the story of the U.S. Digital Service and deliver a simple message: we need you to join us. The team was about 40 people and just getting started on using design and technology to deliver better digital services to the American people. One year later, my boss bumped me from the podium, but I’m proud to share all the progress we’ve made.
