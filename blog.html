@@ -19,34 +19,28 @@ title: Blog
     <!-- Item 1  -->
     {% assign item = -1 %}
     <div class="usa-width-one-third story blog-item">
-      <a href="{{ summaries[item].blog_link}}">
-        <img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" />
-        <h3>{{ summaries[item].blog_title }}</h3>
-        {{ summaries[item].content }}
-        <p class="read-more"title="Read More">Read more...</p>
-      </a>
+      <a href="{{ summaries[item].blog_link}}"><img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" /></a>
+      <h3><a href="{{ summaries[item].blog_link}}">{{ summaries[item].blog_title }}</a></h3>
+      {{ summaries[item].content }}
+      <p><a class="read-more" title="Read More"><a href="{{ summaries[item].blog_link}}">Read more...</a></p>
     </div>
 
     <!-- Item 2  -->
     {% assign item = -2 %}
     <div class="usa-width-one-third story blog-item">
-      <a href="{{ summaries[item].blog_link}}">
-        <img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" />
-        <h3>{{ summaries[item].blog_title }}</h3>
-        {{ summaries[item].content }}
-        <p class="read-more"title="Read More">Read more...</p>
-      </a>
+      <a href="{{ summaries[item].blog_link}}"><img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" /></a>
+      <h3><a href="{{ summaries[item].blog_link}}">{{ summaries[item].blog_title }}</a></h3>
+      {{ summaries[item].content }}
+      <p><a class="read-more" title="Read More"><a href="{{ summaries[item].blog_link}}">Read more...</a></p>
     </div>
 
        <!-- Item 3  -->
     {% assign item = -3 %}
     <div class="usa-width-one-third story blog-item">
-      <a href="{{ summaries[item].blog_link}}">
-        <img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" />
-        <h3>{{ summaries[item].blog_title }}</h3>
-        {{ summaries[item].content }}
-        <p class="read-more"title="Read More">Read more...</p>
-      </a>
+      <a href="{{ summaries[item].blog_link}}"><img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" /></a>
+      <h3><a href="{{ summaries[item].blog_link}}">{{ summaries[item].blog_title }}</a></h3>
+      {{ summaries[item].content }}
+      <p><a class="read-more" title="Read More"><a href="{{ summaries[item].blog_link}}">Read more...</a></p>
     </div>
   </div>
 
@@ -54,34 +48,35 @@ title: Blog
     <!-- Item 4  -->
     {% assign item = -4 %}
     <div class="usa-width-one-third story blog-item">
-      <a href="{{ summaries[item].blog_link}}">
-        <img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" />
-        <h3>{{ summaries[item].blog_title }}</h3>
-        {{ summaries[item].content }}
-        <p class="read-more"title="Read More">Read more...</p>
-      </a>
+      <a href="{{ summaries[item].blog_link}}"><img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" /></a>
+      <h3><a href="{{ summaries[item].blog_link}}">{{ summaries[item].blog_title }}</a></h3>
+      {{ summaries[item].content }}
+      <p><a class="read-more" title="Read More"><a href="{{ summaries[item].blog_link}}">Read more...</a></p>
     </div>
 
     <!-- Item 5  -->
     {% assign item = -5 %}
     <div class="usa-width-one-third story blog-item">
-      <a href="{{ summaries[item].blog_link}}">
-        <img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" />
-        <h3>{{ summaries[item].blog_title }}</h3>
-        {{ summaries[item].content }}
-        <p class="read-more"title="Read More">Read more...</p>
-      </a>
+      <a href="{{ summaries[item].blog_link}}"><img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" /></a>
+      <h3><a href="{{ summaries[item].blog_link}}">{{ summaries[item].blog_title }}</a></h3>
+      {{ summaries[item].content }}
+      <p><a class="read-more" title="Read More"><a href="{{ summaries[item].blog_link}}">Read more...</a></p>
     </div>
 
     <!-- Item 6  -->
     {% assign item = -6 %}
     <div class="usa-width-one-third story blog-item">
-      <a href="{{ summaries[item].blog_link}}">
-        <img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" />
-        <h3>{{ summaries[item].blog_title }}</h3>
-        {{ summaries[item].content }}
-        <p class="read-more"title="Read More">Read more...</p>
-      </a>
+      <a href="{{ summaries[item].blog_link}}"><img src="{{ summaries[item].cover_image_url}}" alt="{{summaries[item].alternate_image_description}}" /></a>
+      <h3><a href="{{ summaries[item].blog_link}}">{{ summaries[item].blog_title }}</a></h3>
+      {{ summaries[item].content }}
+      <p><a class="read-more" title="Read More"><a href="{{ summaries[item].blog_link}}">Read more...</a></p>
     </div>
   </div>
+  
+  <a href="{{ medium_url }}">
+    <button class="more-button">
+      View more posts
+    </button>
+  </a>
+  
 </section>
