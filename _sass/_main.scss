@@ -677,6 +677,12 @@ body {
 .slick-slider button.slick-next:before{
   content: url('/img/arrow_right.png');
 }
+@media (max-width: $screen-xs-max) {
+  .slick-slider button.slick-prev:before,
+  .slick-slider button.slick-next:before {
+    content: '';
+  }
+}
 
 .slick-slider button.slick-arrow:before{
   font-size: 30px; 
