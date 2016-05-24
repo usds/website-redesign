@@ -277,6 +277,9 @@ body {
       background-size: cover;
       color: #fff;
       position: relative;
+      h1, h2 {
+        display: block;
+      }
       h1 {
         margin-bottom: 0;
       }
@@ -291,6 +294,7 @@ body {
         position: absolute;
         left: 0; right: 0; bottom: 2em;
         margin: 0 auto;
+        @include radial-gradient(rgba(0,0,0,0.7) 30%, rgba(0,0,0,0) 70%);
       }
       .ted-teaser {
         position: absolute;
