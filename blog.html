@@ -9,7 +9,7 @@ title: Blog
 <section class="our-work blog">
   <div class="usa-grid">
     <div class="usa-width-one-whole">
-      <h2>Our blog</h2> 
+      <h2>Our blog</h2>
       <p class="page-width-70">
         Read about our work, our team, and some of our most recent accomplishments.
       </p>
@@ -18,7 +18,7 @@ title: Blog
   {% assign summaries = site.blog_summaries | sort: 'date' | reverse %}
   {% assign num_rows = 3 %}
   {% assign num_stories = 6 %}
-  
+
   {% for entry in summaries limit: num_stories %}
     {% assign index_mod = forloop.index0 | modulo:num_rows %}
     {% if index_mod == 0 %}
@@ -28,18 +28,18 @@ title: Blog
       <div class="usa-grid">
     {% endif %}
       <div class="usa-width-one-third story blog-item">
-        <a href="{{ entry.url }}"><img src="{{ entry.image_url}}" alt="{{entry.image_description}}" /></a>
-        <h3><a href="{{ entry.url}}">{{ entry.title }}</a></h3>
+        <a href="{{ entry.medium_url }}"><img src="{{ entry.image_url}}" alt="{{entry.image_description}}" /></a>
+        <h3><a href="{{ entry.medium_url}}">{{ entry.title }}</a></h3>
         {{ entry.content }}
-        <p><a class="read-more" title="Read More"><a href="{{ entry.url}}">Read more...</a></p>
+        <p><a class="read-more" title="Read More"><a href="{{ entry.medium_url}}">Read more...</a></p>
       </div>
     {% if forloop.last %}</div>{% endif %}
   {% endfor %}
-  
+
   <a href="{{ site.medium_url }}">
     <button class="more-button">
       Read more on Medium
     </button>
   </a>
-  
+
 </section>
