@@ -1,8 +1,8 @@
 ---
-blog_title: Reflecting on 55 Years of Peace Corps
-blog_link: https://medium.com/@USDigitalService/reflecting-on-55-years-of-peace-corps-b8450f1d1524
-cover_image_url: https://d262ilb51hltx0.cloudfront.net/max/600/1*YofijaHSBgeb3ad7cxhzhw.png
-alternate_image_description: The author reviewing health data with students
+title: Reflecting on 55 Years of Peace Corps
+url: https://medium.com/@USDigitalService/reflecting-on-55-years-of-peace-corps-b8450f1d1524
+image_url: https://d262ilb51hltx0.cloudfront.net/max/600/1*YofijaHSBgeb3ad7cxhzhw.png
+image_description: The author reviewing health data with students
 date: 2016-03-09
 ---
 
