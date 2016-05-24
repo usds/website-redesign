@@ -15,9 +15,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.usds.gov" # the base hostname & protocol for your site
 twitter_username: usds
 github_username:  usds
+medium_url: https://medium.com/@USDigitalService
 
 # Build settings
 markdown: kramdown
 
 collections:
   - project_summaries
+  - blog_summaries

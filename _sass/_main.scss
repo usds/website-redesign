@@ -4,7 +4,6 @@ body {
 }
 
 .usds-site {
-  
   a, a:visited {
     color: $link-color;
   }
@@ -38,7 +37,7 @@ body {
     position: fixed;
     height: $fixed-header-height-desktop;
     width: 100%;
-    z-index: 1000;
+    z-index: 1;
     
     background-color: #ffffff;
     border-bottom: 1px solid #f1f1f1;
@@ -220,7 +219,48 @@ body {
         display: none;
       }
     }
-  } // </footer>
+  } // </header>
+  
+  #site-alert-overlay, #site-alert {
+    position: fixed;
+    background-color: #ffffff;
+    display: none;
+  }
+  #site-alert-overlay {
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    @include opacity(0.9);
+    z-index: 1;
+  }
+  #site-alert {
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    @include css3-prefix('transform', 'translate(-300px, -150px)');
+    @include css3-prefix('box-shadow', '0 6px 12px 0px rgba(0, 0, 0, 0.2)');
+    border-top: 7px solid $background-color-secondary;
+    z-index: 10;
+    a.close {
+      color: #000000;
+    }
+    .fa {
+      float: left;
+    }
+  }
+  @media (max-width: $screen-xs-max) {
+    #site-alert {
+      top: 5%;
+      left: 5%;
+      padding: 10px;
+      width: 90%;
+      height: 90%;
+      @include css3-prefix('transform', 'translate(0, 0)');
+    }
+  }
   
   main {
     margin-top: $fixed-header-height-desktop;
@@ -237,6 +277,9 @@ body {
       background-size: cover;
       color: #fff;
       position: relative;
+      h1, h2 {
+        display: block;
+      }
       h1 {
         margin-bottom: 0;
       }
@@ -251,6 +294,7 @@ body {
         position: absolute;
         left: 0; right: 0; bottom: 2em;
         margin: 0 auto;
+        @include radial-gradient(rgba(0,0,0,0.7) 30%, rgba(0,0,0,0) 70%);
       }
       .ted-teaser {
         position: absolute;
@@ -356,6 +400,7 @@ body {
     .story-more {
       margin-bottom: 5rem;
     } 
+
     // Nicely gridded links only appear when the grid isn't collapsed to single column
     @media (max-width: 600px) {
       .project-link {
@@ -370,8 +415,15 @@ body {
         display: none;
       }
     }
-  }
+  } // </section.our-work>
 
+  section.blog {
+    .blog-item {
+      a {
+        text-decoration: none;
+      }
+    }
+  } // </section.blog>
 
   section.staff-members {
     // This prevents the arrows on the staff nav
@@ -649,6 +701,12 @@ body {
 
 .slick-slider button.slick-next:before{
   content: url('/img/arrow_right.png');
+}
+@media (max-width: $screen-xs-max) {
+  .slick-slider button.slick-prev:before,
+  .slick-slider button.slick-next:before {
+    content: '';
+  }
 }
 
 .slick-slider button.slick-arrow:before{
