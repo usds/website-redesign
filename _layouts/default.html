@@ -5,7 +5,6 @@
 
   <body class="usds-site {{ page.url | replace:'index','home' | replace: '404','notfound' | replace:'.html','' | slugify }}-page">
     {% include header.html %}
-    {% include site_alert.html %}
     <main>
       {{ content }}
     </main>
@@ -13,7 +12,7 @@
       {% include extended_footer.html %}
     {% endif %}
     {% include footer.html %}
-
+    {% include site_alert.html %}
   </body>
   {% include analytics.html %}
 </html>

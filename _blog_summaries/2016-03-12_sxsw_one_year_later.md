@@ -1,6 +1,6 @@
 ---
 title: South by Southwest — One Year Later
-url: https://medium.com/@USDigitalService/south-by-southwest-one-year-later-5fc6e677aead
+medium_url: https://medium.com/@USDigitalService/south-by-southwest-one-year-later-5fc6e677aead
 image_url: https://d262ilb51hltx0.cloudfront.net/max/600/1*IcqCYBK0Gc5UCVLV3LQZFg.jpeg
 image_description: The U.S. Digital Service logo on a white board
 date: 2016-03-12
