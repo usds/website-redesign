@@ -13,7 +13,6 @@
 @mixin linear-gradient($origin, $startColor, $middleColor, $endColor) {
   $direction: to bottom;
   @if $origin == top {
-    @debug "I'm here!!!!";
     $direction: to bottom;
   } @else if $origin == bottom {
     $direction: to top;
@@ -32,6 +31,13 @@
    *    Currently unsupported
    * filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
    */
+}
+
+@mixin radial-gradient($colors...) {
+  background: -webkit-radial-gradient($colors); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient($colors); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient($colors); /* For Firefox 3.6 to 15 */
+  background: radial-gradient($colors); /* Standard syntax */
 }
 
 
