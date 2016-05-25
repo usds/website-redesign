@@ -1,7 +1,7 @@
 US Digital Service Website
 ==========================
 
-This repo is for our public-facing site, which will be hosted on a usds.gov.  This site is the main funnel for USDS recruiting and outreach.
+This repo is for our public-facing site, which is hosted on usds.gov.  This site is the main funnel for USDS recruiting and outreach.
 
 Soon, this repo will also contain our assets on [whitehouse.gov](https://www.whitehouse.gov/digital/united-states-digital-service).
 
