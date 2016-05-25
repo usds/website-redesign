@@ -3,7 +3,7 @@ id: 7
 title: Student Loans
 project_link: https://studentloans.gov/myDirectLoan/repayOptions.action
 link_text: Visit StudentLoans.gov/Repay
-image_path: img/work/ed-repay-student-loans.png
+image_path: /img/work/ed-repay-student-loans.png
 image_alt_text: Screenshot of the student loan repayment site"
 ---
 

@@ -3,7 +3,7 @@ id: 12
 title: Quality Payment Program
 project_link: https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/Value-Based-Programs/MACRA-MIPS-and-APMs/MACRA-MIPS-and-APMs.html
 link_text: Learn More 
-image_path: img/work/cms-quality-payment-program.png
+image_path: /img/work/cms-quality-payment-program.png
 image_alt_text: The CMS Logo
 ---
 

@@ -3,7 +3,7 @@ id: 3
 title: College Scorecard
 project_link: https://collegescorecard.ed.gov/
 link_text: Visit College Scorecard
-image_path: img/work/ed-college-scorecard.png
+image_path: /img/work/ed-college-scorecard.png
 image_alt_text: Screenshot of the college scorecard
 ---
 

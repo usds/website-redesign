@@ -3,7 +3,7 @@ id: 11
 title: SBA Certification Modernization 
 project_link: https://certify.sba.gov
 link_text: Visit certify.sba.gov
-image_path: img/work/sba-certify.jpg
+image_path: /img/work/sba-certify.jpg
 image_alt_text: A screenshot of certify.sba.gov
 ---
 

@@ -3,7 +3,7 @@ id: 5
 title: Hack the Pentagon
 project_link: http://techcrunch.com/2016/04/10/uncle-sam-wants-you-to-hack-the-pentagon/
 link_text: Learn More
-image_path: img/work/dod-hack-the-pentagon.png
+image_path: /img/work/dod-hack-the-pentagon.png
 image_alt_text: Logo for the Hack the Pentagon bug bounty program
 ---
 

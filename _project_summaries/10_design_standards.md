@@ -3,7 +3,7 @@ id: 10
 title: Draft U.S. Web Design Standards
 project_link: https://standards.usa.gov
 link_text: See the U.S. Web Design Standards
-image_path: img/work/us-web-design-standards.png
+image_path: /img/work/us-web-design-standards.png
 image_alt_text: A partial screenshot of the US web design standards site
 ---
 

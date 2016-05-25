@@ -3,7 +3,7 @@ id: 6
 title: Precision Medicine
 project_link: https://www.whitehouse.gov/precision-medicine 
 link_text: Learn More
-image_path: img/work/hhs-precision-medicine-initiative.jpg
+image_path: /img/work/hhs-precision-medicine-initiative.jpg
 image_alt_text: Logo for the Precision Medicine Initiative
 ---
 

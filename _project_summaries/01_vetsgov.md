@@ -3,7 +3,7 @@ id: 1
 title: Vets.gov
 project_link: https://www.vets.gov/
 link_text: Visit Vets.gov
-image_path: img/work/vets-vets.org.png
+image_path: /img/work/vets-vets.org.png
 image_alt_text: The logo for vets.org
 ---
 

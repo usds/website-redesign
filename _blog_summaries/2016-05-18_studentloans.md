@@ -1,6 +1,6 @@
 ---
 title: What if you could find the right student loan repayment option in 5 steps — or less?
-url: https://medium.com/@USDigitalService/what-if-you-could-find-the-right-student-loan-repayment-option-in-5-steps-or-less-a9240f18437e
+medium_url: https://medium.com/@USDigitalService/what-if-you-could-find-the-right-student-loan-repayment-option-in-5-steps-or-less-a9240f18437e
 image_url: https://d262ilb51hltx0.cloudfront.net/max/600/1*OABCDNiABFbPB0Kv1p8vNw.jpeg
 image_description: Sticky notes on a whiteboard
 date: 2016-05-18

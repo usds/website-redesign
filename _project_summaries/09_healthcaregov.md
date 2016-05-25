@@ -3,7 +3,7 @@ id: 9
 title: HealthCare.gov
 project_link: https://www.healthcare.gov
 link_text: Visit HealthCare.gov
-image_path: img/work/hhs-healthcare.gov.png
+image_path: /img/work/hhs-healthcare.gov.png
 image_alt_text: The healthcare.gov logo
 ---
 

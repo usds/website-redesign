@@ -1,6 +1,6 @@
 ---
 title: Meet the Team - March 2016
-url: https://medium.com/@USDigitalService/meet-the-team-ce394749a771
+medium_url: https://medium.com/@USDigitalService/meet-the-team-ce394749a771
 image_url: https://d262ilb51hltx0.cloudfront.net/max/600/1*UHwRMidm_-BHCOfycUvtPA.jpeg
 image_description: Natalie Kates
 date: 2016-03-23
