@@ -643,7 +643,9 @@ body {
 .infographic-font-main {
   font-family: $header-font-family;
   font-size: 18px;
-  line-height: 30px;
+  p {
+    line-height: 30px;
+  }
 }
 
 .left-align{
