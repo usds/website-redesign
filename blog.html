@@ -28,7 +28,9 @@ title: Blog
       <div class="usa-grid">
     {% endif %}
       <div class="usa-width-one-third story blog-item">
-        <a href="{{ entry.medium_url }}"><img src="{{ entry.image_url}}" alt="{{entry.image_description}}" /></a>
+        <a href="{{ entry.medium_url }}">
+          <div class="blog-image" style="background-image:url({{ entry.image_url}})" title="{{entry.image_description}}"></div>
+        </a>
         <h3><a href="{{ entry.medium_url}}">{{ entry.title }}</a></h3>
         {{ entry.content }}
         <p><a class="read-more" title="Read More"><a href="{{ entry.medium_url}}">Read more...</a></p>
