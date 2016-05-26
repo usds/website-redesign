@@ -6,8 +6,6 @@ title: Our Work
 <br>
 <br>
 
-{% assign sorted_projects = site.project_summaries | sort: 'id' %}
-
 <section class="our-work">
   <div class="usa-grid">
     <div class="usa-width-one-whole">
@@ -15,78 +13,35 @@ title: Our Work
       <p class="page-width-70">
         We live in a world where any new public policy is only as good as its underlying technology. Explore a few of the projects we&#8217;ve tackled:</p>
     </div>
+  </div>
 
-    <!-- First Story -->
-    {% assign project = sorted_projects[0] %}
+
+  {% assign num_columns = 3 %}
+  {% assign num_projects = 12 %}
+
+  {% assign sorted_projects = site.project_summaries | sort: 'id' %}
+  {% assign num_columns0 = num_columns | minus: 1 %}
+  {% for project in sorted_projects limit: num_projects %}
+    {% assign index_mod = forloop.index0 | modulo:num_columns %}
+
+    {% if index_mod == 0 %}
+      <div class="usa-grid">
+    {% endif %}
+
     {% include project.html project_param = project %}
 
-    <!-- Second Story --> 
-    {% assign project = sorted_projects[1] %}
-    {% include project.html project_param = project %}
+    {% if index_mod == num_columns0 %}
+      {% assign starting_point = forloop.index | minus: num_columns %}
+      </div>
 
-    <!-- Third Story -->
-    {% assign project = sorted_projects[2] %}
-    {% include project.html project_param = project %} 
-  </div>
-  
-  <!-- First Three Grid-Friendly Links not visible on mobile -->
-  {% include project_clean_grid_links.html projects_param=sorted_projects first_link=0 second_link=1 third_link=2 %}
-
-  <div class="usa-grid">
-
-    <!-- Fourth story here -->
-    {% assign project = sorted_projects[3] %}
-    {% include project.html project_param = project %} 
-
-    <!-- Fifth story here -->
-    {% assign project = sorted_projects[4] %}
-    {% include project.html project_param = project %} 
-    
-    <!-- Sixth story here -->
-    {% assign project = sorted_projects[5] %}
-    {% include project.html project_param = project %} 
-
-  </div>
-
-  <!-- 7-9 Grid-Friendly Links, not visible on mobile -->
-  {% include project_clean_grid_links.html projects_param=sorted_projects first_link=3 second_link=4 third_link=5 %}
-
-  <div class="usa-grid">
-
-    <!-- 7th story here -->
-    {% assign project = sorted_projects[6] %}
-    {% include project.html project_param = project %} 
-
-    <!-- 8th story here -->
-    {% assign project = sorted_projects[7] %}
-    {% include project.html project_param = project %} 
-    
-    <!-- 9th story here -->
-    {% assign project = sorted_projects[8] %}
-    {% include project.html project_param = project %} 
-
-  </div>
-
-  <!-- 7-9th Grid-Friendly Links, not visible on mobile -->
-  {% include project_clean_grid_links.html projects_param=sorted_projects first_link=6 second_link=7 third_link=8 %}
-
-  <div class="usa-grid">
-
-    <!-- 10th story here -->
-    {% assign project = sorted_projects[9] %}
-    {% include project.html project_param = project %} 
-
-    <!-- 11th story here -->
-    {% assign project = sorted_projects[10] %}
-    {% include project.html project_param = project %} 
-    
-    <!-- 12th story here -->
-    {% assign project = sorted_projects[11] %}
-    {% include project.html project_param = project %} 
-
-  </div>
-
-  <!-- 10-12th Grid-Friendly Links, not visible on mobile -->
-  {% include project_clean_grid_links.html projects_param=sorted_projects first_link=9 second_link=10 third_link=11 %}
+      <div class="usa-grid">
+        {% for i in (0..2) %}
+          {% assign link_index = starting_point | plus: i %}
+          {% assign link1 = sorted_projects[link_index] %}
+          {% include gridded_link.html link_param = link1 %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
 
 </section>

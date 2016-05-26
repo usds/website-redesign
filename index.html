@@ -72,24 +72,35 @@ title: U.S. Digital Service
       <p class="page-width-70">
         We live in a world where any public policy is only as good as its underlying technology. Explore a few of the projects we&#8217;ve tackled:</p>
     </div>
-    
-    {% assign sorted_projects = site.project_summaries | sort: 'id' %}
-
-    <!-- First Story -->
-    {% assign project = sorted_projects[0] %}
-    {% include project.html project_param = project %}
-
-    <!-- Second Story --> 
-    {% assign project = sorted_projects[1] %}
-    {% include project.html project_param = project %}
-
-    <!-- Third Story -->
-    {% assign project = sorted_projects[2] %}
-    {% include project.html project_param = project %} 
   </div>
-  
-  <!-- First Three Grid-Friendly Links not visible on mobile -->
-  {% include project_clean_grid_links.html projects_param=sorted_projects first_link=0 second_link=1 third_link=2 %}
+
+  {% assign num_columns = 3 %}
+  {% assign num_projects = 3 %}
+
+  {% assign sorted_projects = site.project_summaries | sort: 'id' %}
+  {% assign num_columns0 = num_columns | minus: 1 %}
+  {% for project in sorted_projects limit: num_projects %}
+    {% assign index_mod = forloop.index0 | modulo:num_columns %}
+
+    {% if index_mod == 0 %}
+      <div class="usa-grid">
+    {% endif %}
+
+    {% include project.html project_param = project %}
+
+    {% if index_mod == num_columns0 %}
+      {% assign starting_point = forloop.index | minus: num_columns %}
+      </div>
+
+      <div class="usa-grid">
+        {% for i in (0..2) %}
+          {% assign link_index = starting_point | plus: i %}
+          {% assign link1 = sorted_projects[link_index] %}
+          {% include gridded_link.html link_param = link1 %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
   
   <div class="usa-grid">
     <div class="usa-width-one-whole">
