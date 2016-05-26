@@ -15,33 +15,6 @@ title: Our Work
     </div>
   </div>
 
-
-  {% assign num_columns = 3 %}
-  {% assign num_projects = 12 %}
-
-  {% assign sorted_projects = site.project_summaries | sort: 'id' %}
-  {% assign num_columns0 = num_columns | minus: 1 %}
-  {% for project in sorted_projects limit: num_projects %}
-    {% assign index_mod = forloop.index0 | modulo:num_columns %}
-
-    {% if index_mod == 0 %}
-      <div class="usa-grid">
-    {% endif %}
-
-    {% include project.html project_param = project %}
-
-    {% if index_mod == num_columns0 %}
-      {% assign starting_point = forloop.index | minus: num_columns %}
-      </div>
-
-      <div class="usa-grid">
-        {% for i in (0..2) %}
-          {% assign link_index = starting_point | plus: i %}
-          {% assign link1 = sorted_projects[link_index] %}
-          {% include gridded_link.html link_param = link1 %}
-        {% endfor %}
-      </div>
-    {% endif %}
-  {% endfor %}
+  {% include project_builder.html num_columns=3 num_projects=12 %}
 
 </section>
