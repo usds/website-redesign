@@ -396,24 +396,6 @@ body {
     } 
   } // </section.our-work>
 
-  section.blog {
-    .blog-item {
-      a {
-        text-decoration: none;
-      }
-      .blog-image {
-        width: 100%;
-        background-position: 50% 0%;
-        background-size: cover;
-        background-origin: content-box;
-        background-repeat: no-repeat;
-        height: 170px;
-        border-top: 6px solid $background-color-secondary;
-        padding-top: 8px;
-      }
-    }
-  } // </section.blog>
-
   section.staff-members {
     // This prevents the arrows on the staff nav
     // to screw up width of the page beyond 100%
