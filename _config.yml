@@ -6,18 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: United States Digital Service
-email: no-reply@usds.gov
+title: Defense Digital Service
+email: no-reply@dds.mil
 description: > # this means to ignore newlines until "baseurl:"
-  The United States Digital Service is transforming how the federal government
-  works for the American people. And we need you.
+  FIXME: Defense Digital Service is transforming how the Department of Defense uses technology. And we need you.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.usds.gov" # the base hostname & protocol for your site
-twitter_username: usds
-github_username:  usds
-medium_url: https://medium.com/@USDigitalService
+url: "https://www.dds.mil" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-collections:
-  - blog_summaries
