@@ -32,7 +32,7 @@ Each blog post summary file must start with front-matter, in the YML format. Thi
 
 An example post file is shown below:
 
-```
+```markdown
 ---
 title: Meet the Team - March 2016
 medium_url: https://medium.com/@USDigitalService/meet-the-team-ce394749a771
@@ -53,6 +53,6 @@ A few notes on the above fields:
 - `image_description`: A short textual description of the image.
 - `date`: The date the post was published, in `YYYY-MM-DD` format. This field is used to determine which post summaries are shown on the blog summary page.
 
-Below the front matter (i.e. after the `---`) is the text that will appear as the summary of the blog. Ordinarily, this can be directly copied from the lede in our Medium post. Generally, this should be one single paragraphy, without formatting. It can include links where appropriate. Links can be specified using the Markdown linking format, or by writing `<a>` tags directly.
+Below the front matter (i.e. after the `---`) is the text that will appear as the summary of the blog. Ordinarily, this can be directly copied from the lede in our Medium post. Generally, this should be one single paragraph, without formatting. It can include links where appropriate. Links can be specified using the Markdown linking format, or by writing `<a>` tags directly.
 
 Once a file matching this specification is saved into the `_blog_summaries` folder, the `/blog` page will be automatically re-generated to display the most recent summaries, with the most recent post appearing first. If this change is merged to the `gh-pages` branch of the site, the blog page will be updated.
