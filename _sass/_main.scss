@@ -97,6 +97,10 @@ body {
           width: 250px;
           a#logo-desktop-full {
             top: -23px;
+            width: 250px;
+            height: 205px;
+            background: url('../img/layout/logo-desktop-full.png') center center no-repeat;
+            background-size: 205px 205px;
             img {
               width: 205px;
               bottom: 0;
@@ -123,8 +127,10 @@ body {
             }
             .nav-centerpiece {
               a#logo-desktop-full {
+                height: $fixed-header-height-desktop-collapsed - 32px;
                 @include opacity(0);
                 @include css3-prefix('transition', 'opacity 200ms linear');
+                @include css3-prefix('transition', 'height 0ms linear 201ms');
               }
               a#logo-desktop-collapsed {
                 @include opacity(1.00);
