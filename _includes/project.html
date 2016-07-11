@@ -1,10 +1,10 @@
 <div class="usa-width-one-third story">
-  <a href="{{include.project_param.project_link}}" title="{{include.project_param.link_text}}"><img src="{{include.project_param.image_url}}" alt="{{include.project_param.image_description}}" /></a>
+  <a href="{{project.project_link}}" title="{{project.link_text}}"><img src="{{project.image_url}}" alt="{{project.image_description}}" /></a>
   <h3>
-    <a href="{{ include.project_param.project_link }}" title="{{ include.project_param.link_text }}"> {{ include.project_param.title }} </a>
+    <a href="{{ project.project_link }}" title="{{ project.link_text }}"> {{ project.title }} </a>
   </h3>
-  {{include.project_param.output}}
+  {{project.output}}
   <p class="project-link">
-    <a href="{{include.project_param.project_link}}" target="_blank">{{include.project_param.link_text}}</a>
+    <a href="{{project.project_link}}" target="_blank">{{project.link_text}}</a>
   </p>
 </div>

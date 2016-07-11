@@ -6,4 +6,4 @@ image_description: Sticky notes on a whiteboard
 date: 2016-05-18
 ---
 
-Borrowers can now go to StudentLoans.gov/Repay to navigate their student loan repayment options. Built mobile-first using human-centered design, this product is a collaboration between the U.S. Digital Service and the Department of Education’s Federal Student Aid (FSA) office.
+Borrowers can now go to [StudentLoans.gov/Repay](https://www.studentloans.gov/repay) to navigate their student loan repayment options. Built mobile-first using human-centered design, this product is a collaboration between the U.S. Digital Service and the Department of Education’s Federal Student Aid (FSA) office.
