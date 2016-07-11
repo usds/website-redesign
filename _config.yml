@@ -19,5 +19,7 @@ medium_url: https://medium.com/@USDigitalService
 
 # Build settings
 markdown: kramdown
+
 collections:
+  - project_summaries
   - blog_summaries

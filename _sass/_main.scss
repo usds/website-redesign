@@ -393,10 +393,31 @@ body {
         border-top: 6px solid $background-color-secondary;
         padding-top: 8px;
       }
+      .project-link a {
+        text-decoration: none;
+      }
+      .project-link a:hover {
+        text-decoration: underline;
+      }
     }
     .story-more {
       margin-bottom: 5rem;
     } 
+
+    // Nicely gridded links only appear when the grid isn't collapsed to single column
+    @media (max-width: 600px) {
+      .project-link {
+        display: block;
+      }   
+      .story-more {
+        display: none;
+      }
+    }
+    @media (min-width: 600px) {
+      .project-link {
+        display: none;
+      }
+    }
   } // </section.our-work>
 
   section.blog {

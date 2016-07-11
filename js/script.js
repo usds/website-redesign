@@ -122,7 +122,7 @@ $( document ).ready(function() {
     });
     
     
-    $('#everything-is-awesome').on( "click", function() {
+    $('.everything-is-awesome').on( "click", function() {
       // Yes, there were more important things to get done, but everyone needs a mental break sometimes
       if (awesomeCounter >= 10) {
         window.open('https://www.youtube.com/watch?v=StTqXEQ2l-Y');
