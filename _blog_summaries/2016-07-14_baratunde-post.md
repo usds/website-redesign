@@ -1,7 +1,7 @@
 ---
-title: The Unlikely Relationship Between Comedy and Code: A Conversation with Baratunde Thurston
+title: The Unlikely Relationship Between Comedy and Code - A Conversation with Baratunde Thurston
 medium_url: https://medium.com/@USDigitalService/the-unlikely-relationship-between-comedy-and-code-a-conversation-with-baratunde-thurston-6253a38b81b#.ee8yymiys
-image_url: https://cdn-images-1.medium.com/max/600/1*zZqU8JY6bJYCqboomflx7Q.jpeg
+image_url: https://cdn-images-1.medium.com/max/800/1*zZqU8JY6bJYCqboomflx7Q.jpeg
 image_description: Baratunde Thurston on stage with a microphone 
 date: 2016-07-14
 ---
