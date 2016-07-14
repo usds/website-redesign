@@ -16,11 +16,11 @@ title: Blog
     </div>
   </div>
   {% assign summaries = site.blog_summaries | sort: 'date' | reverse %}
-  {% assign num_columns = 3 %}
+  {% assign num_rows = 3 %}
   {% assign num_stories = 6 %}
 
   {% for entry in summaries limit: num_stories %}
-    {% assign index_mod = forloop.index0 | modulo:num_columns %}
+    {% assign index_mod = forloop.index0 | modulo:num_rows %}
     {% if index_mod == 0 %}
       {% if forloop.index0 > 0 %}
         </div>
