@@ -20,6 +20,7 @@ body {
       font-size: 2.9em;
       font-weight: 700;
       line-height: 1.25em;
+      color: #205493;
     } 
     h2 {
       font-size: 2.5em;
@@ -365,7 +366,7 @@ body {
       /*height: 50px;
       width: 320px;
       background-color: #fff;
-      border: 1px solid #0071BB;
+      border: 2px solid #0071BB;
       color: #0071BB;
       margin: 40px 0px;*/
       
@@ -566,7 +567,7 @@ body {
     }
     .eop-logo {
       max-height: 100px;
-      height: 120px;
+   	  height: 120px;
     }
     .usds-logo {
       position: relative;
@@ -590,6 +591,20 @@ body {
         line-height: 2em;
         &:before, &:after {
           content: none;
+    }
+    
+  	.contribute-button {
+      height: 40px;
+      width: auto;
+      background-color: #fff;
+      border: 2px solid #0071BB;
+      color: #0071BB;
+      margin: 40px 0px;
+      
+      &:hover {
+        background: #fff;
+        color: #205593; 
+        border: 2px solid #205593;
         }
       }
     }
@@ -696,12 +711,6 @@ body {
 .left-align{
   text-align: left;
 }
-
-
-
-
-
-
 
 
 .usa-site-values{
