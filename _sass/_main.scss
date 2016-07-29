@@ -12,6 +12,7 @@ body {
   }
   h2, h3, h4 {
     font-weight: 700;
+    color: #205493;
   }
   @media (min-width: $screen-sm-min) {
     h1 {
@@ -19,6 +20,7 @@ body {
       font-size: 2.9em;
       font-weight: 700;
       line-height: 1.25em;
+      color: #205493;
     } 
     h2 {
       font-size: 2.5em;
@@ -280,6 +282,7 @@ body {
       position: relative;
       h1, h2 {
         display: block;
+        color: #fff;
       }
       h1 {
         margin-bottom: 0;
@@ -363,7 +366,7 @@ body {
       /*height: 50px;
       width: 320px;
       background-color: #fff;
-      border: 1px solid #0071BB;
+      border: 2px solid #0071BB;
       color: #0071BB;
       margin: 40px 0px;*/
       
@@ -532,9 +535,11 @@ body {
     h4 {
       font-family: $base-font-family;
       font-weight: 300;
+      color: #fff;
     }
     h3 {
       font-size: 1.8em;
+      color: #fff;
     }
   } // .feature-panel
   .join-button {
@@ -545,7 +550,7 @@ body {
     color: #000;
     font-size: 1.3em;
     &:hover {
-      background-color: $background-color-secondary;
+      background-color: #CAB41F;
     }
   } // .join-button  
   
@@ -557,15 +562,18 @@ body {
       width: 165px;
       height: 120px;
       margin-right: 1em;
+      margin-left: 2em;
+      margin-bottom: 1em;
     }
     .eop-logo {
       max-height: 100px;
+   	  height: 120px;
     }
     .usds-logo {
       position: relative;
       bottom: 10px;
-      width: 103px;
-      height: 103px;
+      width: 140px;
+      height: 140px;
     }
     h4 {
       margin-top: 0;
@@ -583,7 +591,35 @@ body {
         line-height: 2em;
         &:before, &:after {
           content: none;
+    }
+    
+  	.contribute-button {
+      height: 40px;
+      width: auto;
+      background-color: #fff;
+      border: 2px solid #0071BB;
+      color: #0071BB;
+      margin: 40px 0px;
+      
+      &:hover {
+        background: #fff;
+        color: #205593; 
+        border: 2px solid #205593;
         }
+      }
+    }
+  .contribute-button {
+    height: 40px;
+    width: auto;
+    background-color: #fff;
+    border: 2px solid #0071BB;
+    color: #0071BB;
+    margin: 40px 0px;
+    
+    &:hover {
+      background: #fff;
+      color: #205593; 
+      border: 2px solid #205593;
       }
     }
   } // </footer>
@@ -675,12 +711,6 @@ body {
 .left-align{
   text-align: left;
 }
-
-
-
-
-
-
 
 
 .usa-site-values{
