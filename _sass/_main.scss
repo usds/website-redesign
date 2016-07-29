@@ -12,6 +12,7 @@ body {
   }
   h2, h3, h4 {
     font-weight: 700;
+    color: #205493;
   }
   @media (min-width: $screen-sm-min) {
     h1 {
@@ -280,6 +281,7 @@ body {
       position: relative;
       h1, h2 {
         display: block;
+        color: #fff;
       }
       h1 {
         margin-bottom: 0;
@@ -532,9 +534,11 @@ body {
     h4 {
       font-family: $base-font-family;
       font-weight: 300;
+      color: #fff;
     }
     h3 {
       font-size: 1.8em;
+      color: #fff;
     }
   } // .feature-panel
   .join-button {
