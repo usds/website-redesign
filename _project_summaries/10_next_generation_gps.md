@@ -12,5 +12,5 @@ schedule slip for the next generation of the U.S. Global Positioning System.
 The Defense Digital Service is working alongside DoD contractors to automate
 configuration, testing, integration and deployment, while also introducing DevOps
 methods. The next iteration of GPS will provide dramatic improvements to location 
-accuracy and signal acquisition to continue supporting capabilities for billions of
-people across the globe.
+accuracy and signal acquisition to continue supporting billions of
+users across the globe.
