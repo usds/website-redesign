@@ -7,6 +7,4 @@ image_url:
 image_description: A partial screenshot of the TechFAR Hub 
 ---
 
-We launched an agile acquisition toolkit to provide agencies with a suite of tools for rapid procurement of agile software development.
-This helps the government more consistently procure high quality products for users, and maps a path between industry best practices and
-government regulation.
+To help the government more consistently procure high quality products and services for users, we developed the TechFAR Hub, a suite of resources for agencies. These resources help to apply industry best practices to digital service acquisition across the Federal government.  
