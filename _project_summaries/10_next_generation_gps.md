@@ -1,9 +1,8 @@
 ---
-id: 10
 title: Next Generation GPS
-project_link: 
-link_text: 
-image_url: 
+project_link:
+link_text:
+image_url: /img/work/dod-air-force-space-command-seal.jpg
 image_description: The Air Force Space Command Seal 
 ---
 

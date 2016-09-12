@@ -1,5 +1,4 @@
 ---
-id: 17
 title: Precision Medicine
 project_link: https://www.whitehouse.gov/precision-medicine 
 link_text: Learn More

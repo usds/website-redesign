@@ -1,9 +1,8 @@
 ---
-id: 14
 title: TechFAR Hub
 project_link: https://techfarhub.cio.gov/
 link_text: Visit the TechFAR Hub
-image_url: 
+image_url: /img/work/techfar-hub.jpg
 image_description: A partial screenshot of the TechFAR Hub 
 ---
 

@@ -1,5 +1,4 @@
 ---
-id: 6
 title: Digitizing Refugee Admissions
 project_link: 
 link_text: 

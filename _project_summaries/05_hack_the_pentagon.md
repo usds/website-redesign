@@ -1,5 +1,4 @@
 ---
-id: 5
 title: Hack the Pentagon
 project_link: http://techcrunch.com/2016/04/10/uncle-sam-wants-you-to-hack-the-pentagon/
 link_text: Learn More

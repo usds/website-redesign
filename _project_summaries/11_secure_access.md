@@ -1,9 +1,8 @@
 ---
-id: 11
 title: Secure Access
 project_link: https://www.irs.gov/uac/irs-launches-more-rigorous-eauthentication-process-and-get-transcript-online
 link_text: Lean More
-image_url: 
+image_url: /img/work/irs-logo.png
 image_description: The IRS logo 
 ---
 

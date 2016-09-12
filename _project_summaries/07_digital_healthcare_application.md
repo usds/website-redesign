@@ -1,9 +1,8 @@
 ---
-id: 10
 title: VA Digital Health Care Application 
 project_link: https://www.vets.gov/healthcare/apply/application/introduction
-link_text: Lean More
-image_url: 
+link_text: Learn More
+image_url: /img/work/vets-digital-healthcare-app.jpg
 image_description: A partial screenshot of the new Digital Health Care application for Veterans
 ---
 

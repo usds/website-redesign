@@ -1,5 +1,4 @@
 ---
-id: 2
 title: Digital Immigration
 project_link: https://my.uscis.gov/exploremyoptions
 link_text: Visit MyUSCIS

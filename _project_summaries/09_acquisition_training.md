@@ -1,5 +1,4 @@
 ---
-id: 9
 title: Acquisition Training 
 project_link: https://medium.com/@USDigitalService/congratulating-our-challenge-gov-winners-f6ec5deefbd6#.icjzextcy
 link_text: Learn More

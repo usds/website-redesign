@@ -1,5 +1,4 @@
 ---
-id: 12
 title: U.S. Web Design Standards
 project_link: https://standards.usa.gov
 link_text: See the U.S. Web Design Standards

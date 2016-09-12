@@ -1,5 +1,4 @@
 ---
-id: 8
 title: Student Loans
 project_link: https://studentloans.gov/myDirectLoan/repayOptions.action
 link_text: Visit StudentLoans.gov/Repay

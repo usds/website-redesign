@@ -1,5 +1,4 @@
 ---
-id: 1
 title: Vets.gov
 project_link: https://www.vets.gov/
 link_text: Visit Vets.gov

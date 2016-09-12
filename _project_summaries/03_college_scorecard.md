@@ -1,5 +1,4 @@
 ---
-id: 3
 title: College Scorecard
 project_link: https://collegescorecard.ed.gov/
 link_text: Visit College Scorecard
