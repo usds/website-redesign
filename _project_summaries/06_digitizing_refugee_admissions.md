@@ -1,10 +1,10 @@
 ---
 id: 6
 title: Digitizing Refugee Admissions
-project_link:  
+project_link: 
 link_text: 
-image_url: 
-image_description: A picture of the previous paper based process: an application and a physical stamp. 
+image_url: /img/work/dhs-digitizing-refugee-adminissions.jpg
+image_description: A photo of the previous paper based process&colon; an application and a physical stamp. 
 ---
 
 We worked with the Department of State and the Department of Homeland Security to launch a digital approval
