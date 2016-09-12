@@ -21,3 +21,4 @@ medium_url: https://medium.com/@USDigitalService
 markdown: kramdown
 collections:
   - blog_summaries
+  - project_summaries

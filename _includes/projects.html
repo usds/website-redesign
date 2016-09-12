@@ -1,0 +1,42 @@
+{% assign num_columns = include.num_columns %}
+{% assign num_projects = include.num_projects %}
+
+{% assign column_index = num_columns | minus: 1 %}
+{% for project in site.project_summaries limit: num_projects %}
+  {% assign index_mod = forloop.index0 | modulo:num_columns %}
+
+  {% if index_mod == 0 %}
+    <div class="usa-grid">
+  {% endif %}
+
+  <div class="usa-width-one-third story">
+    {% if project.project_link|strip %}
+      <a href="{{project.project_link}}" title="{{project.link_text}}"><img src="{{project.image_url}}" alt="{{project.image_description}}" /></a>
+      <h3>
+        <a href="{{ project.project_link }}" title="{{ project.link_text }}">{{ project.title }}</a>
+      </h3>
+    {% else %}
+      <img src="{{project.image_url}}" alt="{{project.image_description}}" />
+      <h3>{{ project.title }}</h3>
+    {% endif %}
+    {{project.output}}
+    <p class="project-link">
+      <a href="{{project.project_link}}" target="_blank">{{project.link_text}}</a>
+    </p>
+  </div>
+
+  {% if index_mod == column_index %}
+    {% assign starting_point = forloop.index | minus: num_columns %}
+    </div>
+
+    <div class="usa-grid">
+      {% for i in (0..column_index) %}
+        {% assign link_index = starting_point | plus: i %}
+        {% assign project_link = site.project_summaries[link_index] %}
+        <div class="usa-width-one-third">
+          <a class="story-more" target="_blank" href="{{project_link.project_link}}">{{project_link.link_text}}</a>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
