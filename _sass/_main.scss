@@ -297,7 +297,7 @@ body {
         position: absolute;
         left: 0; right: 0; bottom: 2em;
         margin: 0 auto;
-        @include radial-gradient(rgba(0,0,0,0.7) 30%, rgba(0,0,0,0) 70%);
+        @include radial-gradient(rgba(0,0,0,0.75) 40%, rgba(0,0,0,0) 70%);
       }
       .ted-teaser {
         position: absolute;
