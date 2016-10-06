@@ -54,8 +54,8 @@ body {
       padding-bottom: .5rem;
       padding-top: .5rem;
       
-      color: #777;
-      background-color: #f1f1f1;
+      color: #ffffff;
+      background-color: #323a45;
       
       font-size: 1.3rem;
       text-align: left;
@@ -68,7 +68,7 @@ body {
       }
       a, a:hover {
         text-decoration: underline;
-        color: #777;
+        color: #ffffff;
       }
     }
     
@@ -84,12 +84,12 @@ body {
           width: 180px;
           height: 110px;
           a {
-            color: $text-secondary-color;
+            color: $text-color;
             position: absolute;
             left: 0; right: 0; bottom: 8px;
             text-decoration: none;
             &:hover span, &.active span {
-              padding-bottom: 2px;
+              padding-bottom: 3px;
               border-bottom: 5px $background-color-secondary solid;
             }
           }
