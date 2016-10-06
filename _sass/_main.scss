@@ -20,7 +20,7 @@ body {
       font-size: 2.9em;
       font-weight: 700;
       line-height: 1.25em;
-    } 
+    }
     h2 {
       font-size: 2.5em;
     }
@@ -32,20 +32,20 @@ body {
   .fa[aria-hidden=true]{
     display: inline-block !important;
   }
-  
+
   header#fixed-header {
     top: 0;
     position: fixed;
     height: $fixed-header-height-desktop;
     width: 100%;
     z-index: 1;
-    
+
     background-color: #ffffff;
     border-bottom: 1px solid #f1f1f1;
-    
+
     padding-bottom: 13px;
     margin: auto;
-    
+
     #beta-notice {
       float: right;
     }
@@ -53,13 +53,11 @@ body {
       height: 30px;
       padding-bottom: .5rem;
       padding-top: .5rem;
-      
       color: #ffffff;
       background-color: #323a45;
-      
       font-size: 1.3rem;
       text-align: left;
-      
+
       img.eop-seal {
         display: inline-block;
         vertical-align: top;
@@ -71,7 +69,7 @@ body {
         color: #ffffff;
       }
     }
-    
+
     .site-navbar .desktop {
       font-size: .75em;
       font-weight: bold;
@@ -84,9 +82,11 @@ body {
           width: 180px;
           height: 110px;
           a {
-            color: $text-color;
+            display: block;
+            line-height: 3em;
             position: absolute;
-            left: 0; right: 0; bottom: 8px;
+            left: 0; right: 0; bottom: 0;
+            color: $text-color;
             text-decoration: none;
             &:hover span, &.active span {
               padding-bottom: 3px;
@@ -109,7 +109,7 @@ body {
         }
       }
     }
-    
+
     // Collapsed at the header-level only applies to larger screen sizes
     @media (min-width: $screen-sm-min) {
       &.collapsed {
@@ -142,7 +142,7 @@ body {
         }
       }
     }
-    
+
     .site-navbar .mobile {
       height: $fixed-header-height-mobile - 30px;
       img {
@@ -151,7 +151,7 @@ body {
         margin-top: ($fixed-header-height-mobile - 30px - 40px) / 2;
         height: 40px;
       }
-       
+
       .navbar-toggle {
         float: right;
         // Override the default button styles
@@ -177,7 +177,7 @@ body {
           margin-top: 4px;
         }
       }
-      
+
       .mobile-nav {
         position: fixed;
         top: $fixed-header-height-mobile;
@@ -208,7 +208,7 @@ body {
         }
       }
     }
-    
+
     // Responsive elements of the header
     @media (max-width: $screen-xs-max) {
       height: $fixed-header-height-mobile;
@@ -222,7 +222,7 @@ body {
       }
     }
   } // </header>
-  
+
   #site-alert-overlay, #site-alert {
     position: fixed;
     background-color: #ffffff;
@@ -263,15 +263,15 @@ body {
       @include css3-prefix('transform', 'translate(0, 0)');
     }
   }
-  
+
   main {
     margin-top: $fixed-header-height-desktop;
-    
+
     // Adjust the margin for mobile screen
     @media (max-width: $screen-xs-max) {
       margin-top: $fixed-header-height-mobile;
     }
-    
+
     .jumbotron {
       width: 100%;
       height: 643px;
@@ -317,7 +317,7 @@ body {
         }
       }
     }
-    
+
     .ted-teaser div {
       color: $text-secondary-color;
       font-weight: bold;
@@ -327,13 +327,13 @@ body {
         color: $text-secondary-color;
       }
     }
-    
+
 
     .jumbotron.about{
       background: url('../img/about.jpg') center center no-repeat;
       background-size: cover;
     }
-    
+
     .mobile-lede {
       h2 {
         margin-top: 0.5em;
@@ -357,7 +357,7 @@ body {
         }
       }
     }
-    
+
     .more-button {
       background-color: #fff;
       border: 2px solid #0071BB;
@@ -368,15 +368,15 @@ body {
       border: 1px solid #0071BB;
       color: #0071BB;
       margin: 40px 0px;*/
-      
+
       &:hover {
         color: #205593;
         border-color: #205593;
       }
     }
-    
+
   } // </main>
-  
+
   //
   // Sections that are re-used on multiple parts of the site
   // For CSS that is page-specific, see below
@@ -404,13 +404,13 @@ body {
     }
     .story-more {
       margin-bottom: 5rem;
-    } 
+    }
 
     // Nicely gridded links only appear when the grid isn't collapsed to single column
     @media (max-width: 600px) {
       .project-link {
         display: block;
-      }   
+      }
       .story-more {
         display: none;
       }
@@ -477,7 +477,7 @@ body {
       display: block !important;
     }
   } // </section.staff-members>
-  
+
   section.press {
     margin-top: 5rem;
     .story {
@@ -499,7 +499,7 @@ body {
       }
     }
   } // </section.press>
-  
+
   section.site-album {
     width: 100%;
     font-size: 0;
@@ -521,7 +521,7 @@ body {
       padding: 0;
     }
   } // </section.site-album>
-  
+
   .feature-panel,
   .join-button-container {
     width: 100%;
@@ -551,8 +551,8 @@ body {
     &:hover {
       background-color: #CAB41F;
     }
-  } // .join-button  
-  
+  } // .join-button
+
   footer {
     text-align: left;
     padding: 60px 0;
@@ -600,15 +600,15 @@ body {
       border: 2px solid #0071BB;
       color: #0071BB;
       margin: 40px 0px;
-      
+
       &:hover {
         background: #fff;
-        color: #205593; 
+        color: #205593;
         border: 2px solid #205593;
       }
     }
   } // </footer>
-  
+
 } // </.usds-site>
 
 
@@ -618,7 +618,7 @@ body {
 // Before adding code here, consider if it could be generalized and
 // added above
 //
-.join-page { 
+.join-page {
   .faqs {
     font-family: $header-font-family;
     font-weight: 700;
@@ -721,7 +721,7 @@ body {
 }
 
 // Override USWDS button styles
-.slick-slider button, 
+.slick-slider button,
 .slick-slider button:hover,
 .slick-slider button:focus {
   background: none;
@@ -746,7 +746,7 @@ body {
 }
 
 .slick-slider button.slick-arrow:before{
-  font-size: 30px; 
+  font-size: 30px;
   color: #bbb;
 }
 
