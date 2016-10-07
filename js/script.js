@@ -92,18 +92,51 @@ $( document ).ready(function() {
       
     });
     
-    $( ".join-page .answers .answer:not(.application)" ).hide();
-    $( ".join-page .faqs a" ).on( "click", function() {
-      var hash = this.hash.substr(1);
-      // Hide all the answers that are not this one
-      $( ".join-page .answers .answer:not(." + hash + ")" ).hide();
-      $( ".join-page .answers .answer." + hash).show();
-      // Remove the 'active' class from all list elements and then
-      // only add it to the one to which it applies
-      $( ".join-page .faqs li" ).removeClass('active');
-      $( ".join-page .faqs li" ).has( "a[href$='#" + hash + "']" ).addClass('active');
-    });
+    function swapAnswer(hash) {
+      // Guard against missing or malformed hash
+      if (!hash || typeof hash !== 'string') {
+        return false;
+      }
+
+      var $answers = $('.join-page .answers .answer');
+      var $answerToActivate = $('.join-page .answers .answer.' + hash);
+      var $faqs = $('.join-page .faqs li');
+      var $faqToActivate = $('.join-page .faqs li').has('a[href$="#' + hash + '"]');
+
+      // Guard against answer that is not present on the page
+      if (($answerToActivate.length === 0) || ($faqToActivate.length === 0)) {
+        return false;
+      }
+
+      // Hide all the answers,
+      // then show only the active answer
+      $answers.hide();
+      $answerToActivate.show();
+
+      // Remove the `active` class from all FAQs,
+      // then add the `active` class to the active FAQ
+      $faqs.removeClass('active');
+      $faqToActivate.addClass('active');
+    }
+
+    // On document ready, hide every answer that is not the application form
+    $('.join-page .answers .answer:not(.application)').hide();
+
+    // On document ready, check if hash already exists in window.location,
+    // and if it does, swap to the corresponding answer
+    if (window.location.hash.length > 0) {
+      var hash = window.location.hash.substr(1);
+      swapAnswer(hash);
+    }
     
+    // On document ready, bind FAQ links to swap answers
+    $('.join-page .faqs a').on('click', function(event) {
+      event.stopPropagation(); // prevent bubbling
+
+      var hash = this.hash.substr(1);
+      swapAnswer(hash);
+    });
+
     $( 'a[href^="http"]:not(.target-link)' ).on( "click", function() {
       var domain = this.href.split('/')[2];
       var tld = domain.substring(domain.length - 3);
