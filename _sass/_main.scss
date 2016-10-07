@@ -95,11 +95,12 @@ body {
           }
         }
         .nav-centerpiece {
-          width: 250px;
+          width: 220px;
           a#logo-desktop-full {
-            top: -23px;
+            //top: -23px;
             img {
-              width: 205px;
+              width: 139px;
+              height: 80px;
               bottom: 0;
             }
           }
@@ -555,24 +556,28 @@ body {
 
   footer {
     text-align: left;
-    padding: 60px 0;
+    padding: 60px 0 0 0;
     font-size: 0.8em;
     .wh-logo {
-      width: 165px;
-      height: 120px;
-      margin-right: 1em;
-      margin-left: 2em;
-      margin-bottom: 1em;
+      border-top: 1px solid $divider-color;
+      padding: 40px 0;
+      a {
+        display: block;
+        width: 225px;
+        margin: auto;
+        img {
+          width: 225px;
+          height: 39px;
+        }
+      }
     }
     .eop-logo {
       max-height: 100px;
       height: 120px;
     }
     .usds-logo {
-      position: relative;
-      bottom: 10px;
-      width: 140px;
-      height: 140px;
+      width: 139px;
+      height: 80px;
     }
     h4 {
       margin-top: 0;
