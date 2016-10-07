@@ -71,18 +71,20 @@ body {
     }
 
     .site-navbar .desktop {
+      height: $fixed-header-height-desktop - 30px;
       font-size: .75em;
       font-weight: bold;
-      ul {
+      & > ul {
+        height: 100%;
         margin: auto;
         padding: 0;
-        li {
-          display: table-cell;
+        & > li {
+          display: inline-block;
           position: relative;
           width: 180px;
-          height: 110px;
-          a {
-            display: block;
+          height: 100%;
+          & > a {
+            display: inline-block;
             line-height: 3em;
             position: absolute;
             left: 0; right: 0; bottom: 0;
@@ -92,6 +94,32 @@ body {
               padding-bottom: 3px;
               border-bottom: 5px $background-color-secondary solid;
             }
+          }
+          & > ul {
+            visibility: hidden;
+            text-align: left;
+            background-color: #ffffff;
+            border: 1px solid $divider-color;
+            border-width: 0px 1px 1px 1px;
+            position: absolute;
+            top: $fixed-header-height-desktop - 56px;
+            padding-left: 56px;
+            width: 300%;
+            & > li {
+              display: inline-block;
+              padding: 1em;
+              a {
+                color: #666666;
+                font-weight: normal;
+                &:hover {
+                  color: $text-color;
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+          &:hover ul {
+            visibility: visible;
           }
         }
         .nav-centerpiece {
@@ -119,9 +147,13 @@ body {
         @include css3-prefix('transition', 'height 100ms linear');
         .site-navbar .desktop {
           ul {
-            li {
+            & > li {
               height: $fixed-header-height-desktop-collapsed - 32px;
               @include css3-prefix('transition', 'height 100ms linear');
+              & > ul {
+                 top: $fixed-header-height-desktop-collapsed - 56px;
+                 @include css3-prefix('transition', 'height 100ms linear');
+              }
             }
             .nav-centerpiece {
               a#logo-desktop-full {
@@ -132,7 +164,7 @@ body {
               a#logo-desktop-collapsed {
                 @include opacity(1.00);
                 @include css3-prefix('transition', 'opacity 200ms linear');
-                bottom: -15px;
+                bottom: -22px;
                 img {
                   width: 100px;
                   bottom: 0;
