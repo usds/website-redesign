@@ -323,7 +323,6 @@ body {
     left: 50%;
     padding: 10px;
     width: 600px;
-    height: 300px;
     overflow: hidden;
     @include css3-prefix('transform', 'translate(-300px, -150px)');
     @include css3-prefix('box-shadow', '0 6px 12px 0px rgba(0, 0, 0, 0.2)');
@@ -334,6 +333,9 @@ body {
     }
     .fa {
       float: left;
+    }
+    .target-link {
+      word-wrap: break-word;
     }
   }
   @media (max-width: $screen-xs-max) {
