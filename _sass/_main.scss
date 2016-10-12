@@ -323,7 +323,7 @@ body {
     left: 50%;
     padding: 10px;
     width: 600px;
-    overflow: hidden;
+    overflow: auto;
     @include css3-prefix('transform', 'translate(-300px, -150px)');
     @include css3-prefix('box-shadow', '0 6px 12px 0px rgba(0, 0, 0, 0.2)');
     border-top: 7px solid $background-color-secondary;
@@ -344,7 +344,7 @@ body {
       left: 5%;
       padding: 10px;
       width: 90%;
-      height: 90%;
+      overflow: auto;
       @include css3-prefix('transform', 'translate(0, 0)');
     }
   }
@@ -360,8 +360,14 @@ body {
     .jumbotron {
       width: 100%;
       height: 643px;
-      background: url('../img/experts.jpg') center center no-repeat;
+      background: url('../img/home/jumbotron-usds-staff-1200.jpg') center center no-repeat;
       background-size: cover;
+      @media (max-width: $screen-xs-max) {
+        background-image: url('../img/home/jumbotron-usds-staff-600.jpg')
+      }
+      @media (min-width: $screen-md-min) {
+        background-image: url('../img/home/jumbotron-usds-staff-2400.jpg')
+      }
       color: #fff;
       position: relative;
       h1, h2 {
@@ -380,8 +386,11 @@ body {
       }
       .jumbotron-text {
         position: absolute;
-        left: 0; right: 0; bottom: 2em;
+        left: 0;
+        right: 0;
+        bottom: 0;
         margin: 0 auto;
+        padding-bottom: 2em;
         @include radial-gradient(rgba(0,0,0,0.75) 40%, rgba(0,0,0,0) 70%);
       }
       .ted-teaser {
@@ -450,6 +459,7 @@ body {
       background-color: #fff;
       border: 2px solid #0071BB;
       color: #0071BB;
+<<<<<<< HEAD
       /*height: 50px;
       width: 320px;
       background-color: #fff;
@@ -457,6 +467,9 @@ body {
       color: #0071BB;
       margin: 40px 0px;*/
 
+=======
+      
+>>>>>>> 1469d7fefb72a6a405591cef966809cf7d14c1dd
       &:hover {
         color: #205593;
         border-color: #205593;
