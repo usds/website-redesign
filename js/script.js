@@ -1,34 +1,3 @@
-/*$.fn.zeitgeist = function(){
-  this.find('img:not(.reserve)').each(function(i, d){
-
-    // Append backing image for crossfading
-    var wrapper = $(d)
-      .addClass('front')
-      .wrap('<div class="wrapper" />')
-      .parent();
-
-    wrapper.append('<img class="back hidden" />');
-
-    // Fade in randomly
-    setTimeout(function(){
-      $(d).addClass('visible');
-    }, Math.random() * 1000);
-
-  });
-};
-
-// via http://stackoverflow.com/questions/1533910
-$.fn.randomize = function(selector){
-  (selector ? this.find(selector) : this).parent().each(function(){
-    $(this).children(selector).sort(function(){
-      return Math.random() - 0.5;
-    }).detach().appendTo(this);
-  });
-
-  return this;
-};
-
-$('#usa-site-zeitgeist').zeitgeist();*/
 $('#staff-member-carousel').slick({
   infinite: false,
   useTransform: true,
@@ -67,6 +36,9 @@ var header = $('#fixed-header');
 var headerCollapsed = false;
 var awesomeCounter = 0;
 $( document ).ready(function() {
+    //
+    // Collapse and expand the static / fixed header depending on the scrollTop position
+    //
     $( window ).scroll(function() {
       var scrollTopPos = $(window).scrollTop();
       if (scrollTopPos > 78 && !headerCollapsed) { // 155 (expanded header) - 77 (collapsed header)
@@ -78,10 +50,33 @@ $( document ).ready(function() {
       }
     });
     
+    //
+    // Show a full-screen width background behind the second level navigation
+    // If anyone has a better idea how to do this cleaner/using only CSS, ideas
+    // are welcome (PS: 'width: 100vw;' didn't do the trick for a number of reasons)
+    //
+    if($('#fixed-header nav.site-navbar .nav-item.active ul').length) {
+      $('#fixed-header nav.site-navbar .nav-item.active ul').addClass('borderless')
+      $('#submenu-background').show();
+    }
+    $('#fixed-header nav.site-navbar .nav-item').hover(function() {
+      var ul = $(this).find('ul')
+      if (ul.length) {
+        ul.addClass('borderless');
+        $('#submenu-background').show();
+      }
+    }, function() {
+      //$(this).find('ul').css('visibility', 'hidden');
+      if(!$('#fixed-header nav.site-navbar .nav-item.active ul').length)
+        $('#submenu-background').hide();
+    })
+    
+    //
+    // Support for mobile hamburger nav
+    //
     $( '.navbar-toggle' ).on( 'click', function() {
       if ( $(this).hasClass('collapsed') ) {
         // expand the mobile nav layer
-        
         $(this).removeClass('collapsed');
         $('.mobile-nav').removeClass('collapsed');
       } else {
@@ -92,6 +87,9 @@ $( document ).ready(function() {
       
     });
     
+    //
+    // Join / FAQ page
+    //
     $( ".join-page .answers .answer:not(.application)" ).hide();
     $( ".join-page .faqs a" ).on( "click", function() {
       var hash = this.hash.substr(1);
@@ -104,6 +102,10 @@ $( document ).ready(function() {
       $( ".join-page .faqs li" ).has( "a[href$='#" + hash + "']" ).addClass('active');
     });
     
+    //
+    // Catch all outgoing liks that are not to .gov, .mil, facebook.com, github.com, or twitter.com
+    // and display a "you are now leaving..." message
+    //
     $( 'a[href^="http"]:not(.target-link)' ).on( "click", function() {
       var domain = this.href.split('/')[2];
       var tld = domain.substring(domain.length - 3);
@@ -126,6 +128,7 @@ $( document ).ready(function() {
       // Yes, there were more important things to get done, but everyone needs a mental break sometimes
       if (awesomeCounter >= 10) {
         window.open('https://www.youtube.com/watch?v=StTqXEQ2l-Y');
+        $('.ted-teaser').show();
       }
       // Not yet awesome
       awesomeCounter++;
