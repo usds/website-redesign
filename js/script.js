@@ -55,20 +55,21 @@ $( document ).ready(function() {
     // If anyone has a better idea how to do this cleaner/using only CSS, ideas
     // are welcome (PS: 'width: 100vw;' didn't do the trick for a number of reasons)
     //
-    if($('#fixed-header nav.site-navbar .nav-item.active ul').length) {
-      $('#fixed-header nav.site-navbar .nav-item.active ul').addClass('borderless')
-      $('#submenu-background').show();
+    var activeSubNav = $('#fixed-header nav.site-navbar .nav-item.active ul');
+    var subMenuBackground = $('#submenu-background')
+    if(activeSubNav.length) {
+      activeSubNav.addClass('borderless')
+      subMenuBackground.show();
     }
     $('#fixed-header nav.site-navbar .nav-item').hover(function() {
       var ul = $(this).find('ul')
       if (ul.length) {
         ul.addClass('borderless');
-        $('#submenu-background').show();
+        subMenuBackground.show();
       }
     }, function() {
-      //$(this).find('ul').css('visibility', 'hidden');
-      if(!$('#fixed-header nav.site-navbar .nav-item.active ul').length)
-        $('#submenu-background').hide();
+      if(!activeSubNav.length)
+        subMenuBackground.hide();
     })
     
     //
