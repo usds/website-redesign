@@ -114,17 +114,18 @@ $( document ).ready(function() {
       $faqToActivate.addClass('active');
     }
 
-    // On document ready...
-    // ...hide every answer that is not the application form
+    // On document ready,
+    // - hide every answer that is not the application form
+    // - swap to corresponding answer if hash already exists in window.location
+    // - bind FAQ links so that they cause answers to swap
+
     $('.join-page .answers .answer:not(.application)').hide();
 
-    // ...swap to corresponding answer if hash already exists in window.location
     if (window.location.hash.length > 0) {
       var hash = window.location.hash.substr(1);
       swapAnswer(hash);
     }
     
-    // ...and bind FAQ links so that they cause answers to swap.
     $('.join-page .faqs a').on('click', function(event) {
       event.stopPropagation(); // prevent bubbling
 
