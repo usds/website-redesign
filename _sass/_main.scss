@@ -54,7 +54,7 @@ body {
       padding-bottom: .5rem;
       padding-top: .5rem;
       color: #ffffff;
-      background-color: #323a45;
+      background-color: $navigation-background-color;
       font-size: 1.3rem;
       text-align: left;
 
@@ -241,24 +241,32 @@ body {
         border: none;
         width: auto;
         // This choice of padding & margin comes from Bootstrap
-        padding: 9px 10px;
+        padding: 9px 7px;
         margin-top: 8px;
         margin-right: 15px;
         margin-bottom: 8px;
-        background-color: #f9f9f9;
+        background-color: #ffffff; //#f9f9f9;
         // Create hamburger with spans
         .hamburger-patty {
           display: block;
           margin: auto;
           // The choice of width and height comes from Bootstrap
           width: 22px;
-          height: 2px;
-          border-radius: 1px;
-          background-color: $text-secondary-color;
+          height: 3px;
+          @include css3-prefix('border-radius', '1px');
+          background-color: $navigation-background-color;
         }
         .hamburger-patty+.hamburger-patty {
           margin-top: 4px;
         }
+      }
+      .navbar-text {
+        position: absolute;
+        right: 55px;
+        bottom: 17px;
+        color: #000000;
+        text-transform:
+        uppercase; font-size: 9pt
       }
 
       .mobile-nav {
@@ -275,15 +283,24 @@ body {
         @include css3-prefix('transition', 'max-height 250ms linear');
         ul, li {
           width: 100%;
+          padding: 0;
+          margin: 0;
         }
         a {
           display: block;
           width: 100%;
           text-decoration: none;
           padding: 1em 2em;
+          border-left: 10px #ffffff solid;
+          color: $navigation-background-color;
           &:hover {
             background-color: #f9f9f9;
+            border-left: 10px $background-color-secondary solid;
           }
+        }
+        ul ul li a {
+          padding-left: 4em;
+          font-size: 80%;
         }
         &.collapsed {
           @include opacity(0);
