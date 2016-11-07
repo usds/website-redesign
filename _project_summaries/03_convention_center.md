@@ -2,7 +2,7 @@
 title: Designing our Convention Center's digital front door
 project_link: https://github.com/cityofaustin/austinconventioncenter.com
 link_text: View on GitHub
-image_url: /img/work/convention-center-prototype.png
+image_url: /fellows-website/img/work/convention-center-prototype.png
 image_description: 
 ---
 

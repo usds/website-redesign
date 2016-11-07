@@ -2,7 +2,7 @@
 title: Making Permitting Work for Austin
 project_link: https://www.austintexas.gov/department/development-services
 link_text: Learn more
-image_url: /img/work/permitting-review.png
+image_url: /fellows-website/img/work/permitting-review.png
 image_description: A City of Austin employee reviews building plans
 ---
 
