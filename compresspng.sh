@@ -9,7 +9,7 @@ if ! which zopflipng > /dev/null; then
 fi
 
 root=$(dirname "$(dirname "$0")")
-mkdir "$root/pngtmp/"
+mkdir -p "$root/pngtmp/"
 
 for f in $(find . -name "*.png"); do
   name=$(basename "$f")
