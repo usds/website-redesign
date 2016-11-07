@@ -1,7 +1,7 @@
 ---
 title: How We’re Thinking About Content Management for City Government
 medium_url: https://medium.com/city-of-austin-design-technology-innovation/how-were-thinking-about-content-management-for-city-government-88f563497096#.rc2c36odd
-image_url: /fellows-website/img/blog/cms-computer.png
+image_url: /innovation-fellows/img/blog/cms-computer.png
 image_description: Image of a computer
 date: 2016-10-04
 ---
