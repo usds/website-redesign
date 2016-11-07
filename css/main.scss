@@ -4,8 +4,8 @@
 @charset "utf-8";
 
 
-$base-font-family:                      'Open Sans', sans-serif;
-$header-font-family:                    'Merriweather','Georgia','Times New Roman',serif;
+$base-font-family:                      'Roboto', sans-serif;
+$header-font-family:                    'Roboto', sans-serif;
 
 $background-color:                      #ffffff;
 $background-color-secondary:            #dec622;
@@ -41,8 +41,8 @@ $site-album-image-width:                245px; // 490
 $site-album-image-height:               160px; // 320
 
 
-// $base-font-size:   16px;
-// $base-font-weight: 400;
+// $base-font-size:   18px;
+// $base-font-weight: 200;
 // $small-font-size:  $base-font-size * 0.875;
 // $base-line-height: 1.5;
 // 
@@ -88,3 +88,99 @@ $spacing-unit:     30px;
   "slick-theme",
   "syntax-highlighting"
 ;
+
+
+// Hacks for City of Austin 
+
+
+.usds-site header#fixed-header .disclaimer-bar {
+	height: 25px;
+	background-color: #333;
+}
+
+.usds-site header#fixed-header .site-navbar .desktop > ul .nav-centerpiece a#logo-desktop-full img {
+  width: 274px;
+  height: auto;
+}
+
+.usds-site header#fixed-header .site-navbar .desktop {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.usds-site header#fixed-header .site-navbar .desktop > ul .nav-centerpiece {
+	width: 340px;
+
+}
+
+.usds-site header#fixed-header .site-navbar .desktop > ul > li {
+	width: 100px;
+}
+
+@media (min-width: 768px) {
+
+.usds-site header#fixed-header.collapsed .site-navbar .desktop ul .nav-centerpiece a#logo-desktop-collapsed {
+	bottom: -17px;
+}
+
+.usds-site header#fixed-header.collapsed .site-navbar .desktop ul .nav-centerpiece a#logo-desktop-collapsed img {
+	width: 160px;
+}
+
+.usds-site header#fixed-header.collapsed {
+	height: 90px;
+}
+
+.usds-site header#fixed-header.collapsed .site-navbar .desktop ul > li {
+	height: 58px;
+}
+
+
+
+} /* end @media */
+
+.usds-site footer .usds-logo {
+	width: 120px;
+	height: 120px;
+}
+
+.usds-site section.our-work .story img {
+/*	border-top-color: #333;
+*/}
+
+.usds-site .feature-panel {
+	background-color: #333;
+}
+
+.usds-site section.site-album {
+	background-color: #222;
+	margin-top: 48px;
+}
+
+.usds-site.-page section.site-album {
+	margin-top: 0px;
+}
+
+footer ul li {
+	margin: 0;
+	line-height: 1.3em;
+}
+
+footer .navlinky ul li {
+	margin: 0;
+	line-height: 1em;
+}
+
+footer .footer-block {
+	margin-bottom: 32px;
+}
+
+.usds-site main .jumbotron {
+	background-image: url(/fellows-website/img/home/arr-boards-1200.jpg)
+}
+
+
+
+
+
+
