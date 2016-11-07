@@ -1,11 +1,9 @@
-US Digital Service Website
+City of Austin Design, Technology, and Innovation Fellows Website
 ==========================
 
-This repo is for our public-facing site, which is hosted on usds.gov.  This site is the main funnel for USDS recruiting and outreach.
+This repo is for our public-facing site, which is hosted on austintexas.io.  This site is the main funnel for fellows program recruiting and outreach.
 
-Soon, this repo will also contain our assets on [whitehouse.gov](https://www.whitehouse.gov/digital/united-states-digital-service).
-
-The site is built on the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards/) and uses Jekyll to generate static pages.
+The site is forked from [usds.gov](https://usds.gov), which is built on the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards/) and uses Jekyll to generate static pages.
 
 Setup
 ---
@@ -21,7 +19,7 @@ Running
 
 Blogging
 ---
-The U.S. Digital Service blog is currently maintained on Medium. This website provides summaries of the most recent posts. When we publish a new post, we must also create a new blog summary. The `Blog` summary page is automatically generated from individual blog summary Markdown files in the `_blog_summaries` folder.
+The Fellows program's blog posts are currently maintained on Medium in a publication called Civiqueso (this is shared with other folks throughout the city). Medium provides summaries of the most recent posts. When we publish a new post, we must also create a new blog summary. The `Civiqueso` summary page is automatically generated from individual blog summary Markdown files in the `_blog_summaries` folder.
 
 To create a new blog summary:
 ----
