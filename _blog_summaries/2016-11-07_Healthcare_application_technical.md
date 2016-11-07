@@ -1,5 +1,5 @@
 ---
-title: Technically speaking — How we built a new health care application for Veterans
+title: Technically speaking&#58; How we built a new health care application for Veterans
 medium_url: https://medium.com/the-u-s-digital-service/technically-speaking-how-we-built-a-new-health-care-application-for-veterans-bfc77a457f71#.6zxsvsc35
 image_url: https://cdn-images-1.medium.com/max/800/1*W6xjo4iYiZcyUaZ0P8H_5w.png
 image_description: An image that shows how many Veterans have applied for health care through the new online application (54,415)
