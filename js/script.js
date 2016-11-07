@@ -125,7 +125,10 @@ $( document ).ready(function() {
       var hash = window.location.hash.substr(1);
       swapAnswer(hash);
     }
-    
+   
+
+
+
     $('.join-page .faqs a').on('click', function(event) {
       event.stopPropagation(); // prevent bubbling
 
@@ -133,37 +136,37 @@ $( document ).ready(function() {
       swapAnswer(hash);
     });
     
-    //
+    
     // Catch all outgoing liks that are not to .gov, .mil, facebook.com, github.com, or twitter.com
     // and display a "you are now leaving..." message
-    //
-    $( 'a[href^="http"]:not(.target-link)' ).on( "click", function() {
-      var domain = this.href.split('/')[2];
-      var tld = domain.substring(domain.length - 3);
-      if (tld != 'gov' && tld != 'mil' && domain != 'facebook.com' && domain != 'github.com' && domain != 'twitter.com') {
-        $( '#site-alert-overlay' ).show();
-        $( '#site-alert' ).show();
-        var targetLink = $( '#site-alert .target-link')
-        targetLink.text(this.href);
-        targetLink.attr("href", this.href);
-        return false;
-      }
-    });
-    $( '#site-alert .close, #site-alert .target-link, #site-alert-overlay' ).on( "click", function() {
-      $( '#site-alert-overlay' ).hide();
-      $( '#site-alert' ).hide();
-    });
+    
+    // $( 'a[href^="http"]:not(.target-link)' ).on( "click", function() {
+    //   var domain = this.href.split('/')[2];
+    //   var tld = domain.substring(domain.length - 3);
+    //   if (tld != 'gov' && tld != 'mil' && domain != 'facebook.com' && domain != 'github.com' && domain != 'twitter.com' && domain != 'medium.com') {
+    //     $( '#site-alert-overlay' ).show();
+    //     $( '#site-alert' ).show();
+    //     var targetLink = $( '#site-alert .target-link')
+    //     targetLink.text(this.href);
+    //     targetLink.attr("href", this.href);
+    //     return false;
+    //   }
+    // });
+    // $( '#site-alert .close, #site-alert .target-link, #site-alert-overlay' ).on( "click", function() {
+    //   $( '#site-alert-overlay' ).hide();
+    //   $( '#site-alert' ).hide();
+    // });
     
     
-    $('.everything-is-awesome').on( "click", function() {
-      // Yes, there were more important things to get done, but everyone needs a mental break sometimes
-      if (awesomeCounter >= 10) {
-        window.open('https://www.youtube.com/watch?v=StTqXEQ2l-Y');
-        $('.ted-teaser').show();
-      }
-      // Not yet awesome
-      awesomeCounter++;
-    });
+    // $('.everything-is-awesome').on( "click", function() {
+    //   // Yes, there were more important things to get done, but everyone needs a mental break sometimes
+    //   if (awesomeCounter >= 10) {
+    //     window.open('https://www.youtube.com/watch?v=StTqXEQ2l-Y');
+    //     $('.ted-teaser').show();
+    //   }
+    //   // Not yet awesome
+    //   awesomeCounter++;
+    // });
     
     
 });
