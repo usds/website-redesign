@@ -12,7 +12,7 @@ description: >
   The City of Austin’s Design, Technology, and Innovation Fellows program provides 
   an opportunity for Austin’s passionate and civic-minded designers and developers to bring the 
   principles, values, and practices of the technology sector into government.
-baseurl: /fellows-website # the base hostname & protocol for your site
+baseurl: /innovation-fellows # the base hostname & protocol for your site
 twitter_username: civiqueso
 github_username:  cityofaustin
 medium_url: https://medium.com/city-of-austin-design-technology-innovation
