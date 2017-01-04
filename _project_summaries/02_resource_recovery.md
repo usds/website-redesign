@@ -1,6 +1,6 @@
 ---
 title: Getting Closer to Zero-Waste
-project_link: http://www.austintexas.gov/department/austin-resource-recovery
+project_link: http://pages.austintexas.io/projects/resource-recovery/
 link_text: Learn more
 image_url: /innovation-fellows/img/work/recycling-images-board.png
 image_description: Notes and observations from field research
