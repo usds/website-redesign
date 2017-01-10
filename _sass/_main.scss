@@ -12,7 +12,7 @@ body {
   }
   h2, h3, h4 {
     font-weight: 700;
-    color: #205493;
+    //color: #205493;
   }
   @media (min-width: $screen-sm-min) {
     h1 {
@@ -20,7 +20,7 @@ body {
       font-size: 2.9em;
       font-weight: 700;
       line-height: 1.25em;
-    } 
+    }
     h2 {
       font-size: 2.5em;
     }
@@ -32,34 +32,32 @@ body {
   .fa[aria-hidden=true]{
     display: inline-block !important;
   }
-  
+
   header#fixed-header {
     top: 0;
     position: fixed;
     height: $fixed-header-height-desktop;
     width: 100%;
     z-index: 1;
-    
+
     background-color: #ffffff;
     border-bottom: 1px solid #f1f1f1;
-    
+
     padding-bottom: 13px;
     margin: auto;
-    
+
     #beta-notice {
       float: right;
     }
     .disclaimer-bar {
-      height: 30px;
+      height: $dislaimer-bar-height;
       padding-bottom: .5rem;
       padding-top: .5rem;
-      
-      color: #777;
-      background-color: #f1f1f1;
-      
+      color: #ffffff;
+      background-color: $navigation-background-color;
       font-size: 1.3rem;
       text-align: left;
-      
+
       img.eop-seal {
         display: inline-block;
         vertical-align: top;
@@ -68,48 +66,117 @@ body {
       }
       a, a:hover {
         text-decoration: underline;
-        color: #777;
+        color: #ffffff;
       }
     }
-    
+
     .site-navbar .desktop {
+      height: $fixed-header-height-desktop - $dislaimer-bar-height;
       font-size: .75em;
       font-weight: bold;
-      ul {
+      & > ul {
+        height: 100%;
         margin: auto;
         padding: 0;
-        li {
-          display: table-cell;
+        & > li {
+          display: inline-block;
           position: relative;
           width: 180px;
-          height: 110px;
-          a {
-            color: $text-secondary-color;
+          // At medium screen widths, menu items are being pushed
+          // to the next line
+          @media (max-width: $screen-sm-max) {
+            width: 150px;
+          }
+          // Note: this was originally height: 100% and despite
+          // all parents having heights, this did not render properly
+          // in Firefox
+          height: $fixed-header-height-desktop - $dislaimer-bar-height;
+          & > a {
+            display: inline-block;
+            line-height: 3em;
             position: absolute;
-            left: 0; right: 0; bottom: 8px;
+            left: 0; right: 0; bottom: 0;
+            padding-bottom: 1.5rem;
+            color: $text-color;
             text-decoration: none;
-            &:hover span, &.active span {
-              padding-bottom: 2px;
-              border-bottom: 5px $background-color-secondary solid;
+          }
+          &.active a span, a:hover span {
+            padding-bottom: 3px;
+            border-bottom: 5px $background-color-secondary solid;
+          }
+          
+          & > ul {
+            visibility: hidden;
+            // off by one pixel so we don't obscure
+            // the bottom border for #submenu-background
+            height: $submenu-height - 1px;
+            text-align: left;
+            background-color: #ffffff;
+            border: 1px solid $divider-color;
+            border-width: 0px 1px 1px 1px;
+            position: absolute;
+            top: $fixed-header-height-desktop - $dislaimer-bar-height;
+            margin: 0;
+            padding: 0;
+            padding-left: 60px;
+            width: 300%;
+            z-index: 10;
+            & > li {
+              height: $submenu-height - 3px;
+              display: inline-block;
+              padding: 6px 20px 6px 0;
+              a {
+                color: #666666;
+                padding: 8px;
+                font-weight: normal;
+                display: inline-block;
+                &:hover {
+                  color: $text-color;
+                  text-decoration: underline;
+                }
+              }
             }
+            &.borderless {
+              border: none
+            }
+          }
+          &.active ul, &:hover ul {
+            visibility: visible;
           }
         }
         .nav-centerpiece {
           width: 250px;
+          z-index: 11;
           a#logo-desktop-full {
-            top: -23px;
             img {
-              width: 205px;
-              bottom: 0;
+              width: 139px;
+              height: 80px;
+              top: 15px;
+              position: relative;
             }
           }
           a#logo-desktop-collapsed {
             @include opacity(0);
           }
+          // At medium screen widths, menu items are being pushed
+          // to the next line
+          @media (max-width: $screen-sm-max) {
+            width: 160px;
+          }
         }
       }
+      #submenu-background {
+        display: none;
+        height: $submenu-height;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+        background-color: #ffffff;
+        // TODO: Figure out why there's a margin on the ul above
+        position: relative;
+        bottom: 4px;
+      }
     }
-    
+
     // Collapsed at the header-level only applies to larger screen sizes
     @media (min-width: $screen-sm-min) {
       &.collapsed {
@@ -118,20 +185,31 @@ body {
         @include css3-prefix('transition', 'height 100ms linear');
         .site-navbar .desktop {
           ul {
-            li {
-              height: $fixed-header-height-desktop-collapsed - 32px;
+            & > li {
+              height: $fixed-header-height-desktop-collapsed - $dislaimer-bar-height;
               @include css3-prefix('transition', 'height 100ms linear');
+              & > a {
+                padding-bottom: 0;
+              }
+              & > ul {
+                 top: $fixed-header-height-desktop-collapsed - $dislaimer-bar-height;
+                 @include css3-prefix('transition', 'height 100ms linear');
+                 & > li {
+                   height: $submenu-height - 2px;
+                 }
+              }
             }
             .nav-centerpiece {
               a#logo-desktop-full {
                 @include opacity(0);
-                @include css3-prefix('transition', 'opacity 200ms linear');
+                @include css3-prefix('transition', 'opacity 200ms linear, height 200ms linear');
+                height: 0px;
                 overflow: hidden;
               }
               a#logo-desktop-collapsed {
                 @include opacity(1.00);
                 @include css3-prefix('transition', 'opacity 200ms linear');
-                bottom: -15px;
+                bottom: -22px;
                 img {
                   width: 100px;
                   bottom: 0;
@@ -139,10 +217,15 @@ body {
               }
             }
           }
+        
+          #submenu-background {
+            @include css3-prefix('transition', 'bottom 100ms linear');
+            bottom: ( $fixed-header-height-desktop - $fixed-header-height-desktop-collapsed );
+          }
         }
       }
     }
-    
+
     .site-navbar .mobile {
       height: $fixed-header-height-mobile - 30px;
       img {
@@ -151,33 +234,41 @@ body {
         margin-top: ($fixed-header-height-mobile - 30px - 40px) / 2;
         height: 40px;
       }
-       
+
       .navbar-toggle {
         float: right;
         // Override the default button styles
         border: none;
         width: auto;
         // This choice of padding & margin comes from Bootstrap
-        padding: 9px 10px;
+        padding: 9px 7px;
         margin-top: 8px;
         margin-right: 15px;
         margin-bottom: 8px;
-        background-color: #f9f9f9;
+        background-color: #ffffff; //#f9f9f9;
         // Create hamburger with spans
         .hamburger-patty {
           display: block;
           margin: auto;
           // The choice of width and height comes from Bootstrap
           width: 22px;
-          height: 2px;
-          border-radius: 1px;
-          background-color: $text-secondary-color;
+          height: 3px;
+          @include css3-prefix('border-radius', '1px');
+          background-color: $navigation-background-color;
         }
         .hamburger-patty+.hamburger-patty {
           margin-top: 4px;
         }
       }
-      
+      .navbar-text {
+        position: absolute;
+        right: 55px;
+        bottom: 17px;
+        color: #000000;
+        text-transform:
+        uppercase; font-size: 9pt
+      }
+
       .mobile-nav {
         position: fixed;
         top: $fixed-header-height-mobile;
@@ -192,15 +283,24 @@ body {
         @include css3-prefix('transition', 'max-height 250ms linear');
         ul, li {
           width: 100%;
+          padding: 0;
+          margin: 0;
         }
         a {
           display: block;
           width: 100%;
           text-decoration: none;
           padding: 1em 2em;
+          border-left: 10px #ffffff solid;
+          color: $navigation-background-color;
           &:hover {
             background-color: #f9f9f9;
+            border-left: 10px $background-color-secondary solid;
           }
+        }
+        ul ul li a {
+          padding-left: 4em;
+          font-size: 80%;
         }
         &.collapsed {
           @include opacity(0);
@@ -208,7 +308,7 @@ body {
         }
       }
     }
-    
+
     // Responsive elements of the header
     @media (max-width: $screen-xs-max) {
       height: $fixed-header-height-mobile;
@@ -222,7 +322,7 @@ body {
       }
     }
   } // </header>
-  
+
   #site-alert-overlay, #site-alert {
     position: fixed;
     background-color: #ffffff;
@@ -240,8 +340,7 @@ body {
     left: 50%;
     padding: 10px;
     width: 600px;
-    height: 300px;
-    overflow: hidden;
+    overflow: auto;
     @include css3-prefix('transform', 'translate(-300px, -150px)');
     @include css3-prefix('box-shadow', '0 6px 12px 0px rgba(0, 0, 0, 0.2)');
     border-top: 7px solid $background-color-secondary;
@@ -252,6 +351,9 @@ body {
     .fa {
       float: left;
     }
+    .target-link {
+      word-wrap: break-word;
+    }
   }
   @media (max-width: $screen-xs-max) {
     #site-alert {
@@ -259,24 +361,30 @@ body {
       left: 5%;
       padding: 10px;
       width: 90%;
-      height: 90%;
+      overflow: auto;
       @include css3-prefix('transform', 'translate(0, 0)');
     }
   }
-  
+
   main {
     margin-top: $fixed-header-height-desktop;
-    
+
     // Adjust the margin for mobile screen
     @media (max-width: $screen-xs-max) {
       margin-top: $fixed-header-height-mobile;
     }
-    
+
     .jumbotron {
       width: 100%;
       height: 643px;
-      background: url('../img/experts.jpg') center center no-repeat;
+      background: url('../img/home/jumbotron-usds-staff-1200.jpg') center center no-repeat;
       background-size: cover;
+      @media (max-width: $screen-xs-max) {
+        background-image: url('../img/home/jumbotron-usds-staff-600.jpg')
+      }
+      @media (min-width: $screen-md-min) {
+        background-image: url('../img/home/jumbotron-usds-staff-2400.jpg')
+      }
       color: #fff;
       position: relative;
       h1, h2 {
@@ -295,8 +403,11 @@ body {
       }
       .jumbotron-text {
         position: absolute;
-        left: 0; right: 0; bottom: 2em;
+        left: 0;
+        right: 0;
+        bottom: 0;
         margin: 0 auto;
+        padding-bottom: 2em;
         @include radial-gradient(rgba(0,0,0,0.75) 40%, rgba(0,0,0,0) 70%);
       }
       .ted-teaser {
@@ -315,9 +426,12 @@ body {
           max-width: 120px;
           margin: 0 30px;
         }
+        a {
+          text-decoration: none;
+        }
       }
     }
-    
+
     .ted-teaser div {
       color: $text-secondary-color;
       font-weight: bold;
@@ -327,13 +441,13 @@ body {
         color: $text-secondary-color;
       }
     }
-    
+
 
     .jumbotron.about{
       background: url('../img/about.jpg') center center no-repeat;
       background-size: cover;
     }
-    
+
     .mobile-lede {
       h2 {
         margin-top: 0.5em;
@@ -357,26 +471,28 @@ body {
         }
       }
     }
-    
+
     .more-button {
       background-color: #fff;
       border: 2px solid #0071BB;
       color: #0071BB;
-      /*height: 50px;
-      width: 320px;
-      background-color: #fff;
-      border: 1px solid #0071BB;
-      color: #0071BB;
-      margin: 40px 0px;*/
-      
       &:hover {
         color: #205593;
         border-color: #205593;
       }
     }
-    
+    // Paragraphs that are within the 
+    .usa-width-one-whole > p {
+      margin: 1em auto;
+    }
+    @media (min-width: $screen-md-min) {
+      .usa-width-one-whole > p {
+        width: 70%;
+      }
+    }
+
   } // </main>
-  
+
   //
   // Sections that are re-used on multiple parts of the site
   // For CSS that is page-specific, see below
@@ -404,13 +520,13 @@ body {
     }
     .story-more {
       margin-bottom: 5rem;
-    } 
+    }
 
     // Nicely gridded links only appear when the grid isn't collapsed to single column
     @media (max-width: 600px) {
       .project-link {
         display: block;
-      }   
+      }
       .story-more {
         display: none;
       }
@@ -477,7 +593,7 @@ body {
       display: block !important;
     }
   } // </section.staff-members>
-  
+
   section.press {
     margin-top: 5rem;
     .story {
@@ -499,7 +615,7 @@ body {
       }
     }
   } // </section.press>
-  
+
   section.site-album {
     width: 100%;
     font-size: 0;
@@ -522,6 +638,35 @@ body {
     }
   } // </section.site-album>
   
+  
+  ul.featured {
+    font-size: 0.8em;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: list-item;
+      margin: 10px;
+      padding-left: 20px;
+      border-left: 14px solid $background-color-secondary;
+      &:before {
+        display: none;
+      }
+    }
+  }
+  .usa-site-values{
+    padding-bottom: 40px;
+  }
+
+  .usa-site-value{
+    font-size: 0.8em;
+    text-align: left;
+    margin: 10px;
+    padding-left: 20px;
+    border-left: 14px solid $background-color-secondary;
+  }
+
   .feature-panel,
   .join-button-container {
     width: 100%;
@@ -551,28 +696,32 @@ body {
     &:hover {
       background-color: #CAB41F;
     }
-  } // .join-button  
-  
+  } // .join-button
+
   footer {
     text-align: left;
-    padding: 60px 0;
+    padding: 60px 0 0 0;
     font-size: 0.8em;
     .wh-logo {
-      width: 165px;
-      height: 120px;
-      margin-right: 1em;
-      margin-left: 2em;
-      margin-bottom: 1em;
+      border-top: 1px solid $divider-color;
+      padding: 40px 0;
+      a {
+        display: block;
+        width: 225px;
+        margin: auto;
+        img {
+          width: 225px;
+          height: 39px;
+        }
+      }
     }
     .eop-logo {
       max-height: 100px;
       height: 120px;
     }
     .usds-logo {
-      position: relative;
-      bottom: 10px;
-      width: 140px;
-      height: 140px;
+      width: 139px;
+      height: 80px;
     }
     h4 {
       margin-top: 0;
@@ -587,9 +736,12 @@ body {
     ul {
       margin: 0;
       li {
-        line-height: 2em;
-        &:before, &:after {
+        &:before {
           content: none;
+        }
+        &:after {
+          content: "";
+          margin-bottom: 1em;
         }
       }
     }
@@ -600,15 +752,15 @@ body {
       border: 2px solid #0071BB;
       color: #0071BB;
       margin: 40px 0px;
-      
+
       &:hover {
         background: #fff;
-        color: #205593; 
+        color: #205593;
         border: 2px solid #205593;
       }
     }
   } // </footer>
-  
+
 } // </.usds-site>
 
 
@@ -618,7 +770,7 @@ body {
 // Before adding code here, consider if it could be generalized and
 // added above
 //
-.join-page { 
+.join-page {
   .faqs {
     font-family: $header-font-family;
     font-weight: 700;
@@ -662,15 +814,11 @@ body {
 
 
 /* CSS below this line still needs to be organized and cleaned-up */
-.page-width-70, .infographic-container {
+.infographic-container {
   text-align: center;
   margin: auto;
 }
-
 @media (min-width: $screen-md-min) {
-  .page-width-70 {
-    width: 70%;
-  }
   .infographic-container {
     width: 70%;
   }
@@ -698,30 +846,8 @@ body {
 }
 
 
-
-
-
-
-
-
-.usa-site-values{
-  padding-bottom: 40px;
-}
-
-.usa-site-value{
-  font-size: 0.8em;
-  text-align: left;
-  margin: 10px;
-  padding-left: 20px;
-  border-left: 14px solid $background-color-secondary;
-}
-
-.usa-site-value h3{
-  color: $link-color;
-}
-
 // Override USWDS button styles
-.slick-slider button, 
+.slick-slider button,
 .slick-slider button:hover,
 .slick-slider button:focus {
   background: none;
@@ -746,7 +872,7 @@ body {
 }
 
 .slick-slider button.slick-arrow:before{
-  font-size: 30px; 
+  font-size: 30px;
   color: #bbb;
 }
 

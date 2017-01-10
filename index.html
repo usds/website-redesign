@@ -1,6 +1,6 @@
 ---
 layout: default
-title: U.S. Digital Service
+redirect_from: /participate/united-states-digital-service.html
 ---
 
 
@@ -14,10 +14,10 @@ title: U.S. Digital Service
       and technology to deliver better services to the American people.
     </h2>
   </div>
-  <!--<div class="ted-teaser">
-    <img class="ted-teaser-image" src="/img/teaser_image.png" />
-    <div>Watch our TED talk</div>
-  </div>-->
+  <div class="ted-teaser" style="display: none">
+    <a href="https://www.ted.com/talks/haley_van_dyck_how_a_start_up_in_the_white_house_is_changing_business_as_usual?language=en" target="_blank"><img class="ted-teaser-image" src="/img/teaser_image.png" />
+    <div><a href="https://www.ted.com/talks/haley_van_dyck_how_a_start_up_in_the_white_house_is_changing_business_as_usual?language=en">Watch our TED talk</a></div>
+  </div>
 </section>
 
 <section class="mobile-lede hidden-sm hidden-md hidden-lg">
@@ -29,13 +29,13 @@ title: U.S. Digital Service
     The United States Digital Service is a startup at The White House, using design
     and technology to deliver better services to the American people.
   </p>
-  <!--<div class="ted-teaser">
+  <div class="ted-teaser" style="display: none">
     <a href="http://www.ted.com/talks/haley_van_dyck_how_a_start_up_in_the_white_house_is_changing_business_as_usual"><img class="ted-teaser-image" src="/img/teaser_image.png" /></a>
     <div><a
       href="http://www.ted.com/talks/haley_van_dyck_how_a_start_up_in_the_white_house_is_changing_business_as_usual">Watch our TED talk</a>
     </div>
     <br clear="all" />
-  </div>-->
+  </div>
 </section>
 
 
@@ -46,16 +46,14 @@ title: U.S. Digital Service
 
   <div class="usa-width-one-whole">
     <img src="/img/emoji_logo.png" alt="The USDS emoji slogan: Flexed arm, Computer, and American Flag" />
-    <div class="page-width-70">
-      <p>
-        Millions of Americans interact with government services every day. Veterans apply for benefits.
-        Students compare financial aid options. Small business owners seek loans. Too often, outdated tools and complex systems
-        make these interactions cumbersome and frustrating.
-      </p>
-      <p>
-        Enter the United States Digital Service. We partner leading technologists with dedicated public servants to improve the usability and reliability of our government's most important digital services.
-      </p>
-    </div>
+    <p>
+      Millions of Americans interact with government services every day. Veterans apply for benefits.
+      Students compare financial aid options. Small business owners seek loans. Too often, outdated tools and complex systems
+      make these interactions cumbersome and frustrating.
+    </p>
+    <p>
+      Enter the United States Digital Service. We partner leading technologists with dedicated public servants to improve the usability and reliability of our government's most important digital services.
+    </p>
   </div>
 
   <div class="usa-width-one-whole">
@@ -67,15 +65,10 @@ title: U.S. Digital Service
 
 <section class="our-work">
   <div class="usa-grid">
-    <div class="usa-width-one-whole">
-      <h2>Our work</h2>
-      <p class="page-width-70">
-        We live in a world where any public policy is only as good as its underlying technology. Explore a few of the projects we&#8217;ve tackled:</p>
-    </div>
-  </div>
+    <h2>Our Work</h2>
 
   {% include projects.html num_columns=3 num_projects=3 %}
-  
+
   <div class="usa-grid">
     <div class="usa-width-one-whole">
       <a href="/work">
@@ -87,11 +80,15 @@ title: U.S. Digital Service
   </div>
 </section>
 
+
+
+
+
 <section class="staff-members">
   <div class="usa-grid">
     <div class="usa-width-one-whole">
       <h2>By the people. For the people.</h2>
-      <p class="page-width-70">
+      <p>
         Government is not an abstract institution or a concept. Our government is us. Meet a few members
         of the U.S. Digital Service who have signed on for tours of duty:
       </p>
@@ -106,6 +103,16 @@ title: U.S. Digital Service
       <p>
         &#8220;I&#8217;m honored that I&#8217;ve found a way to serve my country and help those who need it most. Not to
         mention this is an awesome adventure that has made me a better engineer (and human being)!&#8221;
+      </p>
+    </div>
+    <div class="staffer">
+      <img src="/img/staff/jason-wu.jpg" alt="Portrait of Jason Wu" />
+      <h3>Jason Wu</h3>
+      <h4>Product Manager</h4>
+      <h5>Previously: <span class="company">Facebook</span></h5>
+      <p>
+        It is inspiring to work with so many talented individuals from such diverse backgrounds. 
+        This team is the perfect intersection of technology and impactful opportunities.
       </p>
     </div>
     <div class="staffer">
@@ -146,9 +153,9 @@ title: U.S. Digital Service
       <h4>Director of Identity </h4>
       <h5>Previously: <span class="company">Intuit TurboTax</span></h5>
       <p>
-  &#8220;Working here is unlike any job in the world. The most frustrating and exhilarating experiences
-  happen every day. We get to change the world with the work we do and I am having the
-  time of my life.&#8221;
+        &#8220;Working here is unlike any job in the world. The most frustrating and exhilarating experiences
+        happen every day. We get to change the world with the work we do and I am having the
+        time of my life.&#8221;
       </p>
     </div>
     <div class="staffer">
@@ -158,8 +165,8 @@ title: U.S. Digital Service
       <h5>Previously: <span class="company">USAID</span></h5>
       <p>
         &#8220;After more than five years of international development work at
-  USAID, I was beyond excited to join the U.S. Digital Service, where
-  I knew I could make an impact on our country&#8217;s most critical digital services.&#8221;
+        USAID, I was beyond excited to join the U.S. Digital Service, where
+        I knew I could make an impact on our country&#8217;s most critical digital services.&#8221;
       </p>
     </div>
     <div class="staffer">
@@ -190,6 +197,20 @@ title: U.S. Digital Service
   <h3>Press</h3>
   <div class="usa-grid">
     <div class="story usa-width-one-third">
+      <a href="http://webbyawards.com/features/how-a-small-troop-of-techies-led-the-us-syrian-refugee-surge/">How a Small Troop of Techies Led the U.S. Syrian Refugee Surge</a>
+      <span class="author">The Webby Awards<span>
+    </div>
+    <div class="story usa-width-one-third">
+      <a href="https://backchannel.com/inside-the-obama-tech-surge-as-it-hacks-the-pentagon-and-va-8b439bc33ed1">Star Spangled Geeks</a>
+      <span class="author">Backchannel<span>
+    </div>
+    <div class="story usa-width-one-third">
+      <a href="https://shift.newco.co/hands-off-the-keyboard-innovation-lessons-from-inside-the-us-government-1c9f592f8e5e#.meq1v8lrs">To Fix Government Tech, Take Off the Headphones and Listen</a>
+      <span class="author">NewCo Shift<span>
+    </div>
+  </div>
+  <div class="usa-grid">
+    <div class="story usa-width-one-third">
       <a href="http://www.fastcompany.com/3046756/obama-and-his-geeks">Inside Obama&#8217;s Stealth Startup</a>
       <span class="author">Fast Company<span>
     </div>
@@ -201,6 +222,7 @@ title: U.S. Digital Service
       <a href="http://www.cbsnews.com/news/swat-team-of-nerds-expose-cyber-insecurity-at-pentagon/">The SWAT Team of Nerds</a>
       <span class="author">CBS Evening News<span>
     </div>
+    
   </div>
   <div class="usa-grid">
     <div class="story usa-width-one-third">
@@ -212,7 +234,7 @@ title: U.S. Digital Service
       <span class="author">Comedy Central<span>
     </div>
     <div class="story usa-width-one-third">
-    <a href="http://bits.blogs.nytimes.com/2014/08/17/reprogramming-government-a-conversation-with-mikey-dickerson/?_r=0">Reprogramming Government: A Conversation with Mikey Dickerson</a>
+      <a href="http://bits.blogs.nytimes.com/2014/08/17/reprogramming-government-a-conversation-with-mikey-dickerson/?_r=0">Reprogramming Government: A Conversation with Mikey Dickerson</a>
       <span class="author">The New York Times<span>
     </div>
   </div>

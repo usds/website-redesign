@@ -6,7 +6,7 @@
           This site is in beta and a <a href="https://playbook.cio.gov" target="_blank">work in progress</a>
         </div>
         <img class="eop-seal" alt="An image of the presidential seal" src="/img/layout/seal.png" />
-        <span class="hidden-xs">An official website of the </span>Executive Office of the President</span>
+        <span class="hidden-xs">An official website of the </span>Executive Office of the President
       </div>
     </div>
   </div>
@@ -14,33 +14,41 @@
   <nav class="site-navbar">
     <div class="desktop">
       <ul class="usa-unstyled-list">
-        <li class="nav-item">
-          <a href="/about" class="{% if page.url == '/about.html' %}active{% endif %}"><span>About</span></a>
+        <li class="nav-item {% if page.url == '/mission.html' or page.url == '/values.html'  or page.url == '/story.html' %}active{% endif %}">
+          <a href="/mission"><span>About</span></a>
+          <ul>
+            <li><a href="/mission">Our Mission</a></li>
+            <li><a href="/values">Our Values</a></li>
+            <li><a href="/story">Our Story</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a href="/work" class="{% if page.url == '/work.html' %}active{% endif %}"><span>Our work</span></a>
+        <li class="nav-item {% if page.url == '/work.html' %}active{% endif %}">
+          <a href="/work"><span>Our work</span></a>
         </li>
         <li class="nav-centerpiece">
           <a id="logo-desktop-full" href="/">
-            <img alt="The logo of the United States Digital Service" src="/img/layout/logo-desktop-full.png" />
+            <img alt="The logo of the United States Digital Service" src="/img/layout/logo-full.png" />
           </a>
           <a id="logo-desktop-collapsed" href="/">
             <img alt="The logo of the United States Digital Service" src="/img/layout/logo-collapsed.png" />
           </a>
         </li>
-        <li class="nav-item">
-          <a href="/blog" class="{% if page.url == '/blog.html' %}active{% endif %}"><span>Blog</span></a>
+        <li class="nav-item {% if page.url == '/blog.html' %}active{% endif %}">
+          <a href="/blog"><span>Blog</span></a>
         </li>
-        <li class="nav-item">
-          <a href="/join" class="{% if page.url == '/join.html' %}active{% endif %}"><span>Join us</span></a>
+        <li class="nav-item {% if page.url == '/join.html' %}active{% endif %}">
+          <a href="/join"><span>Join us</span></a>
         </li>
       </ul>
+      <div id="submenu-background">&nbsp;</div>
+      
     </div>
     <div class="mobile">
       <a href="/">
         <img alt="The logo of the United States Digital Service" src="/img/layout/logo-collapsed.png" />
       </a>
       <button class="navbar-toggle collapsed">
+        <div class="navbar-text">Menu</div>
         <span class="sr-only">Toggle navigation</span>
         <span class="hamburger-patty"></span>
         <span class="hamburger-patty"></span>
@@ -50,6 +58,11 @@
         <ul class="usa-unstyled-list">
           <li class="nav-item">
             <a href="/about">About</a>
+            <ul>
+              <li class="nav-item"><a href="/mission">Our Mission</a></li>
+              <li class="nav-item"><a href="/values">Our Values</a></li>
+              <li class="nav-item"><a href="/story">Our Story</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a href="/work">Our work</a>
