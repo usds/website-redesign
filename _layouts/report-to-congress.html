@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="usds-site {{ page.url | replace:'index','home' | replace: '404','notfound' | replace:'.html','' | slugify }}-page">
+    {% include header.html %}
+    <main>
+      <section class="report-to-congress">
+        <div class="usa-grid">
+          <div class="usa-width-one-fourth">
+            <ul class="usa-unstyled-list usds-sidebar">
+            {% for section in site.reports_to_congress %}
+              <li class="{% if page.url == section.url %} active{% endif %}{% if section.sub %} sub{% endif %}">
+                <a href="{{ section.url }}">{% if section.short %}{{ section.short }}{% else %}{{ section.title }}{% endif %}</a>
+              </li>
+            {% endfor %}
+              <li class="pdf"><a href="#">Download the<br/>full report (PDF)</a></li>
+          </div>
+          <div class="usa-width-three-fourths">
+          {% unless page.front %}
+            <p class="kicker">2016 Report to Congress</p>
+          {% endunless %}
+            {{ content }}
+            {% include prev_next.html position="bottom" %}
+          </div>
+        </div>
+      </section>
+    </main>
+    {% if page.url != '/join.html' %}
+      {% include extended_footer.html %}
+    {% endif %}
+    {% include footer.html %}
+    {% include site_alert.html %}
+  </body>
+  {% include analytics.html %}
+</html>

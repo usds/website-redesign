@@ -808,6 +808,45 @@ body {
   text-align: left;
 }
 
+.report-to-congress {
+  padding-top: 3em;
+  text-align: left;
+  .kicker {
+    font-family: $header-font-family;
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 0;
+  }
+  .usds-sidebar {
+    margin-top: 4em;
+    li.sub {
+      padding-left: 1.5em;
+    }
+    li.pdf {
+      margin-top: 3em;
+      font-weight: normal;
+      font-size: 0.9em;
+      border-left-color: #fff;
+    }
+  }
+  .kicker + h2 {
+    margin-top: 0;
+  }
+  ul, ol {
+    margin-bottom: 1em;
+  }
+  .report-title {
+    margin: 3em 0;
+    text-align: center;
+    * {
+      margin: 0;
+    }
+    .usds {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}
 
 .prev-next {
   margin: 1em 0;
