@@ -5,7 +5,7 @@ permalink: /report-to-congress/2016/
 front: true
 ---
 <div class="report-title">
-  <p><img src="/img/layout/logo-illustrated.jpg" alt="Illustrated USDS logo"></p>
+  <p><img src="/img/report-to-congress/capitol.jpg" alt="Illustrated U.S. Capitol"></p>
   <p class="usds">The U.S. Digital Service</p>
   <h2>Report to Congress</h2>
   <p>December 2016</p>
