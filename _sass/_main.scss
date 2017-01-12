@@ -817,8 +817,9 @@ body {
   text-align: left;
 }
 
-.report-to-congress {
+section.report-to-congress {
   padding-top: 3em;
+  margin-bottom: 5em;
   text-align: left;
   .kicker {
     font-family: $header-font-family;
@@ -827,7 +828,10 @@ body {
     margin-bottom: 0;
   }
   .usds-sidebar {
-    margin-top: 4em;
+    margin-top: 0;
+    @media screen and (min-width: 1201px) {
+      margin-top: 4em;
+    }
     li.sub {
       padding-left: 1.5em;
     }
@@ -859,9 +863,6 @@ body {
 
 .prev-next {
   margin: 1em 0;
-  &.bottom {
-      margin-bottom: 5em;
-  }
   &:after {
     content: "";
     display: block;
