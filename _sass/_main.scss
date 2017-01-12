@@ -763,6 +763,25 @@ body {
 
 } // </.usds-site>
 
+.usds-sidebar {
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.3em/22px;
+  text-align: left;
+  margin-top: 90px;
+  li {
+    border-left: 7px solid #ffffff;
+    padding-left: 0.5em;
+    margin-bottom: 1em;
+    &:hover, &.active {
+      border-left: 7px solid #dec623;
+    }
+    &:before {
+      content: none;
+    }
+  }
+}
 
 //
 // CSS that is page-specific and not re-used elsewhere
@@ -771,25 +790,6 @@ body {
 // added above
 //
 .join-page {
-  .faqs {
-    font-family: $header-font-family;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 1.3em/22px;
-    text-align: left;
-    margin-top: 90px;
-    li {
-      border-left: 7px solid #ffffff;
-      padding-left: 0.5em;
-      margin-bottom: 1em;
-      &:hover, &.active {
-        border-left: 7px solid #dec623;
-      }
-      &:before {
-        content: none;
-      }
-    }
-  }
   .answers {
     text-align: left;
     label {
