@@ -809,9 +809,32 @@ body {
 }
 
 
-
-
-
+.prev-next {
+  margin: 1em 0;
+  &.bottom {
+      margin-bottom: 5em;
+  }
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .prev,
+  .next {
+    display: inline-block;
+    width: 40%;
+    strong {
+      display: block;
+    }
+  }
+  .prev {
+    text-align: left;
+  }
+  .next {
+    float: right;
+    text-align: right;
+  }
+}
 
 /* CSS below this line still needs to be organized and cleaned-up */
 .infographic-container {
