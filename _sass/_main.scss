@@ -137,16 +137,20 @@ body {
               }
             }
             &.borderless {
-              border: none
+              border: none;
             }
           }
           &.active ul, &:hover ul {
             visibility: visible;
           }
+          &:hover ul {
+            z-index: 12;
+          }
+          
         }
         .nav-centerpiece {
           width: 250px;
-          z-index: 11;
+          z-index: 15;
           a#logo-desktop-full {
             img {
               width: 139px;
@@ -174,6 +178,10 @@ body {
         // TODO: Figure out why there's a margin on the ul above
         position: relative;
         bottom: 4px;
+        z-index: 9;
+        &.middle {
+          z-index: 11;
+        }
       }
     }
 
@@ -676,14 +684,15 @@ body {
     color: #fff;
     padding-bottom: 60px;
     overflow: auto;
+    a, h3, h4 {
+      color: #fff;
+    }
     h4 {
       font-family: $base-font-family;
       font-weight: 300;
-      color: #fff;
     }
     h3 {
       font-size: 1.8em;
-      color: #fff;
     }
   } // .feature-panel
   .join-button {
