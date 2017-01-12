@@ -66,10 +66,13 @@ $( document ).ready(function() {
       if (ul.length) {
         ul.addClass('borderless');
         subMenuBackground.show();
+        subMenuBackground.addClass('middle');
       }
     }, function() {
-      if(!activeSubNav.length)
+      subMenuBackground.removeClass('middle');
+      if(!activeSubNav.length) {
         subMenuBackground.hide();
+      }
     })
     
     //
