@@ -18,15 +18,25 @@ medium_url: https://medium.com/@USDigitalService
 
 # Build settings
 markdown: kramdown
+
 collections:
-  - blog_summaries
-  - project_summaries
-  
+  blog_summaries:
+  project_summaries:
+  reports_to_congress:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: reports_to_congress
+    values:
+      layout: report-to-congress
+
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  
+
 # Jekyll SEO Tag
 # See https://github.com/jekyll/jekyll-seo-tag
 twitter:

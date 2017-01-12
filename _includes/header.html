@@ -22,8 +22,12 @@
             <li><a href="/story">Our Story</a></li>
           </ul>
         </li>
-        <li class="nav-item {% if page.url == '/work.html' %}active{% endif %}">
+        <li class="nav-item {% if page.url == '/work.html' or page.url contains '/report-to-congress' %}active{% endif %}">
           <a href="/work"><span>Our work</span></a>
+          <ul>
+            <li><a href="/work">Portfolio</a></li>
+            <li><a href="/report-to-congress/2016/">2016 Report to Congress</a></li>
+          </ul>
         </li>
         <li class="nav-centerpiece">
           <a id="logo-desktop-full" href="/">
