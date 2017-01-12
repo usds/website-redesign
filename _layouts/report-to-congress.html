@@ -8,6 +8,13 @@
     <main>
       <section class="report-to-congress">
         <div class="usa-grid">
+          <div class="usa-width-three-fourths">
+          {% unless page.front %}
+            <p class="kicker">2016 Report to Congress</p>
+          {% endunless %}
+            {{ content }}
+            {% include prev_next.html position="bottom" %}
+          </div>
           <div class="usa-width-one-fourth">
             <ul class="usa-unstyled-list usds-sidebar">
             {% for section in site.reports_to_congress %}
@@ -16,13 +23,6 @@
               </li>
             {% endfor %}
               <li class="pdf"><a href="/resources/USDS-2016-Report-to-Congress.pdf">Download the<br/>full report (PDF)</a></li>
-          </div>
-          <div class="usa-width-three-fourths">
-          {% unless page.front %}
-            <p class="kicker">2016 Report to Congress</p>
-          {% endunless %}
-            {{ content }}
-            {% include prev_next.html position="bottom" %}
           </div>
         </div>
       </section>
