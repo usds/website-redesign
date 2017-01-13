@@ -1,5 +1,6 @@
 ---
-title: Letter from the Administrator
+title: 2016 Report to Congress
+short: Letter from the Administrator
 report: 2016
 permalink: /report-to-congress/2016/
 front: true
