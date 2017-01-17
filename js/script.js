@@ -143,14 +143,17 @@ $( document ).ready(function() {
     $( 'a[href^="http"]:not(.target-link)' ).on( "click", function(e) {
       var domain = this.href.split('/')[2].replace('www.','');
       var tld = domain.substring(domain.length - 3);
-      console.log(domain);
       if (tld != 'gov' && tld != 'mil' && domain != 'facebook.com' && domain != 'github.com' && domain != 'twitter.com') {
         $( '#site-alert-overlay' ).show();
         $( '#site-alert' ).show();
         if (domain == 'youtube.com') {
             $( '#site-alert-exit-contents' ).hide();
             $( '#site-alert-video' ).show();
-            $( '#site-alert-video-frame' ).attr('src', 'https://www.youtube.com/embed/aGe5rEDv3g8')
+            // parse YouTube URL
+            // https://www.youtube.com/watch?v=aGe5rEDv3g8 -> https://www.youtube.com/embed/aGe5rEDv3g8
+            var matches = this.href.match(/watch\?v=([a-z0-9]+)/i)
+            console.log(matches[1]);
+            $( '#site-alert-video-frame' ).attr('src', 'https://www.youtube.com/embed/' + matches[1])
         } else {
             $( '#site-alert-exit-contents' ).show();
             $( '#site-alert-video' ).hide();
