@@ -6,4 +6,4 @@ image_description: Camille Ricketts
 date: 2016-11-01
 ---
 
-Meet the newest memebers of the U.S. Digital Service who have signed on for tours of duty. 
+Meet the newest members of the U.S. Digital Service who have signed on for tours of duty. 
