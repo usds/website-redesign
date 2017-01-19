@@ -1,10 +1,10 @@
 Blogging
 ---
-The U.S. Digital Service blog is currently maintained on Medium. This website
-provides summaries of the most recent posts. When we publish a new post, we
-must also create a new blog summary. The `Blog` summary page is automatically
-generated from individual blog summary Markdown files in the `_blog_summaries`
-folder.
+The [U.S. Digital Service blog](https://medium.com/the-u-s-digital-service) is
+currently maintained on Medium. This website provides summaries of the most
+recent posts. When we publish a new post, we must also create a new blog
+summary. The `Blog` summary page is automatically generated from individual
+blog summary Markdown files in the `_blog_summaries` folder.
 
 To create a new blog summary:
 ----
