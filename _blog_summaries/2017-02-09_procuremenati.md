@@ -1,5 +1,5 @@
 ---
-title: Meet the Procuremenati: USDS’ Acquisition Experts
+title: Meet the Procuremenati – USDS’ Acquisition Experts
 medium_url: https://medium.com/the-u-s-digital-service/meet-the-procuremenati-usds-acquisition-experts-1e99346822b5#.wa01tyd7l
 image_url: https://cdn-images-1.medium.com/max/1600/1*1CsS6z-6yeSIoLmbFHGggg.jpeg
 image_description: Procuremenati Team Members
