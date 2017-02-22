@@ -9,6 +9,8 @@ The site is built on the [U.S. Web Design
 Standards](https://playbook.cio.gov/designstandards/) and uses Jekyll to
 generate static pages.
 
+[Instructions for rookies learning how to edit the website can be found here](https://github.com/usds/usds/blob/master/comms/website-instructions.md).
+
 Setup
 ---
 1. If you're using a Mac, install homebrew (see http://brew.sh/)
