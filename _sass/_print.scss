@@ -1,0 +1,42 @@
+// Print overrides
+
+.usds-site {
+  h2, h3, h4 {
+    font-weight: 700;
+    //color: #205493;
+  }
+
+  header#fixed-header {
+    position: relative;
+
+
+    .site-navbar .desktop {
+      & > ul li.nav-item {
+        display: none;
+      }
+      #submenu-background {
+        display: none;
+      }
+    }
+
+    .site-navbar .mobile {
+      display: none;
+    }
+
+  } // </header>
+
+  main {
+    margin-top: 0;
+  }
+
+  footer .usa-grid {
+    display: none;
+  }
+
+} // </.usds-site>
+
+.usa-grid {
+  .usds-sidebar {
+    display: none;
+  }
+}
