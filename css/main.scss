@@ -10,7 +10,7 @@ $header-font-family:                    'Roboto', sans-serif;
 $background-color:                      #ffffff;
 $background-color-secondary:            #dec622;
 $navigation-background-color:           #323a45;
-                                        
+
 $text-color:                            #000000;
 $text-secondary-color:                  #0e2643;
 $link-color:                            #0071bc;
@@ -45,20 +45,20 @@ $site-album-image-height:               160px; // 320
 // $base-font-weight: 200;
 // $small-font-size:  $base-font-size * 0.875;
 // $base-line-height: 1.5;
-// 
+//
 $spacing-unit:     30px;
-// 
+//
 // $text-color:       #111;
 // $background-color: #fdfdfd;
 // $brand-color:      #2a7ae2;
-// 
+//
 // $grey-color:       #828282;
 // $grey-color-light: lighten($grey-color, 40%);
 // $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 // $content-width:    800px;
-// 
+//
 // $on-palm:          600px;
 // $on-laptop:        800px;
 
@@ -90,7 +90,7 @@ $spacing-unit:     30px;
 ;
 
 
-// Hacks for City of Austin 
+// Hacks for City of Austin
 
 
 .usds-site header#fixed-header .disclaimer-bar {
@@ -180,7 +180,30 @@ footer .footer-block {
 }
 
 
-
-
-
-
+.answers .answer {
+  display: none;
+  &.default-open {
+    display: block;
+  }
+  &:target {
+    display: block;
+    & ~ .answer {
+      display: none !important;
+    }
+  }
+}
+.answer {
+  position: relative;
+  border-top: 75px solid transparent;
+  margin-top: -75px!important;
+  pointer-events: none;
+  background-clip: padding-box;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: none
+  }
+}
