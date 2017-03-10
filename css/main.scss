@@ -196,7 +196,6 @@ footer .footer-block {
   position: relative;
   border-top: 75px solid transparent;
   margin-top: -75px!important;
-  pointer-events: none;
   background-clip: padding-box;
   &:before {
     content: "";
