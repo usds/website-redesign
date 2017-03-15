@@ -49,7 +49,7 @@ $( document ).ready(function() {
         headerCollapsed = false;
       }
     });
-    
+
     //
     // Show a full-screen width background behind the second level navigation
     // If anyone has a better idea how to do this cleaner/using only CSS, ideas
@@ -71,7 +71,7 @@ $( document ).ready(function() {
       if(!activeSubNav.length)
         subMenuBackground.hide();
     })
-    
+
     //
     // Support for mobile hamburger nav
     //
@@ -85,61 +85,13 @@ $( document ).ready(function() {
         $(this).addClass('collapsed');
         $('.mobile-nav').addClass('collapsed');
       }
-      
+
     });
-    
-    //
-    // Handle all section show/hide behavior on join page
-    //
-    function swapAnswer(hash) {
-      // Guard against missing or malformed hash
-      if (!hash || typeof hash !== 'string') {
-        return false;
-      }
-
-      var $answers = $('.join-page .answers .answer');
-      var $answerToActivate = $('.join-page .answers .answer.' + hash);
-      var $faqs = $('.join-page .faqs li');
-      var $faqToActivate = $('.join-page .faqs li').has('a[href$="#' + hash + '"]');
-
-      // Guard against answer that is not present on the page
-      if (($answerToActivate.length === 0) || ($faqToActivate.length === 0)) {
-        return false;
-      }
-
-      $answers.hide();
-      $answerToActivate.show();
-
-      $faqs.removeClass('active');
-      $faqToActivate.addClass('active');
-    }
-
-    // On document ready,
-    // - hide every answer that is not the application form
-    // - swap to corresponding answer if hash already exists in window.location
-    // - bind FAQ links so that they cause answers to swap
-
-    $('.join-page .answers .answer:not(.application)').hide();
-
-    if (window.location.hash.length > 0) {
-      var hash = window.location.hash.substr(1);
-      swapAnswer(hash);
-    }
-   
 
 
-
-    $('.join-page .faqs a').on('click', function(event) {
-      event.stopPropagation(); // prevent bubbling
-
-      var hash = this.hash.substr(1);
-      swapAnswer(hash);
-    });
-    
-    
     // Catch all outgoing liks that are not to .gov, .mil, facebook.com, github.com, or twitter.com
     // and display a "you are now leaving..." message
-    
+
     // $( 'a[href^="http"]:not(.target-link)' ).on( "click", function() {
     //   var domain = this.href.split('/')[2];
     //   var tld = domain.substring(domain.length - 3);
@@ -156,8 +108,8 @@ $( document ).ready(function() {
     //   $( '#site-alert-overlay' ).hide();
     //   $( '#site-alert' ).hide();
     // });
-    
-    
+
+
     // $('.everything-is-awesome').on( "click", function() {
     //   // Yes, there were more important things to get done, but everyone needs a mental break sometimes
     //   if (awesomeCounter >= 10) {
@@ -167,6 +119,6 @@ $( document ).ready(function() {
     //   // Not yet awesome
     //   awesomeCounter++;
     // });
-    
-    
+
+
 });
