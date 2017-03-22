@@ -2,6 +2,7 @@ $('#staff-member-carousel').slick({
   infinite: false,
   useTransform: true,
   slidesToShow: 3,
+  dots: true,
   slidesToScroll: 3,
   cssEase: 'ease-in-out',
   responsive: [
@@ -10,8 +11,7 @@ $('#staff-member-carousel').slick({
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
-        infinite: true,
-        dots: true
+        infinite: true
       }
     },
     {
