@@ -49,7 +49,7 @@ $( document ).ready(function() {
         headerCollapsed = false;
       }
     });
-    
+
     //
     // Show a full-screen width background behind the second level navigation
     // If anyone has a better idea how to do this cleaner/using only CSS, ideas
@@ -74,7 +74,7 @@ $( document ).ready(function() {
         subMenuBackground.hide();
       }
     })
-    
+
     //
     // Support for mobile hamburger nav
     //
@@ -88,9 +88,9 @@ $( document ).ready(function() {
         $(this).addClass('collapsed');
         $('.mobile-nav').addClass('collapsed');
       }
-      
+
     });
-    
+
     //
     // Handle all section show/hide behavior on join page
     //
@@ -128,14 +128,14 @@ $( document ).ready(function() {
       var hash = window.location.hash.substr(1);
       swapAnswer(hash);
     }
-    
+
     $('.join-page .faqs a').on('click', function(event) {
       event.stopPropagation(); // prevent bubbling
 
       var hash = this.hash.substr(1);
       swapAnswer(hash);
     });
-    
+
     //
     // Catch all outgoing liks that are not to .gov, .mil, facebook.com, github.com, or twitter.com
     // and display a "you are now leaving..." message
@@ -168,8 +168,8 @@ $( document ).ready(function() {
       $( '#site-alert-overlay' ).hide();
       $( '#site-alert' ).hide();
     });
-    
-    
+
+
     $('.everything-is-awesome').on( "click", function() {
       // Yes, there were more important things to get done, but everyone needs a mental break sometimes
       if (awesomeCounter >= 10) {
@@ -179,6 +179,6 @@ $( document ).ready(function() {
       // Not yet awesome
       awesomeCounter++;
     });
-    
-    
+
+
 });

@@ -581,6 +581,7 @@ body {
     max-width: 100%;
     overflow: hidden;
     #staff-member-carousel {
+      padding-bottom: 25px;
       margin-top: 5rem;
     }
     .staffer {
@@ -609,6 +610,26 @@ body {
     //HACK: see https://github.com/18F/web-design-standards/issues/1120
     .staffer[aria-hidden=true]{
       display: block !important;
+    }
+
+    .slick-dots {
+      bottom: 0;
+      left: 0;
+
+      li {
+        display: inline-block !important;
+        width: 15px;
+
+        &:before,
+        &:after {
+          content: none;
+          display: none;
+        }
+
+        button:before {
+          font-size: 20px;
+        }
+      }
     }
   } // </section.staff-members>
 
