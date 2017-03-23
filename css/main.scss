@@ -10,7 +10,7 @@ $header-font-family:                    'Merriweather','Georgia','Times New Roma
 $background-color:                      #ffffff;
 $background-color-secondary:            #dec622;
 $navigation-background-color:           #323a45;
-                                        
+
 $text-color:                            #000000;
 $text-secondary-color:                  #0e2643;
 $link-color:                            #0071bc;
@@ -45,20 +45,20 @@ $site-album-image-height:               160px; // 320
 // $base-font-weight: 400;
 // $small-font-size:  $base-font-size * 0.875;
 // $base-line-height: 1.5;
-// 
+//
 $spacing-unit:     30px;
-// 
+//
 // $text-color:       #111;
 // $background-color: #fdfdfd;
 // $brand-color:      #2a7ae2;
-// 
+//
 // $grey-color:       #828282;
 // $grey-color-light: lighten($grey-color, 40%);
 // $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 // $content-width:    800px;
-// 
+//
 // $on-palm:          600px;
 // $on-laptop:        800px;
 
@@ -88,3 +88,7 @@ $spacing-unit:     30px;
   "slick-theme",
   "syntax-highlighting"
 ;
+
+@media print {
+  @import "print";
+}
