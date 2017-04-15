@@ -2,7 +2,7 @@
 title: How we’re using Rapid Prototyping in Local Government
 medium_url: https://medium.com/civiqueso/how-were-using-rapid-prototyping-to-design-for-austin-city-government-d0ee34f24f3a
 image_url: /innovation-fellows/img/blog/rapid-prototyping.jpg
-image_description: Caption for image
+image_description: Prototyping a new recycling sorting guide at a coffee shop.
 date: 2017-01-30
 ---
 

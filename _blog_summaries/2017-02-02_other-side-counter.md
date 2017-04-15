@@ -2,7 +2,7 @@
 title: The Other Side of the Counter
 medium_url: https://medium.com/civiqueso/the-other-side-of-the-counter-d774f64eb74f
 image_url: /innovation-fellows/img/blog/counter.jpg
-image_description: Caption for image
+image_description: Mid-century era photo of business attire-clad customers standing at a long counter. The employees are obscured by panels and metal grating.
 date: 2017-02-02
 ---
 
