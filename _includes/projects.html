@@ -29,14 +29,5 @@
     {% assign starting_point = forloop.index | minus: num_columns %}
     </div>
 
-    <div class="usa-grid">
-      {% for i in (0..column_index) %}
-        {% assign link_index = starting_point | plus: i %}
-        {% assign project_link = site.project_summaries[link_index] %}
-        <div class="usa-width-one-third">
-          <a class="story-more" target="_blank" href="{{project_link.project_link}}">{{project_link.link_text}}</a>
-        </div>
-      {% endfor %}
-    </div>
   {% endif %}
 {% endfor %}
