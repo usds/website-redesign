@@ -9,8 +9,8 @@
 title: City of Austin Design, Technology, and Innovation Fellows
 email: innovationfellows@austintexas.gov
 description: >
-  The City of Austin’s Design, Technology, and Innovation Fellows program provides 
-  an opportunity for Austin’s passionate and civic-minded designers and developers to bring the 
+  The City of Austin’s Design, Technology, and Innovation Fellows program provides
+  an opportunity for Austin’s passionate and civic-minded designers and developers to bring the
   principles, values, and practices of the technology sector into government.
 baseurl: /innovation-fellows # the base hostname & protocol for your site
 twitter_username: civiqueso
@@ -24,13 +24,14 @@ markdown: kramdown
 collections:
   - blog_summaries
   - project_summaries
+  - press
   - staff_bios
-  
+
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  
+
 # Jekyll SEO Tag
 # See https://github.com/jekyll/jekyll-seo-tag
 twitter:

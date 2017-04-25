@@ -104,7 +104,7 @@ body {
             padding-bottom: 3px;
             border-bottom: 5px $background-color-secondary solid;
           }
-          
+
           & > ul {
             visibility: hidden;
             // off by one pixel so we don't obscure
@@ -217,7 +217,7 @@ body {
               }
             }
           }
-        
+
           #submenu-background {
             @include css3-prefix('transition', 'bottom 100ms linear');
             bottom: ( $fixed-header-height-desktop - $fixed-header-height-desktop-collapsed );
@@ -481,7 +481,7 @@ body {
         border-color: #205593;
       }
     }
-    // Paragraphs that are within the 
+    // Paragraphs that are within the
     .usa-width-one-whole > p {
       margin: 1em auto;
     }
@@ -532,9 +532,9 @@ body {
       }
     }
     @media (min-width: 600px) {
-      .project-link {
-        display: none;
-      }
+      // .project-link {
+      //   display: none;
+      // }
     }
   } // </section.our-work>
 
@@ -599,19 +599,26 @@ body {
     .story {
       text-align: left;
       padding: 20px 20px 20px 0;
+      margin-bottom: 60px;
       border-top: 1px solid #ffffff;
-      h3 {
+      h4 {
         font-style: none;
+        font-weight: bold;
+        font-size: 1.25em;
+        font-family: $secondary-font-family;
       }
       a, a:hover {
         color: #ffffff;
       }
       .author {
         display: block;
-        padding: 0.45em 0;
+        padding: 0.2em 0;
         color: #56A8DF;
         font-size: 0.8em;
         font-weight: bold;
+      }
+      p {
+        font-size: .8em;
       }
     }
   } // </section.press>
@@ -637,8 +644,8 @@ body {
       padding: 0;
     }
   } // </section.site-album>
-  
-  
+
+
   ul.featured {
     font-size: 0.8em;
     text-align: left;
@@ -875,4 +882,3 @@ body {
   font-size: 30px;
   color: #bbb;
 }
-
