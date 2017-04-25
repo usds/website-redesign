@@ -2,7 +2,7 @@
 
   {% for member in site.staff_bios limit: include.staffer_limit %}
 
-  {% cycle '<div class="usa-grid">', '', '' %}
+  {% cycle '<div class="usa-grid">', ' ', ' ' %}
 
   <div class="staffer usa-width-one-third">
     <img src="{{ site.baseurl }}/img/staff/{{ member.photo_filename }}" alt="Portrait of {{ member.name }}" />
@@ -25,7 +25,7 @@
   {% if forloop.last %}
     </div>
   {% else %}
-    {% cycle '', '', '</div>' %}
+    {% cycle ' ', ' ', '</div>' %}
   {% endif %}
 
   {% endfor %}
