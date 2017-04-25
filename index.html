@@ -1,6 +1,7 @@
 ---
 layout: default
 redirect_from: cityofaustin.github.io/innovation-fellows
+staffer_limit: 3
 ---
 
 
@@ -54,11 +55,11 @@ redirect_from: cityofaustin.github.io/innovation-fellows
 
 <section class="our-work">
 
-  <div class="usa-width-one-whole">
-    <h2>Current projects</h2>
-  </div>
-
   <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <h2>Current projects</h2>
+    </div>
+  </div>
 
   {% include projects.html num_columns=3 num_projects=3 %}
 
@@ -73,6 +74,33 @@ redirect_from: cityofaustin.github.io/innovation-fellows
   </div>
 </section>
 
+
+
+
+
+<section class="staff-members">
+  <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <h2>By the people. For the people.</h2>
+      <p>
+        Government is not an abstract institution or a concept. Our government is us. Meet a few members
+        of the Austin Innovation Fellows who have signed on for tours of duty:
+      </p>
+    </div>
+  </div>
+  <div class="usa-grid staff-bios">
+    {% include staff.html staffer_limit=3 %}
+  </div>
+  <div class="usa-grid">
+    <div class="usa-width-one-whole">
+      <a href="{{ site.baseurl }}/team">
+        <button class="more-button">
+          Meet everyone
+        </button>
+      </a>
+    </div>
+  </div>
+</section>
 
 
 <section class="press feature-panel">

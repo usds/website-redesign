@@ -118,7 +118,7 @@ body {
             top: $fixed-header-height-desktop - $dislaimer-bar-height;
             margin: 0;
             padding: 0;
-            padding-left: 60px;
+            padding-left: 20px;
             width: 300%;
             z-index: 10;
             & > li {
@@ -137,16 +137,20 @@ body {
               }
             }
             &.borderless {
-              border: none
+              border: none;
             }
           }
           &.active ul, &:hover ul {
             visibility: visible;
           }
+          &:hover ul {
+            z-index: 12;
+          }
+
         }
         .nav-centerpiece {
           width: 250px;
-          z-index: 11;
+          z-index: 15;
           a#logo-desktop-full {
             img {
               width: 139px;
@@ -174,6 +178,10 @@ body {
         // TODO: Figure out why there's a margin on the ul above
         position: relative;
         bottom: 4px;
+        z-index: 9;
+        &.middle {
+          z-index: 11;
+        }
       }
     }
 
@@ -290,7 +298,7 @@ body {
           display: block;
           width: 100%;
           text-decoration: none;
-          padding: 1em 2em;
+          padding: 0.75em 2em;
           border-left: 10px #ffffff solid;
           color: $navigation-background-color;
           &:hover {
@@ -569,6 +577,8 @@ body {
       display: block;
       padding: 0 20px;
       font-size: .85em;
+      margin-top: 40px;
+      margin-bottom: 40px;
       img {
         border-radius: 50%;
         max-width: 200px;
@@ -683,6 +693,9 @@ body {
     color: #fff;
     padding-bottom: 60px;
     overflow: auto;
+    a, h3, h4 {
+      color: #fff;
+    }
     h4 {
       font-family: $base-font-family;
       font-weight: 300;
@@ -771,6 +784,7 @@ body {
 } // </.usds-site>
 
 
+
 //
 // CSS that is page-specific and not re-used elsewhere
 // (for re-usable code, see "sections" above)
@@ -814,10 +828,6 @@ body {
 .privacy-page {
   text-align: left;
 }
-
-
-
-
 
 
 /* CSS below this line still needs to be organized and cleaned-up */
@@ -865,11 +875,11 @@ body {
 }
 
 .slick-slider button.slick-prev:before{
-  content: url('/img/arrow_left.png');
+  content: url('../img/arrow_left.png');
 }
 
 .slick-slider button.slick-next:before{
-  content: url('/img/arrow_right.png');
+  content: url('../img/arrow_right.png');
 }
 @media (max-width: $screen-xs-max) {
   .slick-slider button.slick-prev:before,

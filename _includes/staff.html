@@ -1,0 +1,31 @@
+
+
+  {% for member in site.staff_bios limit: include.staffer_limit %}
+
+  {% cycle '<div class="usa-grid">', ' ', ' ' %}
+
+  <div class="staffer usa-width-one-third">
+    <img src="{{ site.baseurl }}/img/staff/{{ member.photo_filename }}" alt="Portrait of {{ member.name }}" />
+
+    <h3>{{ member.name }}</h3>
+
+    {% if member.discipline %}
+      <h4>{{ member.discipline }}</h4>
+    {% endif %}
+
+    {% if member.previous %}
+      <h5>Previously: <span class="company">{{ member.previous }}</span></h5>
+    {% endif %}
+    <p>
+      {{ member.bio }}
+    </p>
+
+  </div>
+
+  {% if forloop.last %}
+    </div>
+  {% else %}
+    {% cycle ' ', ' ', '</div>' %}
+  {% endif %}
+
+  {% endfor %}
