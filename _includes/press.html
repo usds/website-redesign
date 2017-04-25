@@ -1,6 +1,6 @@
 {% for article in site.data.press_archive reversed %}
 
-{% cycle '<div class="usa-grid">', ' ', ' ' %}
+{% cycle '<div class="usa-grid">', '', '' %}
 
   <div class="story usa-width-one-third">
     <a href="{{ article.article_link }}"><h4>{{ article.title }}</h4></a>
@@ -11,7 +11,7 @@
 {% if forloop.last %}
   </div>
 {% else %}
-  {% cycle ' ', ' ', '</div>' %}
+  {% cycle '', '', '</div>' %}
 {% endif %}
 
 {% endfor %}
