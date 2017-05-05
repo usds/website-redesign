@@ -15,6 +15,7 @@ url: "https://www.usds.gov" # the base hostname & protocol for your site
 twitter_username: usds
 github_username:  usds
 medium_url: https://medium.com/@USDigitalService
+repository: usds/website
 
 # Build settings
 markdown: kramdown
