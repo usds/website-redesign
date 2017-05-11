@@ -44,7 +44,7 @@ we’re really earning that “Peace Corps for nerds” nickname.
 A few notes on the above fields:
 
 - `title`: The clickable headline of the blog post. Ordinarily, this should
-  match the title of the post itself.
+  match the title of the post itself. It cannot include a colon (use "–" instead).
 - `medium_url`: The full link, including `https://` to the full post.
 - `image_url`: A link to an image representing the post. You should choose an
   image that is wider than it is tall (i.e. 16:9 aspect ratio). If there is an
