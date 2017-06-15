@@ -47,10 +47,3 @@ This hiring program is run centrally from the USDS headquarters unit inside OMB,
 | Days from Application to Conditional Offer = 15 business days | In progress. Time reduced from 55 days in Q4 2015 to 34 days in Q3 2016. |
 | Day from Conditional Offer to Final Offer (personnel security process) = 16 days | In progress. Time reduced from 67 days in Q4 2015 to 20 days in Q3 2016. |
 | Candidate Satisfaction Score for going through the hiring process is 4.5 (or above) out of a scale from 1 to 5 (5 being the most satisfied) | On track. Average candidate satisfaction since Q4 2015 is greater than 4.5. |
-
-| **Success Criteria** | **Status** |
-| --- | --- |
-| Hire 200 Digital Service Experts by end of 2017 | On track to meet target ahead of schedule. 196 Digital Service Experts hired as of September 2016. |
-| Days from Application to Conditional Offer = 15 business days | In progress. Time reduced from 55 days in Q4 2015 to 34 days in Q3 2016. |
-| Day from Conditional Offer to Final Offer (personnel security process) = 16 days | In progress. Time reduced from 67 days in Q4 2015 to 20 days in Q3 2016. |
-| Candidate Satisfaction Score for going through the hiring process is 4.5 (or above) out of a scale from 1 to 5 (5 being the most satisfied) | On track. Average candidate satisfaction since Q4 2015 is greater than 4.5. |
