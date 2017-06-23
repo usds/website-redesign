@@ -26,6 +26,7 @@ collections:
   - project_summaries
   - press
   - staff_bios
+  - jobs
 
 gems:
   - jekyll-seo-tag
