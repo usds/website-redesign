@@ -6,4 +6,4 @@ image_description: How AWS and VA interact
 date: 2017-06-30
 ---
 
-How DSVA found a bug that affects the VA's network, thanks to an ancient feature in the Linux kernel.
+How the Digital Service at the Department of Veterans Affairs found a bug that affects the VA's network, thanks to an ancient feature in the Linux kernel.
