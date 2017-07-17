@@ -1,10 +1,9 @@
 ---		
- job_title: Content Strategist		
- is_fellow: true		
- lever_link: https://jobs.lever.co/austintexas/a57be492-9bf3-41f3-a329-2751fea9256b/apply		
- list_order: 6		
- 		
- ---		
+job_title: Content Strategist		
+is_fellow: true		
+lever_link: https://jobs.lever.co/austintexas/a57be492-9bf3-41f3-a329-2751fea9256b/apply		
+list_order: 6		
+---		
  		
  We’re looking for a senior content strategist to serve on multidisciplinary project teams with career civil servants, actively demonstrating the value of iterative development and user-centered design. Our teams are working to improve a wide range of city services, including researching and redesigning our [permitting processes](http://www.austintexas.gov/department/development-services), prototyping ways to change behaviors around [recycling and composting](http://www.austintexas.gov/department/austin-resource-recovery), building the next generation of [ATXFloods](https://www.atxfloods.com), , improving services for people experiencing homelessness, and creating city-wide standards for interface design, user research, and content strategy.		
  		
