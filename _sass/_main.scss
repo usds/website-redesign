@@ -807,7 +807,7 @@ body {
   margin-top: 90px;
   li {
     border-left: 7px solid #ffffff;
-    padding-left: 0.5em;
+    padding-left: 8px;
     margin-bottom: 1em;
     &:hover, &.active {
       border-left: 7px solid #dec623;
@@ -853,6 +853,18 @@ section.report-to-congress {
     color: #666;
     margin-bottom: 0;
   }
+  .agency {
+    font-family: $header-font-family;
+    font-size: 1.2em;
+    color: #333;
+    margin-top: -1em;
+  }
+  .previous-entry {
+    color: #666;
+    margin: 2em 0 3em;
+    padding-left: 14px;
+    border-left: 14px solid $background-color-secondary;
+  }
   .usds-sidebar {
     margin-top: 0;
     @media screen and (min-width: 1201px) {
@@ -867,6 +879,9 @@ section.report-to-congress {
       font-size: 0.9em;
       border-left-color: #fff;
     }
+  }
+  .other-reports p {
+    margin-left: 15px; /* 7px border + 8px padding from sidebar below */
   }
   .kicker + h2 {
     margin-top: 0;
