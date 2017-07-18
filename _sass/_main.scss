@@ -853,6 +853,12 @@ section.report-to-congress {
     color: #666;
     margin-bottom: 0;
   }
+  .previous-entry {
+    color: #666;
+    margin: 2em 0 3em;
+    padding-left: 14px;
+    border-left: 14px solid $background-color-secondary;
+  }
   .usds-sidebar {
     margin-top: 0;
     @media screen and (min-width: 1201px) {

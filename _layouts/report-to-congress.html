@@ -13,6 +13,14 @@
             <p class="kicker">{{ page.report }} Report to Congress</p>
           {% endunless %}
             {{ content }}
+
+            {% if page.previous_entry %}
+              {% assign previous_entry = site.reports_to_congress | where: "url", page.previous_entry | first %}
+              {% if previous_entry %}
+                <p class="previous-entry">This project was previously chronicled in our <a href="{{ previous_entry.url }}">{{ previous_entry.report }} Report to Congress</a>.</p>
+              {% endif %}
+            {% endif %}
+
             {% include prev_next.html position="bottom" %}
           </div>
           <div class="usa-width-one-fourth">
