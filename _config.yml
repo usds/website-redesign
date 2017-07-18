@@ -43,3 +43,8 @@ plugins:
 twitter:
   username: usds
 logo: /img/usds-logo-onwhite.png
+
+# Latest Report to Congress
+latest_report:
+  slug: 2017/07
+  name: July 2017
