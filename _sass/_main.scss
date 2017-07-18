@@ -807,7 +807,7 @@ body {
   margin-top: 90px;
   li {
     border-left: 7px solid #ffffff;
-    padding-left: 0.5em;
+    padding-left: 8px;
     margin-bottom: 1em;
     &:hover, &.active {
       border-left: 7px solid #dec623;
@@ -879,6 +879,9 @@ section.report-to-congress {
       font-size: 0.9em;
       border-left-color: #fff;
     }
+  }
+  .other-reports p {
+    margin-left: 15px; /* 7px border + 8px padding from sidebar below */
   }
   .kicker + h2 {
     margin-top: 0;

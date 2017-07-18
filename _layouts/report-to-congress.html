@@ -37,6 +37,18 @@
             {% endfor %}
               <li class="pdf"><a href="/resources/USDS-{{ page.report | replace: " ", "-" }}-Report-to-Congress.pdf">Download the<br/>full report (PDF)</a></li>
             </ul>
+
+            <div class="usds-sidebar other-reports">
+              <p><strong>Reports to Congress</strong></p>
+              <ul class="usa-unstyled-list">
+                {% assign reports = site.reports_to_congress | where: "front", true | reverse %}
+                {% for report in reports %}
+                <li>
+                  <a href="{{ report.url }}">{{ report.report_title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
