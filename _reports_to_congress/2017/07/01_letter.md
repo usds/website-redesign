@@ -5,6 +5,7 @@ report: July 2017
 report_title: July 2017
 permalink: /report-to-congress/2017/07/
 front: true
+image: /img/report-to-congress/capitol.jpg
 ---
 <div class="report-title">
   <p><img src="/img/report-to-congress/capitol.jpg" alt="Illustrated U.S. Capitol"></p>
