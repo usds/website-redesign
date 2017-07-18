@@ -9,9 +9,16 @@
       <section class="report-to-congress">
         <div class="usa-grid">
           <div class="usa-width-three-fourths">
-          {% unless page.front %}
+          {% if page.front %}
+            <div class="report-title">
+              <p><img src="/img/report-to-congress/capitol.jpg" alt="Illustrated U.S. Capitol"></p>
+              <p class="usds">The U.S. Digital Service</p>
+              <h2>Report to Congress</h2>
+              <p>{{ page.report_title }}</p>
+            </div>
+          {% else %}
             <p class="kicker">{{ page.report }} Report to Congress</p>
-          {% endunless %}
+          {% endif %}
           {% if page.agency %}
             <h2 class="title-with-agency">{{ page.title }}</h2>
             <p class="agency">{{ page.agency }}</p>
