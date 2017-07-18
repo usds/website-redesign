@@ -12,6 +12,10 @@
           {% unless page.front %}
             <p class="kicker">{{ page.report }} Report to Congress</p>
           {% endunless %}
+          {% if page.agency %}
+            <h2 class="title-with-agency">{{ page.title }}</h2>
+            <p class="agency">{{ page.agency }}</p>
+          {% endif %}
             {{ content }}
 
             {% if page.previous_entry %}
