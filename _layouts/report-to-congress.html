@@ -10,7 +10,7 @@
         <div class="usa-grid">
           <div class="usa-width-three-fourths">
           {% unless page.front %}
-            <p class="kicker">2016 Report to Congress</p>
+            <p class="kicker">{{ page.report }} Report to Congress</p>
           {% endunless %}
             {{ content }}
             {% include prev_next.html position="bottom" %}
@@ -22,7 +22,8 @@
                 <a href="{{ section.url }}">{% if section.short %}{{ section.short }}{% else %}{{ section.title }}{% endif %}</a>
               </li>
             {% endfor %}
-              <li class="pdf"><a href="/resources/USDS-2016-Report-to-Congress.pdf">Download the<br/>full report (PDF)</a></li>
+              <li class="pdf"><a href="/resources/USDS-{{ page.report | replace: " ", "-" }}-Report-to-Congress.pdf">Download the<br/>full report (PDF)</a></li>
+            </ul>
           </div>
         </div>
       </section>
