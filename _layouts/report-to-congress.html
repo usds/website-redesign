@@ -17,7 +17,8 @@
           </div>
           <div class="usa-width-one-fourth">
             <ul class="usa-unstyled-list usds-sidebar">
-            {% for section in site.reports_to_congress %}
+            {% assign sections = site.reports_to_congress | where: "report", page.report %}
+            {% for section in sections %}
               <li class="{% if page.url == section.url %} active{% endif %}{% if section.sub %} sub{% endif %}">
                 <a href="{{ section.url }}">{% if section.short %}{{ section.short }}{% else %}{{ section.title }}{% endif %}</a>
               </li>
