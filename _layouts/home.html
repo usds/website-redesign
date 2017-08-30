@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<section class="page-photo-header center-xs"></section>
+<section class="page-section center-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1">
+        <div class="row">
+          <div class="col-xs"><h2>{{ page.secondary_headline }}</h2></div>
+        </div>
+        <div class="row">
+          <div class="col-lg lede">{{ page.secondary_lede_markdown | markdownify | trim }}</div>
+        </div>
+        <div class="row center-xs">
+          <div class="col-xs-12 col-lg-8">{{ page.secondary_paragraph_markdown | markdownify | trim }}</div>
+        </div>
+        {% if page.secondary_section_buttons %}
+        <div class="row">
+          <div class="col-xs">
+            {% for button in page.secondary_section_buttons %}
+            <a href="{% unless button.button_path contains "http" %}{{ site.baseurl }}{% endunless %}{{ button.button_path }}" class="usa-button">{{ button.button_text }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include page-section--projects.html
+  section_headline=page.project_tiles_headline
+  section_lede=page.project_tiles_lede_markdown
+  section_theme="gray"
+  rows=1
+  button_text=page.project_tiles_button_text
+  button_path=page.project_tiles_button_path %}
+
+{% assign people = site.people | sort: "start_date" | reverse %}
+{% include page-section--people.html
+  section_headline=page.people_headline
+  section_lede=page.people_lede_markdown
+  people=people
+  rows=1
+  button_text=page.people_button_text
+  button_path=page.people_button_path %}
+
+{% include page-section--medium.html
+  section_headline=page.medium_headline
+  section_lede=page.medium_lede_markdown
+  section_theme="gray"
+  rows=1
+  button_text=page.medium_button_text
+  button_path=page.medium_button_path %}
+
+{% assign press_mentions = site.press | sort_by: "date" | reverse %}
+{% include page-section--press.html
+  section_headline=page.press_mentions_headline
+  section_lede=page.press_mentions_lede_markdown
+  items=press_mentions
+  rows=2
+  button_text=page.press_mentions_button_text
+  button_path=page.press_mentions_button_path %}

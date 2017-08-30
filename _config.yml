@@ -16,17 +16,41 @@ baseurl: /innovation-fellows # the base hostname & protocol for your site
 twitter_username: civiqueso
 github_username:  cityofaustin
 medium_url: https://medium.com/city-of-austin-design-technology-innovation
-
-
+theme: dark
+# dark is the default, light will also work.
 
 # Build settings
 markdown: kramdown
 collections:
-  - blog_summaries
-  - project_summaries
-  - press
-  - staff_bios
-  - jobs
+  projects:
+    title: Projects
+    output: false
+    permalink: /:collection/:path/
+  press:
+    title: Press mentions
+    output: false
+    permalink: /:collection/:path/
+  people:
+    title: Staff
+    output: false
+    permalink: /:collection/:path/
+  jobs:
+    title: Jobs
+    output: true
+    permalink: /join/:path/
+
+defaults:
+- scope:
+    path: ''
+    type: jobs
+  values:
+    layout: 'sidebar-page'
+    nav_from_collection: 'Jobs'
+- scope:
+    path: ''
+    type: projects
+  values:
+    image_path: '/assets/img/projects/project-tile-placeholder.jpg'
 
 gems:
   - jekyll-seo-tag
@@ -35,6 +59,31 @@ gems:
 
 # Jekyll SEO Tag
 # See https://github.com/jekyll/jekyll-seo-tag
+
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: assets/stylesheets/
+permalink: pretty
+exclude:
+  - node_modules
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - npm-debug.log
+  - /screenshots
+  - /assets/stylesheets/bourbon
+  - /assets/stylesheets/bourbon-neat
+  - /assets/uswds/stylesheets
+  - /assets/uswds/js
+  - .bundle
+  - /vendor
+  - _bourbon
+  - _bourbon-neat
+  - _uswds
+
+
+
 twitter:
   username: civiqueso
 logo: /img/dti-fellows-logo.png

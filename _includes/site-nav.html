@@ -1,0 +1,18 @@
+<nav>
+  <ul class="top-level-list">
+    {% for item in site.data.labels.site_nav %}
+    <li><a href="{{ site.baseurl }}{{ item.path }}"{% if page.url == item.path %}class="active-parent"{% endif %} title="{{ item.label }}" role="menuitem">{{ item.label }}
+      {% if page.url contains item.path and page.nav_from_collection and include.recursive and item.path != "/" %}
+          <svg class="icon icon--arrow" width="13" height="13" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin"><use xlink:href="#icon--arrow"></use></svg>
+        </a>
+        {% assign new_collection = site.collections | where: "title", page.nav_from_collection | first %}
+        {% assign items = new_collection.docs | sort: "url" | sort: "position" %}
+        {% assign base_path = page.nav_from_collection | downcase | prepend: "/_" | append: "/"  %}
+        {% include recursive-nav.html items=items base_path=base_path  %}
+      {% else %}
+        </a>
+      {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

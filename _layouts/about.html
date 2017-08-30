@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<section class="page-header center-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-offset-2 col-lg-8 col-xs-10 col-xs-offset-1">
+        {% include page-section--header.html %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section center-xs">
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
+        <h2>{{ page.goals_section_headline }}</h2>
+      </div>
+    </div>
+    <div class="row center-xs">
+      <div class="col-xs-10">
+        <div class="row">
+          {% for goal in page.goals %}
+          <div class="col-sm-6">
+            <div class="goal-flag">
+              <span>{{ forloop.index }}</span>
+            </div>
+            <h3>{{ goal.title }}</h3>
+            <p>{{ goal.subtitle_markdown | markdownify }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% assign staff = site.people | where: "role", "staff" | sort: "start_date"  %}
+{% include page-section--people.html
+  section_headline=page.staff_section_headline
+  people=staff
+  section_theme="gray" %}
+
+
+{% assign fellows = site.people | where: "role", "fellow" | sort: "start_date"  %}
+{% include page-section--people.html
+  section_headline=page.fellows_section_headline
+  people=fellows %}

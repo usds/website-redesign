@@ -1,42 +1,48 @@
-<footer>
-  <div class="usa-grid">
-
-    <div class="usa-width-one-fourth footer-block">
-      <img class="usds-logo" alt="The seal of the City of Austin" src="{{ site.baseurl }}/img/layout/CoA-Seal-BW.png" />
+<footer class="site-footer main">
+  <div class="container-fluid">
+    <div class="row center-xs">
+      <div class="footer-logo">
+        <svg class="icon icon--city-seal" width="80" height="80" viewbox="0 0 52 52" preserveAspectRatio="xMinYMin" title="City of Austin Seal"><use xlink:href="#icon--city-seal"></use></svg></a>
+      </div>
     </div>
-
-    <div class="usa-width-one-fourth footer-block navlinky">
-    &nbsp;
-      <ul>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about">About</a></li>
-        <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
-        <li><a href="{{ site.baseurl }}/civiqueso">Civiqueso</a></li>
-        <li><a href="{{ site.baseurl }}/join">Join Us</a></li>
-      </ul>
+    <div class="row center-xs">
+      <div class="footer-cta">
+        <h3>{{ site.data.labels.footer_headline }}</h3>
+        <p>{{ site.data.labels.footer_lede }}</p>
+        <div class="row center-xs">
+          <a href="{{ site.baseurl }}{{ site.data.labels.footer_button_path }}" class="usa-button">{{ site.data.labels.footer_button_text }}</a>
+        </div>
+      </div>
     </div>
-
-    <div class="usa-width-one-fourth footer-block">
-    &nbsp;
-      <ul>
-        <li><a href="https://cityofaustin.github.io/innovation/">Office of Innovation</a></li>
-        <li><a href="https://www.austintexas.gov/techreport/communications-and-technology-management">Office of Communications &amp; Technology Management</a></li>
-      </ul>
+    <div class="row center-xs">
+      <div class="footer-menu">
+        {% include site-nav.html %}
+      </div>
     </div>
-
-    <div class="usa-width-one-fourth footer-block">
-      <h4>Follow us</h4>
-      <a href="https://twitter.com/civiqueso"><i
-        class="fa fa-2x fa-twitter" aria-hidden="true" title="Twitter"></i><span class="sr-only">Twitter</span></a>
-      <a href="https://medium.com/city-of-austin-design-technology-innovation"><i
-        class="fa fa-2x fa-medium" aria-hidden="true" title="Medium"></i><span class="sr-only">Medium</span></a>
-      <a href="https://github.com/cityofaustin/" target="_blank"><i
-        class="fa fa-2x fa-github" aria-hidden="true" title="Github"></i><span class="sr-only">Github</span></a>
-      <br />
-      <a href="https://github.com/cityofaustin/innovation-fellows" target="_blank"><button class="contribute-button">Contribute to this site</button></a>
-
-    </div>
-
   </div>
-
 </footer>
+<footer class="mini-footer main">
+  <div class="container-fluid">
+    <div class="row center-xs end-sm">
+      <div class="mini-footer--left start-sm center-xs col-sm-2"><a href="{{ site.baseurl }}/privacy">Privacy Policy</a></div>
+      <div class="mini-footer--center footer-credits center-xs col-sm-8">
+        <span class="footer-credits">{{ site.data.labels.footer_credits }}</span>
+      </div>
+      <div class="mini-footer--right end-sm center-xs col-sm-2">
+        <a href="{{ site.data.labels.social_icons.medium_path }}" target="_blank" title="{{ site.data.labels.social_icons.medium_title }}"><svg class="icon icon--medium" width="15" height="15" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin"><use xlink:href="#icon--medium"></use></svg></a>
+        <a href="{{ site.data.labels.social_icons.github_path }}" target="_blank" title="{{ site.data.labels.social_icons.github_title }}"><svg class="icon icon--github" width="15" height="15" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin"><use xlink:href="#icon--github"></use></svg></a>
+        <a href="{{ site.data.labels.social_icons.twitter_path }}" target="_blank" title="{{ site.data.labels.social_icons.twitter_title }}"><svg class="icon icon--twitter" width="15" height="15" viewbox="0 0 32 32" preserveAspectRatio="xMinYMin"><use xlink:href="#icon--twitter"></use></svg></a>
+
+
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,en,es,ko,my,vi,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

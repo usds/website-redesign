@@ -1,0 +1,208 @@
+.tile {
+  font-family: $font-sans;
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  img {
+    border: 0;
+  }
+  .tile-outline {
+  //  background: $color-white;
+    position: relative;
+    height: 100%;
+    pointer-events: none;
+    border: 4px solid transparent;
+  }
+}
+.tile-title {}
+.tile-subtitle {
+  display: block;
+  font-size: rem(13px);
+  color: $color-gray;
+  font-weight: bold;
+  line-height: rem(18px);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.tile-text {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 4rem;
+  position: relative;
+
+  h3 {
+    font-size: rem(26px);
+    line-height: rem(30px);
+    margin:0 0 1rem;
+    color: $color-primary;
+    padding-top: 2.5rem;
+  }
+  p {
+    color: $color-gray;
+    font-size: rem(15px);
+    line-height: rem(21px);
+    margin: 0;
+  }
+  .tile-date {
+    color: $color-gray-light;
+    font-size: rem(13px);
+    line-height: rem(21px);
+    margin-top: 2rem;
+  }
+  .usa-button {
+    margin-top: 2rem;
+  }
+}
+.tile-img {
+  width: 100%;
+  height: 12rem;
+  display: block;
+  background-image: url('../img/projects/project-tile-placeholder.jpg');
+  background-color: $color-gray-lightest;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  border-bottom: 2px solid $color-gray-lightest;
+}
+.tile-link {
+  display: block;
+  position: absolute;
+  width: calc(100% - 1em);
+  height: 100%;
+  top:0;
+  left:0;
+  margin: 0 .5em;
+  border: $border-style-lighter-gray;
+  transition: border-color .5s;
+  cursor: pointer;
+  pointer-events: all;
+  background: $color-white;
+  &:hover {
+    border-color:$color-gray-light;
+  }
+  &:before {
+    border-bottom: 8px solid $color-gray-lightest;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+  }
+}
+.tile-author-pic {
+  border-radius: 100%;
+  width: 4rem;
+  display: block;
+  margin: 1rem 0;
+  margin-right: 1.5rem;
+  float: left;
+}
+.tile--post {
+  h3 {
+    font-size: $h4-font-size;
+    line-height: rem(24px);
+  }
+  .tile-meta {
+    margin: 1rem 0;
+    float: left;
+    display: block;
+    margin-bottom: 3rem;
+  }
+  .tile-author {
+    font-size: rem(13px);
+    font-weight: $font-medium;
+  }
+  .tile-date {
+    margin-top: 0;
+  }
+}
+.person {
+  h4 {
+    margin-bottom: 0;
+  }
+  h5 {
+    margin-top: 0;
+  }
+  h4, h5, {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  p {
+    font-size: rem(15px);
+    line-height: rem(22px);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 4rem;
+  }
+}
+.person-pic {
+  border-radius: 100%;
+  width: 70%;
+  max-width: 30rem;
+  display: block;
+  margin: 5rem auto 1rem;
+}
+.press-mention {
+  margin-bottom: 4rem;
+}
+.press-title {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid $color-gray-lighter;
+  a {
+    text-decoration: none;
+  }
+}
+.press-source {
+  font-size: rem(13px);
+  line-height: rem(21px);
+  font-weight: $font-medium;
+  margin-bottom: 0;
+}
+.press-date {
+  margin-top: 0;
+  font-size: rem(13px);
+  line-height: rem(21px);
+}
+.goal-flag {
+  font-size: rem(26px);
+  color: $color-base;
+  font-weight: $font-medium;
+  border: 4px solid $color-base;
+  border-bottom-width: 0;
+  position: relative;
+  margin: 3rem auto 3rem;
+  width: 45px;
+  height: 35px;
+  line-height: 33px;
+  box-sizing: initial;
+  // @media #{$sm-viewport} { padding-bottom: 1.8rem; }
+  // @media #{$md-viewport} { padding-bottom: 3rem; }
+  // @media #{$lg-viewport} { padding-bottom: 2rem; }
+  &:before,
+  &:after {
+    content: "";
+    border-top: 4px solid $color-base;
+    width: 30px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+  &:before {
+    left: -3px;
+    transform: rotate(27deg);
+    transform-origin: left;
+  }
+  &:after {
+    right: -3px;
+    transform: rotate(-27deg);
+    transform-origin: right;
+  }
+  span {
+    border-top: 4px solid $color-gray-lighter;
+    display: block;
+  }
+  & + h3 {
+    margin-top: 0rem;
+  }
+}

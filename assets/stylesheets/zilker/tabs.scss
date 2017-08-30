@@ -1,0 +1,136 @@
+// Variables
+
+
+// Tab Styles
+
+@mixin tab-list-styles {
+  @include unstyled-list;
+  color: $color-base;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@mixin tab-list-item-styles {
+  background: $color-gray-lighter;
+  font-family: $font-sans;
+  list-style: none;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+@mixin tab-button-styles {
+  @include button-unstyled;
+  text-align: center;
+  background: $color-barton-lightest;
+  color: $color-gray-dark;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-sans;
+  font-weight: $font-bold;
+  margin: 0;
+  padding: 1.5rem 3rem;
+  width: 33.33%;
+  border-right: 3px solid $color-white;
+  border-bottom: 3px solid $color-barton-lightest;
+  transition: background-color .25s;
+  white-space: nowrap;
+
+  &:focus {
+    box-shadow: $focus-shadow;
+  }
+
+  &:hover {
+    background: $color-barton-lightest;
+    color: $color-base;
+    border-bottom: 3px solid $color-white;
+
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+}
+
+@mixin tab-button-unopened-styles {
+  background: $color-gray-lighter;
+  border-right-color: $color-white;
+  border-bottom-color: $color-white;
+  &:focus {
+    box-shadow: $focus-shadow;
+  }
+
+  &:hover {
+    background: darken($color-gray-lighter, 10%);
+    color: $color-base;
+    border-bottom: 3px solid $color-white;
+  }
+}
+@media #{$sm-viewport} {
+
+  .tabs {
+    position: relative;
+    min-height: 6rem;
+    margin-top: 3rem;
+  }
+  .tab {
+    @include tab-list-styles;
+    + .tab {
+      margin-top: 0
+    }
+
+    > li {
+      @include tab-list-item-styles;
+    }
+    .tab-button {
+      left: 33.3%;
+      top: 0;
+      position: absolute;
+    }
+    &:last-child .tab-button {
+      border-right-width: 0;
+      left: auto;
+      right: 0;
+    }
+    &:first-child .tab-button{
+      left: 0;
+    }
+
+  }
+
+
+  .tab-content {
+    background: $color-barton-lightest;
+    overflow: auto;
+    padding: 3rem;
+    padding-top: 6rem;
+
+
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > *:last-child {
+      margin-bottom: 0;
+    }
+
+    &:not([aria-hidden]) {
+      @include sr-only();
+    }
+
+    @include accessibly-hidden();
+  }
+
+  .tab-button {
+    @include tab-button-styles;
+  }
+
+  .tab-button[aria-expanded=false] {
+    @include tab-button-unopened-styles;
+  }
+}

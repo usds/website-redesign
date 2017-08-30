@@ -1,0 +1,68 @@
+
+/* gallery thumbnails */
+.diagram-gallery figcaption {
+  background: $color-gray-lightest;
+  padding: 1em 1.5em;
+  p, h6 {
+    margin: 0;
+    padding: inherit;
+  }
+  p {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 20px;
+    color: $color-gray;
+    font-family: $font-headlines;
+  }
+  h6 {
+    font-weight: bold;
+		white-space: nowrap;
+		@media #{$md-viewport} {
+			padding-left: 0;
+		}
+  }
+
+}
+.diagram-gallery {
+  margin: 4rem 0;
+  figure {
+    margin: 1rem 0;
+    @media #{$sm-viewport} {
+      display: flex;
+		}
+
+    flex-flow: row;
+		.diagram-thumbnail {
+			flex: 0 0 auto;
+			border: 1px solid $color-gray-lightest;
+			align-items: center;
+			display: flex;
+		}
+  }
+  img {
+		display: block;
+		}
+
+  figcaption {
+    flex: 1;
+		h1, h2, h3, h4, h5, h6 {
+			font-size: rem(15px);
+			color: $color-gray-dark;
+			text-transform: none;
+			font-weight: 500;
+			margin-bottom: 1.5rem;
+			margin-top: .5rem;
+		}
+		p, li {
+			font-family: $font-sans;
+			color: $color-gray;
+			font-size: rem(15px);
+			line-height: 2.1rem;
+			margin-bottom: 1.5rem;
+		}
+  }
+  .usa-button {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,41 @@
+<section class="page-section center-xs section--{{ include.section_theme }}">
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+        <div class="row">
+          <div class="col-xs"><h2>{{ include.section_headline }}</h2></div>
+        </div>
+        <div class="row">
+          {% capture lede_markdown %}{{ include.section_lede }}{% endcapture %}
+          <div class="col-xs lede">{{ lede_markdown | markdownify | trim }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="row start-xs">
+      {% if include.rows %}
+        {% assign row_limit = include.rows | times: 4 %}
+      {% else %}
+        {% assign row_limit = nil %}
+      {% endif %}
+      {% for person in include.people limit:row_limit %}
+        <div class="person col-md-3 col-sm-6 col-xs-12 center-xs">
+          <img class="person-pic" src="{{ site.baseurl }}{{ person.photo_path }}" alt="Portrait of {{ person.name }}" />
+          <h4>{{ person.name }}</h4>
+          {% if person.discipline %}
+            <h5>{{ person.discipline }}</h5>
+          {% endif %}
+          <p>
+            {{ person.bio }}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+    {% if include.button_text and include.button_path %}
+    <div class="row">
+      <div class="col-xs">
+        <a href="{% unless include.button_path contains "http" %}{{ site.baseurl }}{% endunless %}{{ include.button_path }}" class="usa-button">{{ include.button_text }}</a>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>

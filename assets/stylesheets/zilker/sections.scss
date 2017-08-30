@@ -1,0 +1,174 @@
+section {}
+.page-photo-header {
+  background: url('../img/home.jpg') no-repeat center;
+  background-size: cover;
+  height: 40vh;
+  max-height: 400px;
+}
+.page-header + .page-section {
+  padding-top: 0;
+}
+.page-section {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  padding-top: 4.5em;
+  padding-bottom: 4.5em;
+}
+.section--gray {
+  background: $color-theme-dark-hover;
+}
+.section--last {
+  margin-bottom: 0;
+}
+
+// default colors
+html, html.theme--dark {
+  background: $color-theme-dark-bg;
+  color: $color-white;
+  body {
+    background: $color-white;
+  }
+  .pre-header {
+    border-top-color: $color-theme-dark-bg;
+    background: $color-theme-dark-bg;
+    color: $color-theme-dark-text;
+    .control-translate span:hover {
+      color: $color-theme-light-hover;
+    }
+    .no-logo {
+      color: $color-theme-dark-hover;
+    }
+  }
+  .site-header {
+    background: $color-theme-dark-bg;
+    color: $color-theme-dark-text;
+    nav .top-level-list > li > a,
+    nav .top-level-list > li > span {
+      color: $color-theme-dark-text;
+      &.active-parent:after {
+        background: $color-theme-dark-accent;
+      }
+      &:hover, ul:hover {
+        background: darken($color-theme-dark-bg, 2);
+      }
+    }
+    .usa-button.usa-button-outline {
+      background: transparent;
+      box-shadow: $button-stroke $color-white;
+      color: $color-white;
+
+      &:hover,
+      &.usa-button-hover {
+        box-shadow: $button-stroke $color-gray-lighter;
+        color: $color-gray-lighter;
+      }
+
+      &:active,
+      &.usa-button-active {
+        box-shadow: $button-stroke $color-gray-light;
+        color: $color-gray-lighter;
+      }
+
+      &:focus,
+      &.usa-button-focus {
+        box-shadow: $button-stroke $color-gray-light, $focus-shadow;
+      }
+    }
+  }
+  .site-footer, .mini-footer {
+    background: $color-theme-dark-bg;
+    color: $color-theme-dark-text;
+    -webkit-font-smoothing: antialiased;
+    h1, h2, h3, h4, h5, nav a {
+      color: inherit;
+    }
+    .footer-credits {
+      color: $color-theme-dark-hover;
+    }
+
+  }
+  .mini-footer {
+    a {
+      color: $color-theme-dark-hover;
+    }
+  }
+
+}
+
+// ligher color theme
+html.theme--light {
+  background: $color-theme-light-bg;
+  color: $color-white;
+  body {
+    background: $color-white;
+    min-height: auto !important; // google translate widget messes with this
+  }
+  .pre-header {
+    border-top-color: $color-theme-light-bg;
+    background: $color-theme-light-bg;
+    color: $color-theme-light-heading;
+    .no-logo {
+      color: $color-theme-light-text;
+    }
+  }
+  .site-header {
+    background: $color-theme-light-bg;
+    color: $color-theme-light-heading;
+    nav .top-level-list > li > a,
+    nav .top-level-list > li > span {
+      color: $color-theme-light-heading;
+      &.active-parent:after {
+        background: $color-theme-light-accent;
+      }
+      &:hover, ul:hover {
+        background: darken($color-theme-light-bg, 2);
+      }
+    }
+    .usa-button.usa-button-outline {
+      background: transparent;
+      box-shadow: $button-stroke $color-theme-light-heading;
+      color: $color-theme-light-heading;
+
+      &:hover,
+      &.usa-button-hover {
+        box-shadow: $button-stroke $color-theme-light-text;
+        color: $color-theme-light-text;
+      }
+
+      &:active,
+      &.usa-button-active {
+        box-shadow: $button-stroke $color-theme-light-hover;
+        color: $color-theme-light-hover;
+      }
+
+      &:focus,
+      &.usa-button-focus {
+        box-shadow: $button-stroke $color-theme-light-accent, $focus-shadow;
+        color: $color-theme-light-accent;
+      }
+    }
+  }
+  .site-footer, .mini-footer {
+    background: $color-theme-light-bg;
+    color: $color-theme-light-heading;
+    -webkit-font-smoothing: antialiased;
+    h1, h2, h3, h4, h5, nav a {
+      color: inherit;
+    }
+    .footer-credits {
+      color: $color-theme-light-text;
+    }
+    .icon {
+      color: $color-theme-light-heading;
+    }
+    .footer-logo .icon {
+      color: $color-theme-light-text;
+    }
+  }
+  .mini-footer {
+    a {
+      color: $color-theme-light-text;
+    }
+  }
+
+}

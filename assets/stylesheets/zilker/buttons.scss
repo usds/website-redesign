@@ -1,0 +1,108 @@
+
+// Buttons
+
+.button-row {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/* stylelint-disable selector-no-qualifying-type */
+.usa-button,
+.usa-button-primary,
+.usa-button:visited,
+.usa-button-primary:visited,
+button,
+[type=button],
+[type=submit],
+[type=reset],
+[type=image] {
+  -webkit-font-smoothing: antialiased;
+  appearance: none;
+  background-color: $color-primary;
+  border: 0;
+  border-radius: $border-radius;
+  color: $color-white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-sans;
+  font-size: $base-font-size;
+  font-weight: $font-bold;
+  line-height: 1;
+  outline: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+
+
+  @include media($small-screen) {
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  &:hover,
+  &.usa-button-hover {
+    background-color: $color-primary-darker;
+    border-bottom: 0;
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &:focus,
+  &.usa-button-focus {
+    box-shadow: $focus-shadow;
+  }
+
+  &:active,
+  &.usa-button-active {
+    background-color: $color-primary-darkest;
+  }
+
+  &.usa-button-outline {
+    background-color: transparent;
+    box-shadow: $button-stroke $color-primary;
+    color: $color-primary;
+
+    &:hover,
+    &.usa-button-hover {
+      box-shadow: $button-stroke $color-primary-darker;
+      color: $color-primary-darker;
+    }
+
+    &:active,
+    &.usa-button-active {
+      box-shadow: $button-stroke $color-primary-darkest;
+      color: $color-primary-darkest;
+    }
+
+    &:focus,
+    &.usa-button-focus {
+      box-shadow: $button-stroke $color-primary-darkest, $focus-shadow;
+    }
+  }
+
+  &.usa-button-outline-inverse {
+    background: transparent;
+    box-shadow: $button-stroke $color-white;
+    color: $color-white;
+
+    &:hover,
+    &.usa-button-hover {
+      box-shadow: $button-stroke $color-gray-lighter;
+      color: $color-gray-lighter;
+    }
+
+    &:active,
+    &.usa-button-active {
+      box-shadow: $button-stroke $color-gray-light;
+      color: $color-gray-lighter;
+    }
+
+    &:focus,
+    &.usa-button-focus {
+      box-shadow: $button-stroke $color-gray-light, $focus-shadow;
+    }
+  }
+}

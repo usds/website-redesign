@@ -1,0 +1,29 @@
+{% capture list_items %}
+
+  {% for item in include.items %}
+
+    {% assign item_slug = item.path | remove: ".md" | split: "/" | last | append: "/" %}
+    {% assign parent_slug = item.path | remove: ".md" | prepend: "/" | append: "/" | remove: item_slug %}
+
+    {% if parent_slug == include.base_path %}
+      <li>
+        {% unless item.layout == "redirect" %}
+          <a href="{{ site.baseurl }}{{ item.url }}"{% if page.url == item.url %}class="active"{% elsif page.url contains item.url %}class="active-parent"{% endif %} title="{{ item.title }}" role="menuitem">{{ item.title }}</a>
+        {% else %}
+          <h6 class="list-heading">{{ item.title }}</h6>
+          {% endunless %}
+        {% assign inner_base_path = item.path | remove: ".md" | prepend: "/" | append: "/" %}
+        {% include recursive-nav.html items=include.items base_path=inner_base_path recursive=true %}
+      </li>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% assign list_items = list_items | strip %}
+
+{% if list_items != empty %}
+  {% capture list_class_and_roles %}
+    {% if include.recursive %}inner-list" role="menu{% else %}list{% endif %}
+  {% endcapture %}
+  <ul class="{{ list_class_and_roles | strip }}">{{ list_items }}</ul>
+{% endif %}

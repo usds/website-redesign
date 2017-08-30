@@ -1,0 +1,504 @@
+
+
+$site-header-height: 7.0rem;
+$pre-header-height: 4rem;
+$drawer-width: 28rem;
+
+.pre-header {
+  font-family: $font-sans;
+  z-index: 1;
+  box-sizing: border-box;
+  border-top: 10rem solid $color-theme-dark-bg;
+  margin-top: -10rem; // to compensate for non-white page pg on inertia scroll to top
+  -webkit-font-smoothing: antialiased;
+  position: fixed;
+  width: 100%;
+  .container-fluid {
+    padding-right: .5em;
+    padding-left: .5em;
+    @media #{$md-viewport} {
+      padding-right: 2em;
+      padding-left: 2em;
+    }
+  }
+  .no-logo {
+    font-size: rem(13px);
+    line-height: $pre-header-height / 3;
+    align-self: center;
+    display: none;
+    @media #{$md-viewport} {
+      display: block;
+    }
+  }
+  .mobile-site-title {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    padding: 0 $pre-header-height / 3;
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-self: center;
+    @media #{$md-viewport} {
+      display: none;
+    }
+  }
+  .mobile-menu-button {
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    width: $pre-header-height;
+    max-width: $pre-header-height;
+    height: $pre-header-height;
+    fill: $color-white;
+    color: $color-white;
+    position: relative;
+    @media #{$md-viewport} {
+      display: none;
+    }
+    .icon {
+      width: inherit;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      transition: opacity .25s;
+      padding: .5rem;
+      &.icon--menu {
+        opacity: 1;
+      }
+    }
+  }
+  .control-translate {
+    font-family: $font-sans;
+    font-size: 1.3rem;
+    font-weight: $font-normal;
+    text-align: right;
+    line-height: $pre-header-height / 3;
+    padding: $pre-header-height / 3;
+    padding-left: 0;
+    position: relative;
+    flex-grow: 0;
+    white-space: nowrap;
+    min-width: 8rem;
+    span {
+      display:block;
+      cursor: pointer;
+      font-weight: 500;
+      &:hover {
+        color: $color-theme-dark-hover;
+      }
+    }
+  }
+}
+.site-header {
+  -webkit-font-smoothing: antialiased;
+  font-family: $font-sans;
+  z-index: 1;
+  position: fixed;
+  top: $pre-header-height;
+  width: 100%;
+  display: none;
+  @media #{$md-viewport} {
+    display: block;
+  }
+  nav {
+    // horizontal site nav
+    .top-level-list {
+      margin: 0;
+      padding: 0;
+      font-size: rem(15px);
+      white-space: nowrap;
+      & > li {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+        transition: background .25s;
+        & > a, & > span {
+          padding: 0 $site-header-height / 4;
+          line-height: $site-header-height;
+          display: block;
+          font-weight: $font-normal;
+          position: relative;
+          text-decoration: none;
+          &:hover,
+          &:focus {
+            font-weight: $font-medium;
+            text-decoration: underline;
+            .icon {
+              transform: rotate(180deg);
+            }
+          }
+          &:hover + .list,
+          &:focus + .list,
+          & + .list:hover,
+          & + .list:focus  {
+            max-height: 80vh;
+          }
+          &.active-parent {
+            &:hover {
+              text-decoration: none;
+            }
+            &:after {
+              width: calc(100% - #{$site-header-height / 2} );
+              height: 4px;
+              display: block;
+              content: "";
+              position: absolute;
+              bottom: $site-header-height / 4;
+            }
+          }
+          .icon {
+            height: 2rem;
+            width: 2rem;
+            transition: transform .25s;
+          }
+        }
+      }
+    }
+    // first list once we start being recursive.
+    // main container for dropdowns in sitenav
+    .list {
+      background: $color-theme-dark-hover;
+      position: absolute;
+      left: 0;
+      min-width: 100%;
+      width: auto;
+      overflow: hidden;
+      transition: background .25s, max-height .25s;
+      max-height: 0;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      // contains the inner-list and list-heading for each group
+      & > li {
+        margin: 3rem;
+      }
+
+      .list-heading {
+        margin-top: 0;
+      }
+      // where the article children are
+      .inner-list {
+        padding-left: 0;
+        list-style-type: none;
+        margin-bottom: 1rem;
+        li a {
+          font-size: rem(15px);
+          display: block;
+          line-height: $base-font-size;
+          padding: .5rem 0;
+          white-space: nowrap;
+          width: 24rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+  .desktop-site-title {
+    align-items: center;
+    span {
+      max-width: 22rem; // forces 2-line wrap
+      font-size: rem(15px);
+      font-weight: bold;
+    }
+  }
+  .button-wrap {
+    align-items: center;
+    .usa-button {
+      font-size: rem(13px);
+    }
+  }
+}
+.site-footer {
+  padding-top: 2rem;
+  a {
+    text-decoration: none;
+  }
+  .footer-logo {
+    svg {
+      width: 8rem;
+      height: 8rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+    @media #{$md-viewport} {
+      svg {
+        width: 12rem;
+        height: 12rem;
+      }
+    }
+  }
+  .footer-cta h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    & + p {
+      margin-top: 0;
+    }
+  }
+  .footer-menu {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    -webkit-font-smoothing: antialiased;
+    font-family: $font-sans;
+    nav {
+      ul {
+        margin: 0;
+        padding: 0;
+        font-size: rem(15px);
+        white-space: nowrap;
+      }
+      li {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+        a {
+          margin: 0 1em;
+          display: block;
+          font-weight: $font-medium;
+          position: relative;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.mini-footer {
+  font-size: rem(13px);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  [class^="mini-footer--"] {
+    align-self: start;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .mini-footer--left {
+    order: 3;
+    @media #{$sm-viewport} {
+      order: 1;
+    }
+  }
+  .mini-footer--center {
+    order: 2;
+    @media #{$sm-viewport} {
+      order: 2;
+    }
+  }
+  .mini-footer--right {
+    order: 1;
+    @media #{$sm-viewport} {
+      order: 3;
+    }
+  }
+
+}
+
+.footer-credits {
+  font-family: $font-sans;
+  font-size: rem(11px);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .06rem;
+}
+
+
+.site-mobile-menu {
+  @media #{$md-viewport} {
+    display: none;
+  }
+  nav {
+    ul {
+      margin: 0;
+      padding: 0 1.5rem;
+      font-size: rem(17px);
+      li {
+        text-align: left;
+        margin: 1rem 0;
+        padding: .5rem 0;
+        list-style-type: none;
+        display: block;
+        a {
+          display: block;
+          font-weight: $font-medium;
+          position: relative;
+          text-decoration: none;
+          &.active {
+            color: $color-gray;
+            &:before {
+              width: 4px;
+              height: 1em;
+              position: absolute;
+              left: -15px;
+              top: 3px;
+              content: "";
+              display: block;
+              background: $color-theme-dark-accent;
+            }
+          }
+        }
+        .list {
+          margin: 0 0 0 2rem;
+          padding: 0;
+          font-size: rem(15px);
+          h6 {
+            font-size: rem(13px);
+            margin: 3rem 0 0;
+          }
+          li {
+            margin: 0;
+            padding: 0;
+          }
+        }
+        .inner-list {
+          margin: 0;
+          padding: 0;
+          font-size: rem(15px);
+          li {
+            margin: 1rem 0 1.5rem;
+            a {
+              font-weight: $font-normal;
+            }
+          }
+        }
+      }
+    }
+  }
+  .container-fluid {
+    padding: 0 1em;
+  }
+  margin-top: 0;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  position: absolute;
+  left: ( $drawer-width * -1);
+  width: $drawer-width;
+  top: $pre-header-height;
+  z-index: 0;
+  height: calc(100% - (#{$pre-header-height}));
+}
+
+// items that should function like the main element when mobile menu opens/closes
+.main {
+  position: relative;
+  left: 0;
+}
+main {
+  padding-top: $pre-header-height;
+  @media #{$md-viewport} {
+    padding-top: ($pre-header-height + $site-header-height);
+  }
+}
+
+// make sure they have the same transitons
+.main, .site-mobile-menu, .pre-header, .site-header {
+  transition: left .25s, top .25s;
+  @media #{$md-viewport} {
+    left: 0 !important;
+  }
+}
+
+.header--translate {
+  background: $color-theme-light-bg;
+  transition: height .25s;
+  height: 0;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.5rem;
+  .goog-te-gadget {
+    font-family: $font-sans;
+    color: $color-gray-dark;
+    margin: .5rem 0;
+
+  }
+  .goog-te-gadget-simple {
+    padding: .3rem .5rem; // easier to tap
+    background-color: rgba($color-white, .3);
+    span {
+      color: $color-gray-dark !important;
+    }
+  }
+}
+
+
+// menu open states
+html.drawer-open--menu {
+  .pre-header .mobile-menu-button .icon--menu { opacity: 0; }
+  .pre-header .mobile-menu-button .icon--close { opacity: 1; }
+  .main {
+    left: $drawer-width;
+  }
+  .site-mobile-menu {
+    left: 0;
+  }
+}
+
+html.drawer-open--translate  .header--translate {
+  height: $pre-header-height;
+}
+html.drawer-open--translate {
+  .site-header {
+    top: ($pre-header-height * 2);
+  }
+  .site-mobile-menu {
+    top: ($pre-header-height * 2);
+    height: calc(100% - (10rem + (#{$pre-header-height} * 2)));
+  }
+}
+
+.sidebar {
+  box-shadow: $horizontal-shadow;
+  padding-top: 6rem;
+  font-size: rem(15px);
+  ul {
+    padding-left: 0;
+    margin-bottom: 6rem;
+  }
+  li {
+    list-style-type: none;
+    margin-bottom: 1.5rem;
+  }
+  a {
+    text-decoration: none;
+    &.active {
+      color: $color-gray;
+      pointer-events: none;
+      position: relative;
+      font-weight: $font-medium;
+      &:before {
+        width: 4px;
+        height: 1em;
+        position: absolute;
+        left: -15px;
+        top: 3px;
+        content: "";
+        display: block;
+        background: $color-theme-dark-accent;
+      }
+    }
+    &:hover {
+      text-decoration: underline;
+      color: $color-primary-darker;
+      font-weight: $font-medium;
+    }
+  }
+  .list-heading {
+    margin-bottom: 1.85rem;
+  }
+}
+
+body {
+  min-height: auto !important; // google translate widget messes with this
+}

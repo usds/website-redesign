@@ -1,0 +1,12 @@
+<div class="row start-xs" id="post-container">
+  <script type="text/template" id="post-template">
+    {% include tile.html tile=site.data.medium.medium_post_template tile_type="post" tile_external = true %}
+  </script>
+  <script>
+  $(document).ready(function(){
+    // three posts per row
+    var medium_rows = {{ include.rows | times: 3 }}
+    parseMediumJSON(medium_rows);
+  });
+  </script>
+</div>

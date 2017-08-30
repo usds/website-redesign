@@ -1,0 +1,71 @@
+body {
+  color: $color-gray;
+  font-family: $font-body;
+  word-break: break-word;
+  -webkit-font-smoothing: antialiased;
+  font-size: $base-font-size;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: $color-gray-dark;
+  font-family: $font-headlines;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  font-weight: $font-bold;
+  line-height: 5rem;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  font-weight: $font-bold;
+  &:after {
+    width: 40px;
+    background: $color-theme-dark-accent;
+    height: 8px;
+    display: block;
+    content: "";
+  }
+}
+// this won't work all the time, but works for our usecase right now
+.page-section.start-xs h2:after { margin: 20px 0 30px 0; }
+.page-section.center-xs h2:after { margin: 20px auto; }
+
+.col-xs h2 {
+  margin-top: 0;
+}
+h3 {
+  font-size: $h3-font-size;
+  font-weight: $font-medium;
+  margin-bottom: .5em;
+  margin-top: 2.5em;
+
+}
+
+h4 {
+  font-size: $h4-font-size;
+  font-weight: $font-medium;
+}
+
+h5 {
+  font-size: $h5-font-size;
+  font-weight: $font-medium;
+  text-transform: none;
+}
+
+h6 {
+  font-size: $h6-font-size;
+  font-weight: $font-medium;
+  text-transform: uppercase;
+  letter-spacing: .04rem;
+}
+
+.lede p {
+  font-size: $lede-font-size;
+  margin-bottom: 1em;
+  margin-top: .1em;
+}
+a {
+  color: $color-primary;
+  &:visited { color: $color-primary; }
+}

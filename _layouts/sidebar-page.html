@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="container container-fluid">
+  <div class="row">
+    <div class="sidebar start-xs col-md-3 col-xs-12 hidden-xs hidden-sm">
+
+      {% assign new_collection = site.collections | where: "title", page.nav_from_collection | first %}
+      {% assign items = new_collection.docs | sort: "url" | sort: "position" %}
+      {% assign base_path = page.nav_from_collection | downcase | prepend: "/_" | append: "/"  %}
+      {% include recursive-nav.html items=items base_path=base_path  %}
+
+    </div>
+    <div class="col-md-7 col-md-offset-1 col-xs-12">
+      <section class="page-header start-xs">
+        {% include page-section--header.html %}
+      </section>
+      <section class="page-section start-sm">
+        <div>
+          {{ content }}
+        </div>
+        {% if page.lever_link %}
+          <div class="row button-row">
+            <div class="col-xs">
+              <a href="{% unless page.lever_link contains "http" %}{{ site.baseurl }}{% endunless %}{{ page.lever_link }}" class="usa-button">{{ site.data.labels.job_apply_button_text }}</a>
+            </div>
+          </div>
+        {% endif %}
+      </section>
+    </div>
+  </div>
+</div>

@@ -5,22 +5,19 @@
 
     {% seo %}
 
-    <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/img/layout/favicon.ico" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/layout/favicon.png" />
+    <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/favicon.ico" />
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/uswds.min.css" type="text/css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.baseurl }}/assets/favicons/manifest.json">
+    <meta name="theme-color" content="#ffffff">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700' rel='stylesheet' type='text/css'>    
-    <script src="{{ site.baseurl }}/js/jquery-1.12.3.min.js"></script>
-    <script src="{{ site.baseurl }}/js/jquery.scrolldepth.min.js"></script>
-    <script src="{{ site.baseurl }}/js/slick.min.js" defer></script>
-    <script src="{{ site.baseurl }}/js/script.js" defer></script>
-    
-    <!--[if lt IE 9]>
-        <script src="/js/html5shiv.js"></script>
-    <![endif]-->
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/application.css">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+    <script src="{{ site.baseurl }}/assets/javascripts/application.js"></script>
+
 </head>

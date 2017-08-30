@@ -1,0 +1,16 @@
+
+// base icon size is 32px x 32px
+// base font size is 16px / 1.6rem
+.icon  {
+  color: inherit;
+  font-size: 2 * $base-font-size;
+  width: 2 *  $base-font-size;
+  height: 2 *  $base-font-size;
+  vertical-align: middle;
+}
+
+// icons within paragraphs need vertical compensation due to size of artbox
+p .icon {
+  position: relative;
+  top: -0.4rem;
+}

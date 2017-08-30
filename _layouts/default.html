@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html class="{{ site.theme | prepend: 'theme--' }}">
 
   {% include head.html %}
 
-  <body class="usds-site {{ page.url | replace:'index','home' | replace: '404','notfound' | replace:'.html','' | slugify }}-page">
+  <body class="{{ page.url | replace:'index','home' | replace: '404','notfound' | replace:'.html','' | slugify }}-page">
     {% include header.html %}
-    <main>
+    <main class="main">
       {{ content }}
     </main>
-    {% if page.url != '/join.html' %}
-      {% include extended_footer.html %}
-    {% endif %}
     {% include footer.html %}
-    {% include site_alert.html %}
+    {% include mobile-menu.html %}
   </body>
+  {% include icons.html %}
   {% include analytics.html %}
 </html>
