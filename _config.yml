@@ -20,7 +20,8 @@ zilker_theme: dark
 theme: minima
 # dark is the default, light will also work.
 
-
+nav_from_collection:
+  
 # Build settings
 markdown: kramdown
 collections:
