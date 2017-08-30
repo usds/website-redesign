@@ -17,7 +17,9 @@ twitter_username: civiqueso
 github_username:  cityofaustin
 medium_url: https://medium.com/city-of-austin-design-technology-innovation
 zilker_theme: dark
+theme: minima
 # dark is the default, light will also work.
+
 
 # Build settings
 markdown: kramdown
