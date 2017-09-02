@@ -2,6 +2,8 @@
 title: Homepage
 layout: home
 # redirect_from: cityofaustin.github.io/innovation-fellows
+# redirect_from: cityofaustin.github.io/innovation-fellows/team.html
+
 
 permalink: /index.html
 
