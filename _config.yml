@@ -15,6 +15,7 @@ description: >
 baseurl: /innovation-fellows # the base hostname & protocol for your site
 twitter_username: civiqueso
 github_username:  cityofaustin
+image: /innovation-fellows/assets/img/home.jpg
 medium_url: https://medium.com/city-of-austin-design-technology-innovation
 zilker_theme: dark
 theme: minima
