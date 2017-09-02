@@ -1,7 +1,7 @@
 ---
 title: Homepage
 layout: home
-image: /innovation-fellows/assets/img/home.jpg
+image: /assets/img/home.jpg
 # redirect_from: cityofaustin.github.io/innovation-fellows
 # redirect_from: cityofaustin.github.io/innovation-fellows/team.html
 
