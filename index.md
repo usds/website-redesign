@@ -1,5 +1,5 @@
 ---
-title: Homepage
+title: Changing Up Local Government
 layout: home
 image: /assets/img/home.jpg
 # redirect_from: cityofaustin.github.io/innovation-fellows
