@@ -15,6 +15,7 @@ $45,000-$70,000, commensurate with experience
 
 ## What you’ll do:
 
+*   Coordinates and ensures adherence to quality standards, deadlines and proper procedures of work performed by Innovation Office employees, administrative staff, and/or fellows
 *   Manage program logistics regarding office space & equipment including tracking of individual and group resources such as computers, desks, software, other supplies
 *   Oversee all duties related to the hiring and onboarding of new employees: writing position descriptions, posting openings, establishing hiring process, and coordinating with the corporate human resources department on pay
 *   Serve as liaison with Office of Communications and Technology Management for all service requests submitted under the Innovation Office including new employee requests, transfer employee requests, separated employee requests and general service requests. 
