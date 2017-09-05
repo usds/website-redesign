@@ -1,7 +1,7 @@
 ---
 title: Operations Manager
 is_fellow: true
-lever_link: 
+lever_link: https://jobs.lever.co/austintexas/c9db4b54-0aec-4def-9d8a-c07bbab465b7/apply
 position: 11
 lede_markdown: We’re looking for an experienced operations manager to oversee day-to-day processes, events, and activities for the City of Austin’s Design, Technology, & Innovation Fellows Program.
 ---
