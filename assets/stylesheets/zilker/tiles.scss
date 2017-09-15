@@ -142,10 +142,12 @@
   display: block;
   margin: 5rem auto 1rem;
 }
-.press-mention {
+.press-mention,
+.event-listing {
   margin-bottom: 4rem;
 }
-.press-title {
+.press-title,
+.event-title {
   margin-top: 3rem;
   padding-top: 2rem;
   border-top: 2px solid $color-gray-lighter;
@@ -153,16 +155,24 @@
     text-decoration: none;
   }
 }
-.press-source {
+.press-source,
+.event-location,
+.event-summary {
   font-size: rem(13px);
-  line-height: rem(21px);
+  line-height: rem(17px);
   font-weight: $font-medium;
   margin-bottom: 0;
 }
-.press-date {
+.press-date,
+.event-date {
   margin-top: 0;
   font-size: rem(13px);
   line-height: rem(21px);
+}
+.event-summary,
+.event-address {
+  font-weight: normal;
+  display: block;
 }
 .goal-flag {
   font-size: rem(26px);

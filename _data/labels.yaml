@@ -18,6 +18,8 @@ site_nav:
     path: /about/
   - label: Civiqueso Posts
     path: /posts/
+  - label: Events
+    path: /events/
   - label: Join Us
     path: /join/
 social_icons:
