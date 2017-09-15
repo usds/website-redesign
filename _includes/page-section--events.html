@@ -1,0 +1,49 @@
+<section class="page-section center-xs section--{{ include.section_theme }}">
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+        <div class="row">
+          <div class="col-xs"><h2>{{ include.section_headline }}</h2></div>
+        </div>
+        <div class="row">
+          {% capture lede_markdown %}{{ include.section_lede }}{% endcapture %}
+          <div class="col-xs lede">{{ lede_markdown | markdownify | trim }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="row center-xs">
+      {% if include.rows %}
+        {% assign row_limit = include.rows | times: 4 %}
+        {% assign events_count = 0 %}
+      {% else %}
+        {% assign row_limit = 0 %}
+        {% assign events_count = -999 %}
+      {% endif %}
+      {% assign now = site.time | date: "%s" %}
+      {% for item in include.items %}
+        {% assign expires = item.list_until_date | date: "%s" | plus: 86400 | date: "%s" %}
+        {% if now < expires and events_count < row_limit %}
+        <div class="event-listing col-md-3 col-sm-6 col-xs-12 start-xs" data-event-count="{% increment events_count %}">
+          <h5 class="event-title">
+            {% if item.link != nil %}<a href="{{ item.link }}">{% endif %}
+              {{ item.title }}
+            {% if item.link != nil %}</a>{% endif %}
+          </h5>
+          <p class="event-date">{{ item.event_time }}</p>
+          <p class="event-location">{{ item.location }}
+            <span class="event-address">{{ item.address | newline_to_br }}</span>
+          </p>
+          <p class="event-summary">{{ item.summary }}</p>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% if include.button_text and include.button_path %}
+    <div class="row">
+      <div class="col-xs">
+        <a href="{% unless include.button_path contains "http" %}{{ site.baseurl }}{% endunless %}{{ include.button_path }}" class="usa-button">{{ include.button_text }}</a>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>

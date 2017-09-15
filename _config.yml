@@ -22,22 +22,22 @@ theme: minima
 # dark is the default, light will also work.
 
 nav_from_collection:
-  
+
 # Build settings
 markdown: kramdown
 collections:
   projects:
     title: Projects
     output: false
-    permalink: /:collection/:path/
   press:
     title: Press mentions
     output: false
-    permalink: /:collection/:path/
+  events:
+    title: Events
+    output: false
   people:
     title: Staff
     output: false
-    permalink: /:collection/:path/
   jobs:
     title: Jobs
     output: true

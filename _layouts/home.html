@@ -46,10 +46,20 @@ layout: default
   button_text=page.people_button_text
   button_path=page.people_button_path %}
 
+
+{% assign events = site.events | sort_by: "list_until_date" %}
+{% include page-section--events.html
+  section_headline=page.events_headline
+  section_lede=page.events_lede_markdown
+  items=events
+  section_theme="gray"
+  rows=1
+  button_text=page.events_button_text
+  button_path=page.events_button_path %}
+
 {% include page-section--medium.html
   section_headline=page.medium_headline
   section_lede=page.medium_lede_markdown
-  section_theme="gray"
   rows=1
   button_text=page.medium_button_text
   button_path=page.medium_button_path %}
@@ -59,6 +69,7 @@ layout: default
   section_headline=page.press_mentions_headline
   section_lede=page.press_mentions_lede_markdown
   items=press_mentions
+  section_theme="gray"
   rows=2
   button_text=page.press_mentions_button_text
   button_path=page.press_mentions_button_path %}

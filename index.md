@@ -28,6 +28,11 @@ people_lede_markdown: 'Government is not an abstract institution or a concept. O
 people_button_text: Meet the team
 people_button_path: /about/
 
+events_headline: Where We'll Be
+events_lede_markdown: 'Catch up with us at some local civic tech events.'
+events_button_text: See what's coming
+events_button_path: '/events/'
+
 medium_headline: Follow Us on Medium
 medium_lede_markdown: 'Civiqueso is our Medium publication—stories of design, technology, and innovation in the civic melting pot of Austin, Texas.'
 medium_button_text: See recent posts
@@ -35,6 +40,6 @@ medium_button_path: /posts/
 
 press_mentions_headline: What People are Saying about Us
 press_mentions_lede_markdown: 'Press and interviews about the program and projects.'
-press_mentions_button_text: Button Text
-press_mentions_button_path: '#URL'
+press_mentions_button_text: Read all
+press_mentions_button_path: '/press/'
 ---
