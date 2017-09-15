@@ -8,7 +8,7 @@
     {% if parent_slug == include.base_path %}
       <li>
         {% unless item.layout == "redirect" %}
-          <a href="{{ site.baseurl }}{{ item.url }}"{% if page.url == item.url %}class="active"{% elsif page.url contains item.url %}class="active-parent"{% endif %} title="{{ item.title }}" role="menuitem">{{ item.title }}</a>
+          <a href="{{ site.baseurl }}{{ item.url }}" {% if page.url == item.url %}class="active"{% elsif page.url contains item.url %}class="active-parent"{% endif %} title="{{ item.title }}" role="menuitem">{{ item.title }}</a>
         {% else %}
           <h6 class="list-heading">{{ item.title }}</h6>
           {% endunless %}
