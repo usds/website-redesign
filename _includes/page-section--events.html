@@ -23,7 +23,7 @@
       {% for item in include.items %}
         {% assign expires = item.list_until_date | date: "%s" | plus: 86400 | date: "%s" %}
         {% if now < expires and events_count < row_limit %}
-        <div class="event-listing col-md-3 col-sm-6 col-xs-12" data-event-count="{% increment events_count %}">
+        <div class="event-listing col-md-3 col-sm-6 col-xs-12 start-xs" data-event-count="{% increment events_count %}">
           <h5 class="event-title">
             {% if item.link != nil %}<a href="{{ item.link }}">{% endif %}
               {{ item.title }}
