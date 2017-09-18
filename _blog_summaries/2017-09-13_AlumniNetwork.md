@@ -1,5 +1,5 @@
 ---
-title: U.S. Digital Service Alumni Network - Gaining Momentum on a Traditino of Service
+title: U.S. Digital Service Alumni Network - Gaining Momentum on a Tradition of Service
 medium_url: https://medium.com/the-u-s-digital-service/u-s-digital-service-alumni-network-83d9dac3cb9c
 image_url: https://cdn-images-1.medium.com/max/800/1*mYkYl1ZslvQ_HMK9W8eHBg.png
 image_description: USDS 'emoji logo' on a whiteboard at USDS HQ 
