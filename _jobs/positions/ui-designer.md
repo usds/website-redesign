@@ -1,9 +1,9 @@
 ---
-title: User Interface Designer
+title: Visual Designer
 is_fellow: true
 lever_link: https://jobs.lever.co/austintexas/b269495d-8f9e-450f-bd93-975e4badda39/apply
 position: 4
-lede_markdown: We’re looking for a senior UI designer to serve on multidisciplinary project teams with career civil servants, actively demonstrating the value of iterative development and user-centered design.
+lede_markdown: We’re looking for a senior visual designer to serve on multidisciplinary project teams with career civil servants, actively demonstrating the value of iterative development and user-centered design.
 
 
 ---
@@ -40,3 +40,4 @@ $75,000-$86,000, commensurate with experience
 
 *   4 years of relevant work experience
 *   Graduation from an accredited four-year college or university with major course work in a related field. An additional 4 years of experience can substitute this education requirement.
+*   Must include an example of a visual design style guide in your application.
