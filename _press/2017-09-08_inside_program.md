@@ -4,4 +4,5 @@ article_link: http://www.512tech.com/technology/how-the-city-innovation-fellows-
 source: Austin American-Statesman
 summary: >
   …These tech fellows are charged with bringing private-sector problem-solving skills to the entrenched bureaucracy of city government.
+date: 2017-09-08
 ---
