@@ -1,5 +1,5 @@
 ---
-title: Senior User Interface Designer
+title: User Interface Designer
 is_fellow: true
 lever_link: https://jobs.lever.co/austintexas/b269495d-8f9e-450f-bd93-975e4badda39/apply
 position: 4
