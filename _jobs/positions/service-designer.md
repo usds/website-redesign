@@ -52,3 +52,4 @@ $75,000-$86,000, commensurate with experience
 
 * Three years of relevant work experience		
 * Graduation from an accredited four-year college or university with major course work in a related field. An additional 4 years of experience can substitute this education requirement.
+* Must include an example of a service blueprint or journey map in your application.
