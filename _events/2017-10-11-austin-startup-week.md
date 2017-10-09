@@ -1,6 +1,6 @@
 ---
 title: 'Austin Startup Week: Designing for Social Good'
-event_time: Oct. 11th, 8am
+event_time: October 11th, 8am
 location: Galvanize
 address: |
   119 Nueces St,
