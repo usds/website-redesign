@@ -1,6 +1,6 @@
 ---
 title: 'Austin Startup Week: A Startup in Government'
-event_time: Oct. 8th, 2pm
+event_time: October 8th, 2pm
 location: Capital Factory
 address: |
   701 Brazos St,
