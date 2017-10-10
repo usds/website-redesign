@@ -1,14 +1,36 @@
+.usa-hero {
+	background-image: url(../img/hero.jpg);
+}
+.footer-hero{
+	 background-image: url(../img/footer.jpg);
+}
+
+
 .usa-hero-callout.usa-section-dark {
 	background-color: transparent;
 }
 .grey-background {
 	background: #f4f4f4;
 }
-.footer-hero {
-	background-image: url('../img/footer.jpg');
-	min-height: 500px;
-	
+.disclaimer-bar {
+    height: 30px;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    color: #ffffff;
+    background-color: #323a45;
+    font-size: 1.3rem;
+    text-align: left;
 }
+#beta-notice {
+    float: right;
+}
+.disclaimer-bar img.eop-seal {
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
 .resources a {
 	display: block;
 	color: #4A90E2;
