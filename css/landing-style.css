@@ -1,12 +1,11 @@
 .usa-hero {
 	background-image: url(../img/hero.jpg);
 }
-.footer-hero{
+.footer-hero {
 	 background-image: url(../img/footer.jpg);
 }
-
-#main-content{
-	margin:0;
+#main-content {
+	margin: 0;
 }
 .usa-hero-callout.usa-section-dark {
 	background-color: transparent;
@@ -32,10 +31,9 @@
     height: 20px;
     margin-right: 0.5rem;
 }
-
 .resources a {
 	display: block;
-	color: #4A90E2;
+	color: #4a90e2;
 }
 .grey-button, .grey-button:hover {
 	background: #e5e5e5;
@@ -53,6 +51,7 @@
 	float: right;
 	padding: 20px;
 	margin-right: 100px;
+	margin-bottom: 20px;
 }
 #main-content section .hero-links a {
 	padding: 10px;
@@ -65,11 +64,9 @@
 	border-bottom: 2px solid #eadb1f;
 	*/
 }
-
 .usa-hero-callout {
 	margin-top: 100px;
 }
-
 /* this is the default colors for the theme. DS = Digital Service */
 .DS-yellow-font {
 	color: #eadb1f;
@@ -81,31 +78,25 @@
 	color: #0f2e51;
 }
 .DS-link-color {
-	color: #4A90E2;
+	color: #4a90e2;
 }
 .DS-body-color {
-	color: #4A4A4A;
+	color: #4a4a4a;
 }
 .DS-title {
-	color: #0F2E51;
+	color: #0f2e51;
 }
 .header {
 	color: #000000;
 }
 section {
-	color: #4A4A4A;
+	color: #4a4a4a;
 }
-
 #main-content section a, section a:visited {
-	
-	padding-top: 10px;
-	padding-bottom: 10px;
 	text-decoration: none;
 }
-
-
 .header-font {
-	font-family: ‘Source Sans Pro’;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.3em/21px;
@@ -115,19 +106,20 @@ div.join-us a {
 	display: block;
 	font-size: 24px;
 	font-weight: bold;
-	padding: 0px;
+	padding: 0;
 }
 div.join-us a:visited {
 	text-decoration: none;
 }
 div.join-us p {
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 .usa-section-dark h1, .usa-section-dark h3 {
 	color: white;
 }
 .tag-line {
+	color: #fff;
 	font-size: 24px;
 	font-weight: 400;
 }
@@ -136,7 +128,8 @@ div.join-us p {
 	padding-bottom: 60px;
 }
 .pull-right {
-	float: right
+	float: right;
+	visibility: hidden;
 }
 .usa-hero-callout {
 	max-width: 100%;
@@ -171,19 +164,19 @@ a.usa-button-primary.landing-join-button {
 a {
   text-decoration: none;
 }
-a:visited{
-	color: #4A90E2;
+a:visited {
+	color: #4a90e2;
 }
-.landing-join-button{
-	min-width:100px;
+.landing-join-button {
+	min-width: 100px;
 }
-.tts{
+.tts {
 	padding: 10px;
 }
-a.section-info-link{
-	display:inline-block;
+a.section-info-link {
+	display: inline-block;
 }
-#main-content section  a.footer-links{
+#main-content section  a.footer-links {
 	text-decoration: underline;
 }
 body {
