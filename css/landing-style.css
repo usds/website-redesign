@@ -1,0 +1,185 @@
+.usa-hero {
+	background-image: url(../img/hero.jpg);
+}
+.footer-hero {
+	 background-image: url(../img/footer.jpg);
+}
+#main-content {
+	margin: 0;
+}
+.usa-hero-callout.usa-section-dark {
+	background-color: transparent;
+}
+.grey-background {
+	background: #f4f4f4;
+}
+.disclaimer-bar {
+    height: 30px;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    color: #ffffff;
+    background-color: #323a45;
+    font-size: 1.3rem;
+    text-align: left;
+}
+#beta-notice {
+    float: right;
+}
+.disclaimer-bar img.eop-seal {
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+.resources a {
+	display: block;
+	color: #4a90e2;
+}
+.grey-button, .grey-button:hover {
+	background: #e5e5e5;
+	font-weight: 400;
+	display: block;
+	cursor: default;
+}
+.border {
+	border: 1px solid #f4f4f4;
+}
+.usa-hero {
+	min-height: 300px;
+}
+.hero-links {
+	float: right;
+	padding: 20px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+}
+#main-content section .hero-links a {
+	padding: 10px;
+	
+	color: #eadb1f;
+	font-size: 24px;
+	text-decoration: none;
+	/*
+	margin-left: 10px;
+	border-bottom: 2px solid #eadb1f;
+	*/
+}
+.usa-hero-callout {
+	margin-top: 100px;
+}
+/* this is the default colors for the theme. DS = Digital Service */
+.DS-yellow-font {
+	color: #eadb1f;
+}
+.DS-blue-font {
+	color: #0872b9;
+}
+.DS-dark-blue-font, .grey-button, .grey-button:hover {
+	color: #0f2e51;
+}
+.DS-link-color {
+	color: #4a90e2;
+}
+.DS-body-color {
+	color: #4a4a4a;
+}
+.DS-title {
+	color: #0f2e51;
+}
+.header {
+	color: #000000;
+}
+section {
+	color: #4a4a4a;
+}
+#main-content section a, section a:visited {
+	text-decoration: none;
+}
+.header-font {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3em/21px;
+	margin-bottom: 5px;
+}
+div.join-us a {
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 0;
+}
+div.join-us a:visited {
+	text-decoration: none;
+}
+div.join-us p {
+	padding: 0;
+	margin: 0;
+}
+.usa-section-dark h1, .usa-section-dark h3 {
+	color: white;
+}
+.tag-line {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 400;
+}
+.mid-block {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.pull-right {
+	float: right;
+	visibility: hidden;
+}
+.usa-hero-callout {
+	max-width: 100%;
+	margin-top: 100px;
+}
+.join-us-grid {
+	padding: 30px;
+}
+.join-us img {
+	height: 80px;
+	width: 80px;
+}
+.ds-services img {
+	height: 128px;
+	width: 128px;
+}
+.ds-services a {
+	display: block
+}
+.hide {
+	display: none;
+}
+.center {
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+}
+a.usa-button-primary.landing-join-button {
+  color: white;
+  width: 150px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+	color: #4a90e2;
+}
+.landing-join-button {
+	min-width: 100px;
+}
+.tts {
+	padding: 10px;
+}
+a.section-info-link {
+	display: inline-block;
+}
+#main-content section  a.footer-links {
+	text-decoration: underline;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+}
