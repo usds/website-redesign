@@ -7,6 +7,5 @@ address: |
   Austin, TX 78701
 link: 'https://austindesignweek.org/schedule/a-service-design-toolkit-mapping-service-ecologies'
 summary: Using CapMetro's MetroBus service as a model, Design, Technology, and Innovation Fellow Lincoln Neiger will lead a workshop teaching participants how to analyze, map, and design service ecologies for service-oriented projects.
-
 list_until_date: 2017-11-30
 ---
