@@ -1,5 +1,5 @@
 ---
-title: Austin Design Week: Cranes in the Sky
+title: 'Austin Design Week: Cranes in the Sky'
 event_time: Nov. 5th, 12:00pm - 3:00pm
 location: 7CO
 address: |
