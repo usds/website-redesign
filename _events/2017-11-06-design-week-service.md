@@ -1,5 +1,5 @@
 ---
-title: A Service Design Toolkit: Mapping Service Ecologies
+title: 'A Service Design Toolkit: Mapping Service Ecologies'
 event_time: Nov. 6th, 12:00pm - 1:30pm
 location: Capital Factory
 address: |
