@@ -7,6 +7,5 @@ address: |
   Austin, TX 78702
 link: 'https://austindesignweek.org/schedule/cranes-in-the-sky'
 summary: ADW Kick Off Brunch presented by A Tribe Called Brunch featuring Ben Guhin, City of Austin Senior Advisor for Design and Technology
-
 list_until_date: 2017-11-6
 ---
