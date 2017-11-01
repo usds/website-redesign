@@ -2,11 +2,7 @@
 title: Join Us
 permalink: /join/
 
-lede_markdown: We’re currently looking for [front-end](https://cityofaustin.github.io/innovation-fellows/join/positions/front-end-developer/), [back-end](https://cityofaustin.github.io/innovation-fellows/join/positions/back-end-developer/), and [full-stack](https://cityofaustin.github.io/innovation-fellows/join/positions/full-stack-developer/) developers to support our  engineering team in their efforts to improve ATXfloods, launch a new platform for austin.gov, and help the city employees break up with paper processes. 
-
-We’re also looking for senior practitioners in [visual design](https://cityofaustin.github.io/innovation-fellows/join/positions/ui-designer/), [experience design](https://cityofaustin.github.io/innovation-fellows/join/positions/ux-designer/), and [service design](https://cityofaustin.github.io/innovation-fellows/join/positions/service-designer/) to develop patterns for the future of city services, and experts in [content strategy](https://cityofaustin.github.io/innovation-fellows/join/positions/content-strategist/) to help us concept, prototype, and implement content solutions across departments and initiatives.
-  
-Across projects, we’re seeking experienced [project managers](https://cityofaustin.github.io/innovation-fellows/join/positions/agile-project-manager/) and [program managers](https://cityofaustin.github.io/innovation-fellows/join/positions/program-manager/) to help our teams continue to deliver the best possible work for Austin’s residents, and set an example for how to lead design and technology in local government.
+lede_markdown:   
 
 # DON'T EDIT ANYTHING BETWEEN THE <div> TAGS BELOW!
 ---
