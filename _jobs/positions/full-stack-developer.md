@@ -1,7 +1,7 @@
 ---
 title: Full-Stack Web Developer
 is_fellow: true
-lever_link: https://jobs.lever.co/austintexas/db556c4d-e562-4316-a445-d6fe81e2eb0b
+lever_link: https://jobs.lever.co/austintexas/db556c4d-e562-4316-a445-d6fe81e2eb0b/apply
 position: 8
 lede_markdown: We’re looking for a senior full-stack developer to serve on multidisciplinary project teams with career civil servants, actively demonstrating the value of iterative development and user-centered design.
 
