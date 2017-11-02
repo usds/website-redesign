@@ -1,0 +1,10 @@
+---
+title: Meet the Team - October 2017
+medium_url: https://medium.com/the-u-s-digital-service/meet-the-team-october-2017-aa6e20e0e10e
+image_url: https://cdn-images-1.medium.com/max/900/1*tMRIBfU-6LTy49xfjPM_NA.png
+image_description: Chanteclaire Swett
+date: 2017-11-02
+---
+Another month, another set of new smiling faces here at the U.S. Digital Service. 
+Fresh recruits shared their answers to a few questions from the famous [Proust
+Questionnaire](https://en.wikipedia.org/wiki/Proust_Questionnaire). 
