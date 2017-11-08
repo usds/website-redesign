@@ -20,7 +20,7 @@ We’re also looking for senior practitioners in [visual design](https://cityofa
   
 Across projects, we’re seeking experienced [project managers](https://cityofaustin.github.io/innovation-fellows/join/positions/agile-project-manager/) and [program managers](https://cityofaustin.github.io/innovation-fellows/join/positions/program-manager/) to help our teams continue to deliver the best possible work for Austin’s residents, and set an example for how to lead design and technology in local government.
 
-Most terms are for 12 months of full-time work (40 hours each week), and we're looking to start the majority of our new roles by January 29, 2018.
+Most terms are for 12 months of full-time work (40 hours each week), and we're looking to start the majority of our new roles by January 15th, 2018.
 
 If none of our current openings are the right fit for you, connect with us to be notified of future openings, or [send us your resume](https://jobs.lever.co/austintexas/7367149f-2727-4c51-82fe-124ad57f3a28).
 
