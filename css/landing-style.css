@@ -17,10 +17,15 @@
     height: 30px;
     padding-bottom: .5rem;
     padding-top: .5rem;
-    color: #ffffff;
+    color: #fff;
     background-color: #323a45;
     font-size: 1.3rem;
     text-align: left;
+}
+.usds-site .disclaimer-bar a,
+.usds-site .disclaimer-bar a:hover {
+	text-decoration: underline;
+	color: #fff;
 }
 #beta-notice {
     float: right;
@@ -34,12 +39,6 @@
 .resources a {
 	display: block;
 	color: #4a90e2;
-}
-.grey-button, .grey-button:hover {
-	background: #e5e5e5;
-	font-weight: 400;
-	display: block;
-	cursor: default;
 }
 .border {
 	border: 1px solid #f4f4f4;
@@ -64,8 +63,17 @@
 	border-bottom: 2px solid #eadb1f;
 	*/
 }
-.usa-hero-callout {
-	margin-top: 100px;
+.usa-section.summary,
+.join-us,
+.ds-services {
+	margin-top: 60px;
+}
+.ds-services h1,
+.usa-section.summary h2 {
+	margin-top: 0;
+}
+.usa-section.summary p {
+	margin-bottom: 0;
 }
 /* this is the default colors for the theme. DS = Digital Service */
 .DS-yellow-font {
@@ -74,7 +82,7 @@
 .DS-blue-font {
 	color: #0872b9;
 }
-.DS-dark-blue-font, .grey-button, .grey-button:hover {
+.DS-dark-blue-font {
 	color: #0f2e51;
 }
 .DS-link-color {
@@ -133,18 +141,16 @@ div.join-us p {
 }
 .usa-hero-callout {
 	max-width: 100%;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 .join-us-grid {
 	padding: 30px;
 }
 .join-us img {
-	height: 80px;
-	width: 80px;
+	max-height: 80px;
 }
 .ds-services img {
-	height: 128px;
-	width: 128px;
+	max-height: 128px;
 }
 .ds-services a {
 	display: block
