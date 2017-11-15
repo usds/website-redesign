@@ -153,12 +153,10 @@ div.join-us p {
 	padding: 30px;
 }
 .join-us img {
-	height: 80px;
-	width: 80px;
+	max-height: 80px;
 }
 .ds-services img {
-	height: 128px;
-	width: 128px;
+	max-height: 128px;
 }
 .ds-services a {
 	display: block
