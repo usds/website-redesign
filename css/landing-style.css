@@ -40,12 +40,6 @@
 	display: block;
 	color: #4a90e2;
 }
-.grey-button, .grey-button:hover {
-	background: #e5e5e5;
-	font-weight: 400;
-	display: block;
-	cursor: default;
-}
 .border {
 	border: 1px solid #f4f4f4;
 }
@@ -88,7 +82,7 @@
 .DS-blue-font {
 	color: #0872b9;
 }
-.DS-dark-blue-font, .grey-button, .grey-button:hover {
+.DS-dark-blue-font {
 	color: #0f2e51;
 }
 .DS-link-color {
