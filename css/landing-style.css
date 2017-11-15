@@ -17,10 +17,15 @@
     height: 30px;
     padding-bottom: .5rem;
     padding-top: .5rem;
-    color: #ffffff;
+    color: #fff;
     background-color: #323a45;
     font-size: 1.3rem;
     text-align: left;
+}
+.usds-site .disclaimer-bar a,
+.usds-site .disclaimer-bar a:hover {
+	text-decoration: underline;
+	color: #fff;
 }
 #beta-notice {
     float: right;
