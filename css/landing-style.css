@@ -69,8 +69,17 @@
 	border-bottom: 2px solid #eadb1f;
 	*/
 }
-.usa-hero-callout {
-	margin-top: 100px;
+.usa-section.summary,
+.join-us,
+.ds-services {
+	margin-top: 60px;
+}
+.ds-services h1,
+.usa-section.summary h2 {
+	margin-top: 0;
+}
+.usa-section.summary p {
+	margin-bottom: 0;
 }
 /* this is the default colors for the theme. DS = Digital Service */
 .DS-yellow-font {
@@ -138,7 +147,7 @@ div.join-us p {
 }
 .usa-hero-callout {
 	max-width: 100%;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 .join-us-grid {
 	padding: 30px;
