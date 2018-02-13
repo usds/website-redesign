@@ -33,7 +33,7 @@ defaults:
     values:
       layout: report-to-congress
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
