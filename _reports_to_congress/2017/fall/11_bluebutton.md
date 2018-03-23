@@ -6,16 +6,18 @@ permalink: /report-to-congress/2017/fall/blue-button/
 ---
 ### The Challenge
 
-In April 2015, Congress passed the Medicare Access and CHIP Reauthorization Act of 2015 (MACRA) to change the way Medicare pays doctors and other clinicians in order to reward value of care over quantity of care. Prior to implementing MACRA, providers and their staff had to navigate a network of CMS systems that were disjointed, complicated, and rarely synchronized. Doctors had incentives for better performance — but had trouble understanding scoring rules across multiple programs or feedback on their specific performance, which is given to them in lengthy PDFs.
+The Blue Button Initiative began in 2010 to "Put Patients First" by enabling simple access to health records.
 
-### The Solution
+Currently, patients can download or print their health records from [MyMedicare.gov](https://mymedicare.gov). As part of the update to the initiative, the Centers for Medicare & Medicaid Services (CMS) is planning to launch an Application Programming Interface (API) for Medicare claims, which will allow companies and researchers to empower patients to make better decisions with their health information. With the new API, patients will be able to grant consent to mobile apps, patient portals, clinical trials, and more to leverage their data for medical research and more personalized, cost-effective care.
 
-Implementation of the MACRA legislation required significant changes in how Medicare measures the value of care doctors provide. HHS’ Centers for Medicare and Medicaid Services (CMS) engaged USDS to bring best practices and modern approaches to the implementation of the transition to ensure it was clear and effective. Since launching a plain language website in October 2016, USDS has continued to support CMS to improve the Quality Payment Program (QPP) through better physician feedback, clearer program participation instructions, and a customer-driven approach that helps partner with doctors nationwide on behalf of beneficiaries.
+### The Solution / First Update
 
-### Update
+USDS is currently providing technical and product management support for the deployment of the Medicare Claims API. The API will launch at the Healthcare Information and Management Systems Society (HIMSS) conference in March 2018.
 
-In April 2017, USDS supported the launch of an on-line tool on <a href="https://qpp.cms.gov">qpp.cms.gov</a> that reconciles data from many disparate data systems and leverages user-centered design. The tool helps doctors determine if they are required to participate in the Merit-based Incentive Payment System by simply providing their National Provider Identifier, an identifier doctors regularly use when billing CMS.
+### Highlights
 
-USDS has also developed and begun the implementation of an Application Programming Interface (API) strategy that will reduce the cost and burden of participating in CMS programs by enabling the market to build software that interacts directly with Medicare systems and data. The initial API opened quality measures data and led the private sector to develop new tools—including an iPhone app to look up QPP measures—within a week of going live. USDS is now collaborating with the market to develop submission and scoring APIs for the QPP that will replace manual processes, provide real-time feedback and scoring, protect sensitive patient information, and create a platform for building QPP-related solutions. A public test version is available now and in use by over two-dozen software development firms, and USDS will make the finished version available by the end of 2017.
+- The Medicare Claims API includes three years of Medicare (Part A, B, D) claims data
+- Data sets include information for 53 million Medicare beneficiaries
+- Third-party developers are actively building integrations with the Medicare Claims API
 
-Finally, USDS worked with CMS to award an agile Blanket Purchase Agreement (BPA) for small agile companies to support QPP development efforts. Unlike traditional procurements, many task orders in this BPA require demonstration of working software prototypes as part of the competitive process.
+CAPTION: 1upHealth is one of many third-party companies integrating with Medicare claims data to provide crucial services to patients.

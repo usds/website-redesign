@@ -7,16 +7,19 @@ previous_entry: /report-to-congress/2017/07/immigration-system/
 ---
 ### The Challenge
 
-U.S. Citizenship and Immigration Services (USCIS) processes millions of immigration requests a year through a paper-based system that results in long waiting periods for applicants who have little visibility into their applications’ statuses. When the agency’s five-year Electronic Immigration System (ELIS) modernization project ran into a host of challenges, USDS joined the USCIS team to help with implementation.
+U.S. Citizenship and Immigration Services (USCIS) processes millions of immigration requests a year through a paper-based process that results in long waiting periods for applicants who have little visibility into the status of their application or petition. When the agency's Electronic Immigration System (ELIS) modernization program faced a host of challenges, USDS partnered with the USCIS team to help address those challenges and accelerate implementation.
 
 ### The Solution
 
-The DHS Digital Service has been supporting the release of USCIS’s most critical digital services including ELIS — the enterprise software that will support adjudication of digitized immigration forms, and myUSCIS — the authenticated user experience which will allow applicants to apply and track their cases online.
+Since 2014, the DHS Digital Service has been supporting the release of USCIS's most critical digital capabilities and services such as ELIS—the case management system that supports processing and adjudication of digitized immigration workloads—and myUSCIS, the authenticated user experience which allows applicants to apply and track their cases online. Both of these initiatives are partnerships between USDS and USCIS's Office of the Chief Information Officer.
+
+USDS has continued its strong partnership with USCIS to support the creation of a digitized system for immigration applicants and petitioners. The tools and features being created include the digitized interactive version of the most critical USCIS workloads and a case status page for applicants. Many of these tools soft-launched in 2017 and have been adopted as the primary entry point for applicants seeking naturalization.
 
 ### Update
 
-USDS continues to build upon its strong partnership with USCIS to support the creation of a digitized system for immigrant applicants. The tools and features under development include the digitized interactive version of the most critical USCIS forms, and a case activity page for applicants. Many of these tools had soft launches in 2017 and will be adopted as the primary entry point for applicants seeking naturalization once USCIS transitions from the legacy CLAIMS4 system to ELIS.
+In late October 2017, USCIS successfully transitioned N-400 digital processing from the legacy CLAIMS4 system to ELIS. Previously, an individual had to complete a physical 20-page N-400 form to become a naturalized citizen. The completed form was often shipped across the country to multiple immigration officers, adjudicators, and clerks to review immigration records, perform interviews, and process background checks. All applicants are now able to apply online and USCIS is able to process the application more efficiently. With more than 975,000 naturalization applicants every year, incremental improvements quickly result in a tremendous impact. Because all newly filed N-400 applications are electronically processed by ELIS, the agency is also cutting down on agency processing costs.
 
-To ensure the launch and adoption of ELIS, analysts needed to have confidence that the results of applicants’ background checks were accurate. Currently, the best method of ensuring accuracy is a manual follow up after a background check has been run, which is a time- and labor-intensive process that has the potential to introduce human errors. To solve this problem, USDS developed the VERIFI tool, which automates the validation of background checks.
+CAPTION: The new online Form N-400 is simple and intuitive for users.
 
-Overall, USDS has also helped USCIS institute organizational changes that align toward building better digital services, aligning workflow and governance to promote efficiency and effectiveness, and procuring design services for better user experience. These organizational changes manifest as closer interactions between USCIS’s directorates, bringing in contracted designers through a new USDS-led procurement, helping orchestrate a USCIS internal restructuring to put user needs first, and shifting USCIS’s software development paradigm to focus on working with users rather than for them.
+ * 5% &rarr; 50% Increase in immigration workload completed digitally
+ * 100% of new N-400 applications electronically processed since late Oct. 2017
