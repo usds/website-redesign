@@ -1,9 +1,9 @@
 ---
 title: Simplifying Veteran-facing Services through Vets.gov
 agency: Department of Veterans Affairs (VA)
-report: July 2017
-permalink: /report-to-congress/2017/07/vets-dot-gov/
-previous_entry: /report-to-congress/2016/vets-dot-gov/
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/vets-dot-gov/
+previous_entry: /report-to-congress/2017/07/vets-dot-gov/
 ---
 ### The Challenge
 

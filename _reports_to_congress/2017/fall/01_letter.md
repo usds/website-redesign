@@ -1,9 +1,9 @@
 ---
-title: July 2017 Report to Congress
+title: Fall 2017 Report to Congress
 short: Letter from the Administrator
-report: July 2017
-report_title: July 2017
-permalink: /report-to-congress/2017/07/
+report: Fall 2017
+report_title: Fall 2017
+permalink: /report-to-congress/2017/fall/
 front: true
 image: /img/report-to-congress/capitol.jpg
 ---

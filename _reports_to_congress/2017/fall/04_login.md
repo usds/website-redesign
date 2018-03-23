@@ -1,8 +1,9 @@
 ---
-title: Login.gov (Consumer Identity)
+title: Improving Government Consumer Identity with Login.gov
 agency: General Services Administration (GSA)
-report: July 2017
-permalink: /report-to-congress/2017/07/login-dot-gov/
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/login-dot-gov/
+previous_entry: /report-to-congress/2017/07/login-dot-gov/
 ---
 ### The Challenge
 

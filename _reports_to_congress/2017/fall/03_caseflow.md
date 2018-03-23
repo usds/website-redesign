@@ -1,9 +1,9 @@
 ---
 title: Streamlining VA Appeals Processing
 agency: Department of Veterans Affairs (VA)
-report: July 2017
-permalink: /report-to-congress/2017/07/veterans-disability-claims/
-previous_entry: /report-to-congress/2016/veterans-disability-claims/
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/veterans-disability-claims/
+previous_entry: /report-to-congress/2017/07/veterans-disability-claims/
 ---
 ### The Challenge
 

@@ -1,9 +1,9 @@
 ---
-title: Modernizing our Immigration System
+title: Modernizing Our Immigration System
 agency: Department of Homeland Security (DHS)
-report: July 2017
-permalink: /report-to-congress/2017/07/immigration-system/
-previous_entry: /report-to-congress/2016/immigration-system/
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/immigration-system/
+previous_entry: /report-to-congress/2017/07/immigration-system/
 ---
 ### The Challenge
 

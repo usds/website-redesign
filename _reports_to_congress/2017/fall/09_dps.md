@@ -1,8 +1,9 @@
 ---
-title: Defense Personal Property System
+title: Helping Military Families Move
 agency: Department of Defense (DoD)
-report: July 2017
-permalink: /report-to-congress/2017/07/dps/
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/dps/
+previous_entry: /report-to-congress/2017/07/dps/
 ---
 ### The Challenge
 

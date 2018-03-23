@@ -1,9 +1,9 @@
 ---
-title: Hack the Pentagon
+title: Hacking the Pentagon
 agency: Department of Defense (DoD)
-report: July 2017
-permalink: /report-to-congress/2017/07/hack-the-pentagon/
-previous_entry: /report-to-congress/2016/hack-the-pentagon/
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/hack-the-pentagon/
+previous_entry: /report-to-congress/2017/07/hack-the-pentagon/
 ---
 ### The Challenge
 

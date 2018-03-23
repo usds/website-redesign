@@ -1,8 +1,7 @@
 ---
-title: Advisor Network (ANET)
-agency: Department of Defense (DoD)
-report: July 2017
-permalink: /report-to-congress/2017/07/anet/
+title: Completed Projects
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/completed/
 ---
 ### The Challenge
 

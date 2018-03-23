@@ -1,8 +1,8 @@
 ---
 title: Transforming Federal IT Procurement through Digital IT Acquisition Training
-report: July 2017
-permalink: /report-to-congress/2017/07/procurement/
-previous_entry: /report-to-congress/2016/procurement/
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/procurement/
+previous_entry: /report-to-congress/2017/07/procurement/
 ---
 ## Transforming Federal IT Procurement through Digital IT Acquisition Training
 

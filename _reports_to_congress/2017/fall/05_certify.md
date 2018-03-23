@@ -1,9 +1,9 @@
 ---
-title: Modernizing Small Business Certification for Government Contracting
+title: Modernizing Small Business Certification Programs
 agency: Small Business Administration (SBA)
-report: July 2017
-permalink: /report-to-congress/2017/07/certify/
-previous_entry: /report-to-congress/2016/procurement/
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/certify/
+previous_entry: /report-to-congress/2017/07/certify/
 ---
 ### The Challenge
 

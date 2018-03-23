@@ -1,9 +1,8 @@
 ---
-title: Congressionally Mandated Medicare Payment Changes
+title: Modernizing Health Data Access with APIs
 agency: Health &amp; Human Services (HHS)
-report: July 2017
-permalink: /report-to-congress/2017/07/medicare-payments/
-previous_entry: /report-to-congress/2016/medicare-payments/
+report: Fall 2017
+permalink: /report-to-congress/2017/fall/blue-button/
 ---
 ### The Challenge
 
