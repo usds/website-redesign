@@ -15,6 +15,10 @@ DDS deployed a rapid response team to provide immediate remediation, and in just
 
 ### Update
 
+<figure>
+	<img src="/img/report-to-congress/2017/fall/move.png">
+	<figcaption>The redesigned servicemember-centered website <a href="https://move.mil">move.mil</a> launched in November 2017.</figcaption>
+</figure>
+
 USTRANSCOM has approved funding for initial development of a prototype system to more efficiently process relocations by military members and their families. DDS recently selected a highly vetted software company to execute development efforts under the close product guidance of DDS. DDS spent six months actively developing the related informational site [move.mil](https://move.mil), which is the primary resource for military families and their spouses during their frequent relocations around the globe. [Move.mil](https://move.mil) relaunched in November 2017, and was developed through constant user feedback from servicemembers, their spouses, and DoD transportation support staff. The website includes updated content, new features, and a suite of tools to greatly reduce the burden on military families during the stress of relocation.
 
-CAPTION: The redesigned servicemember-centered website [move.mil](https://move.mil) launched in November, 2017.

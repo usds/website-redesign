@@ -903,6 +903,19 @@ section.report-to-congress {
       text-transform: uppercase;
     }
   }
+  figure {
+    margin: 2em 0;
+    padding: 0;
+    img {
+      display: block;
+      border: 1px solid #ccc;
+    }
+  }
+  figcaption {
+    padding: .5em 0;
+    font-size: 88%;
+    color: #777;
+  }
 }
 
 .prev-next {

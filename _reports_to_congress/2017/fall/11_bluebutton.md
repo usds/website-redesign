@@ -14,10 +14,13 @@ Currently, patients can download or print their health records from [MyMedicare.
 
 USDS is currently providing technical and product management support for the deployment of the Medicare Claims API. The API will launch at the Healthcare Information and Management Systems Society (HIMSS) conference in March 2018.
 
+<figure>
+	<img src="/img/report-to-congress/2017/fall/bluebutton.png">
+	<figcaption>1upHealth is one of many third-party companies integrating with Medicare claims data to provide crucial services to patients.</figcaption>
+</figure>
+
 ### Highlights
 
 - The Medicare Claims API includes three years of Medicare (Part A, B, D) claims data
 - Data sets include information for 53 million Medicare beneficiaries
 - Third-party developers are actively building integrations with the Medicare Claims API
-
-CAPTION: 1upHealth is one of many third-party companies integrating with Medicare claims data to provide crucial services to patients.
