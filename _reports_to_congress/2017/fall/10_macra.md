@@ -28,6 +28,11 @@ USDS is collaborating with the market to develop APIs for QPP to replace manual 
 
 Finally, USDS worked with CMS to award an agile Blanket Purchase Agreement (BPA) for small agile companies to support QPP development efforts. Unlike traditional procurements, many task orders in this BPA require working software prototypes as part of the competitive process.
 
- * 129 Organizations requested API access
- * 22 Organizations actively building API integrations
- * 3 &rarr; 1 Programs consolidated
+<div class="impact">
+	<h3 class="infographic-text-blue">Impact</h3>
+	<ul class="usa-grid">
+		<li class="usa-width-one-third"><span class="infographic-text-blue">129</span> Organizations requested API access</li>
+		<li class="usa-width-one-third"><span class="infographic-text-blue">22</span> Organizations actively building API integrations</li>
+		<li class="usa-width-one-third"><span class="infographic-text-blue">3 &rarr; 1</span> Programs consolidated</li>
+	</ul>
+</div>

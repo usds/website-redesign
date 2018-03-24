@@ -24,3 +24,10 @@ The first [login.gov](https://login.gov) integration launched in April 2017 with
 
 Looking forward, GSA has signed MOUs with the Social Security Administration, Department of Education, and Railroad Retirement Board to integrate [login.gov](https://login.gov) services for their users throughout 2018. USDS estimates that the Federal Government has the potential to save hundreds of millions of dollars by consolidating consumer identity under [login.gov](https://login.gov), while improving access and usability for all Americans.
 
+<div class="impact">
+	<h3 class="infographic-text-blue">Impact</h3>
+	<ul class="usa-grid">
+		<li class="usa-width-one-half"><span class="infographic-text-blue">1.5<span class="unit">M</span>+</span> Registered users since May 2017 launch</li>
+		<li class="usa-width-one-half"><span class="infographic-text-blue">100<span class="unit">%</span></span> Users with multi-factor authentication</li>
+	</ul>
+</div>

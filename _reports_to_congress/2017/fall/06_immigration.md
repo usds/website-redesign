@@ -24,5 +24,10 @@ USDS has continued its strong partnership with USCIS to support the creation of 
 
 In late October 2017, USCIS successfully transitioned N-400 digital processing from the legacy CLAIMS4 system to ELIS. Previously, an individual had to complete a physical 20-page N-400 form to become a naturalized citizen. The completed form was often shipped across the country to multiple immigration officers, adjudicators, and clerks to review immigration records, perform interviews, and process background checks. All applicants are now able to apply online and USCIS is able to process the application more efficiently. With more than 975,000 naturalization applicants every year, incremental improvements quickly result in a tremendous impact. Because all newly filed N-400 applications are electronically processed by ELIS, the agency is also cutting down on agency processing costs.
 
- * 5% &rarr; 50% Increase in immigration workload completed digitally
- * 100% of new N-400 applications electronically processed since late Oct. 2017
+<div class="impact">
+	<h3 class="infographic-text-blue">Impact</h3>
+	<ul class="usa-grid">
+		<li class="usa-width-one-half"><span class="infographic-text-blue">5<span class="unit">%</span> &rarr; 50<span class="unit">%</span></span> Increase in immigration workload completed digitally</li>
+		<li class="usa-width-one-half"><span class="infographic-text-blue">100<span class="unit">%</span></span> of new N-400 applications electronically processed since late Oct. 2017</li>
+	</ul>
+</div>

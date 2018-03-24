@@ -916,6 +916,50 @@ section.report-to-congress {
     font-size: 88%;
     color: #777;
   }
+  .impact {
+    margin: 6.5rem 0 6rem;
+      padding: 2rem;
+      border-top: 5px #dec622 solid;
+      border-bottom: 5px #dec622 solid;
+      text-align: center;
+      h3 {
+        display: table;
+        margin: -4rem auto 1rem;
+        padding: 0 2rem;
+        font-size: 2.5rem;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background: #fff;
+      }
+    li {
+      display: block;
+      margin-top: 0;
+      margin-bottom: 0;
+      a {
+        text-decoration: underline;
+      }
+      &:before {
+        display: none;
+      }
+      .infographic-text-blue {
+        font-size: 300%;
+        display: block;
+        .unit {
+          font-size: 80%;
+        }
+      }
+    }
+    ul {
+      display: block;
+      padding: 0;
+      max-width: none;
+      margin: 0;
+    }
+  }
+  .usa-grid .usa-width-one-half:nth-child(2n) {
+    margin-right: 0;
+  }
 }
 
 .prev-next {

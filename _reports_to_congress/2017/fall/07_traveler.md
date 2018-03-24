@@ -21,5 +21,10 @@ This new application was CBP's first system to move to the cloud, and has result
 
 The DHS Digital Service also worked with CBP and the Transportation Security Administration to build out a Trusted Traveler Programs comparison tool. Users were struggling to determine the best program for their needs across the various DHS offerings. Based on travel information provided by the end user, the tool suggests the best program based on cost and estimated approval times and provides a link to access the program's application.
 
- * 670k+ User accounts since Oct. 1 launch
- * 100k Online applications submitted since launch
+<div class="impact">
+	<h3 class="infographic-text-blue">Impact</h3>
+	<ul class="usa-grid">
+		<li class="usa-width-one-half"><span class="infographic-text-blue">670<span class="unit">K</span>+</span> User accounts since Oct.&nbsp;1 launch</li>
+		<li class="usa-width-one-half"><span class="infographic-text-blue">100<span class="unit">K</span></span> Online applications submitted since&nbsp;launch</li>
+	</ul>
+</div>

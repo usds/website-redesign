@@ -16,7 +16,7 @@ OMB's USDS acquisition team and Office of Federal Procurement Policy (OFPP) host
 
 <figure>
 	<img src="/img/report-to-congress/2017/fall/techfar.png">
-	<figcaption>[The TechFAR Hub website]https://techfarhub.cio.gov/) is a resource for Federal Government buyers of digital services to understand how industry best practices can be achieved through federal acquisition regulations.</figcaption>
+	<figcaption><a href="https://techfarhub.cio.gov/">The TechFAR Hub website</a> is a resource for Federal Government buyers of digital services to understand how industry best practices can be achieved through federal acquisition regulations.</figcaption>
 </figure>
 
 ### Update
@@ -25,4 +25,9 @@ USDS and OFPP are working to expand and scale the DITAP development program and 
 
 Alumni of the first two classes have formed a Digital Acquisition community of practice, which helps them support one another's groundbreaking efforts, and gives them access to technology subject-matter experts. These alumni actively participate in conference panels and conduct training events within their home agencies. As a result of the DITAP course, 71 percent of the graduates have been approached by others in their agencies to apply their knowledge and 81 percent indicated increased visibility as a digital service professional.
 
- * 54 Procurement specialists graduated from two cohorts
+<div class="impact">
+	<h3 class="infographic-text-blue">Impact</h3>
+	<ul>
+		<li><span class="infographic-text-blue">54</span> Procurement specialists graduated from two cohorts</li>
+	</ul>
+</div>

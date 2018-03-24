@@ -22,3 +22,12 @@ Establishing these contract vehicles is part of a broader effort to normalize an
 The Department of Defense continues to run both public and private bug bounties against assets critical to internal and global operations. To date, more than 2,000 security researchers have submitted more than 400 unique vulnerabilities to DoD public-facing websites and internal systems. Hack the Air Force (which ran from May to June 2017) yielded one of the highest-earning contributors to date: a 17-year-old U.S.-based hacker who submitted 30 vulnerabilities in Air Force assets.
 
 DoD's landmark Vulnerability Disclosure Policy has also been successful at identifying critical vulnerabilities. The policy is a 24/7 legal pathway for security researchers around the globe to submit vulnerabilities on all DoD public-facing websites and applications. Since its inception in November 2016, the platform has received nearly 3,000 vulnerability reports from more than 600 security researchers around the world. Of these 3,000 reports, more than 100 were deemed high or critical vulnerabilities that included remote code executions and ways to bypass authentication on DoD sites. The Department of Justice has released official guidance for other Federal agencies who want to implement this policy as the technique of crowdsourced security continues to gain traction across the U.S. Government.
+
+<div class="impact">
+	<h3 class="infographic-text-blue">Impact</h3>
+	<ul class="usa-grid">
+		<li class="usa-width-one-third"><span class="infographic-text-blue">9</span> Bug bounties held to&nbsp;date</li>
+		<li class="usa-width-one-third"><span class="infographic-text-blue">3,600+</span> Vulnerabilities reported to&nbsp;DoD</li>
+		<li class="usa-width-one-third"><span class="infographic-text-blue">600+</span> Global security researchers who have contributed</li>
+	</ul>
+</div>

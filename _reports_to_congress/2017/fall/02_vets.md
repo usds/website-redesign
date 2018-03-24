@@ -37,5 +37,10 @@ The VONAPP website was successfully retired in November 2017, saving VA $256,872
 
 VONAPP features and content have been modernized, redesigned, tested by Veterans, and launched on [Vets.gov](https://vets.gov).
 
- * 302k Vets applying for health benefits via [Vets.gov](https://vets.gov)
- * 323k Vets applying for education benefits via [Vets.gov](https://vets.gov)
+<div class="impact">
+	<h3 class="infographic-text-blue">Impact</h3>
+	<ul class="usa-grid">
+		<li class="usa-width-one-half"><span class="infographic-text-blue">302<span class="unit">K</span></span> Vets applying for health benefits via&nbsp;<a href="https://vets.gov/">Vets.gov</a></li>
+		<li class="usa-width-one-half"><span class="infographic-text-blue">323<span class="unit">K</span></span> Vets applying for education benefits via&nbsp;<a href="https://vets.gov/">Vets.gov</a></li>
+	</ul>
+</div>
