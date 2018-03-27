@@ -7,13 +7,6 @@ permalink: /report-to-congress/2017/07/
 front: true
 image: /img/report-to-congress/capitol.jpg
 ---
-<div class="report-title">
-  <p><img src="/img/report-to-congress/capitol.jpg" alt="Illustrated U.S. Capitol"></p>
-  <p class="usds">The U.S. Digital Service</p>
-  <h2>Report to Congress</h2>
-  <p>July 2017</p>
-</div>
-
 <strong>The United States Digital Service (USDS)</strong> was established in 2014 to tackle the federal government’s most critical public-facing digital services. From veterans receiving appeals responses in a timely manner to citizens accessing more government services online thanks to secure identity proofing, USDS is focused not only on improving how the American people can interact with their government online, but on transforming that experience to help build the people’s trust in government.
 
 With funding from the Information and Technology Oversight and Reform (ITOR) Fund, USDS was able to hire more than 200 individuals to serve for limited tours of duty in government to work toward this transformation. USDS talent ranges from Silicon Valley engineers who hail from more than 50 top technology companies to professional ‘bureaucracy hackers’ from within the Government and experienced procurement specialists.
