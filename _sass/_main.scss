@@ -848,10 +848,19 @@ section.report-to-congress {
   margin-bottom: 5em;
   text-align: left;
   .kicker {
-    font-family: $header-font-family;
-    font-size: 1.5em;
+    font-family: $base-font-family;
+    font-size: 1.5rem;
     color: #666;
     margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-left: 14px;
+    border-left: 14px solid $background-color-secondary;
+    a {
+      color: #666;
+      text-decoration: none
+    }
   }
   .agency {
     font-family: $header-font-family;
@@ -885,6 +894,7 @@ section.report-to-congress {
   }
   .kicker + h2 {
     margin-top: 0;
+    padding: 0.5em 0;
   }
   ul, ol {
     margin-bottom: 1em;
