@@ -143,7 +143,7 @@ $( document ).ready(function() {
     $( 'a[href^="http"]:not(.target-link)' ).on( "click", function(e) {
       var domain = this.href.split('/')[2].replace('www.','');
       var tld = domain.substring(domain.length - 3);
-      if (tld != 'gov' && tld != 'mil' && domain != 'facebook.com' && domain != 'github.com' && domain != 'twitter.com') {
+      if (tld != 'gov' && tld != 'mil' && domain != 'facebook.com' && domain != 'github.com' && domain != 'twitter.com' && domain != 'medium.com' && domain != 'instagram.com') {
         $( '#site-alert-overlay' ).show();
         $( '#site-alert' ).show();
         if (domain == 'youtube.com') {
