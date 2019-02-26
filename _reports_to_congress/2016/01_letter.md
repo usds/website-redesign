@@ -1,12 +1,14 @@
 ---
+layout: default
 title: 2016 Report to Congress
 short: Letter from the Administrator
 report: 2016
 report_title: December 2016
 permalink: /report-to-congress/2016/
 front: true
-image: /img/report-to-congress/capitol.jpg
 ---
+## Letter from the Administrator
+
 In August 2014, the United States Digital Service (USDS) was created to improve the Federal Government's most important public-facing digital services. USDS is a collaboration between some of the country's top technical talent and the government's brightest civil servants, who work in partnership to apply private sector best practices to our digital services.
 
 Initially, USDS' small team of technologists planned to focus on three projects. Additional funding and the support of Congress for the Information and Technology Oversight and Reform (ITOR) Fund in the 2015 and 2016 Fiscal Year appropriations bills allowed USDS to invest in a greater number of high-priority projects, detailed in this report. Of the $30M appropriated in the 2016 fiscal year, $14M was apportioned to USDS to support its operations, with the balance of the $30M supporting other IT oversight and reform activities. At its creation, USDS was administratively placed within the Office of the Federal CIO. After more than two years of operations, however, the Office of Management and Budget (OMB) has decided to move the Administrator of USDS to directly report to the Deputy Director of Management (DDM).
@@ -29,7 +31,7 @@ USDS has developed procedures and criteria for prioritizing projects, which incl
 
 Along with its investment in the ITOR Fund, Congress asked USDS to provide a regular update on progress in each of its programs. This report details that progress.
 
-<img src="/img/report-to-congress/2016/sig.png" width="337" height="112" />
+<img src="{{ site.baseurl }}/images/report-to-congress-signature-mikey.png" width="337" height="112" />
 
 Mikey Dickerson  
 Administrator, U.S. Digital Service

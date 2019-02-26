@@ -1,0 +1,48 @@
+
+{% unless page.simple_footer %}
+<div>
+<ul id="instagram-feed" class="site-c-instagallery"></ul>
+</div>
+
+<section class="site-c-billboard">
+  <div class="grid-container">
+    <p>We need you.</p>
+    <p>Let’s help millions of people together.</p>
+    <p><a class="usa-button usa-button-secondary-inverse" href="{{ site.baseurl }}/apply">Apply Now</a></p>
+  </div>
+</section>
+{% endunless %}
+
+<footer class="site-c-footer">
+  <div class="grid-container">
+    <div class="grid-row flex-justify">
+      <div class="grid-col-12 desktop:grid-col margin-bottom-7">
+        <img class="site-c-footer__logo" src="{{ site.baseurl }}/assets/img/usds-logo.svg" alt="USDS Logo">
+      </div>
+      <div class="grid-col-12 tablet:grid-col-4 desktop:grid-col margin-bottom-7">
+        <h2 class="site-c-footer__heading">Resources</h2>
+        <ul class="site-c-footer__list tablet:padding-right-3">
+          <li><a href="https://playbook.cio.gov/">Digital Services Playbook</a></li>
+          <li><a href="https://designsystem.digital.gov/">U.S. Web Design System</a></li>
+          <li><a href="https://techfarhub.cio.gov/">TechFAR Hub</a></li>
+          <li><a href="{{ site.baseurl }}/faq">Hiring FAQ</a></li>
+        </ul>
+      </div>
+      <div class="grid-col-12 tablet:grid-col-4 desktop:grid-col margin-bottom-7">
+        <h2 class="site-c-footer__heading">Get in Touch</h2>
+        <ul class="site-c-footer__list tablet:padding-right-3">
+          <li><a href="{{ site.baseurl }}{% link pages/contact-us.html %}">Contact Us</a></li>
+          <!--<li><a href="{{ site.baseurl }}{% link pages/events.html %}">Upcoming Events</a></li>-->
+          <li><a href="{{ site.baseurl }}/assets/files/{{ site.press_kit_file_name }}">USDS Press Kit</a></li>
+        </ul>
+      </div>
+      <div class="grid-col-12 tablet:grid-col-4 desktop:grid-col margin-bottom-7">
+        <h2 class="site-c-footer__heading">Follow Us</h2>
+        {% include _social-buttons.html modifiers="site-c-social-buttons--mini" %}
+      </div>
+    </div>
+    <div class="site-c-footer__site-info">
+      <a href="mailto:USDSpress@omb.eop.gov">USDSpress@omb.eop.gov</a> | <a href="{{ site.baseurl }}/privacy">Privacy Policy</a>
+    </div>
+  </div>
+</footer>

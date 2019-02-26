@@ -1,0 +1,44 @@
+---
+layout: default
+title: Our People
+permalink: /people
+description: USDS team members have diverse industry backgrounds, from Silicon Valley startups to nonprofits to civic tech. What we all share is a passion to fulfill the USDS mission. Meet a few of our current and former staff and read their unique USDS origin stories.
+---
+
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">Our People</h1>
+      <div class="site-c-section-heading__text">
+        <p>USDS team members have diverse industry backgrounds, from Silicon Valley startups to nonprofits to civic tech. What we all share is a passion to fulfill the USDS mission. Meet a few of our current and former staff and read their unique USDS origin stories.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section__body">
+      <div class="site-c-cards margin-x-neg-2 grid-row">
+        {% for person in site.people %}
+        <div class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
+          <a class="site-c-card site-c-card--linked" href="{{ site.baseurl }}/{{ person.permalink }}">
+            <div class="site-c-card__image-mask">
+              <img src="{{ site.baseurl }}/images/{{ person.image_name }}" alt="Photo of {{ person.name }}" />
+            </div>
+            <div class="site-c-card__body">
+            <span class="site-c-flag">{{ person.cop }}</span>
+            <span class="site-c-card__title">{{ person.name }}</span>
+            {% if person.quote %}
+            <p>“{{ person.quote }}”</p>
+            {% endif %}
+            <p class="site-c-card__affordance" aria-hidden="true">Read more</p>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+</div>

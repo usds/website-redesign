@@ -1,11 +1,10 @@
 ---
+layout: default
 title: Transforming Federal IT Procurement
 short: Procurement
 report: 2016
 permalink: /report-to-congress/2016/procurement/
 ---
-## Transforming Federal IT Procurement
-
 ### The Challenge
 
 Government procurement cycles do not keep pace with fast-changing technology and user needs. This is largely due to a reliance on waterfall development methods where requirements are defined and documented in full detail before any design, development or user testing can take place. When tied to inflexible contracts, this approach makes it very difficult to build an easy to use, effective digital service. Adapting patterns and best practices from private industry will allow the Federal Government to deliver products faster, cheaper, and at higher quality.

@@ -1,0 +1,32 @@
+---
+layout: default
+title: Apply to USDS
+description: The United States Digital Service is transforming how the federal government works for the American people. And we need you.
+permalink: /apply
+banner_file: banner--join-us-lg.svg
+banner_file_mobile: banner--join-us-sm.svg
+social_image: social-card--join-us.png
+
+redirect_from:
+  - /join
+---
+{% assign content = site.data.apply %}
+
+
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section-heading site-c-section-heading--keep-column">
+      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
+      <div class="site-c-section-heading__text site-c-section-heading__text--big">
+        {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+      <div class="site-c-section-heading__links">
+        <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}{% link pages/faq.html %}" class="usa-button usa-button-secondary">{{ content.page_title.heading_button_text }}</a>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <iframe src="https://wh45.secure.force.com/digitalserviceform" seamless width="100%" height="3600px" scrolling="no" frameBorder="0" title="Join USDS form"></iframe>
+</div>

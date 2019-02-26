@@ -1,12 +1,19 @@
 ---
+layout: default
 title: Fall 2017 Report to Congress
 short: Letter from the Administrator
 report: Fall 2017
 report_title: Fall 2017
 permalink: /report-to-congress/2017/fall/
 front: true
-image: /img/report-to-congress/capitol.jpg
+
+redirect_from:
+  - /report-to-congress/
+  - /report-to-congress/2017/
+
 ---
+## Letter from the Administrator
+
 I'm happy to share our latest Report to Congress. In this update, you'll see that the **United States Digital Service (USDS)** continues to produce significant value across the Federal Government, using design and technology to deliver quality services to the American public. From recovering failed systems to consolidating services and designing intuitive interfaces, we are building more secure, efficient, and modern government services with and for the American people.
 
 **We made a measurable impact.** With the Center for Medicare & Medicaid Services, we changed the way Medicare pays doctors and clinicians, rewarding them for the quality—and not the quantity—of care they provide. With the Small Business Administration, we eliminated paper applications, improving the user experience and reducing the burden on small businesses. With the Department of Homeland Security, we dramatically increased efficiency by modernizing the process to become a naturalized citizen. Over a 5-year period, we project our current projects will save $617 million and redirect 1,475 labor years toward higher-value work.
@@ -17,7 +24,7 @@ I'm happy to share our latest Report to Congress. In this update, you'll see tha
 
 It is an honor to build products that directly improve the lives of millions of people. I highly recommend that talented technologists looking to serve their country consider joining us. You'll never be the same again.
 
-<img src="/img/report-to-congress/2017/07/sig.png" width="317" height="112" />
+<img src="{{ site.baseurl }}/images/report-to-congress-signature-matt.png" width="317" height="112" />
 
 Matt Cutts  
 Acting Administrator of the U.S. Digital Service

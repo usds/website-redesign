@@ -1,0 +1,19 @@
+- name: Instagram
+  url: "https://www.instagram.com/usdigitalservice"
+  sprite-ref: instagram
+
+- name: Twitter
+  url: "https://twitter.com/USDS"
+  sprite-ref: twitter
+
+- name: Facebook
+  url: "https://www.facebook.com/unitedstatesdigitalservice"
+  sprite-ref: facebook-f
+
+- name: Medium
+  url: "https://medium.com/@USDigitalService"
+  sprite-ref: medium-m
+
+- name: Linked in
+  url: "https://www.linkedin.com/company/united-states-digital-service"
+  sprite-ref: linkedin-in

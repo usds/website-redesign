@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Defense Personal Property System
 agency: Department of Defense (DoD)
 report: July 2017

@@ -1,17 +1,24 @@
 ---
 layout: default
-sitemap: false
+simple_footer: true
+permalink: /404.html
+banner_file: banner--404-lg.svg
+banner_file_mobile: banner--404-sm.svg
 ---
 
-<div class="usa-grid">
-  <div class="usa-width-full">
-    <br /><br />
-    <br /><br />
-    <br /><br />
-    <h3>404</h3>
-    <h3>This page has not been found</h3>
-    <br /><br />
-    <br /><br />
-    <br /><br />
-  </div>
+{% assign content = site.data._404 %}
+
+<div class="grid-container padding-y-3">
+  <section class="site-c-section text-center">
+    <div class="site-c-section-heading flex-justify-center flex-column flex-align-center">
+      <span class="site-c-flag font-sans-sm">Error 404</span>
+      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
+      <div class="site-c-section-heading__text">
+        {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+    </div>
+  </section>
+  <section class="site-c-section text-center">
+    <a href="{{ site.baseurl }}/" class="usa-button usa-button-big">USDS Home</a>
+  </section>
 </div>

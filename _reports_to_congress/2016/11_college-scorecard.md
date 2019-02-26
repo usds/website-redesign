@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Helping Students Make More Informed College Choices at Department of Education
 short: College Scorecard
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/college-scorecard/
 ---
-## Helping Students Make More Informed College Choices at Department of Education
-
 ### The Challenge
 
 For students, higher education may be the single most important investment they can make in their futures to ensure they have the knowledge and skills needed to compete in an increasingly global marketplace. College is the surest path to becoming part of America's middle class and for this reason, selecting a college is an incredibly important decision for many people. But, many potential college students and their families do not have the advisors or resources to help them find a college that will serve them well.

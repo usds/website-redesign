@@ -1,0 +1,77 @@
+<style>
+.site-c-flag a:visited,
+.site-c-report-to-congress ul a:visited {
+  color: #005ea2;
+}
+.site-c-report-to-congress ul,
+.site-c-report-to-congress ol {
+  max-width: 66ch;
+}
+.site-c-report-to-congress.side-nav ul {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+.site-c-report-to-congress.side-nav li {
+  margin: 1rem 0;
+}
+.site-c-report-to-congress.side-nav li.sub {
+  margin-left: 2rem;
+}
+.site-c-report-to-congress.side-nav li.active {
+  font-weight: bold;
+}
+.site-c-report-to-congress.side-nav li.pdf {
+  margin: 3rem 0;
+}
+</style>
+
+<div class="grid-container">
+  <header class="padding-y-5">
+
+    <span class="site-c-flag">
+      {% unless page.front %}
+        {% assign current_report = site.reports_to_congress | sort: "front" | where: "report", page.report | reverse | first %}
+        <a href="{{ site.baseurl }}{{ current_report.url }}">{{ page.report }} Report to Congress</a>
+        {% if page.agency %}&bull;{% endif %}
+      {% endunless %}
+       {% if page.agency %}{{ page.agency }}{% endif %}</span>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <hr>
+
+  <div class="grid-row tablet:flex-row padding-top-3">
+    <div class="tablet:grid-col-8 desktop:grid-col-9 margin-bottom-9 tablet:padding-right-4 site-c-report-to-congress">
+      {{ content }}
+
+      {% if page.previous_entry %}
+        {% assign previous_entry = site.reports_to_congress | where: "url", page.previous_entry | first %}
+        {% if previous_entry %}
+          <p>This project was previously chronicled in our <a href="{{ site.baseurl }}{{ previous_entry.url }}">{{ previous_entry.report }} Report to Congress</a>.</p>
+        {% endif %}
+      {% endif %}
+    </div>
+
+    <div class="tablet:grid-col-4 desktop:grid-col-3 margin-bottom-3 site-c-report-to-congress side-nav">
+      <ul>
+      {% assign sections = site.reports_to_congress | where: "report", page.report %}
+      {% for section in sections %}
+        <li class="{% if page.url == section.url %} active{% endif %}{% if section.sub %} sub{% endif %}">
+          <a href="{{ site.baseurl }}{{ section.url }}">{% if section.short %}{{ section.short }}{% else %}{{ section.title }}{% endif %}</a>
+        </li>
+      {% endfor %}
+        <li class="pdf"><a href="{{ site.baseurl }}/resources/USDS-{{ page.report | replace: " ", "-" }}-Report-to-Congress.pdf">Download the<br/>full report (PDF)</a></li>
+      </ul>
+
+      <h4>Reports to Congress</h4>
+      <ul>
+        {% assign reports = site.reports_to_congress | where: "front", true | reverse %}
+        {% for report in reports %}
+        <li>
+          <a href="{{ site.baseurl }}{{ report.url }}">{{ report.report_title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

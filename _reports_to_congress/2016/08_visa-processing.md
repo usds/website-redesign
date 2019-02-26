@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Improving the Visa Processing System at Department of State
 short: Visa Processing
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/visa-processing/
 ---
-## Improving the Visa Processing System at Department of State
-
 ### The Challenge
 
 The Department of State (State) protects the lives and interests of U.S. citizens overseas and strengthens the security of U.S. borders through the vigilant adjudication of visa and passport applications. State provides a range of services to U.S. citizens and foreign nationals, including issuance of U.S. passports and Consular Reports of Birth and Death Abroad and adjudication of nonimmigrant and immigrant visa applications. These processes largely are conducted through a collection of custom applications that depend on a system called the Consular Consolidated Database (CCD).

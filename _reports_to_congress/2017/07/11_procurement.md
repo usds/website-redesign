@@ -1,11 +1,10 @@
 ---
+layout: default
 title: Transforming Federal IT Procurement through Digital IT Acquisition Training
 report: July 2017
 permalink: /report-to-congress/2017/07/procurement/
 previous_entry: /report-to-congress/2016/procurement/
 ---
-## Transforming Federal IT Procurement through Digital IT Acquisition Training
-
 ### The Challenge
 
 Government IT acquisition fails to keep pace with fast-changing technology largely due to a reliance on waterfall development methods where requirements are defined and documented in full before any development or user testing takes place. When agencies use inflexible, multi-year contracts, it becomes very difficult to build user-friendly, effective digital services. In 2016, a digital service training and development survey was administered to the 24 CFO Act civilian agencies and the results indicated that there were potentially 6,500 acquisition workforce members who needed digital service training. The Government can become a smarter buyer of technology once it establishes a specialized procurement workforce that understands the digital and IT marketplace, agile software development methodology, cloud hosting, and the “DevOps” practice of integrating system operations with application development teams.

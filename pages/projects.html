@@ -1,0 +1,41 @@
+---
+layout: default
+title: Our Projects
+permalink: /projects
+description: Our small, highly empowered teams use their expertise to develop human-centered solutions to the federal government’s most pressing technical challenges.
+---
+
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">Our Projects</h1>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section__body">
+      <div class="site-c-cards margin-x-neg-2 grid-row">
+        {% for project in site.projects %}
+          {% unless project.hide %}
+          {% if project.carousel_title %}
+            <div class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
+              <a class="site-c-card site-c-card--linked" href="{{ site.baseurl }}/{{ project.permalink }}">
+                <img class="site-c-card__image" src="{{ site.baseurl }}/images/{{ project.carousel_image_name }}" alt="Project photo" />
+                <div class="site-c-card__body">
+                  <span class="site-c-flag">{{ project.agency }}</span>
+                <span class="site-c-card__title">{{ project.carousel_title }}</span>
+                <p>{{ project.carousel_summary }}</p>
+                <p class="site-c-card__affordance" aria-hidden="true">Learn more</p>
+                </div>
+              </a>
+            </div>
+          {% endif %}
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>
+

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Simplifying Veteran-facing Services through Vets.gov
 agency: Department of Veterans Affairs (VA)
 report: July 2017

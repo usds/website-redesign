@@ -1,0 +1,14 @@
+.site-c-decorative-numbered-list {
+  list-style-position: inside;
+  padding-left: 0;
+  color: $color-primary-darker;
+  font-size: 2rem;
+
+  @include media($width-tablet) {
+    font-size: 2.6rem;
+  }
+}
+
+.site-c-decorative-numbered-list__item {
+  margin: 1.5em 0;
+}

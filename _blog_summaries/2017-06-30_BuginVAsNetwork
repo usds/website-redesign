@@ -1,9 +1,0 @@
----
-title: How a 20-year old kernel feature helped USDS improve VA’s network
-medium_url: https://medium.com/the-u-s-digital-service/how-a-20-year-old-kernel-feature-helped-usds-improve-vas-network-33109cbcb2e6
-image_url: https://cdn-images-1.medium.com/max/1100/0*ZmllHx8l9DL2u_ky.png
-image_description: How AWS and VA interact
-date: 2017-06-30
----
-
-How the Digital Service at the Department of Veterans Affairs found a bug that affects the VA's network, thanks to an ancient feature in the Linux kernel.

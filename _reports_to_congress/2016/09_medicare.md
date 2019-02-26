@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Helping CMS Implement Congressionally Mandated Medicare Payment Changes
 short: Medicare Payments
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/medicare-payments/
 ---
-## Helping CMS Implement Congressionally Mandated Medicare Payment Changes
-
 ### The Challenge
 
 In April 2015, Congress passed the Medicare Access & CHIP Reauthorization Act of 2015 (MACRA), changing the way Medicare pays doctors for services rendered to patients enrolled in the Medicare program. The act implements changes designed to reward health care providers for giving better care, not just more care. These changes will impact a large percentage of Medicare Part B payments, and the Centers for Medicare & Medicaid Services (CMS) seeks to ensure the transition from the current payment program to the new system is simple, clear, and effective.

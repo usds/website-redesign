@@ -1,39 +1,60 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: United States Digital Service
-email: no-reply@usds.gov
-description: >
-  The United States Digital Service is transforming how the federal government
-  works for the American people. And we need you.
-url: "https://www.usds.gov" # the base hostname & protocol for your site
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The United States Digital Service is transforming how the federal government works for the American people. And we need you.
+domain: "http://usds.gov"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+social_image: social-card--default.png
+
 twitter_username: usds
-github_username:  usds
-medium_url: https://medium.com/@USDigitalService
 repository: usds/website
 
-# Build settings
-markdown: kramdown
-
 collections:
-  blog_summaries:
-  project_summaries:
+  projects:
+    output: true
+  people:
+    output: true
   reports_to_congress:
     output: true
 
-defaults:
-  - scope:
-      path: ""
-      type: reports_to_congress
-    values:
-      layout: report-to-congress
+instagram_url: https://www.instagram.com/usdigitalservice
+facebook_url: https://www.facebook.com/unitedstatesdigitalservice
+twitter_url: https://twitter.com/USDS
+medium_url: https://medium.com/@USDigitalService
+linkedin_url: https://www.linkedin.com/company/united-states-digital-service
+github_url: https://github.com/usds
 
+press_kit_file_name: 2018-10-Recruiting-1-Sheet.pdf
+
+# Build settings
+markdown: kramdown
+# Data settings
+data_dir : _content
+
+# Assets settings
+sass:
+  sass_dir: assets/stylesheets/
+  style: compressed
+
+# Plugins
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
@@ -44,7 +65,22 @@ twitter:
   username: usds
 logo: /img/usds-logo-onwhite.png
 
-# Latest Report to Congress
-latest_report:
-  slug: 2017/fall
-  name: Fall 2017
+# Exclude from processing.
+exclude:
+  - ".ruby-version"
+  - ".sass-cache"
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - config
+  - js
+  - vendor
+  - manifest.yml
+  - node_modules
+  - package.json
+  - gulpfile.js
+  - circle.yml
+  - css
+  - wiki-photos

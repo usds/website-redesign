@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Modernizing Small Business Certification Programs
 agency: Small Business Administration (SBA)
 report: Fall 2017
@@ -31,12 +32,33 @@ The [Certify.SBA.gov](https://certify.sba.gov) platform will soon incorporate th
 
 The new version of the Historically Underutilized Business Zones (HUBZone) map was launched in June 2017. The HUBZone map features the latest regulatory changes, provides an enhanced address search, an accessible user experience, and uses modern open source and geospatial technologies. Map updates now take weeks rather than months. A new advanced street view in the HUBZone map provides additional detailed information to SBA analysts in advance of site visits, allowing them to check whether a site visit is necessary and if so, when and how best to conduct them. With the recent addition of Qualified Disaster Areas to the map, businesses in newly designated areas can now better understand the length of time an area might remain as a HUBZone.
 
-<div class="impact">
-	<h3 class="infographic-text-blue">Impact</h3>
-	<ul class="usa-grid">
-		<li class="usa-width-one-half"><span class="infographic-text-blue">4 &rarr; 1</span> Systems consolidated</li>
-		<li class="usa-width-one-half"><span class="infographic-text-blue">230<span class="unit">K</span>+</span> Documents submitted electronically</li>
-		<li class="usa-width-one-half"><span class="infographic-text-blue">3x</span> Increase in WOSB participation since&nbsp;launch</li>
-		<li class="usa-width-one-half"><span class="infographic-text-blue">180</span> Labor years redirected annually</li>
-	</ul>
+
+### Impact
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">4 &rarr; 1</span>
+    </div>
+    <div>Systems consolidated</div>
+</div>
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">230</span><span class="text-primary text-bold font-body-2xl">K</span><span class="text-primary text-bold font-body-3xl">+</span>
+    </div>
+    <div>Documents submitted electronically</div>
+</div>
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">3x</span>
+    </div>
+    <div>Increase in WOSB participation since&nbsp;launch</div>
+</div>
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">180</span>
+    </div>
+    <div>Labor years redirected annually</div>
 </div>

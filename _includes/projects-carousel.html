@@ -1,0 +1,19 @@
+<div class="site-c-cards margin-x-neg-2 site-js-carousel">
+  {% for project in site.projects %}
+    {% unless project.hide %}
+    {% if project.carousel_title %}
+      <div class="padding-x-2">
+        <a class="site-c-card site-c-card--linked" href="{{ site.baseurl }}/{{ project.permalink }}">
+          <img class="site-c-card__image" src="{{ site.baseurl }}/images/{{ project.carousel_image_name }}" alt="Project photo" />
+          <div class="site-c-card__body">
+          <span class="site-c-flag">{{ project.agency }}</span>
+          <span class="site-c-card__title">{{ project.carousel_title }}</span>
+          <p>{{ project.carousel_summary }}</p>
+          <p class="site-c-card__affordance" aria-hidden="true">Learn more</p>
+          </div>
+        </a>
+      </div>
+    {% endif %}
+    {% endunless %}
+  {% endfor %}
+</div>

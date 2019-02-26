@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Streamlining VA Appeals Processing
 agency: Department of Veterans Affairs (VA)
 report: Fall 2017
@@ -33,10 +34,19 @@ In November 2017, DSVA completed its rollout of Caseflow Reader, an evidence rev
 
 Launched in March 2017, Caseflow Dispatch facilitates the transfer of appeals decisions from the Board of Veterans' Appeals back to the Veterans Benefits Administration to ensure that benefits are processed and remand orders are completed. Previously, dispatched decisions were inconsistently tracked and processed which resulted in a subset of cases experiencing long delays. Following the tool's launch in April 2017, the time to claim establishment for the 75th percentile went from 25 days to eight days.
 
-<div class="impact">
-	<h3 class="infographic-text-blue">Impact</h3>
-	<ul class="usa-grid">
-		<li class="usa-width-one-half"><span class="infographic-text-blue">40<span class="unit">%</span></span> Decrease in claims with mismatched documents</li>
-		<li class="usa-width-one-half"><span class="infographic-text-blue">17</span> Labor years redirected annually</li>
-	</ul>
+### Impact
+
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">40</span><span class="text-primary text-bold font-body-2xl">%</span>
+    </div>
+    <div>Decrease in claims with mismatched documents</div>
+</div>
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">17</span>
+    </div>
+    <div>Labor years redirected annually</div>
 </div>

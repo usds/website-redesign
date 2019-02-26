@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Modernizing the Immigration System at DHS
 short: Immigration System
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/immigration-system/
 ---
-## Modernizing the Immigration System at DHS
-
 ### The Challenge
 
 Every year, the Department of Homeland Security's U.S. Citizenship and Immigration Services (USCIS) processes millions of immigration requests. This system is mostly paper-based, consists of multiple forms, and results in long waiting periods for applicants who have little visibility into the status of their applications.

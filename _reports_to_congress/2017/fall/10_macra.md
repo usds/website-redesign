@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Implementing Medicare Payment Changes
 agency: Health &amp; Human Services (HHS)
 report: Fall 2017
@@ -18,7 +19,7 @@ Implementing the MACRA legislation required significant changes to how Medicare 
 In April 2017, USDS supported the launch of an online tool on [qpp.cms.gov](https://qpp.cms.gov) that reconciles data from many disparate data systems and leverages user-centered design principles. The tool helps doctors enter a well-known identifying number (their National Provider Identifier) and immediately see and easily understand their reporting requirements for the program. This will be an important starting point in helping doctors understand how to interact with the program in 2018.
 
 <figure>
-	<img src="/img/report-to-congress/2017/fall/qpp.png">
+	<img src="{{ site.baseurl }}/images/report-to-congress-2017-fall-qpp.png">
 	<figcaption><a href="https://qpp.cms.gov/">The QPP website</a> allows doctors and clinicians to instantly check their program eligibility, then easily identify their reporting requirements.</figcaption>
 </figure>
 
@@ -28,11 +29,28 @@ USDS is collaborating with the market to develop APIs for QPP to replace manual 
 
 Finally, USDS worked with CMS to award an agile Blanket Purchase Agreement (BPA) for small agile companies to support QPP development efforts. Unlike traditional procurements, many task orders in this BPA require working software prototypes as part of the competitive process.
 
-<div class="impact">
-	<h3 class="infographic-text-blue">Impact</h3>
-	<ul class="usa-grid">
-		<li class="usa-width-one-third"><span class="infographic-text-blue">129</span> Organizations requested API access</li>
-		<li class="usa-width-one-third"><span class="infographic-text-blue">22</span> Organizations actively building API integrations</li>
-		<li class="usa-width-one-third"><span class="infographic-text-blue">3 &rarr; 1</span> Programs consolidated</li>
-	</ul>
+### Impact
+
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">129</span>
+    </div>
+    <div>Organizations requested API access</div>
+</div>
+
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">22</span>
+    </div>
+    <div>Organizations actively building API integrations</div>
+</div>
+
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">3 &rarr; 1</span>
+    </div>
+    <div>Programs consolidated</div>
 </div>

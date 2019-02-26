@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Hack the Pentagon
 agency: Department of Defense (DoD)
 report: July 2017

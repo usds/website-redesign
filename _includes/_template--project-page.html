@@ -1,0 +1,46 @@
+<div class="grid-container">
+  <header class="padding-y-5">
+    <span class="site-c-flag">{{ page.agency }}</span>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <hr>
+
+  <div class="grid-row tablet:flex-row-reverse padding-top-3">
+    <div class="tablet:grid-col-4 desktop:grid-col-3 margin-bottom-3 site-c-project-content">
+      {% if page.impact_statement %}
+      <h2>The Impact</h2>
+      {% for item in page.impact_statement %}
+        <div class="margin-bottom-3">
+          <div>
+            <span class="text-primary text-bold font-body-3xl">{{ item.figure }}</span><span class="text-primary text-bold font-body-2xl">{{ item.unit}}</span>
+          </div>
+          <div>{{ item.description | replace: 'site.baseurl', site.baseurl | markdownify }}</div>
+        </div>
+      {% endfor %}
+      {% endif %}
+
+      {% if page.project_url.size > 2 %}
+      <div>
+        <a class="usa-button usa-button-secondary" href="{{ page.project_url }}" target="_blank">View live project</a>
+      </div>
+      {% endif %}
+    </div>
+    <div class="tablet:grid-col-8 desktop:grid-col-9 margin-bottom-9 tablet:padding-right-4 site-c-project-content">
+      {{ content }}
+    </div>
+  </div>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">More projects</h2>
+      <div class="site-c-section-heading__links">
+        <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}{% link pages/projects.html %}" class="usa-button usa-button-secondary">See all our projects</a>
+      </div>
+    </div>
+    <div class="site-c-section__body">
+      {% include projects-carousel.html %}
+    </div>
+  </section>
+</div>

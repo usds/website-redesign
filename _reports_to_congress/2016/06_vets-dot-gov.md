@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Simplifying Veteran-facing Services with Vets.gov
 short: Vets.gov
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/vets-dot-gov/
 ---
-## Simplifying Veteran-facing Services with Vets.gov
-
 ### The Challenge
 
 Presently, Department of Veterans Affairs' (VA) digital services, such as obtaining a prescription refill, applying for healthcare benefits, checking the status of a claim, and accessing VA forms, are spread across hundreds of public-facing VA websites. Veterans must navigate disparate online systems, remember multiple user names and passwords, and contend with long pages of legalese to access benefits they have earned.

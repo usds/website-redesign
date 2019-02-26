@@ -1,0 +1,46 @@
+---
+layout: default
+title: Events
+banner_file: banner--events-tour-map-lg.svg
+banner_file_mobile: banner--events-tour-map-sm.svg
+permalink: /events
+social_image: social-card--events.png
+---
+
+{% assign content = site.data.events %}
+
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
+      <div class="site-c-section-heading__text">
+        {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+    </div>
+  </section>
+
+  <div class="site-c-section__body">
+    <div class="site-c-cards margin-x-neg-2 grid-row flex-wrap">
+      {% for item in site.data.upcoming_events %}
+      <div class="padding-x-2 tablet:grid-col-6 desktop:grid-col-4 flex-align-stretch margin-bottom-3">
+        <a class="site-c-card site-c-card--linked" href="{{ item.url }}" target="_blank">
+          {% if item.image_name %}
+            <img src="{{ site.baseurl }}/images/{{ item.image_name }}" alt="{{ item.name }} event image" />
+          {% endif %}
+          <div class="site-c-card__body">
+            <p class="margin-0 text-bold">{{ item.date }}</p>
+            <p class="margin-0 text-bold">{{ item.city }}</p>
+            <p class="margin-bottom-105 text-bold">{{ item.venue }}</p>
+            <span class="site-c-card__title">{{ item.name }}</span>
+            {% if item.summary %}
+            <p>{{ item.summary }}</p>
+            <p class="site-c-card__affordance" aria-hidden="true">Learn more</p>
+            {% endif %}
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

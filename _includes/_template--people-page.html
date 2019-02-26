@@ -1,0 +1,56 @@
+<div class="grid-container margin-y-5">
+  <div class="grid-row flex-align-end margin-bottom-3">
+    <div class="tablet:grid-col-6 overflow-hidden radius-md">
+      <img class="display-block" src="{{ site.baseurl }}/images/{{ page.image_name }}" alt="Photo of {{ page.name }}" />
+    </div>
+    <div class="tablet:grid-col-6 tablet:padding-left-5 font-body-md">
+      {% if page.pronouns %}
+        <div>
+          <strong class="text-primary">Pronouns:</strong>
+          <span class="text-bold">{{ page.pronouns }}</span>
+        </div>
+      {% endif %}
+      {% if page.cop %}
+        <div>
+          <strong class="text-primary">Community of practice:</strong>
+          <span class="text-bold">{{ page.cop }}</span>
+        </div>
+      {% endif %}
+      {% if page.team %}
+        <div>
+          <strong class="text-primary">Team:</strong>
+          <span class="text-bold">{{ page.team }}</span>
+        </div>
+      {% endif %}
+      {% if page.city_of_origin %}
+        <div>
+          <strong class="text-primary">City of origin:</strong>
+          <span class="text-bold">{{ page.city_of_origin }}</span>
+        </div>
+      {% endif %}
+      {% if page.previously_at %}
+        <div>
+          <strong class="text-primary">Previously at:</strong>
+          <span class="text-bold">{{ page.previously_at }}</span>
+        </div>
+      {% endif %}
+      <div>
+        <strong class="text-primary">Tour status:</strong>
+        <span class="text-bold">{% if page.alumni == true %}
+          Alum
+        {% else %}
+          Staff
+        {% endif %}</span>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="margin-y-5">{{ page.name }}</h1>
+
+  <hr>
+
+  <div class="padding-top-5">
+  {{ content }}
+  </div>
+
+</div>

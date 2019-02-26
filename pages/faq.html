@@ -1,0 +1,39 @@
+---
+layout: default
+title: Hiring FAQ
+banner_file: banner--faq-lg.svg
+banner_file_mobile: banner--faq-sm.svg
+permalink: /faq
+---
+
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">Hiring FAQ</h1>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section__body">
+
+      {% for item in site.data.faq %}
+        {% assign topic_index = forloop.index %}
+        <h2>{{ item.topic }}</h2>
+        <div class="usa-accordion usa-accordion-bordered margin-bottom-5">
+        {% for entry in item.questions %}
+          {% assign entry_index = forloop.index %}
+          <h3 class="usa-accordion-heading">
+            <button class="usa-accordion-button" aria-expanded="false" aria-controls="accordion-{{ topic_index }}-{{ entry_index }}">
+              {{ entry.q }}
+            </button>
+          </h3>
+          <div id="accordion-{{ topic_index }}-{{ entry_index }}" class="usa-accordion-content usa-prose">
+            {{ entry.a | replace: 'site.baseurl', site.baseurl | markdownify }}
+          </div>
+        {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+</div>

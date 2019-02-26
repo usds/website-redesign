@@ -1,10 +1,9 @@
 ---
+layout: default
 title: High Priority Projects
 report: 2016
 permalink: /report-to-congress/2016/projects/
 ---
-## High Priority Projects
-
 USDS executes focused, hands-on engagements in which small teams of technical experts embed into existing agency programs, where they accelerate adoption of modern private sector best practices on important projects. These engagements may be proactive or reactive, and can range from two-week diagnostic sprints to in-depth multi-month engagements to dramatically improve a target service.
 
 Typically, USDS is focused on increasing the success rate of a major IT acquisition in an agency. USDS personnel help promote the critical factors underlying successful major IT acquisitions identified by GAO in 2011 and reiterated in 2015 by GAO in its report on "Improving the Management of IT Acquisitions and Operations."
