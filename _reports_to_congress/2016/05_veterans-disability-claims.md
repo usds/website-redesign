@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Streamlining VA Disability Claim Processing
 short: VA Disability Claims
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/veterans-disability-claims/
 ---
-## Streamlining VA Disability Claim Processing
-
 ### The Challenge
 
 When a veteran has a disease or injury related to service, he or she may file a claim for disability compensation for the service-connected disease or injury. These claims are filed with the Department of Veterans Affairs (VA) and can result in a grant, partial grant, or denial. If a veteran is unsatisfied with the outcome of his or her claim, he or she may file an appeal. Since 1996, the appeal rate has averaged 11 to 12 percent of all claims decisions.

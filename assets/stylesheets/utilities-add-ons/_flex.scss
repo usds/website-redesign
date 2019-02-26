@@ -1,0 +1,29 @@
+
+
+.tablet\:order-2 {
+  @include media($width-tablet) {
+    order: 2;
+  }
+}
+
+.tablet\:order-3 {
+  @include media($width-tablet) {
+    order: 3;
+  }
+}
+
+.flex-column-reverse {
+  @include flex-direction(column-reverse);
+}
+
+.tablet\:flex-row {
+  @include media($width-tablet) {
+    @include flex-direction(row);
+  }
+}
+
+.tablet\:flex-row-reverse {
+  @include media($width-tablet) {
+    @include flex-direction(row-reverse);
+  }
+}

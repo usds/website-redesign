@@ -1,0 +1,161 @@
+---
+layout: default
+title: Our Mission
+permalink: /mission
+banner_file: banner--our-mission-lg.svg
+banner_file_mobile: banner--our-mission-sm.svg
+social_image: social-card--our-mission.png
+
+redirect_from:
+  - /about
+  - /story
+  - /values
+---
+
+{% assign content = site.data.our_mission %}
+
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
+      <div class="site-c-section-heading__text site-c-section-heading__text--big">
+        {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section__body">
+      <div class="grid-row tablet:margin-x-neg-3">
+        <div class="grid-col-12 tablet:grid-col-6 tablet:padding-x-3">
+          <h2>{{ content.who_we_are_what_we_do.section_1_title }}</h2>
+          <p>{{ content.who_we_are_what_we_do.section_1_text }}</p>
+        </div>
+        <div class="grid-col-12 tablet:grid-col-6 tablet:padding-x-3">
+          <h2>{{ content.who_we_are_what_we_do.section_2_title }}</h2>
+          <p>{{ content.who_we_are_what_we_do.section_2_text }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">{{ content.objectives.heading_title }}</h2>
+    </div>
+    <div class="site-c-section__body">
+      <ol class="site-c-decorative-numbered-list">
+        {% for item in content.objectives.items %}
+          <li class="site-c-decorative-numbered-list__item">{{ item.item }}</li>
+        {% endfor %}
+      </ol>
+      <p><a href="{{ site.baseurl }}/how-we-work">{{ content.objectives.link_text }}</a></p>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">{{ content.who_we_help.heading_title }}</h2>
+      <div class="site-c-section-heading__text">
+            {{ content.who_we_help.who_we_help_text| replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+    </div>
+    <div class="site-c-section__body">
+      <div class="grid-row flex-justify-center">
+      {% for item in content.who_we_help.icons %}
+        <div  class="who-we-help-item flex-auto display-flex flex-column flex-align-center margin-bottom-3 tablet-lg:margin-bottom-0">
+          <div class="width-full padding-x-2">
+            <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" alt="">
+          </div>
+          <p class="text-center padding-x-1 margin-top-1 width-full">{{ item.title }}</p>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">{{ content.our_values.heading_title }}</h2>
+    </div>
+    <div class="site-c-section__body">
+      <div class="grid-row tablet:margin-x-neg-2">
+
+        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
+          <div class="site-c-mask site-c-mask--rectangle">
+            <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_1_image }}" alt="Graphic for {{ content.our_values.value_1_title }}">
+          </div>
+          <h3 class="font-sans-md">{{ content.our_values.value_1_title }}</h3>
+          {{ content.our_values.value_1_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        </div>
+
+        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
+          <div class="site-c-mask site-c-mask--rectangle">
+            <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_2_image }}" alt="Graphic for {{ content.our_values.value_2_title }}">
+          </div>
+          <h3 class="font-sans-md">{{ content.our_values.value_2_title }}</h3>
+          {{ content.our_values.value_2_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        </div>
+
+        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
+          <div class="site-c-mask site-c-mask--rectangle">
+            <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_3_image }}" alt="Graphic for {{ content.our_values.value_3_title }}">
+          </div>
+          <h3 class="font-sans-md">{{ content.our_values.value_3_title }}</h3>
+          {{ content.our_values.value_3_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        </div>
+
+        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
+          <div class="site-c-mask site-c-mask--rectangle">
+            <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_4_image }}" alt="Graphic for {{ content.our_values.value_4_title }}">
+          </div>
+          <h3 class="font-sans-md">{{ content.our_values.value_4_title }}</h3>
+          {{ content.our_values.value_4_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        </div>
+
+        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
+          <div class="site-c-mask site-c-mask--rectangle">
+            <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_5_image }}" alt="Graphic for {{ content.our_values.value_5_title }}">
+          </div>
+          <h3 class="font-sans-md">{{ content.our_values.value_5_title }}</h3>
+          {{ content.our_values.value_5_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        </div>
+
+        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
+          <div class="site-c-mask site-c-mask--rectangle">
+            <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_6_image }}" alt="Graphic for {{ content.our_values.value_6_title }}">
+          </div>
+          <h3 class="font-sans-md">{{ content.our_values.value_6_title }}</h3>
+          {{ content.our_values.value_6_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">{{ content.origin_story.heading_title }}</h2>
+    </div>
+    <div class="site-c-section__body">
+      <div class="grid-row flex-column-reverse tablet:flex-row">
+        <div class="tablet:grid-col-6 margin-bottom-4 tablet:padding-right-2">
+          {{ content.origin_story.origin_story_text | replace: 'site.baseurl', site.baseurl | markdownify }}
+        </div>
+        <div class="tablet:grid-col-6 tablet:padding-left-2 margin-bottom-4">
+          <img src="{{ site.baseurl }}/assets/img/photo-mission-early-team.jpg" alt="Photo of early USDS team members">
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

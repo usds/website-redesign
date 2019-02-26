@@ -1,0 +1,9 @@
+<ul class="grid-row tablet:margin-x-neg-2 site-c-articles margin-top-neg-3">
+  {% for article in site.data.news_articles %}
+  <li class="grid-col-12 tablet:grid-col-4 tablet:padding-x-2 site-c-article">
+    {% assign image_name = article.source | downcase | replace: " ", "-" %}
+    <img class="display-block width-100 margin-bottom-2" src="{{ site.baseurl }}/images/press-logo-{{ image_name }}.svg" alt="{{ article.source }} logo" />
+    <a href="{{ article.url }}" class="site-c-article__title">{{ article.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

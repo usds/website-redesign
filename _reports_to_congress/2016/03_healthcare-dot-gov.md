@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Stabilizing and Improving HealthCare.gov
 short: HealthCare.gov
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/healthcare-dot-gov/
 ---
-## Stabilizing and Improving HealthCare.gov
-
 ### The Challenge
 
 As required by the Affordable Care Act, HealthCare.gov is the Federal website that facilitates purchase of private health insurance for consumers who reside in states that did not establish health insurance marketplaces. HealthCare.gov supports the Federal Health Insurance Marketplace (Marketplace), providing citizens with the ability to compare, shop for, and enroll in affordable healthcare plans.

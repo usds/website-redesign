@@ -1,0 +1,49 @@
+.site-c-project-content {
+  > h2 {
+    font-size: 2.4rem
+  }
+
+  > p {
+    max-width: 76ch;
+  }
+
+  > img + em,
+  > p > img + em {
+    font-size: 1.6rem;
+  }
+}
+
+.pullquote {
+  background: url('../img/quote-left.svg') no-repeat top center;
+  background-size: 36px;
+  border: none !important;
+  color: $color-primary-darker;
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin: 3rem 0;
+  padding-top: 40px;
+  padding-left: 0 !important;
+  line-height: 1.4;
+
+  @include media($width-tablet) {
+    background-size: 58px 48px;
+    font-size: 2.4rem;
+    padding-top: 60px;
+  }
+
+  @include media($width-desktop) {
+    font-size: 3.2rem;
+    max-width: 40ch;
+  }
+
+  footer {
+    font-weight: $font-bold;
+    font-size: 1.7rem;
+    text-align: right;
+    margin-left: auto;
+  }
+}
+
+.usa-banner-inner {
+  max-width: none;
+}

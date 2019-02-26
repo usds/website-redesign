@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Providing Secure Access to IRS Taxpayer Information
 short: IRS Secure Access
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/irs-secure-access/
 ---
-## Providing Secure Access to IRS Taxpayer Information
-
 ### The Challenge
 
 Over 150 million taxpayers interact with the IRS each year. The IRS wants to offer taxpayers digital services such as online access to individual tax records and tax refund statuses. There is clear demand for these services from taxpayers – for example, the "Where's My Refund" online tool is one of the most popular Federal Government websites, with over 200 million requests in 2015. However, providing online taxpayer services is difficult due to the challenge of distinguishing a legitimate taxpayer from an identity thief who may try to steal information held by the IRS to commit fraud. IRS currently withstands more than one million attempts to maliciously access its systems each day.

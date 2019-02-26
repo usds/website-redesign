@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Identifying Security Vulnerabilities in Department of Defense Websites – Hack the Pentagon
 short: Hack the Pentagon
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/hack-the-pentagon/
 ---
-## Identifying Security Vulnerabilities in Department of Defense Websites – Hack the Pentagon
-
 ### The Challenge
 
 The Department of Defense (DoD) spends billions of dollars every year on information security. However, the DoD had not yet taken advantage of a "bug bounty" approach to identifying security vulnerabilities that has gained traction in the private sector.

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Advisor Network (ANET)
 agency: Department of Defense (DoD)
 report: July 2017

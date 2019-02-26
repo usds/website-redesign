@@ -1,11 +1,10 @@
 ---
+layout: default
 title: Supporting the Development of Federal Shared Services
 short: Shared Services
 report: 2016
 permalink: /report-to-congress/2016/shared-services/
 ---
-## Supporting the Development of Federal Shared Services
-
 Shared technology platforms and services have the potential to simplify government products, increase consistency, reduce development costs, and eliminate duplication. Security also benefits by focusing resources on a smaller number of key components.
 
 USDS is uniquely positioned to support the development of these shared services, because it works across many agencies and has visibility into many of the government's digital service development efforts. This insight enables USDS to invest in developing and promoting reusable platforms and services.

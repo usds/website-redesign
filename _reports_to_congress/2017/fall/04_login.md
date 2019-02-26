@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Improving Government Consumer Identity with Login.gov
 agency: General Services Administration (GSA)
 report: Fall 2017
@@ -14,7 +15,7 @@ Many public-facing Federal websites require users to create login accounts for a
 In partnership with GSA's 18F, USDS successfully deployed [login.gov](https://login.gov) as a common identity platform in April 2017 to improve and secure the experience of interacting with government online. [Login.gov](https://login.gov) safeguards user data through encryption and mandatory two-factor authentication. In addition, 18F and USDS developers work with private sector companies on an ongoing basis to adhere to emerging standards in privacy-protecting authentication. Because [login.gov](https://login.gov) was built using the most up-to-date technology, government developers can adopt [login.gov](https://login.gov) within hours, not months, while simultaneously providing a modern experience to its users.
 
 <figure>
-	<img src="/img/report-to-congress/2017/fall/login.png">
+	<img src="{{ site.baseurl }}/images/report-to-congress-2017-fall-login.png">
 	<figcaption><a href="https://login.gov">Login.gov</a> gives Americans a single, secure government identity and provides agencies with a central identity platform.</figcaption>
 </figure>
 
@@ -24,10 +25,19 @@ The first [login.gov](https://login.gov) integration launched in April 2017 with
 
 Looking forward, GSA has signed MOUs with the Social Security Administration, Department of Education, and Railroad Retirement Board to integrate [login.gov](https://login.gov) services for their users throughout 2018. USDS estimates that the Federal Government has the potential to save hundreds of millions of dollars by consolidating consumer identity under [login.gov](https://login.gov), while improving access and usability for all Americans.
 
-<div class="impact">
-	<h3 class="infographic-text-blue">Impact</h3>
-	<ul class="usa-grid">
-		<li class="usa-width-one-half"><span class="infographic-text-blue">1.5<span class="unit">M</span>+</span> Registered users since May 2017 launch</li>
-		<li class="usa-width-one-half"><span class="infographic-text-blue">100<span class="unit">%</span></span> Users with multi-factor authentication</li>
-	</ul>
+<h3>Impact</h3>
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">1.5</span><span class="text-primary text-bold font-body-2xl">M</span><span class="text-primary text-bold font-body-3xl">+</span>
+    </div>
+    <div>Registered users since May 2017 launch</div>
 </div>
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">100</span><span class="text-primary text-bold font-body-2xl">%</span>
+    </div>
+    <div>Users with multi-factor authentication</div>
+</div>
+

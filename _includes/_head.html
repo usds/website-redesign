@@ -1,0 +1,40 @@
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% capture url_path %}{{site.domain}}{{site.baseurl}}{{page.url}}{% endcapture %}
+
+{% capture page_title %}{% if page.people_page %}{{ page.name }} | {{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+
+{% capture share_image %}{% if page.people_page %}{{site.domain}}{{ site.baseurl }}/images/{{ page.image_name }}{% elsif page.project_page %}{{site.domain}}{{ site.baseurl }}/images/{{ page.carousel_image_name }}{% elsif page.social_image %}{{site.domain}}{{ site.baseurl }}/assets/img/{{ page.social_image }}{% else %}{{site.domain}}{{ site.baseurl }}/assets/img/{{ site.social_image }}{% endif %}{% endcapture %}
+
+{% capture page_description %}{% if page.description %}{{ page.description }}{% else %}{{ content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncatewords: 30 }}{% endif %}{% endcapture %}
+
+    <title>{{ page_title }}</title>
+
+    <meta property="og:title" content="{{ page_title }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{{ page_description }}" />
+    <meta property="og:description" content="{{ page_description }}" />
+    <link rel="canonical" href="{{ url_path }}" />
+    <meta property="og:url" content="{{ url_path }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:type" content="article" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@usds" />
+    <meta name="twitter:image" content="{{ share_image }}">
+    <script type="application/ld+json">
+    {"description":"{{ page_description ","@type":"BlogPosting","url":"{{url_path }}","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{site.baseurl}}/img/usds-logo-onwhite.png"}},"headline":"{{ page_title }}","dateModified":"{{site.time}}","datePublished":"{{site.time}}","mainEntityOfPage":{"@type":"WebPage","@id":"{{url_path }}"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/assets/img/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicons/favicon.png" />
+    <link rel="stylesheet" media="all" href="{{ site.baseurl }}/assets/stylesheets/application.css"></link>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+
+    <script src="{{ site.baseurl }}/assets/js/application.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/shims/svg4everybody.js"></script>
+
+    {{ include.append }}
+</head>

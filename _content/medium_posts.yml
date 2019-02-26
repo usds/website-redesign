@@ -1,0 +1,52 @@
+# When editing this page
+# - ALL URLS must be in quotes
+# - Articles will appear in reverse chronological order, meaning
+#   that the first article will be the first item in the carousel
+
+- title: The importance of Product Management in government
+  image_name: blog-product-management.jpg
+  url: "https://medium.com/the-u-s-digital-service/the-importance-of-product-management-in-government-b59933d01874"
+  summary: "We can improve both user experience and cost efficiencies of digital product development in government by designating product managers to lead digital product development and evolving our national model of service."
+
+- title: Hack the Marine Corps results are in!
+  image_name: blog-hack-the-marines.jpg
+  url: "https://medium.com/the-u-s-digital-service/hack-the-marine-corps-results-are-in-5c9e45be0b26"
+  summary: "Ethical hackers work alongside Marines to discover and disclose nearly 150 vulnerabilities within the U.S. Marine Corps public-facing websites and services."
+
+- title: A quick guide to inclusive design
+  image_name: blog-inclusive-design.jpg   
+  url: "https://medium.com/the-u-s-digital-service/a-quick-guide-to-inclusive-design-16ba41eece89"
+  summary: "We believe inclusive design is just good design, and so a priority for our design team is to ensure we are deliberate in our research, design, and content practices."
+
+- title: Saving VA $100 million dollars
+  image_name: blog-saving-va.jpg  
+  url: "https://medium.com/the-u-s-digital-service/saving-va-100-million-dollars-c5d992e0cf54"
+  summary: "Our team helped Veterans Affairs become one of the earliest federal government adopters of modern, cloud-based IT infrastructure."
+
+- title: Blue Button API
+  image_name: blog-blue-button.jpg
+  url: "https://medium.com/the-u-s-digital-service/blue-button-api-c1b47ff8c464"
+  summary: "Last year the Center for Medicare and Medicaid Services (CMS) tapped USDS to work alongside CMS in building an API that empowers Medicare beneficiaries to grant third-party developers access to their claims data."
+
+- title: Staying with the U.S. Digital Service
+  image_name: blog-staying-with-usds.jpg
+  url: "https://medium.com/the-u-s-digital-service/staying-with-the-u-s-digital-service-d465685c921f"
+  summary: "Matt Cutts originally signed on for a three month tour of duty with USDS. Read why he stayed."
+
+- title: How a 20-year old kernel feature helped USDS improve VA's network
+  image_name: blog-20-year-kernel.jpg
+  url: "https://medium.com/the-u-s-digital-service/how-a-20-year-old-kernel-feature-helped-usds-improve-vas-network-33109cbcb2e6"
+  summary: "Our team is developing a React on Rails application, Caseflow, that will enable a better, more efficient process for managing Veterans' appeals by increasing productivity, preventing errors, and automating or eliminating manual steps."
+
+- title: A personal story about modernizing Medicare
+  image_name: blog-personal-story.jpg 
+  url: "https://medium.com/the-u-s-digital-service/a-personal-story-about-modernizing-medicare-9f1e164fa3b2"
+  summary: "Within her first few months at USDS, product manager Ju-Lie McReynolds, impacts Medicare coverage of continuous glucose monitors."
+
+- title: Scary challenges at the U.S. Digital Service
+  image_name: blog-scary-challenges.jpg
+  url: "https://medium.com/the-u-s-digital-service/scary-challenges-at-the-u-s-digital-service-e5a809d0f87d"
+  summary: "Meet members of our team and read about scary challenges they have overcome."
+
+
+

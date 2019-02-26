@@ -1,0 +1,90 @@
+.site-c-page-banner {
+  background-color: #ffffff;
+  position: relative;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.site-c-page-banner--min-height {
+  min-height: 220px;
+}
+
+.site-c-page-banner__text {
+  background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.59) 100%);
+  background: -o-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.59) 100%);
+  background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.59) 100%);
+  bottom: 0;
+  padding-top: $units-5;
+  padding-bottom: $units-5;
+  position: absolute;
+  width: 100%;
+}
+
+.site-c-page-banner__text--alt {
+  background: none;
+  height: 100%
+}
+
+.site-c-page-banner__header {
+  color: #fff;
+  font-size: 2.2rem;
+
+  @include media($width-mobile-lg) {
+    font-size: 2.8rem;
+  }
+
+  @include media($width-tablet) {
+    font-size: 3.2rem;
+  }
+
+  @include media($width-tablet-lg) {
+    font-size: 4rem;
+  }
+
+  @include media($width-desktop) {
+    font-size: 4.4rem;
+  }
+}
+
+.site-c-page-banner__header--alt {
+  font-weight: 300;
+  color: $color-gold;
+  margin: 0;
+  line-height: 1;
+  font-size: 3.6rem;
+
+  @include media($width-mobile-lg) {
+    font-size: 4.4rem;
+  }
+
+  @include media($width-tablet) {
+    font-size: 3.2rem;
+  }
+
+  @include media($width-desktop) {
+    font-size: 4rem;
+  }
+
+  @include media($width-desktop-lg) {
+    font-size: 6rem;
+  }
+
+  svg {
+    fill: currentColor;
+  }
+}
+
+.site-c-page-banner__header-link,
+.site-c-page-banner__header-link:visited {
+  color: $color-gold;
+  text-decoration: none;
+}
+
+.site-c-page-banner__header-link:hover,
+.site-c-page-banner__header-link:focus {
+  color: $color-gold-lighter;
+  text-decoration: none;
+}

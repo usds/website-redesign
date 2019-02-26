@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Modernizing Small Business Certification for Government Contracting
 agency: Small Business Administration (SBA)
 report: July 2017

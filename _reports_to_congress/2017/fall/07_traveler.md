@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Relaunching Trusted Traveler Programs
 agency: Department of Homeland Security (DHS)
 report: Fall 2017
@@ -13,7 +14,7 @@ U.S. Customs and Border Protection (CBP) administers multiple Trusted Traveler P
 On October 1, 2017, the DHS Digital Service team in partnership with CBP launched the redesigned online Trusted Traveler Programs application. The TTP site needed to be redesigned because poor and outdated design made it difficult to find information and resulted in users paying third-party sites to complete the TTP process. When originally tackling the project, the redesign of just the frontend of the application was proposed to take 18 months. By using agile development processes to speed up the development and minimize risk, CBP and USDS worked together to completely redesign the frontend, deliver a scalable, modernized backend, and move the application to the cloud in nine months—half the time of the original estimate.
 
 <figure>
-	<img src="/img/report-to-congress/2017/fall/traveler.png">
+	<img src="{{ site.baseurl }}/images/report-to-congress-2017-fall-traveler.png">
 	<figcaption>The new TTP website helps users choose the program that suits them and makes enrollment easy from start to finish.</figcaption>
 </figure>
 
@@ -21,10 +22,19 @@ This new application was CBP's first system to move to the cloud, and has result
 
 The DHS Digital Service also worked with CBP and the Transportation Security Administration to build out a Trusted Traveler Programs comparison tool. Users were struggling to determine the best program for their needs across the various DHS offerings. Based on travel information provided by the end user, the tool suggests the best program based on cost and estimated approval times and provides a link to access the program's application.
 
-<div class="impact">
-	<h3 class="infographic-text-blue">Impact</h3>
-	<ul class="usa-grid">
-		<li class="usa-width-one-half"><span class="infographic-text-blue">670<span class="unit">K</span>+</span> User accounts since Oct.&nbsp;1 launch</li>
-		<li class="usa-width-one-half"><span class="infographic-text-blue">100<span class="unit">K</span></span> Online applications submitted since&nbsp;launch</li>
-	</ul>
+### Impact
+
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">670</span><span class="text-primary text-bold font-body-2xl">K</span><span class="text-primary text-bold font-body-3xl">+</span>
+    </div>
+    <div>User accounts since Oct.&nbsp;1 launch</div>
+</div>
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">100</span><span class="text-primary text-bold font-body-2xl">K</span>
+    </div>
+    <div>Online applications submitted since&nbsp;launch</div>
 </div>

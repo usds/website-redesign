@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Login.gov (Consumer Identity)
 agency: General Services Administration (GSA)
 report: July 2017

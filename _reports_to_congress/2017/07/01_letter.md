@@ -1,12 +1,14 @@
 ---
+layout: default
 title: July 2017 Report to Congress
 short: Letter from the Administrator
 report: July 2017
 report_title: July 2017
 permalink: /report-to-congress/2017/07/
 front: true
-image: /img/report-to-congress/capitol.jpg
 ---
+## Letter from the Administrator
+
 <strong>The United States Digital Service (USDS)</strong> was established in 2014 to tackle the federal government’s most critical public-facing digital services. From veterans receiving appeals responses in a timely manner to citizens accessing more government services online thanks to secure identity proofing, USDS is focused not only on improving how the American people can interact with their government online, but on transforming that experience to help build the people’s trust in government.
 
 With funding from the Information and Technology Oversight and Reform (ITOR) Fund, USDS was able to hire more than 200 individuals to serve for limited tours of duty in government to work toward this transformation. USDS talent ranges from Silicon Valley engineers who hail from more than 50 top technology companies to professional ‘bureaucracy hackers’ from within the Government and experienced procurement specialists.
@@ -19,7 +21,7 @@ USDS continues to report directly to the acting Deputy Director of Management at
 
 For the most up-to-date cost savings information, please visit <a href="http://itdashboard.gov/drupal/cost-savings">itdashboard.gov</a>.
 
-<img src="/img/report-to-congress/2017/07/sig.png" width="317" height="112" />
+<img src="{{ site.baseurl }}/images/report-to-congress-signature-matt.png" width="317" height="112" />
 
 Matt Cutts  
 Acting Administrator of the U.S. Digital Service

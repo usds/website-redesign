@@ -1,0 +1,24 @@
+---
+layout: default
+simple_footer: true
+permalink: /thank-you
+banner_file: banner--thank-you-lg.svg
+banner_file_mobile: banner--thank-you-sm.svg
+---
+
+{% assign content = site.data.thank_you %}
+
+<div class="grid-container padding-y-3">
+  <section class="site-c-section text-center">
+    <div class="site-c-section-heading flex-justify-center flex-column flex-align-center">
+      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
+      <div class="site-c-section-heading__text">
+        {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+    </div>
+  </section>
+  <section class="site-c-section text-center">
+    {% include _social-buttons.html %}
+  </section>
+</div>
+

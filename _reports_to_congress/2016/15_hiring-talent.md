@@ -1,11 +1,10 @@
 ---
+layout: default
 title: Hiring Top Technical Talent from the Private Sector
 short: Hiring Top Talent
 report: 2016
 permalink: /report-to-congress/2016/hiring-talent/
 ---
-## Hiring Top Technical Talent from the Private Sector
-
 ### The Challenge
 
 In order to deliver on the mission of transforming the country's most important digital services, the Federal Government needs an infusion of modern software engineering, design, and product management skills. As demonstrated in earlier sections of this report, pairing individuals with these skills with dedicated civil servants across the Federal Government can dramatically accelerate modernization efforts on major IT acquisition projects.
@@ -34,7 +33,7 @@ One of the early priorities of the USDS was to build a robust recruitment and hi
 USDS partnered with OPM to secure the tools necessary to recruit and hire the country's brightest technical talent. Using these tools, we created a recruiting and hiring operation that draws on several private sector best practices.
 
 - **Engage in Targeted Recruiting Activities**. Mirroring private sector best practices, USDS has built an experienced recruiting team tasked with identifying and encouraging a diverse set of qualified applicants to apply for digital service positions. Specific tactics include targeted outreach to technology and design professionals (including those who are not currently seeking a new job), events, roundtables, and building a network of influencers who can validate the importance and professional respectability of the USDS' public service mission.
-- **Focus on Candidate Experience**. The USDS hiring process puts a premium on providing a high quality candidate experience that is competitive with the private sector. Specifically, the USDS aims to provide candidates with an easy application process (currently delivered  [via the website](https://www.usds.gov/join)), a fast timeline for hiring decisions (targeting 15 business days from application to conditional offer for qualified applicants), and good visibility into the process and application status.
+- **Focus on Candidate Experience**. The USDS hiring process puts a premium on providing a high quality candidate experience that is competitive with the private sector. Specifically, the USDS aims to provide candidates with an easy application process (currently delivered  [via the website](https://www.usds.gov/apply)), a fast timeline for hiring decisions (targeting 15 business days from application to conditional offer for qualified applicants), and good visibility into the process and application status.
 
     USDS measures its effectiveness by asking all candidates who complete the hiring process to complete a satisfaction survey, and target a satisfaction score of 4.5 or greater (out of 5.0) from among all finalists (including both those who receive offers and those who do not).
 - **Use Subject Matter Experts to Evaluate Specialized Skills.**  Evaluating applicants with highly specialized skills is a challenging practice that requires subject matter expert involvement at every stage. USDS has fully embraced the use of such experts in the hiring process. Each candidate for the USDS is evaluated by a panel of engineers, designers and product managers who themselves possess the desired specialized skills. By ensuring that applicants are evaluated by technical specialists within their own discipline, the process ensures that individuals selected for USDS roles have the digital expert skills that are required to improve government technical services.

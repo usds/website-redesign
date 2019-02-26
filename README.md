@@ -1,31 +1,22 @@
-US Digital Service Website
-==========================
+# USDS website
 
-This repo is for our public-facing site, which is hosted on
-[https://usds.gov](https://usds.gov). This site is the main funnel for USDS
-recruiting and outreach.
+## To run
 
-The site is built on the [U.S. Web Design
-Standards](https://playbook.cio.gov/designstandards/) and uses Jekyll to
-generate static pages.
+First install packages:
 
-[Instructions for rookies learning how to edit the website can be found here](https://github.com/usds/usds/blob/master/comms/website-instructions.md).
+```
+$ npm install --save-dev
+```
 
-Setup
----
-1. If you're using a Mac, install homebrew (see http://brew.sh/)
-2. After installing git (`brew install git`), `cd` to the directory where you
-   want to check-out the site, and then clone it (`git clone
-   https://github.com/usds/website.git`)
-3. Install rvm (`\curl -sSL https://get.rvm.io | sudo bash -s stable`), make
-   your current user a member of the rvm group, and then install a new version
-   of ruby (`rvm install 2.3.1`)
-4. Install the `bundler` gem, then use bundler to install other project
-   dependencies (`gem install bundler && bundle install`)
+Next, run both of these simultaneously in separate terminal windows
 
-Running
----
-1. In the directory you checked out the website into, run `jekyll serve` to
-   start the webserver
-2. Navigate to http://localhost:4000 in your browser to see your changes
+We're using this for instagram photos: https://rudrastyh.com/instagram/get-photos-with-javascript.html
 
+
+## Uploading images
+- [/images](https://github.com/usds/website-v2/tree/master/images): This folder contains *editorial photos* and other images for People cards and pages, Project cards and pages, event logos for the Events cards and page, and other areas that are likely to change semi-frequently.
+- [/assets/img](https://github.com/usds/website-v2/tree/master/assets/img): Site assets and evergreen images such as page banners/headers and vector graphics should be placed in the assets/img folder here. The images in this folder typically will not be subject to change.
+
+## Adding Content
+* [How to add people](https://github.com/usds/website-v2/wiki/Adding-People-(cards-and-pages))
+* [How to add projects](https://github.com/usds/website-v2/wiki/Adding-projects)

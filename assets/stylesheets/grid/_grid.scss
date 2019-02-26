@@ -1,0 +1,9 @@
+.grid-container {
+  padding-left: $units-2;
+  padding-right: $units-2;
+
+  @include media($width-tablet) {
+    padding-left: $units-4;
+    padding-right: $units-4;
+  }
+}

@@ -1,0 +1,43 @@
+
+<header class="usa-header site-c-header" role="banner">
+  <div class="usa-navbar site-c-navbar">
+    <a href="{{ site.baseurl }}/" title="USDS Home" class="site-c-navbar__logo-link">
+      <img class="site-c-navbar__logo" src="{{ site.baseurl }}/assets/img/usds-logo-horizontal.png" alt="USDS Logo">
+    </a>
+    <a href="{{ site.baseurl }}{% link pages/apply.html %}" class="usa-button site-c-navbar__join">Apply</a>
+    <button class="usa-menu-btn site-c-navbar__button" aria-label="Menu">
+      <svg aria-hidden="true">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl }}/assets/img/fontawesome-sprite.svg#bars"></use>
+      </svg>
+    </button>
+  </div>
+
+  <nav role="navigation" class="usa-nav site-c-nav">
+      <button class="usa-nav-close">
+        <img src="{{ site.baseurl }}/assets/img/close.svg" alt="close">
+      </button>
+
+      <ul class="site-c-nav__primary-nav">
+        <li class="site-c-nav__primary-nav__item">
+          <a class="site-c-nav__primary-nav__link" href="{{ site.baseurl }}{% link pages/mission.html %}">Our Mission</a>
+        </li>
+        <li class="site-c-nav__primary-nav__item">
+          <a class="site-c-nav__primary-nav__link" href="{{ site.baseurl }}{% link pages/how-we-work.html %}">How We Work</a>
+        </li>
+        <li class="site-c-nav__primary-nav__item">
+          <a class="site-c-nav__primary-nav__link" href="{{ site.baseurl }}{% link pages/projects.html %}">Projects</a>
+        </li>
+        <li class="site-c-nav__primary-nav__item">
+          <a class="site-c-nav__primary-nav__link" href="{{ site.baseurl }}{% link pages/news-and-blog.html %}">News &amp; Blog</a>
+        </li>
+        <li class="site-c-nav__primary-nav__item site-c-nav__primary-nav__item--mobile">
+          <a class="site-c-nav__primary-nav__link" href="{{ site.baseurl }}{% link pages/apply.html %}">Apply Now</a>
+        </li>
+        <li class="site-c-nav__primary-nav__item site-c-nav__primary-nav__item--non-mobile">
+          <a href="{{ site.baseurl }}{% link pages/apply.html %}" class="usa-button">Apply now</a>
+        </li>
+      </ul>
+
+  </nav>
+</header>
+<div class="usa-overlay"></div>

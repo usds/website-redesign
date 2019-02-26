@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Modernizing our Immigration System
 agency: Department of Homeland Security (DHS)
 report: July 2017

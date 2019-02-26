@@ -1,0 +1,92 @@
+page_title:
+  heading_title: Our Mission
+  heading_text: |-
+    To deliver better government services to the American people through technology and design.
+
+who_we_are_what_we_do:
+  section_1_title: Who we are
+  section_1_text: USDS is a group of technologists from diverse backgrounds working across the federal government to transform critical services for the people. These specialists join for tours of civic service to create a steady influx of fresh perspectives. Our mission is to do the greatest good for the greatest number of people in the greatest need.
+
+  section_2_title: What we do
+  section_2_text: USDS deploys small, responsive groups of designers, engineers, product managers, and bureaucracy specialists to work with and empower civil servants. These multi-disciplinary teams bring best practices and new approaches to support government modernization efforts.
+
+
+objectives:
+  heading_title: Our objectives
+  items:
+    - item: Transform critical, public-facing services
+    - item: Expand the use of common platforms, services, and tools
+    - item: Rethink how the Government buys digital services
+    - item: Bring top technical talent into civic service
+  link_text: Find out how we meet our goals
+
+
+
+
+who_we_help:
+  heading_title: Who we help
+  who_we_help_text: |-
+    Our products engage real users before launch. We apply user-centered design and iterative development to prioritize user needs and learn what works as quickly as possible.
+  icons:
+    - image: graphic-mission-veteran.svg
+      title: Veterans
+    - image: graphic-mission-servicemember.svg
+      title: Military Service Members
+    - image: graphic-mission-immigrant.svg
+      title: Immigrants and Refugees
+    - image: graphic-mission-farmer.svg
+      title: Farmers
+    - image: graphic-mission-medicare-beneficiary.svg
+      title: Medicare Beneficiaries
+    - image: graphic-mission-student.svg
+      title: Students
+    - image: graphic-mission-small-business-owner.svg
+      title: Small Business Owners
+
+
+
+
+our_values:
+  heading_title: Our values
+  value_1_title: Hire and empower great people.
+  value_1_image: graphic-mission-hire-empower.svg
+  value_1_text: |-
+    Humans push our mission forward. Empathy and tenacity are just as important as being a great technologist.
+
+  value_2_title: Find the truth. Tell the truth.
+  value_2_image: graphic-mission-find-truth.svg
+  value_2_text: |-
+    We expect everyone to be humble, but question what’s presented to them, and have the confidence to find a new path forward.
+
+  value_3_title: Optimize for results, not optics.
+  value_3_image: graphic-mission-optimize-results.svg
+  value_3_text: |-
+    We work for the people — not attention, status, or headlines. Our projects may be hard, but we know they’re worth doing.
+
+  value_4_title: Go where the work is.
+  value_4_image: graphic-mission-go-where-work-is.svg
+  value_4_text: |-
+    Meeting with civil servants on their turf, we can partner to create lasting change. Modernizing government is up to all of us, together.
+
+  value_5_title: Create momentum.
+  value_5_image: graphic-mission-create-momentum.svg
+  value_5_text: |-
+    People urgently need better digital services from their government. By building velocity, we can deliver more value, faster.
+
+  value_6_title: Design with users, not for them.
+  value_6_image: graphic-mission-design-with-users.svg
+  value_6_text: |-
+    The best products aren’t created in a vacuum. Using empathy and curiosity, we can effectively address our users’ needs.
+
+origin_story:
+  heading_title: The USDS origin story
+  origin_story_text: |-
+    Too often, outdated tools, systems, and practices make interacting with the government cumbersome and frustrating. The challenges behind the rollout of [HealthCare.gov](https://www.healthcare.gov/) made clear that accessing government services should be as easy as ordering a book online.
+
+    Founded by President Obama in August of 2014, the U.S. Digital Service brought together the best engineering, design, and government talent to change our government’s approach to technology. We planned to hire ten people for three critical national priorities: modernizing immigration, Veterans’ benefits, and [HealthCare.gov](https://www.healthcare.gov/). During the 2015 State of the Union address, we launched an online application to join the team. We worried if ten people would even apply. 1000 did.
+
+    We quickly went to work with a simple strategy:
+
+    > Recruit top designers, engineers, product managers, and digital policy experts. Pair these digital experts with our nation’s leading civil servants. Deploy these teams to untangle the most important government services, together.
+
+    We’re proud of everything we’ve worked for since. The team we’ve assembled has relocated to Washington, D.C., from more than 20 states and territories and counting. They're enthusiastic about emoji, laptop stickers, and scanning the Federal Register. Does this sound like you? [Apply now.](site.baseurl/apply)

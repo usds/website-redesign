@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Reducing Inefficiency in the Refugee Admission Process
 short: Refugee Admissions
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/refugee-admissions/
 ---
-## Reducing Inefficiency in the Refugee Admission Process
-
 ### The Challenge
 
 In Fiscal Year 2016, President Obama set a ceiling of admitting 85,000 refugees into the United States. This represented a 15,000 person increase over the previous fiscal year's ceiling, and this increase depended upon improving the efficiency of the refugee admissions process.

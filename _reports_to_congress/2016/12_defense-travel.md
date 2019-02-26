@@ -1,12 +1,11 @@
 ---
+layout: default
 title: Modernizing the Department of Defense Travel System
 short: Defense Travel
 sub: true
 report: 2016
 permalink: /report-to-congress/2016/defense-travel/
 ---
-## Modernizing the Department of Defense Travel System
-
 ### The Challenge
 
 The Defense Travel System (DTS) provides travel for all Department of Defense (DoD) employees (excluding permanent changes of station). While the DTS does provide end-to-end travel and expense functionality, the antiquated system provides a poor user experience and limited reporting capability. The system has long been a pain point for DoD travelers and officials, and has been scrutinized by lawmakers and auditors. For example, after the Government Accountability Office determined that DoD had overestimated savings for DTS and failed to fix implementation problems with the system nearly a decade ago, DTS added fees for the user and prevented travelers from quickly making changes to their reservations. Lawmakers have required the DoD to improve Defense travel through the creation of the Defense Travel Management Office (DTMO) and providing them with the Defense Travel Pilot Authority to find ways to improve the system and agreements that govern Defense travel.

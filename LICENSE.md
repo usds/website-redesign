@@ -5,10 +5,10 @@ This project includes a mix of the following:
 
 ## Parts of this project that are not in the public domain
 
-This site is based on the Draft U.S. Web Design Standards (WDS), which also
+This site is based on the U.S. Web Design System (USWDS), which also
 includes works under the SIL Open Font License, MIT license, and public
 domain. The full license details for those assets are described in the
-[WDS license file](https://github.com/18F/web-design-standards/blob/staging/LICENSE.md).
+[USWDS license file](https://github.com/uswds/uswds/blob/master/LICENSE.md).
 
 This site also includes a number of images that have various copyright
 statuses, including Creative Commons licenses and public domain. License

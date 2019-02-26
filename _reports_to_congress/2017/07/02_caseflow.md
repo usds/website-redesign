@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Streamlining VA Appeals Processing
 agency: Department of Veterans Affairs (VA)
 report: July 2017

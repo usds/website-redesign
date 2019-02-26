@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Helping Military Families Move
 agency: Department of Defense (DoD)
 report: Fall 2017
@@ -16,15 +17,17 @@ DDS deployed a rapid response team to provide immediate remediation, and in just
 ### Update
 
 <figure>
-	<img src="/img/report-to-congress/2017/fall/move.png">
+	<img src="{{ site.baseurl }}/images/report-to-congress-2017-fall-move.png">
 	<figcaption>The redesigned servicemember-centered website <a href="https://www.move.mil">Move.mil</a> launched in November 2017.</figcaption>
 </figure>
 
 USTRANSCOM has approved funding for initial development of a prototype system to more efficiently process relocations by military members and their families. DDS recently selected a highly vetted software company to execute development efforts under the close product guidance of DDS. DDS spent six months actively developing the related informational site [Move.mil](https://www.move.mil), which is the primary resource for military families and their spouses during their frequent relocations around the globe. [Move.mil](https://www.move.mil) relaunched in November 2017, and was developed through constant user feedback from servicemembers, their spouses, and DoD transportation support staff. The website includes updated content, new features, and a suite of tools to greatly reduce the burden on military families during the stress of relocation.
 
-<div class="impact">
-	<h3 class="infographic-text-blue">Impact</h3>
-	<ul>
-		<li><span class="infographic-text-blue">16<span class="unit">%</span> &rarr; 99.8<span class="unit">%</span></span> Successful move applications</li>
-	</ul>
+### Impact
+
+<div class="margin-bottom-3">
+	<div>
+		<span class="text-primary text-bold font-body-3xl">16</span><span class="text-primary text-bold font-body-2xl">%</span> <span class="text-primary text-bold font-body-3xl">&rarr; 99.8</span><span class="text-primary text-bold font-body-2xl">%</span>
+    </div>
+    <div>Successful move applications</div>
 </div>

@@ -1,0 +1,12 @@
+<ul class="site-c-social-buttons {{ include.modifiers }} ">
+  {% for item in site.data.social-media %}
+  <li class="site-c-social-buttons__item">
+    <a href="{{ item.url }}" class="site-c-social-buttons__link site-c-social-buttons__link--{{ item.name | downcase | remove: " " }}" title="{{ item.name }}" target="_blank">
+      <svg aria-hidden="true" class="site-c-social-buttons__icon">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl }}/assets/img/fontawesome-sprite.svg#{{ item.sprite-ref }}"></use>
+      </svg>
+      <span class="usa-sr-only">{{ item.name }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

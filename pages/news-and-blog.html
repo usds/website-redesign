@@ -1,0 +1,108 @@
+---
+layout: default
+title: News and Blog
+permalink: /news-and-blog
+banner_file: banner--news-media-lg.svg
+banner_file_mobile: banner--news-media-sm.svg
+social_image: social-card--news-and-media.png
+
+redirect_from:
+  - /blog
+---
+
+{% assign content = site.data.news_and_media %}
+
+<div class="grid-container">
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
+      <div class="site-c-section-heading__text">
+        {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">{{ content.inside_look.heading_title }}</h2>
+      <div class="site-c-section-heading__text">
+        {{ content.inside_look.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+      <div class="site-c-section-heading__links">
+        <a class="usa-button usa-button-secondary" href="https://medium.com/@USDigitalService" class="usa-button usa-button-secondary">{{ content.inside_look.heading_button_text }}</a>
+      </div>
+    </div>
+
+    <div class="site-c-section__body">
+      <div class="site-c-cards margin-x-neg-2 site-js-carousel">
+        {% for article in site.data.medium_posts %}
+        <div class="padding-x-2">
+          <a class="site-c-card site-c-card--linked" href="{{ article.url }}" target="_blank">
+            {% if article.image_name %}
+              <img src="{{ site.baseurl }}/images/{{ article.image_name }}" alt="Photo of {{ article.name }}" />
+            {% endif %}
+            <div class="site-c-card__body">
+            <span class="site-c-card__title">{{ article.title }}</span>
+            {% if article.summary %}
+            <p>{{ article.summary }}</p>
+            <p class="site-c-card__affordance" aria-hidden="true">Read full post</p>
+            {% endif %}
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">{{ content.usds_in_the_news.heading_title }}</h2>
+      <div class="site-c-section-heading__text">
+        {{ content.usds_in_the_news.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+    </div>
+
+    <div class="site-c-section__body">
+      {% include news-articles.html %}
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">{{ content.for_the_press.heading_title }}</h2>
+      <div class="site-c-section-heading__text">
+        {{ content.for_the_press.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      </div>
+    </div>
+
+    <div class="site-c-section__body">
+      <div class="grid-row tablet:margin-x-neg-2 flex-justify-center">
+        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
+          <div class="site-c-mask">
+            <img src="{{ site.baseurl }}/assets/img/{{ content.for_the_press.email_image }}" alt="">
+          </div>
+          <div class="text-center">
+            <a class="usa-button usa-button-secondary" href="{{ content.for_the_press.email_link }}">{{ content.for_the_press.email_button_text }}</a>
+          </div>
+        </div>
+
+        <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
+          <div class="site-c-mask">
+            <img src="{{ site.baseurl }}/assets/img/{{ content.for_the_press.press_kit_image }}" alt="">
+          </div>
+          <div class="text-center">
+            <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/assets/files/{{ site.press_kit_file_name }}">{{ content.for_the_press.press_kit_button_text }}</a>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+</div>

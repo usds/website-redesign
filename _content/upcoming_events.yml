@@ -1,0 +1,31 @@
+# When editing this page
+# - ALL URLS must be in quotes
+# - Items will appear in reverse chronological order, meaning
+#   that the first item will be the first item in the carousel
+# - If no custom image is provided, a USDS seal will appear
+# - Summaries may only be a single paragraph
+
+- name: Lesbians Who Tech
+  url: "https://lesbianswhotech.org/sanfrancisco2019/6"
+  date: Feb 28 - Mar 2
+  city: San Francisco, CA
+  venue:
+  summary: "We're a sponsor of Lesbians Who Tech and will have members of our team speaking."
+  image_name: events-lesbians-who-tech.svg
+
+- name: SREcon
+  url: "https://www.usenix.org/conference/srecon19americas"
+  date: Mar 25 - 27
+  city: Brooklyn, NY
+  venue: New York Marriott at the Brooklyn Bridge
+  summary: "We'll be recruiting at SREcon with some of our engineers in attendance."
+  image_name: events-sre-con.svg
+
+- name: Code for America
+  url: "https://www.codeforamerica.org/"
+  date: May 29 - 31
+  city: Oakland, CA
+  venue:
+  summary: "We're joining public servants, technologists, entrepreneurs, and more at the Code for America summit."
+  image_name: events-code-for-america.svg
+

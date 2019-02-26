@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Congressionally Mandated Medicare Payment Changes
 agency: Health &amp; Human Services (HHS)
 report: July 2017
