@@ -4,7 +4,7 @@
     {% if project.carousel_title %}
       <div class="padding-x-2">
         <a class="site-c-card site-c-card--linked" href="{{ site.baseurl }}/{{ project.permalink }}">
-          <img class="site-c-card__image" src="{{ site.baseurl }}/images/{{ project.carousel_image_name }}" alt="Project photo" />
+          <img class="site-c-card__image" src="{{ site.baseurl }}/images/{{ project.carousel_image_name }}" alt="{{ project.carousel_title }}" />
           <div class="site-c-card__body">
           <span class="site-c-flag">{{ project.agency }}</span>
           <span class="site-c-card__title">{{ project.carousel_title }}</span>
