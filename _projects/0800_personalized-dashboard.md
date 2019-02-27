@@ -14,8 +14,8 @@ hide: true
 # Project detail page (Edit this)
 title: "Personalized Dashboard"
 agency: Veterans Affairs
-permalink: projects/personalized-dashboard.html
-project_url: https://www.va.gov/
+permalink: projects/personalized-dashboard
+project_url: https://www.va.gov
 
 # The Impact (Edit this)
 impact_statement:

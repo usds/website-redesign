@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/aileen-chen.html
+permalink: people/aileen-chen
 
 # People Carousel and Page (Edit this)
 name: Aileen Chen

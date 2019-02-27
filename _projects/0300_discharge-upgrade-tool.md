@@ -14,8 +14,8 @@ carousel_image_name: project-va-discharge-upgrade-card.jpg
 # Project detail page (Edit this)
 title: "Discharge Status Upgrade Tool"
 agency: Veterans Affairs
-permalink: projects/discharge-upgrade-tool.html
-project_url: https://www.va.gov/discharge-upgrade-instructions/
+permalink: projects/discharge-upgrade-tool
+project_url: https://www.va.gov/discharge-upgrade-instructions
 
 # The Impact (Edit this)
 impact_statement:

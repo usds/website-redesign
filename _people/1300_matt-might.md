@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/matt-might.html
+permalink: people/matt-might
 
 # People Carousel and Page (Edit this)
 name: Matt Might

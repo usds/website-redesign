@@ -14,8 +14,8 @@ hide: true
 # Project detail page (Edit this)
 title: "Disability Compensation Application"
 agency: Veterans Affairs
-permalink: projects/disability-compensation-application.html
-project_url: https://www.va.gov/disability/how-to-file-claim/
+permalink: projects/disability-compensation-application
+project_url: https://www.va.gov/disability/how-to-file-claim
 
 # The Impact (Edit this)
 impact_statement:

@@ -6,14 +6,14 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/jiten-vaidya.html
+permalink: people/jiten-vaidya
 
 # People Carousel and Page (Edit this)
 name: Jiten Vaidya
 pronouns: He/Him
 alumni: yes
 cop: Engineering
-city_of_origin: 
+city_of_origin:
 previously_at:  
 image_name: jiten-vaidya.jpg
 quote: "I was a little concerned about whether I could make a difference in three months, but after my experience here, I wholeheartedly recommend that you should consider doing it for as long or short a duration as you can."

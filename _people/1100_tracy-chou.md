@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/tracy-chou.html
+permalink: people/tracy-chou
 
 # People Carousel and Page (Edit this)
 name: Tracy Chou
@@ -14,7 +14,7 @@ pronouns: She/Her
 alumni: yes
 cop: Engineering
 city_of_origin: New York
-previously_at: 
+previously_at:
 image_name: tracy-chou.jpg
 quote: "Serving a tour of duty with USDS is not only good for the country but also a great opportunity for you as a technologist."
 ---

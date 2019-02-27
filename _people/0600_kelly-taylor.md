@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/kelly-taylor.html
+permalink: people/kelly-taylor
 
 # People Carousel and Page (Edit this)
 name: Kelly Taylor
@@ -14,7 +14,7 @@ pronouns: He/Him
 alumni: no
 cop: Product
 city_of_origin: Denver, Colorado
-previously_at: 
+previously_at:
 image_name: kelly-taylor.jpg
 quote: If you are thinking about totally disrupting your comfortable lifestyle and moving to Washington, D.C., for a family adventure like we did...
 ---

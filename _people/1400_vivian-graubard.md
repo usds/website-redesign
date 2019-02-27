@@ -6,14 +6,14 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/vivian-graubard.html
+permalink: people/vivian-graubard
 
 # People Carousel and Page (Edit this)
 name: Vivian Graubard
 pronouns: She/Her
 alumni: yes
 cop: Strategy
-city_of_origin: 
+city_of_origin:
 image_name: vivian-graubard.jpg
 quote: I think that President Obama instilled in all of his staff the sense to do what is right, not always what is easy.
 ---

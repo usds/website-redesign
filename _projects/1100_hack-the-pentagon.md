@@ -13,7 +13,7 @@ carousel_image_name: project-dod-hack-the-pentagon-card.jpg
 # Project detail page (Edit this)
 title: "Hack the Pentagon"
 agency: Department of Defense
-permalink: projects/hack-the-pentagon.html
+permalink: projects/hack-the-pentagon
 project_url:
 
 # The Impact (Edit this)
