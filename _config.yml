@@ -41,6 +41,7 @@ linkedin_url: https://www.linkedin.com/company/united-states-digital-service
 github_url: https://github.com/usds
 
 press_kit_file_name: 2018-10-Recruiting-1-Sheet.pdf
+d_and_i_file_name: USDS_1Sheet_DI_Feb2019.pdf
 
 # Build settings
 markdown: kramdown
