@@ -14,7 +14,7 @@ hide: true
 # Project detail page (Edit this)
 title: "GI Bill Comparison Tool"
 agency: Veterans Affairs
-permalink: projects/gi-bill-comparison-tool.html
+permalink: projects/gi-bill-comparison-tool
 project_url: https://www.va.gov/education/gi-bill/post-9-11/ch-33-benefit
 
 # The Impact (Edit this)

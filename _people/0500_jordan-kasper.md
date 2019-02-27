@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/jordan-kasper.html
+permalink: people/jordan-kasper
 
 # People Carousel and Page (Edit this)
 name: Jordan Kasper

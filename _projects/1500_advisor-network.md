@@ -13,7 +13,7 @@ carousel_image_name: project-dod-advisor-network-card.jpg
 # Project detail page (Edit this)
 title: "Advisor Network (ANET)"
 agency: Department of Defense
-permalink: projects/advisor-network.html
+permalink: projects/advisor-network
 project_url:
 
 # The Impact (Edit this)

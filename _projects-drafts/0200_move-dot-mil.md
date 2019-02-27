@@ -13,8 +13,8 @@ carousel_image_name: project-dod-mil-moving-card.jpg\
 # Project detail page (Edit this)
 title: "Helping Military Families Move"
 agency: Defense Department (DoD)
-permalink: projects/helping-military-families-move.html
-project_url: https://move.mil/
+permalink: projects/helping-military-families-move
+project_url: https://move.mil
 ---
 
 ## The Challenge

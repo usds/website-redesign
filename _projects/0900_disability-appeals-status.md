@@ -14,8 +14,8 @@ hide: true
 # Project detail page (Edit this)
 title: "Disability Appeals Status"
 agency: Veterans Affairs
-permalink: projects/disability-appeals-status.html
-project_url: https://www.va.gov/claim-or-appeal-status/
+permalink: projects/disability-appeals-status
+project_url: https://www.va.gov/claim-or-appeal-status
 ---
 
 ## The Challenge

@@ -13,7 +13,7 @@ carousel_image_name: project-hhs-blue-button-card.jpg
 # Project detail page (Edit this)
 title: "Medicare Data API: Blue Button 2.0"
 agency: Health and Human Services
-permalink: projects/blue-button-2.html
+permalink: projects/blue-button-2
 project_url:
 ---
 

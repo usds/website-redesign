@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/robbie-holmes.html
+permalink: people/robbie-holmes
 
 # People Carousel and Page (Edit this)
 name: Robbie Holmes
@@ -14,7 +14,7 @@ pronouns: He/Him
 alumni: no
 cop: Engineering
 city_of_origin: Brooklyn, New York
-previously_at: 
+previously_at:
 image_name: robbie-holmes.jpg
 quote: "I am intrigued to see what will be able to engage me and feel as impactful as my time here!"
 
