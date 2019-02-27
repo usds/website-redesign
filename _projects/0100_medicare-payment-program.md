@@ -41,4 +41,7 @@ We're partenring with the Centers for Medicare & Medicaid Services to implement 
 
 ## Press
 
-[FedTech Magazine](https://fedtechmagazine.com/article/2018/06/usds-teams-cms-spur-it-modernization), [Federal News Network](https://federalnewsnetwork.com/ask-the-cio/2018/05/u-s-digital-service-helps-cms-with-novel-approach-to-it-modernization/), [ProgrammableWeb](https://www.programmableweb.com/news/how-usds-modernizing-medicares-50-year-old-payment-system/native-case-study/2018/11/13)
+- [USDS Teams at CMS Spur IT Modernization](https://fedtechmagazine.com/article/2018/06/usds-teams-cms-spur-it-modernization)
+- [U.S. Digital Service helps CMS with novel approach to IT modernization](https://federalnewsnetwork.com/ask-the-cio/2018/05/u-s-digital-service-helps-cms-with-novel-approach-to-it-modernization/)
+- [How USDS is modernizing Medicare's 50-year-old payment system](https://www.programmableweb.com/news/how-usds-modernizing-medicares-50-year-old-payment-system/native-case-study/2018/11/13)
+- [Medicare's new member of its healthcare data center: The cloud](https://searchhealthit.techtarget.com/news/252450112/Medicares-new-member-of-its-healthcare-data-center-The-cloud)
