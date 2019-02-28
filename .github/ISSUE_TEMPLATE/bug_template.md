@@ -5,7 +5,6 @@ about: Something on USDS.gov is not working as expected
 ---
 
 # Bug Report
-
 - [ ] I’ve searched for any related issues and avoided creating a duplicate issue.
 
 ## What happened
@@ -15,7 +14,6 @@ about: Something on USDS.gov is not working as expected
 -->
 
 ## What I expected to happen
-
 <!--
   What did you expect to happen?
 -->
