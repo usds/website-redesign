@@ -8,9 +8,10 @@ First install packages:
 $ npm install --save-dev
 ```
 
-Next, run both of these simultaneously in separate terminal windows
-
-We're using this for instagram photos: https://rudrastyh.com/instagram/get-photos-with-javascript.html
+Next, run Jekyll
+```
+$ bundle exec jekyll serve
+```
 
 
 ## Uploading images
