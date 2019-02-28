@@ -84,3 +84,7 @@ exclude:
   - gulpfile.js
   - circle.yml
   - css
+  - image-templates
+  - CODE_OF_CONDUCT.md
+  - compressing.sh
+  - package-lock.json
