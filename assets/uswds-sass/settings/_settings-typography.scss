@@ -1,0 +1,314 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS TYPOGRAPHY SETTINGS
+----------------------------------------
+-
+Read more about settings and
+USWDS typography tokens in the documentation:
+https://v2.designsystem.digital.gov/style-tokens/typography
+-
+----------------------------------------
+*/
+
+/*
+----------------------------------------
+Root font size
+----------------------------------------
+Setting $theme-respect-user-font-size to
+true sets the root font size to 100% and
+uses ems for media queries
+----------------------------------------
+$theme-root-font-size only applies when
+$theme-respect-user-font-size is set to
+false.
+
+This will set the root font size
+as a specific px value and use px values
+for media queries.
+
+Accepts true or false
+----------------------------------------
+*/
+
+$theme-respect-user-font-size: true !default;
+
+// $theme-root-font-size only applies when
+// $theme-respect-user-font-size is set to
+// false.
+
+// This will set the root font size
+// as a specific px value and use px values
+// for media queries.
+
+// Accepts values in px
+
+$theme-root-font-size: 10px !default;
+
+/*
+----------------------------------------
+Basic styles
+----------------------------------------
+Sets the default typography styles for
+paragraph text and links
+
+Accepts true or false
+----------------------------------------
+*/
+
+$theme-global-styles-basic: true !default;
+
+/*
+----------------------------------------
+Content styles
+----------------------------------------
+Sets the default typography styles for
+paragraph text, links, headings, lists,
+and tables
+
+Accepts global, scoped, or none
+----------------------------------------
+*/
+
+$theme-content-styles: 'scoped' !default;
+
+/*
+----------------------------------------
+Custom font definitions
+----------------------------------------
+Add a new custom font definition if
+your project uses a typeface we've
+not already defined.
+----------------------------------------
+The following faces are defined in the
+system:
+
+'georgia'
+'helvetica'
+'merriweather'
+'open-sans'
+'public-sans'
+'roboto-mono'
+'source-sans-pro'
+'system'
+'tahoma'
+'verdana'
+----------------------------------------
+*/
+
+$theme-font-definitions: (
+  /*
+  font-new: (
+    name: 'Font Display Name',
+    dir: 'folder-name', // relative to settings.$theme-font-path
+    stack: $font-stack-system,
+    system-font: false,
+    cap-height: '364px', // height of a 500px `N` in Sketch
+    variable-font: false,
+    generate: false,
+    roman: (
+      100: 'Filename-without-extension', // or false
+      200: 'Filename-without-extension', // or false
+      300: 'Filename-without-extension', // or false
+      400: 'Filename-without-extension', // or false
+      500: 'Filename-without-extension', // or false
+      600: 'Filename-without-extension', // or false
+      700: 'Filename-without-extension', // or false
+      800: 'Filename-without-extension', // or false
+      900: 'Filename-without-extension', // or false
+    ),
+    italic: (
+      100: 'Filename-without-extension', // or false
+      200: 'Filename-without-extension', // or false
+      300: 'Filename-without-extension', // or false
+      400: 'Filename-without-extension', // or false
+      500: 'Filename-without-extension', // or false
+      600: 'Filename-without-extension', // or false
+      700: 'Filename-without-extension', // or false
+      800: 'Filename-without-extension', // or false
+      900: 'Filename-without-extension', // or false
+    ),
+  ),
+  */
+) !default;
+
+/*
+----------------------------------------
+Fonts in use
+----------------------------------------
+Set the sans, serif, and mono faces for
+your project
+----------------------------------------
+The following faces are defined in the
+system:
+
+'georgia'
+'helvetica'
+'merriweather'
+'open-sans'
+'public-sans'
+'roboto-mono'
+'source-sans-pro'
+'system'
+'tahoma'
+'verdana'
+----------------------------------------
+*/
+
+$theme-font-mono:   'roboto-mono' !default;
+$theme-font-sans:   'source-sans-pro' !default;
+$theme-font-serif:  'merriweather' !default;
+$theme-font-cond:   false !default;
+
+/*
+----------------------------------------
+Fonts by role
+----------------------------------------
+Set the ui, heading, body, code, and alt
+faces for your project from
+
+$theme-font-sans
+$theme-font-serif
+$theme-font-mono
+$theme-font-cond
+----------------------------------------
+*/
+
+$theme-font-ui:       $theme-font-sans !default;
+$theme-font-heading:  $theme-font-serif !default;
+$theme-font-body:     $theme-font-sans !default;
+$theme-font-code:     $theme-font-mono !default;
+$theme-font-alt:      $theme-font-serif !default;
+
+/*
+----------------------------------------
+Type scale
+----------------------------------------
+Define your project's type scale using
+values from the USWDS system type scale
+
+1-20
+----------------------------------------
+*/
+
+$theme-type-scale-3xs:      2 !default;
+$theme-type-scale-2xs:      3 !default;
+$theme-type-scale-xs:       4 !default;
+$theme-type-scale-sm:       5 !default;
+$theme-type-scale-md:       6 !default;
+$theme-type-scale-lg:       9 !default;
+$theme-type-scale-xl:       12 !default;
+$theme-type-scale-2xl:      14 !default;
+$theme-type-scale-3xl:      15 !default;
+
+/*
+----------------------------------------
+Font weights
+----------------------------------------
+Assign weights 100-900
+Or use `false` for unneeded weights.
+----------------------------------------
+*/
+
+$theme-output-all-weights:        false !default;
+
+$theme-font-weight-thin:          false !default;
+$theme-font-weight-light:         300 !default;
+$theme-font-weight-normal:        400 !default;
+$theme-font-weight-medium:        false !default;
+$theme-font-weight-semibold:      false !default;
+$theme-font-weight-bold:          700 !default;
+$theme-font-weight-heavy:         false !default;
+
+/*
+----------------------------------------
+General typography settings
+----------------------------------------
+Type scale tokens
+----------------------------------------
+micro:      10px
+1:          12px
+2:          13px
+3:          14px
+4:          15px
+5:          16px
+6:          17px
+7:          18px
+8:          20px
+9:          22px
+10:         24px
+11:         28px
+12:         32px
+13:         36px
+14:         40px
+15:         48px
+16:         56px
+17:         64px
+18:         80px
+19:         120px
+20:         140px
+----------------------------------------
+Line height tokens
+----------------------------------------
+1:    1
+2:    1.15
+3:    1.35
+4:    1.5
+5:    1.62
+6:    1.75
+----------------------------------------
+Font family tokens
+----------------------------------------
+'ui'
+'heading'
+'body'
+'code'
+'alt'
+----------------------------------------
+Measure (max-width) tokens
+----------------------------------------
+1:       40ch
+2:       60ch
+3:       66ch
+4:       72ch
+5:       77ch
+none:    none
+----------------------------------------
+*/
+
+// Body settings are the equivalent of setting the <body> element
+$theme-body-font-family:           'body' !default;
+$theme-body-font-size:             'sm' !default;
+$theme-body-line-height:           5 !default;
+
+// If true, explicitly style the <body> element with the base styles
+$theme-style-body-element:         false !default;
+
+// Headings
+$theme-h1-font-size:               '2xl' !default;
+$theme-h2-font-size:               'xl' !default;
+$theme-h3-font-size:               'lg' !default;
+$theme-h4-font-size:               'sm' !default;
+$theme-h5-font-size:               'xs' !default;
+$theme-h6-font-size:               '3xs' !default;
+$theme-heading-line-height:        2 !default;
+$theme-small-font-size:            '2xs' !default;
+$theme-title-font-size:            '3xl' !default;
+
+// Text and prose
+$theme-text-measure-narrow:        1 !default;
+$theme-text-measure:               3 !default;
+$theme-text-measure-wide:          4 !default;
+$theme-prose-font-family:          'body' !default;
+
+// Lead text
+$theme-lead-font-family:           'heading' !default;
+$theme-lead-font-size:             'lg' !default;
+$theme-lead-line-height:           6 !default;
+$theme-lead-measure:               5 !default;

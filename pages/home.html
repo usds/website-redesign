@@ -30,7 +30,7 @@ redirect_from:
           {{ content.mission.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
         </div>
         <div class="site-c-section-heading__links">
-          <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}{% link pages/mission.html %}">{{ content.mission.heading_button_text }}</a>
+          <a class="usa-button usa-button-outline" href="{{ site.baseurl }}{% link pages/mission.html %}">{{ content.mission.heading_button_text }}</a>
         </div>
       </div>
       <div class="grid-col-12 tablet:grid-col-5 desktop:grid-col-4 tablet:padding-left-3 padding-top-7 ">
@@ -59,7 +59,7 @@ redirect_from:
         {{ content.work.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
       <div class="site-c-section-heading__links">
-        <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}{% link pages/projects.html %}">{{ content.work.heading_button_text }}</a>
+        <a class="usa-button usa-button-outline" href="{{ site.baseurl }}{% link pages/projects.html %}">{{ content.work.heading_button_text }}</a>
       </div>
     </div>
     <div class="site-c-section__body">
@@ -78,7 +78,7 @@ redirect_from:
         {{ content.people.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
       <div class="site-c-section-heading__links">
-        <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}{% link pages/people.html %}">{{ content.people.heading_button_text }}</a>
+        <a class="usa-button usa-button-outline" href="{{ site.baseurl }}{% link pages/people.html %}">{{ content.people.heading_button_text }}</a>
       </div>
     </div>
 
@@ -113,7 +113,7 @@ redirect_from:
     <div class="site-c-section-heading">
       <h2 class="site-c-section-heading__heading">{{ content.news.heading_title }}</h2>
       <div class="site-c-section-heading__links card:display-none tablet:display-block">
-        <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}{% link pages/news-and-blog.html %}" class="usa-button usa-button-secondary">{{ content.news.heading_button_text }}</a>
+        <a class="usa-button usa-button-outline" href="{{ site.baseurl }}{% link pages/news-and-blog.html %}" class="usa-button usa-button-outline">{{ content.news.heading_button_text }}</a>
       </div>
     </div>
 
@@ -123,7 +123,7 @@ redirect_from:
       {% include news-articles.html %}
 
       <p class="tablet:display-none">
-        <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}{% link pages/news-and-blog.html %}" class="usa-button usa-button-secondary">{{ content.news.heading_button_text }}</a>
+        <a class="usa-button usa-button-outline" href="{{ site.baseurl }}{% link pages/news-and-blog.html %}" class="usa-button usa-button-outline">{{ content.news.heading_button_text }}</a>
       </p>
     </div>
 

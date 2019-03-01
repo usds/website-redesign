@@ -1,14 +1,14 @@
 .where-we-worked-item {
-   @include flex-grow(0);
+   flex-grow: 0;
    flex: 0 0 50% !important;
    max-width: 50%;
 
-   @include media($width-mobile-lg) {
+   @include at-media('mobile-lg') {
      flex: 0 0 25% !important;
      max-width: 25%;
    }
 
-   @include media($width-tablet-lg) {
+   @include at-media('tablet-lg') {
      flex: 0 0 20% !important;
      width: auto !important;
      max-width: 20%;

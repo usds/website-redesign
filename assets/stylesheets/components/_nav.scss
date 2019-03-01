@@ -1,5 +1,5 @@
 .site-c-header {
-  @include media($nav-width) {
+  @include at-media('desktop') {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -9,13 +9,13 @@
 }
 
 .site-c-navbar {
-  @include display(flex);
-  @include align-items(center);
-  @include justify-content(space-between);
+  display: flex;;
+  align-items: center;
+  justify-content: space-between;
   height: auto;
   padding: $units-1 0;
 
-  @include media($nav-width) {
+  @include at-media('desktop') {
     padding: 0;
   }
 }
@@ -24,14 +24,14 @@
   width: auto;
   margin: 0 $units-1 0 auto;
 
-  @include media($nav-width) {
+  @include at-media('desktop') {
     display: none;
   }
 }
 
 .site-c-navbar__button {
-  @include display(flex);
-  @include align-items(center);
+  display: flex;;
+  align-items: center;
   background-color: transparent;
   width: auto;
   height: auto;
@@ -40,8 +40,8 @@
 
   svg {
     fill: $color-gray;
-    width: 3rem;
-    height: 3rem;
+    width: units(4);
+    height: units(4);
   }
 
   &:hover,
@@ -53,7 +53,7 @@
     }
   }
 
-  @include media($nav-width) {
+  @include at-media('desktop') {
     display: none;
   }
 }
@@ -64,17 +64,17 @@
 }
 
 .site-c-navbar__logo {
-  width: 18rem;
+  width: 180px;
   margin-left: $units-2;
 
-  @include media($nav-width) {
-    width: 27.5rem;
+  @include at-media('desktop') {
+    width: 275px;
     margin-left: 0;
   }
 }
 
 .site-c-nav {
-  @include media($nav-width) {
+  @include at-media('desktop') {
     padding: 0;
   }
 }
@@ -83,7 +83,7 @@
   list-style: none;
   padding-left: 0;
 
-  @include media($nav-width) {
+  @include at-media('desktop') {
     align-items: baseline;
     display: flex;
     margin: 0;
@@ -95,18 +95,18 @@
   border-top: 1px solid $color-gray-light;
   margin: 0;
 
-  @include media($nav-width){
+  @include at-media('desktop'){
     @include u-font-size('sans', '3xs');
     border-left: 1px solid $color-gray-light;
     border-top: 0;
     padding: 0 $units-2;
   }
 
-  @include media($width-tablet){
+  @include at-media('tablet'){
     @include u-font-size('sans', '2xs');
   }
 
-  @include media($width-desktop){
+  @include at-media('desktop'){
     @include u-font-size('sans', 'xs');
   }
 }
@@ -114,14 +114,14 @@
 .site-c-nav__primary-nav__item--non-mobile {
   display: none;
 
-  @include media($nav-width){
+  @include at-media('desktop'){
     display: block;
   }
 }
 
 .site-c-nav__primary-nav__item--mobile {
 
-  @include media($nav-width){
+  @include at-media('desktop'){
     display: none;
   }
 }
@@ -143,7 +143,7 @@
   padding: $units-2 0;
   text-decoration: none;
 
-  @include media($nav-width) {
+  @include at-media('desktop') {
     padding: 0;
   }
 

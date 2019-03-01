@@ -1,24 +1,40 @@
 ---
 # Front Matter
 ---
-@import "uswds.min.css";
+@import "../uswds/styles.css";
 
 // Settings
-@import '../uswds/stylesheets/settings/settings-general';
-@import '../uswds/stylesheets/settings/settings-typography';
-@import '../uswds/stylesheets/settings/settings-color';
-@import '../uswds/stylesheets/settings/settings-spacing';
-@import '../uswds/stylesheets/settings/settings-utilities';
+// -------------------------------------
+@import '../uswds-sass/settings/settings-general';
+@import '../uswds-sass/settings/settings-typography';
+@import '../uswds-sass/settings/settings-color';
+@import '../uswds-sass/settings/settings-spacing';
+@import '../uswds-sass/settings/settings-utilities';
+@import '../uswds-sass/settings/settings-components';
 
 // Tools
-@import '../uswds/stylesheets/lib/bourbon';
-@import '../uswds/stylesheets/lib/neat';
-@import '../uswds/stylesheets/core/font-definitions';
-@import '../uswds/stylesheets/core/functions';
-@import '../uswds/stylesheets/core/system-tokens';
-@import '../uswds/stylesheets/core/variables';
-@import '../uswds/stylesheets/core/properties';
-@import '../uswds/stylesheets/core/mixins/all';
+// -------------------------------------
+@import '../uswds-sass/core/font-definitions';
+@import '../uswds-sass/core/functions';
+@import '../uswds-sass/core/system-tokens';
+@import '../uswds-sass/core/variables';
+@import '../uswds-sass/core/properties';
+@import '../uswds-sass/core/mixins/all';
+
+// Tools
+// -------------------------------------
+@import '../uswds-sass/core/font-definitions';
+@import '../uswds-sass/core/functions';
+@import '../uswds-sass/core/system-tokens';
+@import '../uswds-sass/core/variables';
+@import '../uswds-sass/core/properties';
+@import '../uswds-sass/core/mixins/all';
+
+// Generic
+// -------------------------------------
+@import '../uswds-sass/core/font-face';
+@import '../uswds-sass/lib/normalize';
+@import '../uswds-sass/core/base';
 
 // Generic
 

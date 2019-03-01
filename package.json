@@ -4,59 +4,35 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "axe": "node config/run-axe.js",
-    "build": "gulp build && bundle exec jekyll build",
-    "build-css": "gulp sass",
-    "build-fonts": "gulp fonts",
-    "build-img": "gulp images",
-    "build-js": "gulp javascript",
-    "check-contrast": "node ./utils/check-contrast.js",
-    "clean": "gulp clean-assets",
-    "crawl": "node config/crawl.js",
-    "postinstall": "bundle",
-    "lint": "gulp eslint scss-lint",
-    "prestart": "gulp build",
-    "serve": "bundle exec jekyll serve --baseurl '' --drafts --future --incremental --livereload",
-    "start": "bundle exec jekyll serve --baseurl ''",
-    "test": "npm run axe && npm run crawl && bundle exec rspec && npm run lint",
-    "watch": "NODE_ENV=development nswatch"
+    "serve": "bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usds/website-v2.git"
+    "url": "git+https://github.com/usds/website.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/usds/website-v2/issues"
+    "url": "https://github.com/usds/website/issues"
   },
-  "homepage": "https://github.com/usds/website-v2#readme",
-  "devDependencies": {
+  "homepage": "https://github.com/usds/website#readme",
+  "dependencies": {
     "jquery": "^3.3.1",
-    "normalize.css": "^8.0.0",
-    "uswds": "2.0.0-alpha.3"
+    "normalize.css": "^8.0.0"
   },
-  "watch": {
-    "./css/**/*.scss": [
-      "build-css"
-    ],
-    "./img": [
-      "build-img"
-    ],
-    "./js/**/*.js": [
-      "build-js"
-    ],
-    "./node_modules/uswds/src/stylesheets": [
-      "build-css"
-    ],
-    "./node_modules/uswds/src/fonts": [
-      "build-fonts"
-    ],
-    "./node_modules/uswds/src/img": [
-      "build-img"
-    ],
-    "./node_modules/uswds/src/js": [
-      "build-js"
-    ]
+  "devDependencies": {
+    "autoprefixer": "^9.4.9",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "path": "^0.12.7",
+    "uswds": "^2.0.0-beta.7",
+    "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }

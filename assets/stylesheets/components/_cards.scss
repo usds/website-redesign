@@ -33,11 +33,15 @@
 
 .site-c-card__body {
   padding: $units-3;
+
+  p {
+    font-size: size('body', 5);
+  }
 }
 
 .site-c-card__title {
   color: $color-primary-darker;
-  font-weight: $font-bold;
+  font-weight: $theme-font-weight-bold;
 }
 
 .site-c-card__image {
@@ -49,8 +53,8 @@
 .site-c-card__image-mask {
   border-radius: 50%;
   overflow: hidden;
-  width: 22rem;
-  height: 22rem;
+  width: 224px;
+  height: 224px;
   margin: $units-2 auto;
 
   img {

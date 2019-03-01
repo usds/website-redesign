@@ -1,8 +1,8 @@
 .site-c-flag {
   color: $color-primary-darkest;
   display: block;
-  font-size: 1.3rem;
-  font-weight: $font-bold;
+  font-size: size('body', 2);
+  font-weight:  $theme-font-weight-bold;
   margin-bottom: $units-1;
   text-transform: uppercase;
 }
