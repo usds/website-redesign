@@ -14,7 +14,7 @@ cops:
 
   #team_roles_heading: Team Roles
   #team_roles_text: |-
-  role_1_heading: Design & User Experience
+  role_1_heading: Design and user experience
   role_1_text: |-
     Our designers are seasoned practitioners with a range of expertise and skills from user research and content strategy to interaction, information, visual and service design. We all know that getting services and benefits from the government isn't easy, but unfortunately, it's not the only obstacle our users face. That's why it's our job to do the hard work to make it simple.
 
@@ -28,7 +28,7 @@ cops:
     Expertise in legacy technologies is not necessary, but an ability to adapt to whatever you find under the covers is. Engineering at USDS involves a willingness to lead, in both delivery and mentorship. We iterate on a system and adapt to feedback and changing needs, rather than get locked in to what was decided in a 3-year-old design phase. To get to frequent releases, we build and leverage the capabilities we get with modern infrastructure and automation, like continuous integration and testing. Large 3 or 6-month releases change many things at once, which means a release is a high-risk event. So, we work hard to build confidence in an infrastructure that does small releases more frequently.
   role_2_image: graphic-how-we-work-engineering.svg
 
-  role_3_heading: Product, Strategy, & Operations
+  role_3_heading: Product, strategy, and operations
   role_3_text: |-
     Our product managers and strategists come from a wide variety of backgrounds, but all of us are experts in getting things done while keeping quality high. Some are industry-hardened PMs from Silicon Valley, some are savvy and clever government specialists, others bring their own special blend of skills and experience.
 
