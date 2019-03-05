@@ -8,7 +8,7 @@ project_page: true
 # Carousel (Edit this)
 carousel_title: "Helping Military Families Move"
 carousel_summary: "Built in collaboration with military familes, Move.mil is the first stop for service members, their families and Department of Defense civilians to plan their next permanent change of station, retirement, or separation move."
-carousel_image_name: project-dod-mil-moving-card.jpg\
+carousel_image_name: project-dod-mil-moving-card.jpg
 
 # Project detail page (Edit this)
 title: "Helping Military Families Move"
