@@ -35,7 +35,7 @@ The system that powers Medicare is 40 years old. It runs on 15 mainframe compute
 
 ## The Solution
 
-We're partenring with the Centers for Medicare & Medicaid Services to implement an API-first strategy to modernize the Medicare payment system. A new cloud environment offers better scalability and can grow with Medicare over time. This empowers clinicians to seamlessly submit quality metrics to CMS, receive feedback, and payment for their work in minutes, rather than months.
+We're partnering with the Centers for Medicare & Medicaid Services to implement an API-first strategy to modernize the Medicare payment system. A new cloud environment offers better scalability and can grow with Medicare over time. This empowers clinicians to seamlessly submit quality metrics to CMS, receive feedback, and payment for their work in minutes, rather than months.
 
 ![](../images/project-hhs-payment-mod-page.jpg)
 
