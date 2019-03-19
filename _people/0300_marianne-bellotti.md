@@ -11,7 +11,7 @@ permalink: people/marianne-bellotti
 # People Carousel and Page (Edit this)
 name: Marianne Bellotti
 pronouns: She/Her
-alumni: no
+alumni: yes
 cop: Engineering
 city_of_origin: New York City
 previously_at: The United Nations
