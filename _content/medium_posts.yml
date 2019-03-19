@@ -23,11 +23,6 @@
   url: "https://medium.com/the-u-s-digital-service/saving-va-100-million-dollars-c5d992e0cf54"
   summary: "Our team helped Veterans Affairs become one of the earliest federal government adopters of modern, cloud-based IT infrastructure."
 
-- title: Blue Button API
-  image_name: blog-blue-button.jpg
-  url: "https://medium.com/the-u-s-digital-service/blue-button-api-c1b47ff8c464"
-  summary: "Last year the Center for Medicare and Medicaid Services (CMS) tapped USDS to work alongside CMS in building an API that empowers Medicare beneficiaries to grant third-party developers access to their claims data."
-
 - title: Staying with the U.S. Digital Service
   image_name: blog-staying-with-usds.jpg
   url: "https://medium.com/the-u-s-digital-service/staying-with-the-u-s-digital-service-d465685c921f"
@@ -48,5 +43,7 @@
   url: "https://medium.com/the-u-s-digital-service/scary-challenges-at-the-u-s-digital-service-e5a809d0f87d"
   summary: "Meet members of our team and read about scary challenges they have overcome."
 
-
-
+- title: Blue Button API
+  image_name: blog-blue-button.jpg
+  url: "https://medium.com/the-u-s-digital-service/blue-button-api-c1b47ff8c464"
+  summary: "Last year the Center for Medicare and Medicaid Services (CMS) tapped USDS to work alongside CMS in building an API that empowers Medicare beneficiaries to grant third-party developers access to their claims data."
