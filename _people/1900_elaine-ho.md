@@ -14,7 +14,7 @@ pronouns: She/Her
 alumni: yes
 cop: Chief of Staff, Front Office
 city_of_origin:
-previously_at: White House Leadership Development Program, Senior Policy Advisor: Office of the First Lady/The National Security Council (NSC)
+previously_at: "White House Leadership Development Program, Senior Policy Advisor: Office of the First Lady/The National Security Council (NSC)"
 image_name: elaine-ho.jpg
 quote: Your country and the American people need you now more than ever.
 ---
