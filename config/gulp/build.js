@@ -3,7 +3,6 @@ var path          = require('path');
 var child_process = require('child_process');
 var gulp          = require('gulp');
 var dutil         = require('./doc-util');
-var clean         = require('gulp-clean');
 var del           = require('del');
 
 
