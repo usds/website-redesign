@@ -36,7 +36,7 @@ redirect_from:
       <div class="grid-col-12 tablet:grid-col-5 desktop:grid-col-4 tablet:padding-left-3 padding-top-7 ">
         <div class="position-relative">
           <a class="radius-md overflow-hidden display-block" href="{{ site.baseurl }}/video">
-            <img class="display-block" src="{{ site.baseurl }}/assets/img/video-thumbnail.jpg" alt="video thumbnail">
+            <img class="display-block" src="" data-lazy-src="{{ site.baseurl }}/assets/img/video-thumbnail.jpg" alt="video thumbnail">
           </a>
           <a class="usa-button tablet:position-absolute bottom-2 right-1" href="{{ site.baseurl }}/video">
             <svg aria-hidden="true" class="margin-right-1">
@@ -88,7 +88,7 @@ redirect_from:
         <div class="padding-x-2">
           <a class="site-c-card site-c-card--linked" href="{{ site.baseurl }}/{{ person.permalink }}">
             <div class="site-c-card__image-mask">
-              <img src="{{ site.baseurl }}/images/{{ person.image_name }}" alt="Photo of {{ person.name }}" />
+              <img src="" data-lazy-src="{{ site.baseurl }}/images/{{ person.image_name }}" alt="Photo of {{ person.name }}" />
             </div>
             <div class="site-c-card__body">
             <span class="site-c-flag">{{ person.cop }}</span>
