@@ -47,6 +47,6 @@ $(document).ready(function () {
         io.unobserve(instagram);
       }
     },
-    { rootMargin: '10px' }
+    { rootMargin: '50px' }
   )).observe(instagram);
 });

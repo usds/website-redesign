@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', function (){
         }
       });
     },
-    { rootMargin: '10px' }
+    { rootMargin: '50px' }
   );
   lazies.forEach(function (img){ observer.observe(img); });
 });
