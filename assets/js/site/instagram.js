@@ -40,6 +40,10 @@ $(document).ready(function () {
   }
 
   // Don't go to Instagram until the user scrolls near the feed area
+  if ( !window.IntersectionObserver ) {
+    fillInstagramFeed();
+    return;
+  }
   (new IntersectionObserver(
     function (entries, io){
       if ( entries[ 0 ].isIntersecting ) {
