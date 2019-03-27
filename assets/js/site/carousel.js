@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   $('.site-js-carousel').slick({
     dots: true,
     infinite: true,
@@ -36,14 +36,12 @@ $(document).ready(function() {
   });
 });
 
-
-
-$(window).on("load", function() {
-  var $track = $('.slick-track');
-
-  $track.each(function( index ) {
-    var card_height = $(this).height(),
-        card = $(this).find('.site-c-card');
-    card.css('min-height', card_height);
+// Set card bodies to equal height, per carousel
+$(function () {
+  $('.slick-track').each(function () {
+    var cards = $(this).find('.site-c-card__body');
+    var heights = cards.map(function (){ return this.clientHeight; });
+    var highest = Math.max.apply(Math, heights);
+    cards.css('min-height', highest);
   });
 });
