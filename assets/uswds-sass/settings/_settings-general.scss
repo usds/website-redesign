@@ -7,25 +7,24 @@
 ========================================
 ========================================
 ----------------------------------------
-USWDS GENERAL SETTINGS
+USWDS 2.0.0 Beta 7
 ----------------------------------------
--
+GENERAL SETTINGS
+----------------------------------------
 Read more about settings and
 USWDS style tokens in the documentation:
 https://v2.designsystem.digital.gov/style-tokens
--
 ----------------------------------------
 */
 
 /*
 ----------------------------------------
-Paths
+Image path
 ----------------------------------------
-Relative font and image file paths
+Relative image file path
 ----------------------------------------
 */
 
-$theme-font-path:   '../fonts' !default;
 $theme-image-path:  '../img' !default;
 
 /*
@@ -33,7 +32,7 @@ $theme-image-path:  '../img' !default;
 Show compile warnings
 ----------------------------------------
 Show Sass warnings when functions and
-mixins use nonstanard or false tokens.
+mixins use non-standard tokens.
 ----------------------------------------
 */
 
@@ -58,6 +57,17 @@ $theme-namespace: (
 
 /*
 ----------------------------------------
+Layout grid
+----------------------------------------
+Should the layout grid classes output
+with !important
+----------------------------------------
+*/
+
+$theme-layout-grid-use-important: false !default;
+
+/*
+----------------------------------------
 Border box sizing
 ----------------------------------------
 When set to true, sets the box-sizing
@@ -77,7 +87,7 @@ Focus styles
 $theme-focus-color:  'blue-40v' !default;
 $theme-focus-offset: 0 !default;
 $theme-focus-style:  solid !default;
-$theme-focus-width:  05 !default;
+$theme-focus-width:  0.5 !default;
 
 /*
 ----------------------------------------

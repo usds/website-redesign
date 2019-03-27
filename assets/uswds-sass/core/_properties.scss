@@ -104,8 +104,8 @@ $system-properties: (
   box-shadow: (
     standard: (
       'none':   none,
-      1:     0 units(1px) units(05) 0 rgba(0, 0, 0, 0.1),
-      2:     0 units(05) units(1) 0 rgba(0, 0, 0, 0.1),
+      1:     0 units(1px) units(0.5) 0 rgba(0, 0, 0, 0.1),
+      2:     0 units(0.5) units(1) 0 rgba(0, 0, 0, 0.1),
       3:     0 units(1) units(2) 0 rgba(0, 0, 0, 0.1),
       4:     0 units(1.5) units(3) 0 rgba(0, 0, 0, 0.1),
       5:     0 units(2) units(4) 0 rgba(0, 0, 0, 0.1),
@@ -289,7 +289,7 @@ $system-properties: (
       'ls-neg-3':	  -.03em,
       'ls-neg-2':	  -.02em,
       'ls-neg-1':	  -.01em,
-      'ls-1':	      .05em,
+      'ls-1':	      .025em,
       'ls-2':	      .1em,
       'ls-3':	      .15em,
     ),
@@ -435,6 +435,7 @@ $system-properties: (
       3:	    $system-measure-base,
       4:	    $system-measure-large,
       5:	    $system-measure-larger,
+      6:	    $system-measure-largest,
       'none':   none,
     ),
     extended: (),
@@ -500,7 +501,7 @@ $system-properties: (
     standard: map-collect(
       map-get($system-spacing, 'smaller'),
       map-get($partial-values, 'zero-zero'),
-      ('05': spacing-multiple(05))
+      ('05': spacing-multiple(0.5))
     ),
     extended: (),
   ),
