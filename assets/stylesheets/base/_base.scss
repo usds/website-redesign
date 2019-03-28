@@ -2,11 +2,11 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 100%;
-  font-family: family('sans');
+  font-family: family('body');
 }
 
 [class*="font-sans-"] {
-  font-family: "Source Sans Pro Web","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif !important;
+  font-family: family('body') !important;
 }
 
 body {
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-sans;
+  font-family: family('body');
   color: $color-primary-darker;
 }
 

@@ -55,6 +55,9 @@ const JS_DEST = './assets/js/vendor';
 // Compiled CSS destination
 const CSS_DEST = './assets/uswds';
 
+// Site Sass
+const USDS_SASS_SRC = './assets/stylesheets/';
+
 /*
 ----------------------------------------
 TASKS
@@ -96,7 +99,7 @@ gulp.task('copy-uswds-js', () => {
   .pipe(gulp.dest(`${JS_DEST}`));
 });
 
-gulp.task('build-sass', function(done) {
+gulp.task('uswds-build-sass', function(done) {
   var plugins = [
     // Autoprefix
     autoprefixer(autoprefixerOptions),
@@ -128,6 +131,12 @@ gulp.task('build-sass', function(done) {
     }));
 });
 
+gulp.task('sass', function() {
+  return gulp.src('./assets/stylesheets/application.scss') // Gets all files ending with .scss in app/scss
+    .pipe(sass({outputStyle: 'compressed'}))
+    .pipe(gulp.dest('./assets/stylesheets/'))
+});
+
 gulp.task('init', gulp.series(
   'copy-uswds-setup',
   'copy-uswds-core',
@@ -136,7 +145,7 @@ gulp.task('init', gulp.series(
   'copy-uswds-fonts',
   'copy-uswds-images',
   'copy-uswds-js',
-  'build-sass',
+  'uswds-build-sass',
 ));
 
 gulp.task('update', gulp.series(
@@ -146,13 +155,13 @@ gulp.task('update', gulp.series(
   'copy-uswds-fonts',
   'copy-uswds-images',
   'copy-uswds-js',
-  'build-sass',
+  'uswds-build-sass',
 ));
 
 gulp.task('watch-sass', function () {
-  gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series('build-sass'));
+  gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series('uswds-build-sass'));
 });
 
-gulp.task('watch', gulp.series('build-sass', 'watch-sass'));
+gulp.task('watch', gulp.series('uswds-build-sass', 'watch-sass'));
 
 gulp.task('default', gulp.series('watch'));

@@ -26,7 +26,7 @@ There are a couple ways to update the USWDS:
 
 1. Update the USWDS version in `package.json`
 2. Install the package `npm install`
-2. Compile usds.css `gulp build-sass`
+2. Compile usds.css `gulp uswds-build-sass`
 3. Run Jekylll `bundle exec jekyll serve`
 
 #### Update USDS and get new functions and tokens (not currently recommended)
@@ -35,7 +35,7 @@ This will will update some of the scss files in `assets/uswds-sass`.
 
 1. Update the USWDS version in `package.json`
 2. Install the package `npm install`
-3. Compile usds.css `gulp build-sass`
+3. Compile usds.css `gulp uswds-build-sass`
 4. Run `gulp update`
 5. Run Jekyll `bundle exec jekyll serve`
 
@@ -47,7 +47,7 @@ This will will update some of the scss files in `assets/uswds-sass` and overwrit
 
 1. Update the USWDS version in `package.json`
 2. Install the package `npm install`
-3. Compile usds.css `gulp build-sass`
+3. Compile usds.css `gulp uswds-build-sass`
 4. Run `gulp init`
 5. Run Jekyll `bundle exec jekyll serve`
 
