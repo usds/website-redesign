@@ -18,7 +18,7 @@ $ bundle exec jekyll serve
 
 ### Updating USWDS to a later version.
 
-**Before you do this**: The USWS Sass uses many of the USWDS functions and tokens. While the USWDS.css is already compiled, the site relies on Jekyll to compile the Sass files. There is currently an issue with Jekyll the way it handles `.5` spacing tokens. [See here](https://github.com/uswds/uswds-sandbox/issues/18)
+**Before you do this**: The USWS Sass uses many of the USWDS functions and tokens. While the USWDS.css is already compiled, the site relies on Jekyll to compile the Sass files. There is currently an issue with Jekyll the way it handles `.5` spacing tokens. [See here](https://github.com/uswds/uswds-sandbox/issues/18). **A fix has been merged, but still waiting to be deployed.**
 
 There are a couple ways to update the USWDS:
 
@@ -29,7 +29,7 @@ There are a couple ways to update the USWDS:
 2. Compile usds.css `gulp uswds-build-sass`
 3. Run Jekylll `bundle exec jekyll serve`
 
-#### Update USDS and get new functions and tokens (not currently recommended)
+#### Update USDS and get new functions and tokens
 
 This will will update some of the scss files in `assets/uswds-sass`.
 
@@ -39,9 +39,8 @@ This will will update some of the scss files in `assets/uswds-sass`.
 4. Run `gulp update`
 5. Run Jekyll `bundle exec jekyll serve`
 
-You will likely encounter issues when you run Jekyll. If you get errors, it will likely be that `.5 is not a valid spacing token`. If you get this error, you will need to update each instance in `assets/uswds-sass` of `0.5` as spacing token to `05`.
 
-#### Update USDS, get new functions and tokens, update theme configuration Sass (not recommended)
+#### Update USDS, get new functions and tokens, update theme configuration Sass (Don't do this)
 
 This will will update some of the scss files in `assets/uswds-sass` and overwrite files in `assets/uswds-theme`.
 

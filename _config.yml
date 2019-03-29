@@ -87,4 +87,4 @@ exclude:
   - image-templates
   - CODE_OF_CONDUCT.md
   - package-lock.json
-  - uswds-theme
+  - assets/uswds-theme
