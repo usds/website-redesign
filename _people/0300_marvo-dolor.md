@@ -13,6 +13,8 @@ name: Marvourneen Dolor
 pronouns: She/Her
 alumni: no
 cop: Strategy & Operations
+city_of_origin: St. Lucia/Caribbean
+previously_at: MKDolor Consulting
 image_name: marvo-dolor.jpg
 quote: "I was inspired to join USDS because technology can do more than entertain and amaze us. Combined with good government, it can be a force for good in people’s lives."
 ---
