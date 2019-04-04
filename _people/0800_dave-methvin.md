@@ -16,7 +16,7 @@ cop: Engineering
 city_of_origin: Silver Spring, MD
 previously_at: The Engage Group Columbia Maryland
 image_name: dave-methvin.jpg
-quote: ""
+quote: "Everyone is here because they care about people and they want to change things for the better. They're not just coming for a paycheck and that makes a huge difference in the work environment."
 
 ---
 
