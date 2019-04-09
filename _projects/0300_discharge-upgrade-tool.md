@@ -34,7 +34,7 @@ An estimated 75,000 of our nation’s Veterans were less than honorably discharg
 
 ## The Solution
 
-Digital Service at Veterans Affairs led a coalition of concerned employees across Vaterans Affairs and the Department of Defense to build a tool that guides users through 9 questions and provides individualized results based on their responses. The customized plain language offers clear, step-by-step guidance on how a Veteran could present a strong application to upgrade their discharge status.
+Digital Service at Veterans Affairs led a coalition of concerned employees across Veterans Affairs and the Department of Defense to build a tool that guides users through 9 questions and provides individualized results based on their responses. The customized plain language offers clear, step-by-step guidance on how a Veteran could present a strong application to upgrade their discharge status.
 
 <blockquote class="pullquote" markdown="1">
 Nothing would make me prouder than getting my other than honorable discharge changed...I simply want the ability of saying, yes, I served proudly, and being able to state in an application that I served.
