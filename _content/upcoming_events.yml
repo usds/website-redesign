@@ -10,8 +10,7 @@
   date: April 30
   city: New York City, NY
   venue:
-  summary: "The Lead Developer conference was designed with the needs and pain points of engineering team leads in mind.
-We’re sponsoring the conference and hope to see you there!"
+  summary: "The Lead Developer conference was designed with the needs and pain points of engineering team leads in mind. We’re sponsoring the conference and hope to see you there!"
   image_name: events-lead-dev.svg
   
   - name: PyCon
