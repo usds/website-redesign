@@ -5,6 +5,15 @@
 # - If no custom image is provided, a USDS seal will appear
 # - Summaries may only be a single paragraph
 
+- name: The Lead Developer Conference
+  url: "https://theleaddeveloper.com/"
+  date: April 30
+  city: New York City, NY
+  venue:
+  summary: "The Lead Developer conference was designed with the needs and pain points of engineering team leads in mind.
+We’re sponsoring the conference and hope to see you there. We’ll be joined by hundreds of Lead Developers, Engineering Managers, and VPs Engineering for a day of practical and inspiring talks."
+  image_name: events-lead-dev.svg
+
 - name: Code for America
   url: "https://www.codeforamerica.org/"
   date: May 29 - 31
