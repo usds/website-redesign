@@ -5,7 +5,7 @@
 # - If no custom image is provided, a USDS seal will appear
 # - Summaries may only be a single paragraph
 
-- name: The Lead Developer Conference
+  - name: The Lead Developer Conference
   url: "https://theleaddeveloper.com/"
   date: April 30
   city: New York City, NY
@@ -14,14 +14,14 @@
   image_name: events-lead-dev.svg
   
   - name: PyCon
-  url: "http://pycon.org/"
+  url: "https://pycon.org/"
   date: May 1-9
   city: Cleveland, OH
   venue:
   summary: "The international community for the Python programming language holds several conferences (PyCons) each year. We're exctied to meet the Python community there and learn about what they're working on!"
   image_name: events-pycon.svg
-
-- name: Code for America
+  
+  - name: Code for America
   url: "https://www.codeforamerica.org/"
   date: May 29-31
   city: Oakland, CA
