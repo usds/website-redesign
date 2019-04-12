@@ -13,12 +13,19 @@
   summary: "The Lead Developer conference was designed with the needs and pain points of engineering team leads in mind.
 We’re sponsoring the conference and hope to see you there!"
   image_name: events-lead-dev.svg
+  
+  - name: PyCon
+  url: "http://pycon.org/"
+  date: May 1-9
+  city: Cleveland, OH
+  venue:
+  summary: "The international community for the Python programming language holds several conferences (PyCons) each year. We're exctied to meet the Python community there and learn about what they're working on!"
+  image_name: events-pycon.svg
 
 - name: Code for America
   url: "https://www.codeforamerica.org/"
-  date: May 29 - 31
+  date: May 29-31
   city: Oakland, CA
   venue:
-  summary: "We're joining public servants, technologists, entrepreneurs, and more at the Code for America summit."
+  summary: "We're joining public servants, technologists, entrepreneurs, and more at the Code for America summit, where government and technology unite. We look forward to meeting those who are passionate about designing a better government!"
   image_name: events-code-for-america.svg
-
