@@ -31,11 +31,11 @@ impact_statement:
 
 ## The Challenge
 
-The system that powers Medicare is 40 years old. It runs on 15 mainframe computers, 8 million lines of COBOL, and 2.5 million lines of assembly language. Four percent of the entire American economy is fueled by Medicare payments and 57 million people depend on it for their healthcare. Every day, 10,000 more people enroll in Medicare and the system is approaching a point where its aging infrastructure will not be able to handle the load. The country cannot afford for this system to fail.
+Medicare pays for the healthcare of 57 million Americans. The systems that power Medicare process over $500 billion in claims each year. It’s also 40-years-old, runs on 10.5 million lines of COBOL and assembly language, and is shackled to mainframe computers. Every day, 10,000 more people depend on this system. It’s too big to fail.
 
 ## The Solution
 
-We're partnering with the Centers for Medicare & Medicaid Services to implement an API-first strategy to modernize the Medicare payment system. A new cloud environment offers better scalability and can grow with Medicare over time. This empowers clinicians to seamlessly submit quality metrics to CMS, receive feedback, and payment for their work in minutes, rather than months.
+We’re partnering with the Centers for Medicare & Medicaid Services to stand up a new cloud environment to continue processing claims. A new cloud environment positions Medicare systems to scale and flex rapidly with how CMS processes claims and pays providers, transforming technology from a policy inhibitor to a multipier. The Medicare system has singular importance in determining of how healthcare is provided in the United States.
 
 ![](../images/project-hhs-payment-mod-page.jpg)
 
