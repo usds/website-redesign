@@ -18,7 +18,7 @@ redirect_from:
   <section class="site-c-section">
     <div class="site-c-section-heading">
       <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
-      <div class="site-c-section-heading__text site-c-section-heading__text--big">
+      <div class="site-c-section-heading__text site-c-section-heading__text--big usa-prose">
         {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
     </div>
@@ -31,11 +31,15 @@ redirect_from:
       <div class="grid-row tablet:margin-x-neg-3">
         <div class="grid-col-12 tablet:grid-col-6 tablet:padding-x-3">
           <h2>{{ content.who_we_are_what_we_do.section_1_title }}</h2>
-          <p>{{ content.who_we_are_what_we_do.section_1_text }}</p>
+          <div class="usa-prose">
+            <p>{{ content.who_we_are_what_we_do.section_1_text }}</p>
+          </div>
         </div>
         <div class="grid-col-12 tablet:grid-col-6 tablet:padding-x-3">
           <h2>{{ content.who_we_are_what_we_do.section_2_title }}</h2>
-          <p>{{ content.who_we_are_what_we_do.section_2_text }}</p>
+          <div class="usa-prose">
+            <p>{{ content.who_we_are_what_we_do.section_2_text }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -62,7 +66,7 @@ redirect_from:
   <section class="site-c-section">
     <div class="site-c-section-heading">
       <h2 class="site-c-section-heading__heading">{{ content.who_we_help.heading_title }}</h2>
-      <div class="site-c-section-heading__text">
+      <div class="site-c-section-heading__text usa-prose">
             {{ content.who_we_help.who_we_help_text| replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
     </div>
@@ -94,7 +98,9 @@ redirect_from:
             <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_1_image }}" alt="Graphic for {{ content.our_values.value_1_title }}">
           </div>
           <h3 class="font-sans-md">{{ content.our_values.value_1_title }}</h3>
+          <div class="usa-prose">
           {{ content.our_values.value_1_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          </div>
         </div>
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
@@ -102,7 +108,9 @@ redirect_from:
             <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_2_image }}" alt="Graphic for {{ content.our_values.value_2_title }}">
           </div>
           <h3 class="font-sans-md">{{ content.our_values.value_2_title }}</h3>
+          <div class="usa-prose">
           {{ content.our_values.value_2_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          </div>
         </div>
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
@@ -110,7 +118,9 @@ redirect_from:
             <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_3_image }}" alt="Graphic for {{ content.our_values.value_3_title }}">
           </div>
           <h3 class="font-sans-md">{{ content.our_values.value_3_title }}</h3>
+          <div class="usa-prose">
           {{ content.our_values.value_3_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          </div>
         </div>
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
@@ -118,7 +128,9 @@ redirect_from:
             <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_4_image }}" alt="Graphic for {{ content.our_values.value_4_title }}">
           </div>
           <h3 class="font-sans-md">{{ content.our_values.value_4_title }}</h3>
+          <div class="usa-prose">
           {{ content.our_values.value_4_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          </div>
         </div>
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
@@ -126,7 +138,9 @@ redirect_from:
             <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_5_image }}" alt="Graphic for {{ content.our_values.value_5_title }}">
           </div>
           <h3 class="font-sans-md">{{ content.our_values.value_5_title }}</h3>
+          <div class="usa-prose">
           {{ content.our_values.value_5_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          </div>
         </div>
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
@@ -134,7 +148,9 @@ redirect_from:
             <img src="{{ site.baseurl }}/assets/img/{{ content.our_values.value_6_image }}" alt="Graphic for {{ content.our_values.value_6_title }}">
           </div>
           <h3 class="font-sans-md">{{ content.our_values.value_6_title }}</h3>
+          <div class="usa-prose">
           {{ content.our_values.value_6_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          </div>
         </div>
       </div>
     </div>
@@ -149,7 +165,7 @@ redirect_from:
     </div>
     <div class="site-c-section__body">
       <div class="grid-row flex-column-reverse tablet:flex-row">
-        <div class="tablet:grid-col-6 margin-bottom-4 tablet:padding-right-2">
+        <div class="tablet:grid-col-6 margin-bottom-4 tablet:padding-right-2 usa-prose">
           {{ content.origin_story.origin_story_text | replace: 'site.baseurl', site.baseurl | markdownify }}
         </div>
         <div class="tablet:grid-col-6 tablet:padding-left-2 margin-bottom-4">
