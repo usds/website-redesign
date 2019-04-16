@@ -21,15 +21,15 @@ permalink: /faq
       {% for item in site.data.faq %}
         {% assign topic_index = forloop.index %}
         <h2>{{ item.topic }}</h2>
-        <div class="usa-accordion usa-accordion-bordered margin-bottom-5">
+        <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
         {% for entry in item.questions %}
           {% assign entry_index = forloop.index %}
-          <h3 class="usa-accordion-heading">
-            <button class="usa-accordion-button" aria-expanded="false" aria-controls="accordion-{{ topic_index }}-{{ entry_index }}">
+          <h3 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="accordion-{{ topic_index }}-{{ entry_index }}">
               {{ entry.q }}
             </button>
           </h3>
-          <div id="accordion-{{ topic_index }}-{{ entry_index }}" class="usa-accordion-content usa-prose">
+          <div id="accordion-{{ topic_index }}-{{ entry_index }}" class="usa-accordion__content usa-prose">
             {{ entry.a | replace: 'site.baseurl', site.baseurl | markdownify }}
           </div>
         {% endfor %}
