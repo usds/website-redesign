@@ -50,8 +50,6 @@ This will will update some of the scss files in `assets/uswds-sass` and overwrit
 4. Run `gulp init`
 5. Run Jekyll `bundle exec jekyll serve`
 
-You will likely encounter issues when you run Jekyll. If you get errors, it will likely be that `.5 is not a valid spacing token`. If you get this error, you will need to update each instance in `assets/uswds-sass` of `0.5` as spacing token to `05`.
-
 The only change in the theme is setting utilities to use the `!important` flag to true, which you will want to do before you run step 3.
 ```
 $utilities-use-important:     true;
