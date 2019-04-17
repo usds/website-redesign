@@ -1,0 +1,417 @@
+---
+layout: default
+permalink: /form
+---
+
+<form id="appPage:appForm" name="appPage:appForm" method="post" action="/digitalserviceform/ApplicationForm" enctype="multipart/form-data" onsubmit="if(confirm('Are you sure you want to submit?')) return true; else return false;" class="usa-form-large">
+<input type="hidden" name="appPage:appForm" value="appPage:appForm" />
+<span id="appPage:appForm:theContentPanel">
+                        <h2>Submit your application</h2>
+                        <div class="margin-top-7" id="contact-info">
+                            <fieldset>
+                                <legend>Contact Information</legend>
+                                <ul class="usa-unstyled-list">
+                                  <li class="margin-y-4"><label for="appPage:appForm:firstName" class="usa-label">
+First name</label><input id="appPage:appForm:firstName" type="text" name="appPage:appForm:firstName" value="" class="usa-input" />
+                                  </li>
+                                  <li class="margin-y-4"><label for="appPage:appForm:lastName" class="usa-label">
+Last name</label><input id="appPage:appForm:lastName" type="text" name="appPage:appForm:lastName" value="" class="usa-input" />
+                                  </li>
+                                  <li class="margin-y-4"><label for="appPage:appForm:email" class="usa-label">
+Email</label><input id="appPage:appForm:email" type="text" name="appPage:appForm:email" value="" class="usa-input" title="Email" />
+                                  </li>
+                                  <li class="margin-y-4"><label for="appPage:appForm:state" class="usa-label">
+State of residence</label><select id="appPage:appForm:state" name="appPage:appForm:state" class="usa-select" size="1">	<option value="" selected="selected">-Select-</option>
+  <option value="Armed Forces Americas">Armed Forces Americas</option>
+  <option value="Armed Forces Europe">Armed Forces Europe</option>
+  <option value="Alaska">Alaska</option>
+  <option value="Alabama">Alabama</option>
+  <option value="Armed Forces Pacific">Armed Forces Pacific</option>
+  <option value="Arkansas">Arkansas</option>
+  <option value="American Samoa">American Samoa</option>
+  <option value="Arizona">Arizona</option>
+  <option value="California">California</option>
+  <option value="Colorado">Colorado</option>
+  <option value="Connecticut">Connecticut</option>
+  <option value="District of Columbia">District of Columbia</option>
+  <option value="Delaware">Delaware</option>
+  <option value="Florida">Florida</option>
+  <option value="Federated Micronesia">Federated Micronesia</option>
+  <option value="Georgia">Georgia</option>
+  <option value="Guam">Guam</option>
+  <option value="Hawaii">Hawaii</option>
+  <option value="Iowa">Iowa</option>
+  <option value="Idaho">Idaho</option>
+  <option value="Illinois">Illinois</option>
+  <option value="Indiana">Indiana</option>
+  <option value="Kansas">Kansas</option>
+  <option value="Kentucky">Kentucky</option>
+  <option value="Louisiana">Louisiana</option>
+  <option value="Massachusetts">Massachusetts</option>
+  <option value="Maryland">Maryland</option>
+  <option value="Maine">Maine</option>
+  <option value="Marshall Islands">Marshall Islands</option>
+  <option value="Michigan">Michigan</option>
+  <option value="Minnesota">Minnesota</option>
+  <option value="Missouri">Missouri</option>
+  <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+  <option value="Mississippi">Mississippi</option>
+  <option value="Montana">Montana</option>
+  <option value="North Carolina">North Carolina</option>
+  <option value="North Dakota">North Dakota</option>
+  <option value="Nebraska">Nebraska</option>
+  <option value="New Hampshire">New Hampshire</option>
+  <option value="New Jersey">New Jersey</option>
+  <option value="New Mexico">New Mexico</option>
+  <option value="Nevada">Nevada</option>
+  <option value="New York">New York</option>
+  <option value="Ohio">Ohio</option>
+  <option value="Oklahoma">Oklahoma</option>
+  <option value="Oregon">Oregon</option>
+  <option value="Pennsylvania">Pennsylvania</option>
+  <option value="Puerto Rico">Puerto Rico</option>
+  <option value="Palau">Palau</option>
+  <option value="Rhode Island">Rhode Island</option>
+  <option value="South Carolina">South Carolina</option>
+  <option value="South Dakota">South Dakota</option>
+  <option value="Tennessee">Tennessee</option>
+  <option value="Texas">Texas</option>
+  <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+  <option value="Utah">Utah</option>
+  <option value="Virginia">Virginia</option>
+  <option value="US Virgin Islands">US Virgin Islands</option>
+  <option value="Vermont">Vermont</option>
+  <option value="Washington">Washington</option>
+  <option value="West Virginia">West Virginia</option>
+  <option value="Wisconsin">Wisconsin</option>
+  <option value="Wyoming">Wyoming</option>
+</select>
+                                  </li>
+                                  <li class="margin-y-4"><label for="appPage:appForm:phone" class="usa-label">
+Phone number <em>(Optional)</em></label><input id="appPage:appForm:phone" type="text" name="appPage:appForm:phone" value="" class="usa-input width-card" />
+                                  </li>
+                                </ul>
+                            </fieldset>
+                        </div></span>
+                    <hr /><span id="appPage:appForm:experiencePanel">
+                        <fieldset>
+                            <legend>Experience</legend>
+                            <ul class="usa-unstyled-list">
+                              <li class="margin-y-4"><label for="appPage:appForm:resume" class="usa-label">
+Upload a PDF of your resum&eacute;</label>
+          <input accept="" accessKey="" alt="" class="usa-input" dir="" id="appPage:appForm:resume" lang="" name="appPage:appForm:resume:inputFile:file" onblur="" onchange="" onclick="" ondblclick="" onfocus="" onkeydown="" onkeypress="" onkeyup="" onmousedown="" onmousemove="" onmouseout="" onmouseover="" size="40" style="" tabindex="" title="" type="file" />
+                              </li>
+                              <li class="margin-y-4"><label for="appPage:appForm:selfselectedTrack" class="experience usa-label">
+What is your primary field of expertise?</label>
+                                <p class="margin-y-1">We are not hiring these fields exclusively, so if none of these apply to you, please choose &#8220;Other&#8221; and let us know.</p><select id="appPage:appForm:selfselectedTrack" name="appPage:appForm:selfselectedTrack" class="usa-select" size="1">	<option value="">-select-</option>
+  <option value="Front End Web Development">Front End Web Development</option>
+  <option value="Procurement/Acquisition">Procurement/Acquisition</option>
+  <option value="Product Lawyer">Product Lawyer</option>
+  <option value="Product Design">Product Design</option>
+  <option value="Product Management">Product Management</option>
+  <option value="Recruiter">Recruiter</option>
+  <option value="Site Reliability/Production Engineering">Site Reliability/Production Engineering</option>
+  <option value="Software Engineering">Software Engineering</option>
+  <option value="Talent Operations">Talent Operations</option>
+  <option value="User Experience">User Experience</option>
+  <option value="Visual Design">Visual Design</option>
+  <option value="Other">Other</option>
+</select>
+                                <div class="follow-up hidden" id="followUp2">
+                                  <ul class="usa-unstyled-list">
+                                    <li><label for="appPage:appForm:otherSkills" class="experience usa-label margin-top-0">
+Please specify</label><input id="appPage:appForm:otherSkills" type="text" name="appPage:appForm:otherSkills" class="usa-input" />
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="follow-up hidden" id="followUp1">
+                                  <p class="text-bold text-primary-dark">Share your portfolio or work samples with us.</p>
+                                  <ul class="usa-unstyled-list">
+                                    <li class="margin-y-4"><label for="appPage:appForm:designURL" class="experience usa-label">
+URL</label><input id="appPage:appForm:designURL" type="text" name="appPage:appForm:designURL" class="usa-input" type="url" /><label for="appPage:appForm:portfolio" class="usa-label">
+PDF</label>
+          <input accept="" accessKey="" alt="" class="usa-input" dir="" id="appPage:appForm:portfolio" lang="" name="appPage:appForm:portfolio:inputFile:file" onblur="" onchange="" onclick="" ondblclick="" onfocus="" onkeydown="" onkeypress="" onkeyup="" onmousedown="" onmousemove="" onmouseout="" onmouseover="" size="40" style="" tabindex="" title="" type="file" />
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+                            </ul>
+
+
+                            <div id="experience">
+                              <ul class="usa-unstyled-list">
+                                <li class="margin-y-4"><label for="appPage:appForm:currentEmployer" class="experience usa-label">
+Current Employer <em>(Optional)</em></label><input id="appPage:appForm:currentEmployer" type="text" name="appPage:appForm:currentEmployer" class="usa-input" />
+                                </li>
+
+                              </ul>
+
+                              <p class="text-bold text-primary-dark margin-bottom-0">Where can we find you online? <em class="text-normal text-base text-no-italic">(Optional)</em></p>
+                              <p class="margin-y-1">Add up to three links (e.g. Personal website, GitHub, LinkedIn, etc.).</p>
+
+                              <ul class="usa-unstyled-list">
+                                <li class="margin-y-2"><label for="appPage:appForm:Social1" class="usa-label usa-sr-only">
+Social link 1</label><input id="appPage:appForm:Social1" type="text" name="appPage:appForm:Social1" class="usa-input" title="Social Media URL 1" type="url" />
+                                </li>
+                                <li class="margin-y-2"><label for="appPage:appForm:Social2" class="usa-label usa-sr-only">
+Social link 2</label><input id="appPage:appForm:Social2" type="text" name="appPage:appForm:Social2" class="usa-input" title="Social Media URL 2" type="url" />
+                                </li>
+                                <li class="margin-y-2"><label for="appPage:appForm:Social3" class="usa-label usa-sr-only">
+Social link 3</label><input id="appPage:appForm:Social3" type="text" name="appPage:appForm:Social3" class="usa-input" title="Social Media URL 3" type="url" />
+                                </li>
+                              </ul>
+                            </div>
+                        </fieldset></span>
+
+                    <hr /><span id="appPage:appForm:skillsContent">
+                        <fieldset>
+                            <legend>Other Information</legend>
+                            <ul class="usa-unstyled-list">
+                              <li class="margin-y-4"><label for="appPage:appForm:workAuthorization" class="usa-label margin-bottom-0">
+Are you a U.S. citizen?</label>
+                                <p class="margin-top-1 margin-bottom-2">All U.S. Digital Service positions require U.S. citizenship.</p><fieldset style="border: none;"><table role="presentation" id="appPage:appForm:workAuthorization">
+  <tr>
+<td>
+<input type="radio" name="appPage:appForm:workAuthorization" id="appPage:appForm:workAuthorization:0" value="Yes" /><label for="appPage:appForm:workAuthorization:0"> Yes</label></td>
+  </tr>
+  <tr>
+<td>
+<input type="radio" name="appPage:appForm:workAuthorization" id="appPage:appForm:workAuthorization:1" value="No" /><label for="appPage:appForm:workAuthorization:1"> No</label></td>
+  </tr>
+</table></fieldset>
+                              </li>
+                              <li class="margin-y-4"><label for="appPage:appForm:is_veteran" class="usa-label margin-bottom-2">
+Are you a Veteran of the Armed Forces?</label><fieldset style="border: none;"><table role="presentation" id="appPage:appForm:is_veteran">
+  <tr>
+<td>
+<input type="radio" name="appPage:appForm:is_veteran" id="appPage:appForm:is_veteran:0" value="Yes" /><label for="appPage:appForm:is_veteran:0"> Yes</label></td>
+  </tr>
+  <tr>
+<td>
+<input type="radio" name="appPage:appForm:is_veteran" id="appPage:appForm:is_veteran:1" value="No" /><label for="appPage:appForm:is_veteran:1"> No</label></td>
+  </tr>
+</table></fieldset>
+                              </li>
+                              <li class="margin-y-4"><label for="appPage:appForm:howDidYouHear" class="usa-label">
+How did you hear about the U.S. Digital Service? <em>(Optional)</em></label>
+                                <p class="margin-top-1 margin-bottom-2">This helps us better tailor our recruitment efforts.</p><select id="appPage:appForm:howDidYouHear" name="appPage:appForm:howDidYouHear" class="usa-select" size="1">	<option value="">-Select-</option>
+  <option value="A current/former USDS team member">A current/former USDS team member</option>
+  <option value="A friend or colleague">A friend or colleague</option>
+  <option value="Media">Media</option>
+  <option value="Social media (USDS)">Social media (USDS)</option>
+  <option value="Another organization">Another organization</option>
+  <option value="Event">Event</option>
+  <option value="Other">Other</option>
+</select>
+                                <div class="follow-up" id="moredetails">
+                                  <ul class="usa-unstyled-list">
+                                    <li><label id="appPage:appForm:extrainfolabel" for="appPage:appForm:otherDetailsText" class="usa-label margin-top-0">
+Tell us more.</label>
+                                        <span class="display-block margin-top-1 margin-bottom-2" id="otherDetailsDetails"></span><input id="appPage:appForm:otherDetailsText" type="text" name="appPage:appForm:otherDetailsText" class="usa-input" />
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+                              <li class="margin-y-4"><label for="appPage:appForm:whyJoin" class="usa-label">
+Anything else we should know? <em>(Optional)</em></label><label class="text-normal text-base margin-top-1 margin-bottom-2 display-block">
+Tell us about problems you&#8217;d like to solve, areas you&#8217;re passionate about, or why you&#8217;d like to join.</label><textarea id="appPage:appForm:whyJoin" name="appPage:appForm:whyJoin" class="usa-textarea" maxlength="500" type="text"></textarea>
+                                <span id="chars">500</span> characters remaining
+                              </li>
+                              <li class="margin-y-4"><label for="appPage:appForm:humanAnswer" class="usa-label">
+Confirm that you are human: What is 10 plus 9?</label><input id="appPage:appForm:humanAnswer" type="text" name="appPage:appForm:humanAnswer" value="" class="usa-input" />
+                              </li>
+                              <li class="margin-y-4">
+                                <fieldset class="usa-fieldset-inputs usa-sans">
+                                  <ul class="usa-unstyled-list">
+                                    <li class="margin-bottom-4 display-flex flex-align-baseline"><input id="appPage:appForm:sharewithGovt" type="checkbox" name="appPage:appForm:sharewithGovt" checked="checked" class="usa-checkbox-input" /><label for="appPage:appForm:sharewithGovt" class="usa-checkbox-label">
+Don&#8217;t share my resum&eacute; for any job other than with a Digital Service team</label>
+                                    </li>
+                                    <li class="margin-top-4 display-flex flex-align-baseline"><input id="appPage:appForm:newsletter" type="checkbox" name="appPage:appForm:newsletter" class="usa-checkbox-input" /><label for="appPage:appForm:newsletter" class="usa-checkbox-label">
+Sign me up for the USDS newsletter so I can stay connected!</label>
+                                    </li>
+                                  </ul>
+                                </fieldset>
+                              </li>
+                            </ul>
+                        </fieldset>
+
+                        <div class="error-messages" id="messages">
+                        </div><input id="appPage:appForm:submit" type="submit" name="appPage:appForm:submit" value="Submit" title="Submit" class="usa-button usa-button-big" /></span><div id="appPage:appForm:j_id120"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="201904152011210988" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNkltcHdSRkU0WW5GVVZWWjNjV3A0ZUZaaGNsSnJTRFl3VGkxVFowUk5RVzEzUW5Cc2NHMVBWbnBHTTJ0Y2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkhRd01EQXdNREF3TUUxUFRsd2lMRndpZGx3aU9sd2lNREpIZERBd01EQXdNREE0ZURscVhDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05YUXdNREF3TURBd1dWbFdiRndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVFUxTlRRME1USTRNek0yTlN3aVpYaHdJam93ZlE9PS4uVEdjNUpXZk51SWxpLWVfaEszWGVXRlFlSUtzVTJWejQ2TGFtT3BfMFFEQT0=" /></span></span>
+            </div>
+        </div></span>
+    <script src="//www.usds.gov/lib/uswds/js/uswds.min.js"></script>
+    <script type="text/javascript">
+    var $j = jQuery.noConflict();
+    $j(function($) {
+      // Code using $ as usual goes here; the actual jQuery object is $j
+      $("#moredetails").hide();
+      // See note here about jQuery and elements with colons in their IDs:
+      // http://stackoverflow.com/questions/5552462/handling-colon-in-element-id-with-jquery
+      $(document.getElementById('appPage:appForm:howDidYouHear')).on('change', function() {
+        var source = $(this).val();
+        var $extraInfoLabel = $(document.getElementById('appPage:appForm:extrainfolabel'));
+        var $details = $("#moredetails");
+        var $other_details = $("#otherDetailsDetails");
+        $details.show();
+        if (/USDS team member/i.test(source)) {
+          $extraInfoLabel.html("Who referred you?");
+          $other_details.html("");
+        }
+        else if (/Social media/i.test(source)) {
+          $extraInfoLabel.html("Which USDS social platform?");
+          $other_details.html("i.e. Facebook, Instagram, Twitter, LinkedIn, Medium ");
+        }
+        else if (/Media/i.test(source)) {
+          $extraInfoLabel.html("What article, video, or other media?");
+          $other_details.html("");
+        }
+        else if (/Organization/i.test(source)) {
+          $extraInfoLabel.html("What organization?");
+          $other_details.html("e.g. 18F, Code for America…");
+        }
+        else if (/Event/i.test(source)) {
+          $extraInfoLabel.html("What event?");
+          $other_details.html("e.g. conference, roundtable…");
+        }
+        else if (/friend/i.test(source)) {
+          $extraInfoLabel.html("Who?");
+          $other_details.html("");
+        }
+        else if (/other/i.test(source)) {
+          $extraInfoLabel.html("Please specify");
+          $other_details.html("");
+        }
+        else {
+          $details.hide();
+        }
+      });
+
+      $('input[type=radio]').addClass('usa-radio-input');
+      $('input[type=radio] + label').addClass('usa-radio-label');
+
+      $(document.getElementById('appPage:appForm:selfselectedTrack')).on('change', function() {
+          var source = $(this).val();
+          var $followUp1 = $('#followUp1');
+          var $followUp2 = $('#followUp2');
+          $followUp1.addClass("hidden");
+          $followUp2.addClass("hidden");
+          if (/Design/i.test(source)) {
+            $followUp1.removeClass("hidden");
+          }
+          if (/Experience/i.test(source)) {
+            $followUp1.removeClass("hidden");
+          }
+          if (/Other/i.test(source)) {
+            $followUp2.removeClass("hidden");
+          }
+      });
+
+
+      var maxLength = 500;
+      $('textarea').keyup(function() {
+        var length = $(this).val().length;
+        var length = maxLength-length;
+        $('#chars').text(length);
+      });
+
+
+    });
+    </script>
+    <style>
+      body {
+        padding: 5px;
+      }
+
+      label {
+        font-weight: bold;
+        color: #205493;
+      }
+
+      label em {
+        font-weight: normal;
+        color: #757575;
+        font-style: normal;
+      }
+
+      legend {
+        font-weight: bold;
+        color: #205493;
+        font-size: 24px;
+      }
+
+      input[type=file] {
+        padding-left: 16px;
+        border: 1px solid #5c5c5c;
+        height: auto;
+      }
+
+      input[type=radio],
+      input[type=checkbox] {
+        flex-shrink: 0;
+      }
+
+      input[type=radio] + label,
+      input[type=checkbox] + label {
+        font-weight: normal;
+        padding-left: 8px;
+        color: #323A44;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      .usa-checkbox-label,
+      .usa-radio-label {
+        padding-left: 0 !important;
+      }
+
+      .usa-checkbox-label::before {
+        flex-shrink: 0;
+
+      }
+
+      table tbody td {
+        padding: 8px 0;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      select {
+        -webkit-appearance: none;
+        -moz-appearance:none;
+        appearance: none;
+        background-image: url(https://usds.gov/assets/img/arrow-both.png);
+        background-image: url(https://usds.gov/assets/img/arrow-both.svg);
+        background-image: url(https://usds.gov/assets/img/arrow-both.svg);
+      }
+
+      .follow-up {
+        border-left: 6px solid #C4E4F9;
+        padding-left: 20px;
+        padding-top: 16px;
+        margin-top: 32px;
+      }
+
+      hr {
+        position: static;
+        background: none;
+        border-top: 1px solid #DCE7EF;
+        margin: 40px 0;
+      }
+
+      hr:after {
+        display: none;
+      }
+
+      .error-messages {
+        color: #e52207
+      }
+
+      .error-messages li {
+        margin: 1.5em 0;
+      }
+    </style>

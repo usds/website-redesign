@@ -30,7 +30,9 @@ description: USDS team members have diverse industry backgrounds, from Silicon V
             <span class="site-c-flag">{{ person.cop }}</span>
             <span class="site-c-card__title">{{ person.name }}</span>
             {% if person.quote %}
-            <p>“{{ person.quote }}”</p>
+            <div class="usa-prose margin-top-3">
+              <p>“{{ person.quote }}”</p>
+            </div>
             {% endif %}
             <p class="site-c-card__affordance" aria-hidden="true">Read more</p>
             </div>
