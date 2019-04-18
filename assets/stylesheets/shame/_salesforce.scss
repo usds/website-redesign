@@ -1,13 +1,19 @@
-.usa-unstyled-list {
-  @include unstyled-list;
-}
 
-.usa-form-large fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
+
+.usds-apply-form {
+
+  fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
 
   p {
     max-width: 66ch;
+  }
+
+  .usa-checkbox__label,
+  .usa-radio__label {
+    text-indent: 0 !important;
   }
 }
