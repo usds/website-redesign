@@ -35,8 +35,8 @@ This will will update some of the scss files in `assets/uswds-sass`.
 
 1. Update the USWDS version in `package.json`
 2. Install the package `npm install`
-3. Compile usds.css `gulp uswds-build-sass`
-4. Run `gulp update`
+3. Run `gulp update`
+4. Compile usds.css `gulp uswds-build-sass`
 5. Run Jekyll `bundle exec jekyll serve`
 
 
@@ -46,8 +46,8 @@ This will will update some of the scss files in `assets/uswds-sass` and overwrit
 
 1. Update the USWDS version in `package.json`
 2. Install the package `npm install`
-3. Compile usds.css `gulp uswds-build-sass`
-4. Run `gulp init`
+3. Run `gulp init`
+4. Compile usds.css `gulp uswds-build-sass`
 5. Run Jekyll `bundle exec jekyll serve`
 
 The only change in the theme is setting utilities to use the `!important` flag to true, which you will want to do before you run step 3.
