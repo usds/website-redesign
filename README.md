@@ -18,8 +18,6 @@ $ bundle exec jekyll serve
 
 ### Updating USWDS to a later version.
 
-**Before you do this**: The USWS Sass uses many of the USWDS functions and tokens. While the USWDS.css is already compiled, the site relies on Jekyll to compile the Sass files. There is currently an issue with Jekyll the way it handles `.5` spacing tokens. [See here](https://github.com/uswds/uswds-sandbox/issues/18). **A fix has been merged, but still waiting to be deployed.**
-
 There are a couple ways to update the USWDS:
 
 #### Change theme settings
@@ -34,8 +32,7 @@ This site uses custom USWDS theme settings in `assets/uswds-theme`. Use this if 
 
 Use this to patch any display bugs through updates to USWDS.
 
-1. Update the USWDS version in `package.json`
-2. Install the package `npm install`
+1. Install the package `npm install --save-dev *new-USWDS-version-number*`
 2. Compile usds.css `gulp uswds-build-sass`
 3. Run Jekylll `bundle exec jekyll serve`
 
@@ -43,8 +40,7 @@ Use this to patch any display bugs through updates to USWDS.
 
 This will will update some of the scss files in `assets/uswds-sass`, but will not overwrite any of your files in `assets/uswds-theme`.
 
-1. Update the USWDS version in `package.json`
-2. Install the package `npm install`
-3. Run `gulp update`
-4. Compile usds.css `gulp uswds-build-sass`
-5. Run Jekyll `bundle exec jekyll serve`
+1. Install the package `npm install --save-dev *new-USWDS-version-number*`
+2. Run `gulp update`
+3. Compile usds.css `gulp uswds-build-sass`
+4. Run Jekyll `bundle exec jekyll serve`
