@@ -65,7 +65,7 @@ Settings
 */
 
 $add-aspect-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -96,7 +96,7 @@ $background-color-settings: (
   responsive:   false,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 );
 
@@ -105,7 +105,7 @@ $border-settings: (
   responsive:   true,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 );
 
@@ -114,13 +114,13 @@ $border-color-settings: (
   responsive:   true,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 );
 
 $border-radius-settings: (
   output:       true,
-  responsive:   true,
+  responsive:   false,
   active:       false,
   focus:        false,
   hover:        false,
@@ -155,16 +155,16 @@ $bottom-settings: (
 );
 
 $box-shadow-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 );
 
 $circle-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -173,7 +173,7 @@ $circle-settings: (
 );
 
 $clearfix-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -186,7 +186,7 @@ $color-settings: (
   responsive:   false,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 );
 
@@ -236,7 +236,7 @@ $flex-wrap-settings: (
 );
 
 $float-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -282,7 +282,7 @@ $font-style-settings: (
 
 $font-weight-settings: (
   output:       true,
-  responsive:   true,
+  responsive:   false,
   active:       false,
   focus:        false,
   hover:        false,
@@ -416,7 +416,7 @@ $outline-settings: (
 );
 
 $outline-color-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -443,7 +443,7 @@ $padding-settings: (
 );
 
 $pin-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -492,7 +492,7 @@ $text-decoration-settings: (
   responsive:   false,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 );
 
@@ -501,7 +501,7 @@ $text-decoration-color-settings: (
   responsive:   false,
   active:       false,
   focus:        false,
-  hover:        true,
+  hover:        false,
   visited:      false
 );
 
@@ -533,7 +533,7 @@ $top-settings: (
 );
 
 $vertical-align-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -542,7 +542,7 @@ $vertical-align-settings: (
 );
 
 $whitespace-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,
@@ -560,7 +560,7 @@ $width-settings: (
 );
 
 $z-index-settings: (
-  output:       true,
+  output:       false,
   responsive:   false,
   active:       false,
   focus:        false,

@@ -22,35 +22,29 @@ $ bundle exec jekyll serve
 
 There are a couple ways to update the USWDS:
 
-#### Only update the USDS.css
+#### Change theme settings
+
+This site uses custom USWDS theme settings in `assets/uswds-theme`. Use this if you want to include or remove utilities or update utility settings.
+
+1. Compile usds.css `gulp uswds-build-sass`
+2. Run Jekylll `bundle exec jekyll serve`
+
+
+#### Only update the USDS.css without getting new functions and tokens for use in usds.gov project files
+
+Use this to patch any display bugs through updates to USWDS.
 
 1. Update the USWDS version in `package.json`
 2. Install the package `npm install`
 2. Compile usds.css `gulp uswds-build-sass`
 3. Run Jekylll `bundle exec jekyll serve`
 
-#### Update USDS and get new functions and tokens
+#### Update USDS and get new functions and tokens for use in usds.gov project files
 
-This will will update some of the scss files in `assets/uswds-sass`.
+This will will update some of the scss files in `assets/uswds-sass`, but will not overwrite any of your files in `assets/uswds-theme`.
 
 1. Update the USWDS version in `package.json`
 2. Install the package `npm install`
 3. Run `gulp update`
 4. Compile usds.css `gulp uswds-build-sass`
 5. Run Jekyll `bundle exec jekyll serve`
-
-
-#### Update USDS, get new functions and tokens, update theme configuration Sass (Don't do this)
-
-This will will update some of the scss files in `assets/uswds-sass` and overwrite files in `assets/uswds-theme`.
-
-1. Update the USWDS version in `package.json`
-2. Install the package `npm install`
-3. Run `gulp init`
-4. Compile usds.css `gulp uswds-build-sass`
-5. Run Jekyll `bundle exec jekyll serve`
-
-The only change in the theme is setting utilities to use the `!important` flag to true, which you will want to do before you run step 3.
-```
-$utilities-use-important:     true;
-```
