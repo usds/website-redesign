@@ -25,10 +25,13 @@
 
 .site-c-card--linked:hover,
 .site-c-card--linked:focus  {
-  border: 1px solid $color-primary;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
   color: $color-gray;
-  transform: scaleX(1.02) scaleY(1.02);
+
+  @include at-media('tablet') {
+    border: 1px solid $color-primary;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    transform: scaleX(1.02) scaleY(1.02);
+  }
 }
 
 .site-c-card__body {
