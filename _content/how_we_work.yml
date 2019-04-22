@@ -1,12 +1,12 @@
 page_title:
-  heading_title: How we work
+  heading_title: "How we work"
   heading_text: |-
      USDS deploys small, responsive groups of technology experts to work with and empower civil servants. These multi-disciplinary teams bring best practices and new approaches to untangle some of our nation’s most important problems.
 
-  heading_button_text: Learn about our mission
+  heading_button_text: "Learn about our mission"
 
 cops:
-  heading_title: Recruiting the country’s best technologists for ‘tours of service’
+  heading_title: "Recruiting the country’s best technologists for ‘tours of service’"
   heading_text: |-
      Our staff comes from all corners of the technology industry, nonprofit world, and government to serve ‘tours' of service, bringing a steady influx of fresh perspectives into government. Tours typically last between six months and two years, with a maximum length of four years.
 
@@ -14,21 +14,21 @@ cops:
 
   #team_roles_heading: Team Roles
   #team_roles_text: |-
-  role_1_heading: Design and user experience
+  role_1_heading: "Design and user experience"
   role_1_text: |-
     Our designers are seasoned practitioners with a range of expertise and skills from user research and content strategy to interaction, information, visual and service design. We all know that getting services and benefits from the government isn't easy, but unfortunately, it's not the only obstacle our users face. That's why it's our job to do the hard work to make it simple.
 
     Understanding the range of contexts our users come from is key to designing quality government digital experiences. The sixth USDS value is to “design with users, not for them.” What’s implicit in that is that designing with users means all users regardless of their ability, context, or demographics. We’re designing technology for a diverse population so our research participants should be equally diverse. Our objective is to make content easily understandable and design for simplicity, consistency, and ease of use.
   role_1_image: graphic-how-we-work-design.svg
 
-  role_2_heading: Engineering
+  role_2_heading: "Engineering"
   role_2_text: |-
     Our engineers think about the big picture, which doesn’t always involve writing code, and adapt to constraints to be effective on high-impact projects. Our engineers are mission-driven and span the full range of service delivery including frontend, backend, full-stack, site reliability, security, and data. We are not your typical software engineering shop. Successful engineers at USDS come from all over America—in every sense of the phrase. We promise you will work on something meaningful and important and invite you to hold us to that.
 
     Expertise in legacy technologies is not necessary, but an ability to adapt to whatever you find under the covers is. Engineering at USDS involves a willingness to lead, in both delivery and mentorship. We iterate on a system and adapt to feedback and changing needs, rather than get locked in to what was decided in a 3-year-old design phase. To get to frequent releases, we build and leverage the capabilities we get with modern infrastructure and automation, like continuous integration and testing. Large 3 or 6-month releases change many things at once, which means a release is a high-risk event. So, we work hard to build confidence in an infrastructure that does small releases more frequently.
   role_2_image: graphic-how-we-work-engineering.svg
 
-  role_3_heading: Product, strategy, and operations
+  role_3_heading: "Product, strategy, and operations"
   role_3_text: |-
     Our product managers and strategists come from a wide variety of backgrounds, but all of us are experts in getting things done while keeping quality high. Some are industry-hardened PMs from Silicon Valley, some are savvy and clever government specialists, others bring their own special blend of skills and experience.
 
@@ -36,27 +36,27 @@ cops:
   role_3_image: graphic-how-we-work-product.svg
 
 best_practices:
-  heading_title: Bringing private sector best practices to the Federal Government
+  heading_title: "Bringing private sector best practices to the Federal Government"
   heading_text: |-
     Private industry knows how to work fast, lean, and keep the focus on the user. Now government does too.
-  heading_button_text: Digital Services Playbook
-  col_1_heading: Put users first
+  heading_button_text: "Digital Services Playbook"
+  col_1_heading: "Put users first"
   col_1_text: |-
     Good design is design that works for everyone. We want our users to feel informed, empowered, prepared, and in control.
   col_1_image: graphic-how-we-work-hcd.svg
 
-  col_2_heading: Build iteratively
+  col_2_heading: "Build iteratively"
   col_2_text: |-
     We build services using adaptive and iterative practices, leveraging modern infrastructure and automation to rapidly and frequently release new features with minimum risk.
   col_2_image: graphic-how-we-work-build-iteratively.gif
 
-  col_3_heading: Let data drive decisions
+  col_3_heading: "Let data drive decisions"
   col_3_text: |-
     Focusing on data allows us to make choices that reflect reality while minimizing bias and politics.
   col_3_image: graphic-how-we-work-decisions.svg
 
 where_we_worked:
-  heading_title: Going where the work is
+  heading_title: "Going where the work is"
   heading_text: "USDS embeds teams within federal agencies and their in-house digital technology divisions. Team engagements typically last between six months and two years. Agencies we've partnered with include:"
   agencies:
     - name: Department of Veterans Affairs
@@ -81,7 +81,7 @@ where_we_worked:
       image_name: graphic-seal-irs.png
 
 projects:
-  heading_title: Prioritizing the greatest good for the greatest number of people in the greatest need
+  heading_title: "Prioritizing the greatest good for the greatest number of people in the greatest need"
   heading_text: |-
       We select critical projects based on what makes the greatest impact on everyday people.
-  heading_button_text: See all projects
+  heading_button_text: "See all projects"
