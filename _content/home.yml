@@ -1,32 +1,32 @@
 hero:
-  heading_title: Using design and technology to deliver better services to the American people
-  heading_button_text: Apply now
+  heading_title: "Using design and technology to deliver better services to the American people"
+  heading_button_text: "Apply now"
 
 mission:
-  heading_title: We’re solving big problems
+  heading_title: "We’re solving big problems"
   heading_text: |-
       Millions of people use Federal Government services every day. Veterans apply for health care. Immigrants apply for naturalization. Too often, outdated tools and complex systems make these interactions cumbersome and frustrating.
-      
+
       To improve these services, USDS hires top technologists into term-limited ‘tours of civic service.’ By working alongside civil servants, they help build better tools for the people.
-  heading_button_text: Learn about our mission
+  heading_button_text: "Learn about our mission"
 
 work:
-  heading_title: Shipping code, delivering services
+  heading_title: "Shipping code, delivering services"
   heading_text: |-
       Our small, highly empowered teams use their expertise to develop human-centered solutions to the Federal Government’s most pressing technical challenges. Explore a few of our projects.
-  heading_button_text: See all projects
+  heading_button_text: "See all projects"
 
 people:
-  heading_title: By the people, for the people
+  heading_title: "By the people, for the people"
   heading_text: |-
       Every person, from all walks of life, interacts with their government. We hire technologists from diverse backgrounds to improve the services that millions rely on. Meet a few staff members who have signed on for tours of civic service.
-  heading_button_text: Meet more staff
+  heading_button_text: "Meet more staff"
 
 news:
-  heading_title: USDS in the news
-  heading_button_text: See more news
+  heading_title: "USDS in the news"
+  heading_button_text: "See more news"
 
 community:
-  heading_title: We are a community
+  heading_title: "We are a community"
   heading_text: |-
       When you join USDS you become part of a vibrant, supportive group of humans. Check out our social media channels to see more USDS moments.
