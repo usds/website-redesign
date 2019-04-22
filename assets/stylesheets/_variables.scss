@@ -10,6 +10,9 @@ $external-href:     '[href^="http"]:not([href*=".gov"])';
 
 $z-nav-secondary: 10;
 
+// Fix these
+$font-sans: "Source Sans Pro";
+
 // Site image path, relative to /assets/css/
 $site-image-path: '../../img';
 
@@ -28,25 +31,126 @@ $color-medium-green: #00AB6C;
 $color-linkedin-blue: #137BB8;
 
 
+// Units expressed as variables
+$units-05: units(05);
+$units-1: units(1);
+$units-105: units(1.5);
+$units-2: units(2);
+$units-205: units(2.5);
+$units-3: units(3);
+$units-4: units(4);
+$units-5: units(5);
+$units-6: units(6);
+$units-7: units(7);
+$units-8: units(8);
+$units-9: units(9);
+$units-10: units(10);
+$units-15: units(15);
+$units-card: units('card');
+$units-card-lg: units('card-lg');
+$units-mobile: units('mobile');
+$units-mobile-lg: units('mobile-lg');
+$units-tablet: units('tablet');
+$units-tablet-lg: units('tablet-lg');
+$units-desktop: units('desktop');
+$units-desktop-lg: units('desktop-lg');
+$units-widescreen: units('widescreen');
+$units-neg-05: units(-0.5);
+$units-neg-1: units(-1);
+$units-neg-105: units(-1.5);
+$units-neg-2: units(-2);
+$units-neg-205: units(-2.5);
+$units-neg-3: units(-3);
+
+
+
+
+
+
+
+
 
 /*
 ----------------------------------------
-Screen breakpoints
+Colors
 ----------------------------------------
-Which breakpoints does your project
-need? Select as `true` any breakpoint
-used by utilities or layout grid
+TODO:
+1. These should be set in settings
+2. Probably need different naming rubric
 ----------------------------------------
 */
 
+$color-blue:                 $color-blue-60v !default;
+$color-blue-darker:          $color-blue-warm-70v !default;
+$color-blue-darkest:         $color-blue-warm-80v !default;
+$color-blue-light:           $color-blue-warm-50 !default;
+$color-blue-lighter:         $color-blue-warm-30 !default;
+$color-blue-lightest:        $color-blue-warm-10 !default;
 
-$width-card:       160px;
-$width-card-lg:    240px;
-$width-mobile:     320px;
-$width-mobile-lg:  480px;
-$width-tablet:     640px;
-$width-tablet-lg:  800px;
-$width-desktop:     1024px;
-$width-carousel-arrows: 1080px;
-$width-desktop-lg:  1200px;
-$width-widescreen:  1400px;
+$color-aqua:                 $color-cyan-30v !default;
+$color-aqua-dark:            $color-cyan-40v !default;
+$color-aqua-darkest:         $color-blue-60 !default;
+$color-aqua-light:           $color-cyan-20 !default;
+$color-aqua-lightest:        $color-cyan-5 !default;
+
+$color-red:                  $color-red-50 !default;
+$color-red-dark:             $color-red-60v !default;
+$color-red-darkest:          $color-red-70v !default;
+$color-red-light:            $color-red-30 !default;
+$color-red-lightest:         $color-red-10 !default;
+
+$color-white:                white !default;
+$color-black:                black !default; // 'black'
+$color-black-light:          $color-gray-90 !default; // 'base-darkest' 'base-ink'
+
+$color-gray-dark:            $color-gray-cool-80 !default; // 'base-darker'
+$color-gray:                 $color-gray-cool-60 !default; // 'base-dark'
+$color-gray-medium:          $color-gray-50 !default; // 'base'
+$color-gray-light:           $color-gray-30 !default; // 'base-light'
+$color-gray-lighter:         $color-gray-cool-10 !default; // 'base-lighter'
+$color-gray-lightest:        $color-gray-cool-5 !default; // 'base-lightest'
+
+$color-gray-warm-dark:       $color-gray-warm-70 !default;
+$color-gray-warm-light:      $color-gray-warm-10 !default;
+$color-gray-cool-light:      $color-blue-warm-5 !default;
+
+$color-gold:                 $color-gold-20v !default;
+$color-gold-light:           $color-gold-10v !default;
+$color-gold-lighter:         $color-yellow-10 !default;
+$color-gold-lightest:        $color-gold-5v !default;
+
+$color-green:                $color-green-cool-50 !default;
+$color-green-light:          $color-green-cool-40 !default;
+$color-green-lighter:        $color-green-cool-20 !default;
+$color-green-lightest:       $color-green-cool-5 !default;
+
+$color-cool-blue:            $color-blue-70v !default;
+$color-cool-blue-light:      $color-blue-warm-50 !default;
+$color-cool-blue-lighter:    $color-blue-warm-30 !default;
+$color-cool-blue-lightest:   $color-blue-warm-10 !default;
+
+$color-purple:               $color-violet-70v !default;
+
+// Functional colors
+$color-primary:              $color-blue !default; //'primary'
+$color-primary-darker:       $color-blue-darker !default; //'primary-dark'
+$color-primary-darkest:      $color-blue-darkest !default; //'primary-darker'
+
+$color-primary-alt:          $color-aqua !default; //'accent-cool'
+$color-primary-alt-dark:     $color-aqua-dark !default; //'accent-cool-dark'
+$color-primary-alt-darkest:  $color-aqua-darkest !default; //'accent-cool-darker'
+$color-primary-alt-light:    $color-aqua-light !default; //'accent-cool-light'
+$color-primary-alt-lightest: $color-aqua-lightest !default; //'accent-cool-lighter'
+
+$color-secondary:            $color-red !default; //'secondary'
+$color-secondary-dark:       $color-red-dark !default; //'secondary-dark'
+$color-secondary-darkest:    $color-red-darkest !default; //'primary-darker'
+$color-secondary-light:      $color-red-light !default; //'secondary-light'
+$color-secondary-lightest:   $color-red-lightest !default; //'secondary-lighter'
+
+$color-base:                 $color-black-light !default; //'base-darkest'
+$color-focus:                $color-blue-40v !default;
+$color-visited:              $color-purple !default;
+
+$color-shadow:               $color-black-transparent-30 !default;
+$color-transparent: rgba(#000, 0) !default;

@@ -14,19 +14,19 @@
     width: 20px;
     height: 20px;
     padding: 0;
-    @include transform(translate(0, -50%));
+    transform: translate(0, -50%);
     cursor: pointer;
     color: transparent;
     border: none;
     opacity: .25;
 
-    @include media($width-carousel-arrows) {
+    @include at-media('desktop-lg') {
       display: block !important;
     }
 }
 
 .slick-prev {
-    @include transform(rotate(180deg));
+    transform: rotate(180deg);
     top: calc(50% - 37px);
     left: -25px;
 }

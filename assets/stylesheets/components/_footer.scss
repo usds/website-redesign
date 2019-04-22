@@ -1,11 +1,11 @@
 .site-c-footer {
   background: $color-primary-darkest;
   color: $color-cyan-5;
-  padding-top: $units-5;
-  padding-bottom: $units-5;
+  padding-top: units(5);
+  padding-bottom: units(5);
 
-  @include media($width-desktop) {
-    padding-top: $units-8;
+  @include at-media('desktop') {
+    padding-top: units(8);
   }
 
   a,
@@ -23,15 +23,15 @@
   display: block;
   margin: 0 auto;
 
-  @include media($width-desktop) {
+  @include at-media('desktop') {
     margin: 0;
   }
 }
 
 .site-c-footer__heading {
   color: $color-cyan-5;
-  font-size: $h5-font-size;
-  margin-bottom: $units-2;
+  font-size: size('body', 4);
+  margin-bottom: units(2);
   text-transform: uppercase;
 }
 
@@ -40,12 +40,12 @@
 
   a {
     display: inline-block;
-    padding-top: $units-1;
-    padding-bottom: $units-1;
+    padding-top: units(1);
+    padding-bottom: units(1);
 
-    @include media($width-desktop) {
-      padding-top: $units-05;
-      padding-bottom: $units-05;
+    @include at-media('desktop') {
+      padding-top: units(1);
+      padding-bottom: units(1);
     }
   }
 }
@@ -54,8 +54,8 @@
 
   a {
     display: inline-block;
-    padding-left: $units-1;
-    padding-right: $units-1;
+    padding-left: units(1);
+    padding-right: units(1);
 
     &:first-of-type {
       padding-left: 0;

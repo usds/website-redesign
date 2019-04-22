@@ -2,10 +2,10 @@
   list-style-position: inside;
   padding-left: 0;
   color: $color-primary-darker;
-  font-size: 2rem;
+  font-size: size('body', 8);
 
-  @include media($width-tablet) {
-    font-size: 2.6rem;
+  @include at-media('tablet') {
+    font-size: size('body', 11);
   }
 }
 

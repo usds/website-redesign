@@ -16,7 +16,7 @@ redirect_from:
   <section class="site-c-section">
     <div class="site-c-section-heading">
       <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
-      <div class="site-c-section-heading__text">
+      <div class="site-c-section-heading__text usa-prose">
         {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
     </div>
@@ -27,7 +27,7 @@ redirect_from:
   <section class="site-c-section">
     <div class="site-c-section-heading">
       <h2 class="site-c-section-heading__heading">{{ content.cops.heading_title }}</h2>
-      <div class="site-c-section-heading__text">
+      <div class="site-c-section-heading__text usa-prose">
         {{ content.cops.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
     </div>
@@ -45,7 +45,7 @@ redirect_from:
         <div class="grid-col-12">
           <h3 class="margin-top-0">{{ content.cops.role_1_heading }}</h3>
         </div>
-        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2">
+        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2 usa-prose">
           {{ content.cops.role_1_text | replace: 'site.baseurl', site.baseurl | markdownify}}
         </div>
         <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
@@ -57,7 +57,7 @@ redirect_from:
         <div class="grid-col-12">
           <h3 class="margin-top-0">{{ content.cops.role_2_heading }}</h3>
         </div>
-        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2">
+        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2 usa-prose">
           {{ content.cops.role_2_text | replace: 'site.baseurl', site.baseurl | markdownify}}
         </div>
         <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
@@ -69,7 +69,7 @@ redirect_from:
         <div class="grid-col-12">
           <h3 class="margin-top-0">{{ content.cops.role_3_heading }}</h3>
         </div>
-        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2">
+        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2 usa-prose">
           {{ content.cops.role_3_text | replace: 'site.baseurl', site.baseurl | markdownify}}
         </div>
         <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
@@ -84,11 +84,11 @@ redirect_from:
   <section class="site-c-section">
     <div class="site-c-section-heading">
       <h2 class="site-c-section-heading__heading">{{ content.best_practices.heading_title }}</h2>
-      <div class="site-c-section-heading__text">
+      <div class="site-c-section-heading__text usa-prose">
         {{ content.best_practices.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
       <div class="site-c-section-heading__links">
-        <a class="usa-button usa-button-secondary" href="https://playbook.cio.gov/">{{ content.best_practices.heading_button_text }}</a>
+        <a class="usa-button usa-button--outline" href="https://playbook.cio.gov/">{{ content.best_practices.heading_button_text }}</a>
       </div>
     </div>
     <div class="site-c-section__body">
@@ -100,7 +100,9 @@ redirect_from:
             <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.best_practices.col_1_image }}" alt="">
           </div>
           <h3 class="font-sans-md">{{ content.best_practices.col_1_heading }}</h3>
+          <div class="usa-prose">
           {{ content.best_practices.col_1_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          </div>
         </div>
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
@@ -108,7 +110,9 @@ redirect_from:
             <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.best_practices.col_2_image }}" alt="">
           </div>
           <h3 class="font-sans-md">{{ content.best_practices.col_2_heading }}</h3>
+          <div class="usa-prose">
           {{ content.best_practices.col_2_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          </div>
         </div>
 
         <div class="grid-col-12 tablet:grid-col-4 tablet:padding-2 margin-bottom-5">
@@ -116,7 +120,9 @@ redirect_from:
             <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.best_practices.col_3_image }}" alt="">
           </div>
           <h3 class="font-sans-md">{{ content.best_practices.col_3_heading }}</h3>
+          <div class="usa-prose">
           {{ content.best_practices.col_3_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+          </div>
         </div>
       </div>
     </div>
@@ -127,7 +133,7 @@ redirect_from:
   <section class="site-c-section">
     <div class="site-c-section-heading">
       <h2 class="site-c-section-heading__heading">{{ content.where_we_worked.heading_title }}</h2>
-      <div class="site-c-section-heading__text">
+      <div class="site-c-section-heading__text usa-prose">
         {{ content.where_we_worked.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
     </div>
@@ -150,11 +156,11 @@ redirect_from:
   <section class="site-c-section">
     <div class="site-c-section-heading">
       <h2 class="site-c-section-heading__heading">{{ content.projects.heading_title }}</h2>
-      <div class="site-c-section-heading__text">
+      <div class="site-c-section-heading__text usa-prose">
         {{ content.projects.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
       <div class="site-c-section-heading__links">
-        <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}{% link pages/projects.html %}">{{ content.projects.heading_button_text }}</a>
+        <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/projects.html %}">{{ content.projects.heading_button_text }}</a>
       </div>
     </div>
     <div class="site-c-section__body">

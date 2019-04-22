@@ -7,6 +7,7 @@
 
 .site-c-social-buttons__item {
   display: inline-block;
+  margin-left: units(.5);
 }
 
 .site-c-social-buttons__link {
@@ -15,8 +16,8 @@
   align-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 5rem;
-  height: 5rem;
+  width: units(6);
+  height: units(6);
   text-align: center;
 }
 
@@ -41,7 +42,7 @@
 }
 
 .site-c-social-buttons__icon {
-  height: 2.5rem;
+  height: units(2.5);
   color: #fff;
   fill: #ffffff;
   margin: 0 auto;
@@ -56,10 +57,10 @@
   background-color: transparent;
   width: auto;
   height: auto;
-  padding: $units-05;
+  padding: units(1);
 }
 
 .site-c-social-buttons--mini .site-c-social-buttons__icon {
-  height: 2rem;
-  width: 2rem;
+  height: units(2.5);
+  width: units(2.5);
 }

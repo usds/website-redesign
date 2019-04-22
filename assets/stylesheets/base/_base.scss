@@ -1,18 +1,20 @@
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 100%;
+  font-family: family('body');
 }
 
 [class*="font-sans-"] {
-  font-family: "Source Sans Pro Web","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif !important;
+  font-family: family('body') !important;
 }
 
 body {
   color: $color-gray;
-  font-size: 1.6rem;
+  font-size: size('body', 5);
 
-  @include media($width-desktop) {
-    font-size: 1.7rem;
+  @include at-media('desktop') {
+    font-size: size('body', 6);
   }
 }
 
@@ -22,31 +24,31 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-sans;
+  font-family: family('body');
   color: $color-primary-darker;
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: size('body', 12);
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: size('body', 10);
 }
 
 blockquote {
   border-left: 3px solid $color-gray-light;
-  padding-left: $units-3;
+  padding-left: units(3);
   margin-left: 0;
 }
 
 hr {
   @extend .grid-container;
   background: url('#{$image-path}/3stars.png') no-repeat left center;
-  background-size: 7rem 1.7rem;
+  background-size: 70px 17px;
   border: 0;
   color: $color-cyan-10;
-  height: 1.7rem;
+  height: 17px;
   margin: 0;
   position: relative;
 
@@ -57,11 +59,11 @@ hr {
     display: block;
     height: 1px;
     position: absolute;
-    left: 8rem;
+    left: 80px;
     top: calc(50% - .5px);
-    width: calc(100% - 8rem);
+    width: calc(100% - 80px);
 
-    @include media($width-desktop) {
+    @include at-media('desktop') {
       width: 100vw;
     }
   }
@@ -70,7 +72,7 @@ hr {
     display: none;
     left: calc(-100vw - 1rem);
 
-    @include media($width-desktop) {
+    @include at-media('desktop') {
       display: block;
     }
   }
@@ -79,8 +81,8 @@ hr {
 .usa-button svg {
   fill: white;
   display: inline-block;
-  width: 1.2rem;
-  height: 1.2rem;
+  width: units(1.5);
+  height: units(1.5);
   color: white;
 }
 
@@ -94,7 +96,15 @@ hr {
 
 .usa-banner-button[aria-expanded="false"] {
   left: -8px;
-  @include media($width-tablet) {
+  @include at-media('tablet') {
     left: 0;
   }
+}
+
+.usa-prose > h2,
+.usa-prose > h3,
+.usa-prose > h4,
+.usa-prose > h5,
+.usa-prose > h6 {
+  @include u-font-family('sans');
 }

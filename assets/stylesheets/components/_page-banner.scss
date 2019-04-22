@@ -30,22 +30,22 @@
 
 .site-c-page-banner__header {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: size('body', 9);
 
-  @include media($width-mobile-lg) {
-    font-size: 2.8rem;
+  @include at-media('mobile-lg') {
+    font-size: size('body', 11);
   }
 
-  @include media($width-tablet) {
-    font-size: 3.2rem;
+  @include at-media('tablet') {
+    font-size: size('body', 12);
   }
 
-  @include media($width-tablet-lg) {
-    font-size: 4rem;
+  @include at-media('tablet-lg') {
+    font-size: size('body', 14);
   }
 
-  @include media($width-desktop) {
-    font-size: 4.4rem;
+  @include at-media('desktop') {
+    font-size: size('body', 15);
   }
 }
 
@@ -54,22 +54,22 @@
   color: $color-gold;
   margin: 0;
   line-height: 1;
-  font-size: 3.6rem;
+  font-size: size('body', 13);
 
-  @include media($width-mobile-lg) {
-    font-size: 4.4rem;
+  @include at-media('mobile-lg') {
+    font-size: size('body', 14);
   }
 
-  @include media($width-tablet) {
-    font-size: 3.2rem;
+  @include at-media('tablet') {
+    font-size: size('body', 12);
   }
 
-  @include media($width-desktop) {
-    font-size: 4rem;
+  @include at-media('desktop') {
+    font-size: size('body', 14);
   }
 
-  @include media($width-desktop-lg) {
-    font-size: 6rem;
+  @include at-media('desktop-lg') {
+    font-size: size('body', 17);
   }
 
   svg {

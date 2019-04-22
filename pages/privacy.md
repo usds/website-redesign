@@ -15,7 +15,7 @@ permalink: /privacy
   <hr>
 
   <section class="site-c-section">
-    <div class="site-c-section__body" markdown="1">
+    <div class="site-c-section__body usa-prose" markdown="1">
 
 Updated: May 16, 2016
 
@@ -92,6 +92,6 @@ We take reasonable precautions to protect our site and information collected by 
 
 We will revise or update this policy from time to time. If we make significant changes to how we handle personal information, we will post changes to the policy on our site and change the date at the top. We will provide additional notice in advance (e.g., a disclaimer on our website or an email to subscribers) if material changes are being made.
 
-    </div>
-  </section>
+</div>
+</section>
 </div>

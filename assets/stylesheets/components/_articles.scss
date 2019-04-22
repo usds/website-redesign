@@ -8,7 +8,7 @@
 .site-c-article {
   margin-bottom: $units-3;
 
-  @include media($width-tablet) {
+  @include at-media('tablet') {
     margin-bottom: $units-4;
   }
 }

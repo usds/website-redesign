@@ -2,16 +2,16 @@
   @include u-font-size('sans', 'lg');
   background: $color-primary-darker;
   color: #ffffff;
-  font-weight: $font-bold;
+  font-weight: $theme-font-weight-bold;
   padding: $units-7 0;
   text-align: center;
 
-  @include media($width-tablet) {
+  @include at-media('tablet') {
     @include u-font-size('sans', 'lg');
     padding: $units-8 0;
   }
 
-  @include media($width-desktop) {
+  @include at-media('desktop') {
     @include u-font-size('sans', 'xl');
     padding: $units-8 0;
   }
