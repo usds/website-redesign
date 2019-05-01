@@ -35,7 +35,7 @@ Medicare pays for the healthcare of 57 million Americans. The systems that power
 
 ## The Solution
 
-We’re partnering with the Centers for Medicare & Medicaid Services to stand up a new cloud environment to continue processing claims. A new cloud environment positions Medicare systems to scale and flex rapidly with how CMS processes claims and pays providers, transforming technology from a policy inhibitor to a multipier. The Medicare system has singular importance in determining of how healthcare is provided in the United States.
+We’re partnering with the Centers for Medicare & Medicaid Services to stand up a new cloud environment to continue processing claims. A new cloud environment positions Medicare systems to scale and flex rapidly with how CMS processes claims and pays providers, transforming technology from a policy inhibitor to a multiplier. The Medicare system has singular importance in determining of how healthcare is provided in the United States.
 
 ![](../images/project-hhs-payment-mod-page.jpg)
 
