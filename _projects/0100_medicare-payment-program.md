@@ -14,7 +14,7 @@ carousel_image_name: project-hhs-payment-mod-card.jpg
 title: "Medicare Payment System Modernization"
 agency: Health and Human Services
 permalink: projects/medicare-payment-program
-project_url: https://www.cms.gov/
+project_url: 
 
 # Impact statement (Edit this)
 impact_statement:
