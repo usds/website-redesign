@@ -24,8 +24,10 @@ social_image: social-card--events.png
       {% for item in site.data.upcoming_events %}
       <div class="padding-x-2 tablet:grid-col-6 desktop:grid-col-4 flex-align-stretch margin-bottom-3">
         <a class="site-c-card site-c-card--linked" href="{{ item.url }}" target="_blank">
-          {% if item.image_name %}
+          {% if item.image_name.size >= 1 %}
             <img src="{{ site.baseurl }}/images/{{ item.image_name }}" alt="{{ item.name }} event image" />
+          {% else %}
+            <img class="site-c-card__image padding-5" src="{{ site.baseurl }}/assets/img/usds-logo.svg" alt="usds logo" />
           {% endif %}
           <div class="site-c-card__body">
             <p class="margin-0 text-bold">{{ item.date }}</p>

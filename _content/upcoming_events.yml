@@ -5,26 +5,11 @@
 # - If no custom image is provided, a USDS seal will appear
 # - Summaries may only be a single paragraph
 
-- name: "The Lead Developer Conference"
-  url: "https://theleaddeveloper.com/"
+- name: "USDS Roundtable"
+  url: "https://events.whitehouse.gov/?rid=KHRD7HQXYF"
   date: April 30
-  city: New York City, NY
-  venue:
-  summary: "The Lead Developer conference was designed with the needs and pain points of engineering team leads in mind. We’re sponsoring the conference and hope to see you there!"
-  image_name: events-lead-dev.svg
-
-- name: "PyCon"
-  url: "https://pycon.org/"
-  date: May 1-9
-  city: Cleveland, OH
-  venue:
-  summary: "The international community for the Python programming language holds several conferences (PyCons) each year. We're exctied to meet the Python community there and learn about what they're working on!"
-  image_name: events-pycon.svg
-
-- name: "Code for America"
-  url: "https://www.codeforamerica.org/"
-  date: May 29-31
-  city: Oakland, CA
-  venue:
-  summary: "We're joining public servants, technologists, entrepreneurs, and more at the Code for America summit, where government and technology unite. We look forward to meeting those who are passionate about designing a better government!"
-  image_name: events-code-for-america.svg
+  city: Denver, CO
+  venue: Galvanize Denver, 1644 Platte St, Denver, CO 80202
+  summary: "Join the United States Digital Service for a roundtable discussion at Galvanize Denver on June 25th.
+Hear from senior technologists about how we're applying modern practices to transform critical, public-facing services that affect millions of Americans. We'll also share how you could join us, and make a difference. We hope to see you there."
+  image_name:  
