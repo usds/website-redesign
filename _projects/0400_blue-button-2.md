@@ -14,7 +14,7 @@ carousel_image_name: project-hhs-blue-button-card.jpg
 title: "Medicare Data API: Blue Button 2.0"
 agency: Health and Human Services
 permalink: projects/blue-button-2
-project_url:
+project_url: https://bluebutton.cms.gov/developers/
 ---
 
 ## The Challenge
@@ -29,6 +29,9 @@ The Center for Medicare & Medicaid Services tapped our team to work alongside th
 
 ![](../images/project-hhs-blue-button-page2.jpg)
 *In August 2018, USDS hosted the Blue Button Developer Conference at the White House where Amazon, Microsoft, Oracle, Google, Salesforce, and IBM all pledged to use the data standard Blue Button 2.0 is built on.*
+
+![](../images/project-hhs-blue-button-ui2.jpg)
+*One third party company using the Blue Button 2.0 API is [Verily](https://verily.com/), which launched [Project Baseline](https://www.projectbaseline.com/) in 2017 to make it easy and engaging for people to contribute to the map of human health and participate in clinical research.*
 
 ## Press
 
