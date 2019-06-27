@@ -52,8 +52,8 @@ $(document).ready(function () {
       dataType: "text",
       success: function(page) {
         // Strip out everything in the HTML but the JSON payload
-        var s = page.replace(/^.*window._sharedData = /ms, "");
-        s = s.replace(/;<\/script>.*$/ms, "");
+        var s = page.replace(/^[^]*window._sharedData = /m, "");
+        s = s.replace(/;<\/script>[^]*$/m, "");
         var json;
         try {
           json = JSON.parse(s);
