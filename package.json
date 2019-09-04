@@ -28,8 +28,10 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "jquery": "^3.4.0",
+    "mixin-deep": ">=1.3.2",
     "normalize.css": "^8.0.0",
     "path": "^0.12.7",
+    "set-value": ">=2.0.1",
     "tar": ">=4.4.2",
     "uswds": "^2.0.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
