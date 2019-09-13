@@ -1,0 +1,40 @@
+<div class="grid-container">
+  <header class="padding-y-5">
+    <span class="site-c-flag">{{ page.agency }}</span>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <hr>
+
+  <div class="grid-row padding-top-3">
+    <div class="tablet:grid-col-4 desktop:grid-col-3 margin-bottom-3 site-c-project-content padding-x-2 tablet:padding-left-0 tablet:padding-right-4">
+      <div>
+        <ul class="usa-sidenav">
+          <li class="usa-sidenav__item">
+          <a href="">Current page</a>
+        </li><li class="usa-sidenav__item">
+          <a href="">Parent link</a>
+        </li><li class="usa-sidenav__item">
+          <a href="">Parent link</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <div class="tablet:grid-col-8 desktop:grid-col-9 margin-bottom-9 site-c-project-content usa-prose">
+      {{ content }}
+    </div>
+  </div>
+
+  <hr>
+
+  <section class="site-c-section">
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">More projects</h2>
+      <div class="site-c-section-heading__links">
+        <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/projects.html %}" class="usa-button usa-button-outline">See all our projects</a>
+      </div>
+    </div>
+    <div class="site-c-section__body">
+      {% include projects-carousel.html %}
+    </div>
+  </section>
+</div>

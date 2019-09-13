@@ -105,6 +105,8 @@ Meet Mollie the crab, our unofficial mascot :)
       {% include _template--people-page.html %}
     {% elsif page.collection == 'reports_to_congress' %}
       {% include _template--report-to-congress.html %}
+    {% elsif page.project_charter %}
+      {% include _template--charter.html %}
     {% else %}
       {{ content }}
     {% endif %}
