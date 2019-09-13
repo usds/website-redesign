@@ -13,6 +13,10 @@
 
     <title>{{ page_title }}</title>
 
+    {% if page.hide_from_search %}
+    <meta name="robots" content="noindex, nofollow" />
+    {% endif %}
+
     <meta name="description" content="{{ page_description }}" />
     <link rel="canonical" href="{{ url_path }}" />
     <meta property="og:title" content="{{ page_title }}" />
