@@ -5,11 +5,26 @@
 # - If no custom image is provided, a USDS seal will appear
 # - Summaries may only be a single paragraph
 
-- name: "USDS Roundtable"
-  url: "https://events.whitehouse.gov/?rid=KHRD7HQXYF"
-  date: June 25, 2019, 5:30 PM-7:30 PM
-  city: Denver, CO
-  venue: Galvanize Denver, 1644 Platte St, Denver, CO 80202
-  summary: "Join the United States Digital Service for a roundtable discussion at Galvanize Denver on June 25th.
-Hear from senior technologists about how we're applying modern practices to transform critical, public-facing services that affect millions of Americans. We'll also share how you could join us, and make a difference. We hope to see you there."
-  image_name:  
+- name: "Lesbians Who Tech Leadership Summit"
+  url: "https://lesbianswhotech.org/newyork2019/"
+  date: September 11 - 13
+  city: New York, NY
+  venue: Stage 48 - 605 W 48th St.
+  summary: "The United States Digital Service is sponsoring the Lesbians Who Tech Leadership Summit in NYC. Come chat with us to learn about how we're using design and technology to serve all Americans."
+  image_name:
+
+- name: "Unbox"
+  url: "https://bosproduct.com/unbox/unbox2019/"
+  date: September 20
+  city: Boston, MA
+  venue: Marriott Copley Boston - 110 Huntington Ave.
+  summary: "Unbox is a day to elevate PMs on the front lines of work. The U.S. Digital Service is recruiting the nation's top product managers to serve tours of duty in government. Help us build products that change the way Americans interact with their government."
+  image_name:
+
+- name: "Grace Hopper Celebration"
+  url: "https://ghc.anitab.org/"
+  date: October 1 - 4
+  city: Orlando, FL
+  venue: Orange County Convention Cente, West Building - 9800 International Drive
+  summary: "As a Rear Admiral in the United States Navy, Grace Hopper put her technology expertise to work in service to others. In homage to her legacy, the U.S. Digital Service will be at this year's Grace Hopper Celebration to recruit talented technologists looking to serve all Americans."
+  image_name:
