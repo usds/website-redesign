@@ -31,7 +31,7 @@ impact_statement:
 
 ## The Challenge
 
-Medicare pays for the healthcare of 57 million Americans. The systems that power Medicare process over $500 billion in claims each year. It’s also 40-years-old, runs on 10.5 million lines of COBOL and assembly language, and is shackled to mainframe computers. Every day, 10,000 more people depend on this system. It’s too big to fail.
+Medicare pays for the healthcare of 57 million Americans. The systems that power Medicare process over $500 billion in claims each year. It’s also 40-years-old, runs on 16 million lines of COBOL and assembly language, and is shackled to mainframe computers. Every day, 10,000 more people depend on this system. It’s too big to fail.
 
 ## The Solution
 
