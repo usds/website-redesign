@@ -61,14 +61,22 @@
 .site-c-navbar__logo-link {
   display: flex;
   margin-right: $units-3;
-}
-
-.site-c-navbar__logo {
-  width: 185px;
   margin-left: $units-2;
 
   @include at-media('desktop') {
-    width: 320px;
+    margin-left: 0;
+  }
+}
+
+.site-c-navbar__logo {
+  width: auto;
+
+  @include at-media('tablet') {
+    width: 275px;
+    margin-left: 0;
+  }
+  @include at-media('desktop') {
+    width: 300px;
     margin-left: 0;
   }
 }
