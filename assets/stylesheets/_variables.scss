@@ -73,25 +73,37 @@ TODO:
 */
 
 // USDS brand colors
-$color-usds-blue-bright:     #0084ce;
-$color-usds-blue-medium:     #064e96;
-$color-usds-navy:            #103c68;
-$color-usds-gold:            #a39634;
-$color-usds-yellow:          #e0cb26;
-$color-usds-gray:            #5d5d5d;
+$color-usds-blue-bright:          #0084ce;
+$color-usds-blue-bright-dark:     #0071bc;
+$color-usds-blue-bright-light:    #80c1e6;
+$color-usds-blue-bright-lighter:  #bfe0f3;
+$color-usds-blue-medium:          #064e96;
+$color-usds-blue-medium-light:    #6a95c0;
+$color-usds-navy:                 #103c68;
+$color-usds-navy-dark:            #122d44;
+$color-usds-navy-light:           #577795;
+$color-usds-gold:                 #a39634;
+$color-usds-gold-dark:            #75692a;
+$color-usds-yellow:               #e0cb26;
+$color-usds-yellow-light:         #f0e593;
+$color-usds-gray:                 #5d5d5d;
+$color-usds-gray-dark:            #3f3f3f;
+$color-usds-gray-light:           #969696;
+$color-usds-gray-lighter:         #c6c6c6;
+$color-usds-gray-lightest:        #ececec;
 
 $color-blue:                 $color-usds-blue-medium !default;
 $color-blue-darker:          $color-usds-navy !default;
-$color-blue-darkest:         $color-blue-warm-80v !default;
-$color-blue-light:           $color-usds-blue-bright !default;
+$color-blue-darkest:         $color-usds-navy-dark !default;
+$color-blue-light:           $color-usds-blue-medium-light !default;
 $color-blue-lighter:         $color-blue-warm-30 !default;
 $color-blue-lightest:        $color-blue-warm-10 !default;
 
-$color-aqua:                 $color-cyan-30v !default;
-$color-aqua-dark:            $color-cyan-40v !default;
+$color-aqua:                 $color-usds-blue-bright !default;
+$color-aqua-dark:            $color-usds-blue-bright-dark !default;
 $color-aqua-darkest:         $color-blue-60 !default;
-$color-aqua-light:           $color-cyan-20 !default;
-$color-aqua-lightest:        $color-cyan-5 !default;
+$color-aqua-light:           $color-usds-blue-bright-light !default;
+$color-aqua-lightest:        $color-usds-blue-bright-lightest !default;
 
 $color-red:                  $color-red-50 !default;
 $color-red-dark:             $color-red-60v !default;
@@ -103,20 +115,21 @@ $color-white:                white !default;
 $color-black:                black !default; // 'black'
 $color-black-light:          $color-gray-90 !default; // 'base-darkest' 'base-ink'
 
-$color-gray-dark:            $color-gray-cool-80 !default; // 'base-darker'
+$color-gray-dark:            $color-usds-gray-dark !default; // 'base-darker'
 $color-gray:                 $color-usds-gray !default; // 'base-dark'
 $color-gray-medium:          $color-gray-50 !default; // 'base'
-$color-gray-light:           $color-gray-30 !default; // 'base-light'
-$color-gray-lighter:         $color-gray-cool-10 !default; // 'base-lighter'
-$color-gray-lightest:        $color-gray-cool-5 !default; // 'base-lightest'
+$color-gray-light:           $color-usds-gray-light !default; // 'base-light'
+$color-gray-lighter:         $color-usds-gray-lighter !default; // 'base-lighter'
+$color-gray-lightest:        $color-usds-gray-lightest !default; // 'base-lightest'
 
 $color-gray-warm-dark:       $color-gray-warm-70 !default;
 $color-gray-warm-light:      $color-gray-warm-10 !default;
 $color-gray-cool-light:      $color-blue-warm-5 !default;
 
 $color-gold:                 $color-usds-gold !default;
+$color-gold-dark:            $color-usds-gold-dark !default;
 $color-gold-light:           $color-usds-yellow !default;
-$color-gold-lighter:         $color-yellow-10 !default;
+$color-gold-lighter:         $color-usds-yellow-light !default;
 $color-gold-lightest:        $color-gold-5v !default;
 
 $color-green:                $color-green-cool-50 !default;
