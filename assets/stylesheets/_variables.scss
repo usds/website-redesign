@@ -88,10 +88,10 @@ $color-usds-gold:            #a39634;
 $color-usds-yellow:          #e0cb26;
 $color-usds-gray:            #5d5d5d;
 
-$color-blue:                 $color-blue-60v !default;
-$color-blue-darker:          $color-blue-warm-70v !default;
+$color-blue:                 $color-usds-blue-medium !default;
+$color-blue-darker:          $color-usds-navy !default;
 $color-blue-darkest:         $color-blue-warm-80v !default;
-$color-blue-light:           $color-blue-warm-50 !default;
+$color-blue-light:           $color-usds-blue-bright !default;
 $color-blue-lighter:         $color-blue-warm-30 !default;
 $color-blue-lightest:        $color-blue-warm-10 !default;
 
@@ -112,7 +112,7 @@ $color-black:                black !default; // 'black'
 $color-black-light:          $color-gray-90 !default; // 'base-darkest' 'base-ink'
 
 $color-gray-dark:            $color-gray-cool-80 !default; // 'base-darker'
-$color-gray:                 $color-gray-cool-60 !default; // 'base-dark'
+$color-gray:                 $color-usds-gray !default; // 'base-dark'
 $color-gray-medium:          $color-gray-50 !default; // 'base'
 $color-gray-light:           $color-gray-30 !default; // 'base-light'
 $color-gray-lighter:         $color-gray-cool-10 !default; // 'base-lighter'
@@ -122,8 +122,8 @@ $color-gray-warm-dark:       $color-gray-warm-70 !default;
 $color-gray-warm-light:      $color-gray-warm-10 !default;
 $color-gray-cool-light:      $color-blue-warm-5 !default;
 
-$color-gold:                 $color-gold-20v !default;
-$color-gold-light:           $color-gold-10v !default;
+$color-gold:                 $color-usds-gold !default;
+$color-gold-light:           $color-usds-yellow !default;
 $color-gold-lighter:         $color-yellow-10 !default;
 $color-gold-lightest:        $color-gold-5v !default;
 
@@ -140,8 +140,8 @@ $color-cool-blue-lightest:   $color-blue-warm-10 !default;
 $color-purple:               $color-violet-70v !default;
 
 // Functional colors
-$color-primary:              $color-blue !default; //'primary'
-$color-primary-darker:       $color-blue-darker !default; //'primary-dark'
+$color-primary:              $color-usds-blue-medium !default; //'primary'
+$color-primary-darker:       $color-usds-navy !default; //'primary-dark'
 $color-primary-darkest:      $color-blue-darkest !default; //'primary-darker'
 
 $color-primary-alt:          $color-aqua !default; //'accent-cool'
