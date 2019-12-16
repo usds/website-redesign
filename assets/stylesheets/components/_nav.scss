@@ -30,7 +30,7 @@
 }
 
 .site-c-navbar__button {
-  display: flex;;
+  display: flex;
   align-items: center;
   background-color: transparent;
   width: auto;
@@ -64,7 +64,7 @@
 }
 
 .site-c-navbar__logo {
-  width: 275px;
+  width: 185px;
   margin-left: $units-2;
 
   @include at-media('desktop') {
