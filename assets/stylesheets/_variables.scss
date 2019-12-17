@@ -30,7 +30,6 @@ $color-instagram-red: #E4415F;
 $color-medium-green: #00AB6C;
 $color-linkedin-blue: #137BB8;
 
-
 // Units expressed as variables
 $units-05: units(05);
 $units-1: units(1);
@@ -133,6 +132,7 @@ $color-green-lightest:       $color-green-cool-5 !default;
 $color-purple:               $color-violet-70v !default;
 
 // Functional colors
+
 $color-primary:              $color-usds-blue-medium !default; //'primary'
 $color-primary-light:        $color-usds-blue-medium-light !default; //'primary-light'
 $color-primary-darker:       $color-usds-navy !default; //'primary-dark'
@@ -140,9 +140,8 @@ $color-primary-darkest:      $color-usds-navy-dark !default; //'primary-darker'
 
 $color-primary-alt:          $color-usds-blue-bright !default; //'accent-cool'
 $color-primary-alt-dark:     $color-usds-blue-bright-dark !default; //'accent-cool-dark'
-$color-primary-alt-darkest:  $color-blue-60 !default; //'accent-cool-darker'
 $color-primary-alt-light:    $color-usds-blue-bright-light !default; //'accent-cool-light'
-$color-primary-alt-lightest: $color-cyan-5 !default; //'accent-cool-lighter'
+$color-primary-alt-lighter:  $color-usds-blue-bright-lighter !default; //'accent-cool-lighter'
 
 $color-secondary:            $color-red !default; //'secondary'
 $color-secondary-dark:       $color-red-dark !default; //'secondary-dark'
@@ -151,8 +150,8 @@ $color-secondary-light:      $color-red-light !default; //'secondary-light'
 $color-secondary-lightest:   $color-red-lightest !default; //'secondary-lighter'
 
 $color-base:                 $color-black-light !default; //'base-darkest'
-$color-focus:                $color-blue-40v !default;
+$color-focus:                $color-usds-blue-bright-dark !default;
 $color-visited:              $color-purple !default;
 
 $color-shadow:               $color-black-transparent-30 !default;
-$color-transparent: rgba(#000, 0) !default;
+$color-transparent:          rgba(#000, 0) !default;
