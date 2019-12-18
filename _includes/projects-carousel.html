@@ -1,5 +1,6 @@
 <div class="site-c-cards margin-x-neg-2 site-js-carousel">
-  {% for project in site.projects %}
+  {% assign projects = site.projects | where_exp:"project","project.url != page.url" %}
+  {% for project in projects limit:9 %}
     {% unless project.hide %}
     {% if project.carousel_title %}
       <div class="padding-x-2">
