@@ -20,7 +20,7 @@
       {% endif %}
 
       {% if page.project_url.size > 2 %}
-      <div>
+      <div {% if page.impact_statement %}class="padding-top-3"{% endif %}>
         <a class="usa-button usa-button-outline" href="{{ page.project_url }}" target="_blank">View live project</a>
       </div>
       {% endif %}
