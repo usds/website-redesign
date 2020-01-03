@@ -33,7 +33,7 @@
     "path": "^0.12.7",
     "set-value": ">=2.0.1",
     "tar": ">=4.4.2",
-    "uswds": "^2.0.1",
+    "uswds": "^2.4.0",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }
