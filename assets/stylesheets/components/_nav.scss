@@ -69,7 +69,8 @@
 }
 
 .site-c-navbar__logo {
-  width: auto;
+  width: 300px;
+  height: 100%;
 
   @include at-media('tablet') {
     width: 275px;
