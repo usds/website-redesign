@@ -3,7 +3,7 @@
 }
 
 .site-c-card {
-  border: 1px solid $color-gray-light;
+  border: 1px solid $color-usds-gray-light;
   border-radius: 8px;
   overflow: hidden;
   height: 100%;
@@ -13,7 +13,7 @@
 .site-c-card--linked,
 .site-c-card--linked:visited {
   box-shadow: 0 2px 8px rgba(0,0,0,0);
-  color: $color-gray;
+  color: $color-usds-gray;
   display: block;
   text-decoration: none;
   transition: all .2s ease-in-out;
@@ -25,10 +25,10 @@
 
 .site-c-card--linked:hover,
 .site-c-card--linked:focus  {
-  color: $color-gray;
+  color: $color-usds-gray;
 
   @include at-media('tablet') {
-    border: 1px solid $color-primary;
+    border: 1px solid $theme-color-primary;
     box-shadow: 0 2px 12px rgba(0,0,0,0.15);
     transform: scaleX(1.02) scaleY(1.02);
   }
@@ -43,7 +43,7 @@
 }
 
 .site-c-card__title {
-  color: $color-primary-darker;
+  color: $theme-color-primary-darker;
   font-weight: $theme-font-weight-bold;
 }
 
@@ -66,6 +66,6 @@
 }
 
 .site-c-card__affordance {
-  color: $color-primary;
+  color: $theme-color-primary;
   text-decoration: underline;
 }

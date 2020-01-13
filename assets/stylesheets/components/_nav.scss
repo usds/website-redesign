@@ -39,7 +39,7 @@
   margin-right: $units-1;
 
   svg {
-    fill: $color-gray;
+    fill: $color-usds-gray;
     width: units(4);
     height: units(4);
   }
@@ -49,7 +49,7 @@
     background-color: transparent;
 
     svg {
-      fill: $color-base;
+      fill: $theme-color-base-ink;
     }
   }
 
@@ -101,12 +101,12 @@
 
 .site-c-nav__primary-nav__item {
   display: block;
-  border-top: 1px solid $color-gray-light;
+  border-top: 1px solid $color-usds-gray-light;
   margin: 0;
 
   @include at-media('desktop'){
     @include u-font-size('sans', '3xs');
-    border-left: 1px solid $color-gray-light;
+    border-left: 1px solid $color-usds-gray-light;
     border-top: 0;
     padding: 0 $units-2;
   }
@@ -146,7 +146,7 @@
 
 .site-c-nav__primary-nav__link,
 .site-c-nav__primary-nav__link:visited {
-  color: $color-base;
+  color: $theme-color-base-dark;
   display: block;
   line-height: 1;
   padding: $units-2 0;

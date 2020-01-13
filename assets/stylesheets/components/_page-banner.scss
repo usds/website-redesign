@@ -51,7 +51,7 @@
 
 .site-c-page-banner__header--alt {
   font-weight: 300;
-  color: $color-gold;
+  color: $color-usds-gold;
   margin: 0;
   line-height: 1;
   font-size: size('body', 13);
@@ -79,12 +79,12 @@
 
 .site-c-page-banner__header-link,
 .site-c-page-banner__header-link:visited {
-  color: $color-gold;
+  color: $color-usds-gold;
   text-decoration: none;
 }
 
 .site-c-page-banner__header-link:hover,
 .site-c-page-banner__header-link:focus {
-  color: $color-yellow;
+  color: $color-usds-yellow;
   text-decoration: none;
 }
