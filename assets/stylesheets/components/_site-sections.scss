@@ -31,7 +31,7 @@
 
 .site-c-section-heading__heading {
   @include u-font-size('sans', 11);
-  color: $color-primary-darker;
+  color: $theme-color-primary-dark;
   flex: 0 0 auto;
   margin: 0 0 $units-2 0;
 
@@ -83,7 +83,7 @@
 
 .site-c-section-heading__text--big {
   flex: 100%;
-  color: $color-primary-darker;
+  color: $theme-color-primary-dark;
   font-size: size('body', 9);
   font-weight: 300;
   width: 100%;

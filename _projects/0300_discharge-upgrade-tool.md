@@ -19,10 +19,10 @@ project_url: https://www.va.gov/discharge-upgrade-instructions
 
 # The Impact (Edit this)
 impact_statement:
-  - figure: "74"
-    unit: "%"
+  - figure: "43,714"
+    unit: " "
     description: |-
-      of Veterans who have a dishonorable discharge status have used the tool to upgrade their status
+      Veterans used the tool within the first eight months of launch
 
 ---
 

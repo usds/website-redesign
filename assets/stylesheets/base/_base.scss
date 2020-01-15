@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  color: $color-gray;
+  color: $color-usds-gray;
   font-size: size('body', 5);
 
   @include at-media('desktop') {
@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
   font-family: family('body');
-  color: $color-primary-darker;
+  color: $theme-color-primary-dark;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h3 {
 }
 
 blockquote {
-  border-left: 3px solid $color-gray-light;
+  border-left: 3px solid $color-usds-gray-light;
   padding-left: units(3);
   margin-left: 0;
 }
@@ -79,7 +79,7 @@ hr {
 }
 
 a {
-  color: $color-primary;
+  color: $theme-color-primary;
 }
 
 .usa-button svg {

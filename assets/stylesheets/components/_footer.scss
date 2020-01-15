@@ -1,5 +1,5 @@
 .site-c-footer {
-  background: $color-primary-darkest;
+  background: $color-usds-blue-bright-dark;
   color: $color-cyan-5;
   padding-top: units(5);
   padding-bottom: units(5);
@@ -22,7 +22,7 @@
 .site-c-footer__logo {
   display: block;
   margin: 0 auto;
-
+  width: 157px;
   @include at-media('desktop') {
     margin: 0;
   }

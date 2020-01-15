@@ -15,6 +15,18 @@ title: "Medicare Data API: Blue Button 2.0"
 agency: Health and Human Services
 permalink: projects/blue-button-2
 project_url: https://bluebutton.cms.gov/developers/
+
+# Impact statement (Edit this)
+impact_statement:
+  - figure: "53"
+    unit: "M"
+    description: |-
+      Americans reliant on Medicare claims
+
+  - figure: 1000
+    unit: "+"
+    description: |-
+      Developers using Blue Button API
 ---
 
 ## The Challenge

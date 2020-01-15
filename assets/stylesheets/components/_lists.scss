@@ -1,7 +1,7 @@
 .site-c-decorative-numbered-list {
   list-style-position: inside;
   padding-left: 0;
-  color: $color-primary-darker;
+  color: $theme-color-primary-dark;
   font-size: size('body', 8);
 
   @include at-media('tablet') {
