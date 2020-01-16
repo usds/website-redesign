@@ -13,7 +13,8 @@
 
 ```
 $ npm install
-$ bundle exec jekyll serve
+$ bundle install
+$ npm run serve (or bundle exec jekyll serve)
 ```
 
 ### Updating USWDS to a later version.
