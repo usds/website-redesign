@@ -49,8 +49,25 @@
 
   <hr>
 
-  <div class="padding-top-5 usa-prose">
-  {{ content }}
-  </div>
+  <section class="site-c-section">
+    <div class="usa-prose">
+      {{ content }}
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="site-c-section">
+    {% assign content = site.data.people %}
+    <div class="site-c-section-heading">
+      <h2 class="site-c-section-heading__heading">{{ content.page_title.heading_title_show }}</h2>
+      <div class="site-c-section-heading__links">
+        <a class="usa-button usa-button--outline" href="{{ site.baseurl }}{% link pages/people.html %}">{{ content.page_title.heading_button_text }}</a>
+      </div>
+    </div>
+    <div class="site-c-section__body">
+      {% include carousel-people.html %}
+    </div>
+  </section>
 
 </div>
