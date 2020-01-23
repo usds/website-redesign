@@ -7,8 +7,13 @@
         <img src="" data-lazy-src="{{ site.baseurl }}/images/{{ person.image_name }}" alt="Photo of {{ person.name }}" />
       </div>
       <div class="site-c-card__body">
-      <span class="site-c-flag">{{ person.cop }}</span>
+      <span class="site-c-flag">
+        {% if person.alumni %}Alum{% else %}Staff{% endif %} / {{ person.cop }}
+      </span>
       <span class="site-c-card__title">{{ person.name }}</span>
+      <span class="text-base margin-top-1">
+
+      </span>
       {% if person.quote %}
       <div class="usa-prose margin-top-3">
         <p>“{{ person.quote }}”</p>

@@ -11,7 +11,7 @@ permalink: people/david-holmes
 # People Carousel and Page (Edit this)
 name: David Holmes
 pronouns: He/Him
-alumni: no
+alumni: false
 cop: Engineering
 city_of_origin: New York City
 previously_at: Software Consultant

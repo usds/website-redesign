@@ -11,7 +11,7 @@ permalink: people/jiten-vaidya
 # People Carousel and Page (Edit this)
 name: Jiten Vaidya
 pronouns: He/Him
-alumni: yes
+alumni: true
 cop: Engineering
 city_of_origin:
 previously_at:  

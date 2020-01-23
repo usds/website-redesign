@@ -11,7 +11,7 @@ permalink: people/david-kaufman
 # People Carousel and Page (Edit this)
 name: David Kaufman
 pronouns: He/Him
-alumni: yes
+alumni: true
 cop: Communications
 city_of_origin: New Rochelle, New York
 previously_at: Halo Neuroscience

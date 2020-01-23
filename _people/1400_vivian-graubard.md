@@ -11,7 +11,7 @@ permalink: people/vivian-graubard
 # People Carousel and Page (Edit this)
 name: Vivian Graubard
 pronouns: She/Her
-alumni: yes
+alumni: true
 cop: Strategy
 city_of_origin:
 image_name: vivian-graubard.jpg

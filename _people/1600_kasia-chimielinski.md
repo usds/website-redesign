@@ -11,7 +11,7 @@ permalink: people/kasia-chimielinski
 # People Carousel and Page (Edit this)
 name: Kasia Chimielinski
 pronouns: They/Them
-alumni: yes
+alumni: true
 cop: Product
 city_of_origin: Boston
 image_name: kasia-chmielinski.jpg

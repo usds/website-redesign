@@ -11,7 +11,7 @@ permalink: people/kathy-pham
 # People Carousel and Page (Edit this)
 name: Kathy Pham
 pronouns: She/Her
-alumni: yes
+alumni: true
 cop: Engineering
 image_name: kathy-pham.jpg
 quote: It is a rare, one of a kind opportunity. It is the ability to work at the highest level of government in the United States to impact people at a scale that is unrivaled.

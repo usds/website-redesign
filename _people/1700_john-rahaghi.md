@@ -11,7 +11,7 @@ permalink: people/john-rahaghi
 # People Carousel and Page (Edit this)
 name: John Rahaghi
 pronouns: He/Him
-alumni: yes
+alumni: true
 cop: Product
 city_of_origin:
 previously_at:
