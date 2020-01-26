@@ -11,7 +11,7 @@ permalink: people/brent-maravilla
 # People Carousel and Page (Edit this)
 name: Brent Maravilla
 pronouns: He/Him
-alumni: false
+alumni: true
 cop: Procurement
 city_of_origin: Camarillo, CA
 previously_at:

@@ -6,10 +6,12 @@ banner_file_mobile: banner--people-projects-sm.svg
 people_page: true
 
 # Page link (Edit this)
-permalink: people/kasia-chimielinski
+permalink: people/kasia-chmielinski
+redirect_from:
+  - people/kasia-chimielinski
 
 # People Carousel and Page (Edit this)
-name: Kasia Chimielinski
+name: Kasia Chmielinski
 pronouns: They/Them
 alumni: true
 cop: Product
