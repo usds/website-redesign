@@ -2,26 +2,7 @@
   {% assign people = site.people | where_exp:"person","person.url != page.url" | sample: 9 %}
   {% for person in people limit:9 %}
   <div class="padding-x-2">
-    <a class="site-c-card site-c-card--linked" href="{{ site.baseurl }}/{{ person.permalink }}">
-      <div class="site-c-card__image-mask">
-        <img src="" data-lazy-src="{{ site.baseurl }}/images/{{ person.image_name }}" alt="Photo of {{ person.name }}" />
-      </div>
-      <div class="site-c-card__body">
-      <span class="site-c-flag">
-        {% if person.alumni %}Alum{% else %}Staff{% endif %} / {{ person.cop }}
-      </span>
-      <span class="site-c-card__title">{{ person.name }}</span>
-      <span class="text-base margin-top-1">
-
-      </span>
-      {% if person.quote %}
-      <div class="usa-prose margin-top-3">
-        <p>“{{ person.quote }}”</p>
-      </div>
-      {% endif %}
-      <p class="site-c-card__affordance" aria-hidden="true">Read more</p>
-      </div>
-    </a>
+    {% include card-people.html %}
   </div>
   {% endfor %}
 </div>
