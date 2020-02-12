@@ -11,7 +11,7 @@ permalink: people/matt-might
 # People Carousel and Page (Edit this)
 name: Matt Might
 pronouns: He/Him
-alumni: yes
+alumni: true
 cop: Engineering
 city_of_origin: Birmingham, Alabama
 previously_at:

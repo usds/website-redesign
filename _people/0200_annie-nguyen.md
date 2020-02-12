@@ -11,7 +11,7 @@ permalink: people/annie-nguyen
 # People Carousel and Page (Edit this)
 name: Annie Nguyen
 pronouns: She/Her
-alumni: no
+alumni: true
 cop: Design
 image_name: annie-nguyen.jpg
 quote: "Making sure we can improve, design, and iterate on a printed piece of paper, while explaining policy in a more human-centered way was a challenge I wasn’t expecting."

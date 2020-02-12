@@ -11,7 +11,7 @@ permalink: people/aileen-chen
 # People Carousel and Page (Edit this)
 name: Aileen Chen
 pronouns: She/Her
-alumni: no
+alumni: true
 cop: Engineering
 city_of_origin: San Francisco Bay Area
 previously_at: Facebook

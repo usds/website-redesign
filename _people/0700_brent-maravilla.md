@@ -11,10 +11,10 @@ permalink: people/brent-maravilla
 # People Carousel and Page (Edit this)
 name: Brent Maravilla
 pronouns: He/Him
-alumni: no
+alumni: true
 cop: Procurement
 city_of_origin: Camarillo, CA
-previously_at: 
+previously_at:
 image_name: brent-maravilla.jpg
 quote: "And my resolve to contribute to the movement was only strengthened when I heard about how USDS works, their values, and the awesome things they had delivered."
 

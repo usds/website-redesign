@@ -11,7 +11,7 @@ permalink: people/hank-knaack
 # People Carousel and Page (Edit this)
 name: Hank Knaack
 pronouns: He/Him
-alumni: no
+alumni: false
 cop: Design
 city_of_origin: Phoenix, Arizona
 previously_at: UX Consultancy

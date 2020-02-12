@@ -11,7 +11,7 @@ permalink: people/dave-methvin
 # People Carousel and Page (Edit this)
 name: Dave Methvin
 pronouns: He/Him
-alumni: no
+alumni: false
 cop: Engineering
 city_of_origin: Silver Spring, MD
 previously_at: The Engage Group Columbia Maryland

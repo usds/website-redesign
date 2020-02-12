@@ -11,7 +11,7 @@ permalink: people/marvo-dolor
 # People Carousel and Page (Edit this)
 name: Marvourneen Dolor
 pronouns: She/Her
-alumni: no
+alumni: true
 cop: Strategy & Operations
 city_of_origin: St. Lucia/Caribbean
 previously_at: MKDolor Consulting

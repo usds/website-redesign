@@ -11,7 +11,7 @@ permalink: people/tracy-chou
 # People Carousel and Page (Edit this)
 name: Tracy Chou
 pronouns: She/Her
-alumni: yes
+alumni: true
 cop: Engineering
 city_of_origin: New York
 previously_at:

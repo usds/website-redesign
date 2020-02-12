@@ -1,0 +1,8 @@
+<div class="site-c-cards margin-x-neg-2 site-js-carousel">
+  {% assign people = site.people | where_exp:"person","person.url != page.url" | sample: 9 %}
+  {% for person in people limit:9 %}
+  <div class="padding-x-2">
+    {% include card-people.html %}
+  </div>
+  {% endfor %}
+</div>
