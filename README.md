@@ -12,9 +12,15 @@ $ npm run serve (or bundle exec jekyll serve)
 
 ### Deploying a Staging site to cloud.gov
 
-1. Follow appropriate instructions to sign up for cloud.gov and configure cloud foundry install
-2. Install dependencies (`npm install && bundle install`)
-3. Build the site `bundle exec jekyll build`
+1. [Follow appropriate instructions](https://github.com/usds/usds/blob/master/communities/engineering/cloud/cloud-gov.md) to sign up for cloud.gov and configure cloud foundry install
+2. Install dependencies
+```
+npm install && bundle install
+```
+3. Build the site with Jekyll staging environment variable. Specifying the environment will add a temporary "staging" label to the site and adds `<meta name="robots" content="noindex" />` to the head, preventing the site from being indexed.
+```
+JEKYLL_ENV=staging bundle exec jekyll build
+```
 4. Push to cloud.gov `cf push`
 
 ## Content updates
