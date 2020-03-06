@@ -88,3 +88,4 @@ exclude:
   - CODE_OF_CONDUCT.md
   - package-lock.json
   - assets/uswds-theme
+  - Staticfile

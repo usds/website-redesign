@@ -1,0 +1,6 @@
+applications:
+- name: usds-website-staging
+  memory: 32M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  random-route: true
