@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 domain: "https://usds.gov"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: "America/New_York"
 social_image: social-card--default.png
 
 twitter_username: usds
