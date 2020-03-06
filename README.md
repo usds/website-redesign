@@ -45,3 +45,11 @@ This will will update some of the scss files in `assets/uswds-sass`, but will no
 2. Run `gulp update`
 3. Compile usds.css `gulp uswds-build-sass`
 4. Run Jekyll `bundle exec jekyll serve`
+
+# Deploying a Staging site to cloud.gov
+
+1. Follow appropriate instructions to sign up for cloud.gov and configure cloud foundry install
+2. Install dependencies (`npm install && bundle install`)
+3. Build the site `bundle exec jekyll build`
+4. Push to cloud.gov `cf push`
+
