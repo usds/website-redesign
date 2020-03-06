@@ -1,3 +1,4 @@
+# Cloud.gov sandbox config. See readme for setup.
 applications:
 - name: usds-website-staging
   memory: 32M
