@@ -2,10 +2,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% if jekyll.environment == 'staging' %}
+    {% if jekyll.environment == 'staging' or jekyll.environment == 'sandbox' %}
       <meta name="robots" content="noindex" />
     {% endif %}
-    
+
 {% capture url_path %}{{site.domain}}{{site.baseurl}}{{page.url}}{% endcapture %}
 
 {% capture page_title %}{% if page.people_page %}{{ page.name }} | {{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}

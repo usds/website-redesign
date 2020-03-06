@@ -1,5 +1,9 @@
 {% if jekyll.environment == 'staging' %}
   <div class="env-indicator">
-    <span class="usa-tag padding-x-1 padding-y-1 bg-mint text-base-lightest font-mono-3xs text-bold">Staging {{ "now" | date: "%Y-%m-%d %H:%M %p" }}</span>
+    <span class="usa-tag padding-x-1 padding-y-1 bg-secondary-vivid text-base-lightest font-mono-3xs text-bold">Staging {{ "now" | date: "%Y-%m-%d %H:%M %p" }}</span>
+  </div>
+{% elsif jekyll.environment == 'sandbox' %}
+  <div class="env-indicator">
+    <span class="usa-tag padding-x-1 padding-y-1 bg-magenta text-base-lightest font-mono-3xs text-bold">Sandbox</span>
   </div>
 {% endif %}
