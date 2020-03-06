@@ -17,9 +17,10 @@ title: United States Digital Service
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The United States Digital Service is transforming how the federal government works for the American people. And we need you.
-domain: "http://usds.gov"
+domain: "https://usds.gov"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: "America/New_York"
 social_image: social-card--default.png
 
 twitter_username: usds
