@@ -27,7 +27,7 @@ $ npm run serve (or bundle exec jekyll serve)
 * [How to add people](https://github.com/usds/website/wiki/Adding-People-(carousel-and-pages))
 * [How to add projects](https://github.com/usds/website/wiki/Adding-projects-(carousel-and-pages))
 
-## Updating USWDS.
+## Updating USWDS
 
 There are a couple ways to update the USWDS:
 
