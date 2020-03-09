@@ -12,7 +12,7 @@ $ npm run serve (or bundle exec jekyll serve)
 
 ### Deploying a Staging site to cloud.gov
 
-1. [Follow appropriate instructions](https://github.com/usds/usds/blob/master/communities/engineering/cloud/cloud-gov.md) to sign up for cloud.gov and configure cloud foundry install
+1. [Follow appropriate instructions](https://docs.cloud.gov/) to sign up for cloud.gov and configure cloud foundry install
 2. Install dependencies
 ```
 npm install && bundle install
