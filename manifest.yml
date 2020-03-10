@@ -1,6 +1,6 @@
-# Cloud.gov sandbox config. See readme for setup.
+# Cloud.gov staging site config. See readme for setup.
 applications:
-- name: usds-website-staging
+- name: website-staging
   memory: 32M
   instances: 1
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
