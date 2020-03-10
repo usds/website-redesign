@@ -3,10 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1146 550" style="enable-background:new 0 0 1146 550;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#112D44;}
-	.st1{fill:#064F95;}
+	.st0{fill:#122D44;}
+	.st1{fill:#064E96;}
 	.st2{fill:#0084CE;}
-	.st3{fill:#DFCA23;}
+	.st3{fill:#112D44;}
+	.st4{fill:#E0CB26;}
 </style>
 <title>banner--404-sm</title>
 <rect x="-123.8" class="st0" width="1396.6" height="550"/>
@@ -29,8 +30,8 @@
 	C687.5,308.7,681.4,316,673.9,316z"/>
 <path class="st2" d="M1040.9,316h-196c-7.5,0-13.6-7.3-13.6-16.1v-4.4c0-8.9,6.1-16.1,13.6-16.1h196c7.5,0,13.6,7.3,13.6,16.1v4.4
 	C1054.5,308.7,1048.4,316,1040.9,316z"/>
-<rect x="736" y="169.3" class="st0" width="45.5" height="97.4"/>
-<polygon class="st3" points="732.2,180.5 688.2,109.3 666.4,128.8 "/>
-<polygon class="st3" points="786.5,180.5 830.6,109.3 852.3,128.8 "/>
-<polygon class="st3" points="759.4,166.8 774,84.4 744.8,84.4 "/>
+<rect x="736" y="169.3" class="st3" width="45.5" height="97.4"/>
+<polygon class="st4" points="732.2,180.5 688.2,109.3 666.4,128.8 "/>
+<polygon class="st4" points="786.5,180.5 830.6,109.3 852.3,128.8 "/>
+<polygon class="st4" points="759.4,166.8 774,84.4 744.8,84.4 "/>
 </svg>
