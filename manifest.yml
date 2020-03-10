@@ -1,4 +1,4 @@
-# Cloud.gov staging site config. See readme for setup.
+# Config for optional staging site on cloud.gov. See readme for setup. Not configured for use in production.
 applications:
 - name: website-staging
   memory: 32M
