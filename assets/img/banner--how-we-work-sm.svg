@@ -3,14 +3,12 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1146 550" style="enable-background:new 0 0 1146 550;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#122E51;}
+	.st0{fill:#122D44;}
 	.st1{fill:#064E96;}
 	.st2{fill:#0084CE;}
-	.st3{fill:#D0D2D3;}
+	.st3{fill:#FFFFFF;}
 	.st4{fill:#577795;}
-	.st5{fill:#DCC424;}
-	.st6{fill:#5D5E5E;}
-	.st7{fill:#122D44;}
+	.st5{fill:#E0CB26;}
 </style>
 <title>banner--how-we-work-sm</title>
 <rect class="st0" width="1146" height="550"/>
@@ -25,9 +23,9 @@
 <rect x="904.3" y="292.1" class="st4" width="123.5" height="123.5"/>
 <rect x="904.3" y="80.6" class="st4" width="123.5" height="123.5"/>
 <rect x="668.5" y="292.1" class="st4" width="123.5" height="123.5"/>
-<rect x="690.9" y="107.2" class="st6" width="78.7" height="14.8"/>
-<rect x="690.9" y="135" class="st6" width="59.8" height="14.8"/>
-<rect x="926.7" y="511.8" class="st7" width="78.7" height="13.2"/>
-<rect x="376.9" y="141.6" class="st7" width="50.6" height="14.8"/>
-<rect x="376.9" y="113.8" class="st7" width="80.1" height="14.8"/>
+<rect x="690.9" y="107.2" class="st4" width="78.7" height="14.8"/>
+<rect x="690.9" y="135" class="st4" width="59.8" height="14.8"/>
+<rect x="926.7" y="511.8" class="st0" width="78.7" height="13.2"/>
+<rect x="376.9" y="141.6" class="st0" width="50.6" height="14.8"/>
+<rect x="376.9" y="113.8" class="st0" width="80.1" height="14.8"/>
 </svg>
