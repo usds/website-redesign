@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="64" height="39" viewBox="0 0 64 39"><title>angle-arrow-down-primary-hover</title><path fill="#1A4480" d="M63.36 4.004L60.155.741c-.427-.436-.919-.654-1.475-.654-.555 0-1.047.218-1.475.654L32 26.4 6.798.74C6.37.306 5.878.088 5.323.088c-.556 0-1.048.218-1.476.654L.642 4.005C.213 4.44 0 4.941 0 5.507c0 .565.214 1.066.642 1.501l29.883 30.427c.427.435.92.652 1.475.652.556 0 1.047-.217 1.474-.652L63.361 7.008c.427-.435.639-.936.639-1.501 0-.566-.212-1.067-.64-1.503z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 39" style="enable-background:new 0 0 64 39;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#103C68;}
+</style>
+<title>angle-arrow-down-primary-hover</title>
+<path class="st0" d="M63.4,4l-3.2-3.3C59.8,0.3,59.3,0,58.7,0s-1,0.2-1.5,0.7L32,26.4L6.8,0.7C6.4,0.3,5.9,0.1,5.3,0.1
+	s-1,0.2-1.5,0.7L0.6,4C0.2,4.4,0,4.9,0,5.5S0.2,6.6,0.6,7l29.9,30.4c0.4,0.4,0.9,0.7,1.5,0.7c0.6,0,1-0.2,1.5-0.7L63.4,7
+	C63.8,6.6,64,6.1,64,5.5S63.8,4.4,63.4,4z"/>
+</svg>

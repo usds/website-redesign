@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="64" height="39" viewBox="0 0 64 39"><title>angle-arrow-up-primary</title><path fill="#005EA2" d="M63.36 31.167L33.475.741C33.048.305 32.556.087 32 .087c-.555 0-1.048.218-1.475.654L.641 31.167C.213 31.603 0 32.103 0 32.67s.214 1.067.642 1.502l3.205 3.263c.428.436.92.653 1.475.653.556 0 1.048-.217 1.475-.653L32 11.774l25.204 25.662c.427.435.92.651 1.474.651.557 0 1.049-.217 1.476-.65l3.206-3.266c.428-.435.64-.936.64-1.502s-.212-1.067-.64-1.502z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 39" style="enable-background:new 0 0 64 39;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#064E96;}
+</style>
+<title>angle-arrow-up-primary</title>
+<path class="st0" d="M63.4,31.2L33.5,0.7C33,0.3,32.6,0.1,32,0.1c-0.6,0-1,0.2-1.5,0.7L0.6,31.2C0.2,31.6,0,32.1,0,32.7
+	s0.2,1.1,0.6,1.5l3.2,3.3c0.4,0.4,0.9,0.7,1.5,0.7s1-0.2,1.5-0.7L32,11.8l25.2,25.7c0.4,0.4,0.9,0.7,1.5,0.7s1-0.2,1.5-0.7l3.2-3.3
+	c0.4-0.4,0.6-0.9,0.6-1.5S63.8,31.6,63.4,31.2z"/>
+</svg>
