@@ -1,0 +1,7 @@
+# Config for optional staging site on cloud.gov. See readme for setup. Not configured for use in production.
+applications:
+- name: website-staging
+  memory: 32M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  random-route: true
