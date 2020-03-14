@@ -1,5 +1,5 @@
 page_title:
-  heading_title: "Our Mission"
+  heading_title: "Our mission"
   heading_text: |-
     To deliver better government services to the American people through technology and design.
 
@@ -31,17 +31,17 @@ who_we_help:
     - image: graphic-mission-veteran.svg
       title: Veterans
     - image: graphic-mission-servicemember.svg
-      title: Military Service Members
+      title: Military service members
     - image: graphic-mission-immigrant.svg
-      title: Immigrants and Refugees
+      title: Immigrants and refugees
     - image: graphic-mission-farmer.svg
       title: Farmers
     - image: graphic-mission-medicare-beneficiary.svg
-      title: Medicare Beneficiaries
+      title: Medicare beneficiaries
     - image: graphic-mission-student.svg
       title: Students
     - image: graphic-mission-small-business-owner.svg
-      title: Small Business Owners
+      title: Small business owners
 
 
 
