@@ -11,7 +11,7 @@ permalink: people/jordan-kasper
 # People Carousel and Page (Edit this)
 name: Jordan Kasper
 pronouns: He/Him
-alumni: false
+alumni: true
 cop: Engineering
 city_of_origin: D.C.
 previously_at:
