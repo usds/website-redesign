@@ -1,1 +1,39 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2000 2000"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#c0ac4a;}.cls-4{clip-path:url(#clip-path-2);}.cls-5{fill:#112e50;}.cls-6{fill:#0d72b9;}.cls-7{fill:#fff;}</style><clipPath id="clip-path"><rect class="cls-1" width="2000" height="2000" rx="100" ry="100"/></clipPath><clipPath id="clip-path-2"><rect class="cls-1" y="68.48" width="2000" height="1955.52"/></clipPath></defs><title>graphic-mission-create-momentum</title><g class="cls-2"><rect class="cls-3" width="2000" height="2000"/><g class="cls-4"><path class="cls-5" d="M0,2049.61H2000V1514.88C1158.28,1368.14,1000,69.54,1000,69.54v6.11S841.72,1374.25,0,1521Z"/><path class="cls-6" d="M0,2291.62H2000V1757C1158.28,1610.25,1000,177.14,1000,177.14v6.12S841.72,1616.37,0,1763.1Z"/><path class="cls-7" d="M0,2330H2000V2142.17c-831.36,0-1000-1859.69-1000-1859.69h0S917.16,2148.28,0,2148.28Z"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 2000" style="enable-background:new 0 0 2000 2000;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#E0CB26;}
+	.st2{clip-path:url(#SVGID_4_);}
+	.st3{fill:#103C68;}
+	.st4{fill:#0084CE;}
+	.st5{fill:#FFFFFF;}
+</style>
+<title>graphic-mission-create-momentum</title>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M100,0h1800c55.2,0,100,44.8,100,100v1800c0,55.2-44.8,100-100,100H100c-55.2,0-100-44.8-100-100V100
+			C0,44.8,44.8,0,100,0z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<rect class="st1" width="2000" height="2000"/>
+		<g>
+			<defs>
+				<rect id="SVGID_3_" y="68.5" width="2000" height="1955.5"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st2">
+				<path class="st3" d="M0,2049.6h2000v-534.7C1158.3,1368.1,1000,69.5,1000,69.5v6.1c0,0-158.3,1298.6-1000,1445.3V2049.6z"/>
+				<path class="st4" d="M0,2291.6h2000V1757C1158.3,1610.2,1000,177.1,1000,177.1v6.1c0,0-158.3,1433.1-1000,1579.8V2291.6z"/>
+				<path class="st5" d="M0,2330h2000v-187.8c-831.4,0-1000-1859.7-1000-1859.7l0,0c0,0-82.8,1865.8-1000,1865.8V2330z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

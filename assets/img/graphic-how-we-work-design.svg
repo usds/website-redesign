@@ -1,1 +1,29 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1092 710"><defs><style>.cls-1{fill:#0d71ba;}.cls-2{fill:#112e50;}.cls-3{fill:none;stroke:#aa9b35;stroke-linecap:round;stroke-linejoin:round;stroke-width:16px;stroke-dasharray:0 28.18;}.cls-4{fill:#aa9b35;}.cls-5{fill:#fff;}.cls-6{fill:#d9c226;}.cls-7{fill:#485a78;}</style></defs><title>graphic-how-we-work-design</title><rect class="cls-1" width="1092" height="710" rx="46" ry="46"/><path class="cls-2" d="M810.54,357.7c-11-19.09-16.57-42.82-18-64.84C783.38,148.63,662.85,35.64,518.17,35.64c-151.61,0-275,123.34-275,275,0,65.35,17.1,136.32,65.7,187.81C367,560,360.41,615.54,360.55,689.59l.71,19.72,288.42-.08V683c-.12-20.54,18.6-31.35,60.66-46.06L752,622.45c33.3-11.63,44-37.45,44-76.06V492.53l78.61-19Z"/><circle class="cls-1" cx="518.92" cy="306.31" r="127.66"/><circle class="cls-3" cx="520.56" cy="308.31" r="197.34" transform="translate(-65.54 458.39) rotate(-45)"/><path class="cls-2" d="M415.37,440.33c-4.47,0-41.67,43.77-41.67,43.77l64.69,66.25s194.05,22.75,194.05,20.56,111.61-72.22,111.61-72.22l-64.2-13.52-43-41.58L596.7,461.86H482.89Z"/><rect class="cls-4" x="499.79" y="310.1" width="41.54" height="301.61"/><polygon class="cls-5" points="520.56 255.53 499.79 310.1 541.33 310.1 520.56 255.53"/><path class="cls-2" d="M520.56,281.68a13.08,13.08,0,0,0,8.65-3.51l-8.65-22.64-8.66,22.64A13.1,13.1,0,0,0,520.56,281.68Z"/><rect class="cls-6" x="520.56" y="310.1" width="20.77" height="301.61"/><path class="cls-7" d="M501,631.58v8.61A12.86,12.86,0,0,0,513.82,653h13.47a12.86,12.86,0,0,0,12.83-12.83v-8.61Z"/><rect class="cls-1" x="499.79" y="611.71" width="41.54" height="19.87"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1092 710" style="enable-background:new 0 0 1092 710;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0084CE;}
+	.st1{fill:#122D44;}
+	.st2{fill:none;stroke:#A39634;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,28.18;}
+	.st3{fill:#A39634;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#E0CB26;}
+	.st6{fill:#5D5D5D;}
+</style>
+<title>graphic-how-we-work-design</title>
+<path class="st0" d="M46,0h1000c25.4,0,46,20.6,46,46v618c0,25.4-20.6,46-46,46H46c-25.4,0-46-20.6-46-46V46C0,20.6,20.6,0,46,0z"/>
+<path class="st1" d="M810.5,357.7c-11-19.1-16.6-42.8-18-64.8C783.4,148.6,662.8,35.6,518.2,35.6c-151.6,0-275,123.3-275,275
+	c0,65.4,17.1,136.3,65.7,187.8c58.1,61.5,51.5,117.1,51.7,191.1l0.7,19.7l288.4-0.1V683c-0.1-20.5,18.6-31.3,60.7-46.1l41.7-14.5
+	c33.3-11.6,44-37.5,44-76.1v-53.9l78.6-19L810.5,357.7z"/>
+<circle class="st0" cx="518.9" cy="306.3" r="127.7"/>
+<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -65.5373 458.3921)" class="st2" cx="520.6" cy="308.3" rx="197.3" ry="197.3"/>
+<path class="st1" d="M415.4,440.3c-4.5,0-41.7,43.8-41.7,43.8l64.7,66.2c0,0,194,22.8,194,20.6S744,498.7,744,498.7l-64.2-13.5
+	l-43-41.6l-40.1,18.3H482.9L415.4,440.3z"/>
+<rect x="499.8" y="310.1" class="st3" width="41.5" height="301.6"/>
+<polygon class="st4" points="520.6,255.5 499.8,310.1 541.3,310.1 "/>
+<path class="st1" d="M520.6,281.7c3.2-0.1,6.3-1.3,8.7-3.5l-8.7-22.6l-8.7,22.6C514.3,280.4,517.3,281.6,520.6,281.7z"/>
+<rect x="520.6" y="310.1" class="st5" width="20.8" height="301.6"/>
+<path class="st6" d="M501,631.6v8.6c0,7.1,5.8,12.8,12.8,12.8h13.5c7.1,0,12.8-5.8,12.8-12.8v-8.6L501,631.6z"/>
+<rect x="499.8" y="611.7" class="st0" width="41.5" height="19.9"/>
+</svg>
