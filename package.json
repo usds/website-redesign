@@ -33,6 +33,8 @@
     "path": "^0.12.7",
     "set-value": "^3.0.2",
     "tar": "^6.0.2",
+    "postcss-csso": "^4.0.0",
+    "sass": "^1.26.5",
     "uswds": "^2.6.0",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
