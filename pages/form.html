@@ -17,16 +17,16 @@ permalink: /form
                                     <legend>Contact Information</legend>
                                     <ul class="usa-unstyled-list usa-list--unstyled">
                                       <li class="margin-y-4"><label for="appPage:appForm:firstName" class="usa-label">
-    First name</label><input id="appPage:appForm:firstName" type="text" name="appPage:appForm:firstName" value="" class="usa-input" />
+    First name</label><input id="appPage:appForm:firstName" type="text" name="appPage:appForm:firstName" value="" class="usa-input" required />
                                       </li>
                                       <li class="margin-y-4"><label for="appPage:appForm:lastName" class="usa-label">
-    Last name</label><input id="appPage:appForm:lastName" type="text" name="appPage:appForm:lastName" value="" class="usa-input" />
+    Last name</label><input id="appPage:appForm:lastName" type="text" name="appPage:appForm:lastName" value="" class="usa-input" required />
                                       </li>
                                       <li class="margin-y-4"><label for="appPage:appForm:email" class="usa-label">
-    Email</label><input id="appPage:appForm:email" type="text" name="appPage:appForm:email" value="" class="usa-input" title="Email" />
+    Email</label><input id="appPage:appForm:email" type="text" name="appPage:appForm:email" value="" class="usa-input" title="Email" required />
                                       </li>
                                       <li class="margin-y-4"><label for="appPage:appForm:state" class="usa-label">
-    State of residence</label><select id="appPage:appForm:state" name="appPage:appForm:state" class="usa-select" size="1">	<option value="" selected="selected">-Select-</option>
+    State of residence</label><select id="appPage:appForm:state" name="appPage:appForm:state" class="usa-select" size="1" required >	<option value="" selected="selected">-Select-</option>
       <option value="Armed Forces Americas">Armed Forces Americas</option>
       <option value="Armed Forces Europe">Armed Forces Europe</option>
       <option value="Alaska">Alaska</option>
@@ -104,11 +104,11 @@ permalink: /form
                                 <ul class="usa-unstyled-list usa-list--unstyled">
                                   <li class="margin-y-4"><label for="appPage:appForm:resume" class="usa-label">
     Upload a PDF of your resum&eacute;</label>
-              <input accept="application/pdf" accessKey="" alt="" class="usa-input" dir="" id="appPage:appForm:resume" lang="" name="appPage:appForm:resume:inputFile:file" onblur="" onchange="" onclick="" ondblclick="" onfocus="" onkeydown="" onkeypress="" onkeyup="" onmousedown="" onmousemove="" onmouseout="" onmouseover="" size="40" style="" tabindex="" title="" type="file" />
+              <input accept="application/pdf" accessKey="" alt="" class="usa-input" dir="" id="appPage:appForm:resume" lang="" name="appPage:appForm:resume:inputFile:file" onblur="" onchange="" onclick="" ondblclick="" onfocus="" onkeydown="" onkeypress="" onkeyup="" onmousedown="" onmousemove="" onmouseout="" onmouseover="" size="40" style="" tabindex="" title="" type="file" required />
                                   </li>
                                   <li class="margin-y-4"><label for="appPage:appForm:selfselectedTrack" class="experience usa-label">
     What is your primary field of expertise?</label>
-                                    <p class="margin-y-1">We are not hiring these fields exclusively, so if none of these apply to you, please choose &#8220;Other&#8221; and let us know.</p><select id="appPage:appForm:selfselectedTrack" name="appPage:appForm:selfselectedTrack" class="usa-select" size="1">	<option value="">-select-</option>
+                                    <p class="margin-y-1">We are not hiring these fields exclusively, so if none of these apply to you, please choose &#8220;Other&#8221; and let us know.</p><select id="appPage:appForm:selfselectedTrack" name="appPage:appForm:selfselectedTrack" class="usa-select" size="1" required >	<option value="">-select-</option>
       <option value="Front End Web Development">Front End Web Development</option>
       <option value="Procurement/Acquisition">Procurement/Acquisition</option>
       <option value="Product Lawyer">Product Lawyer</option>
@@ -223,7 +223,7 @@ permalink: /form
                                     <span id="chars">500</span> characters remaining
                                   </li>
                                   <li class="margin-y-4"><label for="appPage:appForm:humanAnswer" class="usa-label">
-    Confirm that you are human: What is 1 plus 2?</label><input id="appPage:appForm:humanAnswer" type="text" name="appPage:appForm:humanAnswer" value="" class="usa-input" />
+    Confirm that you are human: What is 1 plus 2?</label><input id="appPage:appForm:humanAnswer" type="text" name="appPage:appForm:humanAnswer" value="" class="usa-input" required />
                                   </li>
                                   <li class="margin-y-4">
                                     <fieldset class="usa-fieldset-inputs usa-sans usa-fieldset">
