@@ -8,7 +8,7 @@ permalink: /form
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
     crossorigin="anonymous"></script>
 
-    <form id="appPage:appForm" name="appPage:appForm" method="post" action="/digitalserviceform/ApplicationForm" enctype="multipart/form-data" onsubmit="if(confirm('Are you sure you want to submit?')) return true; else return false;" class="usa-form-large usds-apply-form">
+    <form id="appPage:appForm" name="appPage:appForm" method="post" action="/digitalserviceform/ApplicationForm" enctype="multipart/form-data" onsubmit="if(document.getElementById('appPage:appForm:resume').value == ''){alert('Please upload a PDF of your resumé'); return false;} if(confirm('Are you sure you want to submit?')) return true; else return false;">
     <input type="hidden" name="appPage:appForm" value="appPage:appForm" />
     <span id="appPage:appForm:theContentPanel">
                             <h2>Submit your application</h2>
