@@ -16,7 +16,7 @@ cop: Product
 city_of_origin:
 previously_at:
 image_name: john-rahaghi.jpg
-quote: "I have many avenues to create impact at USDS, which is what keeps it interesting and fulfilling."
+quote: "There are no small wins at USDS. Whatever you help get done ... wouldn’t have happened otherwise, and will be a critical step to creating a positive impact for millions."
 
 ---
 
