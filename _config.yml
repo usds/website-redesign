@@ -43,6 +43,7 @@ github_url: https://github.com/usds
 
 press_kit_file_name: USDS-Press-Sheet.pdf
 d_and_i_file_name: usds-di.pdf
+impact_report_file_name: USDS-Impact-Report-2020.pdf
 
 # Build settings
 markdown: kramdown
