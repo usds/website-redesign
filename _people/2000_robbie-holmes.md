@@ -11,7 +11,7 @@ permalink: people/robbie-holmes
 # People Carousel and Page (Edit this)
 name: Robbie Holmes
 pronouns: He/Him
-alumni: false
+alumni: true
 cop: Engineering
 city_of_origin: Brooklyn, New York
 previously_at:
