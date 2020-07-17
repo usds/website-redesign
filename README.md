@@ -11,6 +11,7 @@
 
 - [Ruby >=2.6.5](https://www.ruby-lang.org/en/documentation/installation/)
 - [NPM](https://github.com/npm/cli)
+- [Gulp CLI](https://gulpjs.com/docs/en/getting-started/quick-start)
 
 
 ### Install & run
@@ -59,7 +60,7 @@ This will will update some of the scss files in `assets/uswds-sass`, but will no
 
 1. Install the package `npm install --save-dev *new-USWDS-version-number*`
 2. Run `gulp update`
-3. Compile usds.css `gulp uswds-build-sass`
+3. Compile usds.css `gulp build-sass`
 4. Run Jekyll `bundle exec jekyll serve`
 
 ## Optional
