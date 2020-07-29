@@ -9,7 +9,7 @@ people_page: true
 permalink: people/david-holmes01
 
 # People Carousel and Page (Edit this)
-name: David Holmes
+name: David Hlmes
 pronouns: He/Him
 alumni: false
 cop: Engineering
