@@ -43,7 +43,7 @@ redirect_from:
 
   function resizeApplicationFrame(height){
     try{
-      frameResizedHeight = parseInt(height) + 25;
+      var frameResizedHeight = parseInt(height) + 25;
       if(isTestingMode){
         console.log(frameResizedHeight);
       } else{
