@@ -3,7 +3,8 @@ _site
 .jekyll-metadata
 /node_modules
 .DS_Store
-
+.ruby-gemset
+.ruby-version
 
 # ignore gulp-generated vendor files
 scss/lib
