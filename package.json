@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "serve": "bundle exec jekyll serve --livereload"
+    "start": "bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",
