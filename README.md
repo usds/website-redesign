@@ -19,7 +19,7 @@
 ```
 $ npm install
 $ bundle install
-$ npm run serve (or bundle exec jekyll serve)
+$ npm start (runs bundle exec jekyll serve --livereload)
 ```
 
 ## Content updates
