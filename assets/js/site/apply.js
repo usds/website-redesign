@@ -1,7 +1,6 @@
-$(document).ready(function () {
-  
-  // Checks height of Salesforce apply form and applies to iframe
+// Checks height of Salesforce apply form and applies to iframe
 
+$(document).ready(function () {
   var ifr = document.getElementById("applicationFrame");
   var isTestingMode = false;
 
@@ -17,16 +16,15 @@ $(document).ready(function () {
     catch {
     }
   }
-
-  window.addEventListener('message', function (e) {
-    var eventName = e.data[0];
-    var data      = e.data[1];
-
-    switch (eventName) {
-      case 'applicationFormHeight':
-        resizeApplicationFrame(data);
-        break;
-    }
-  }, false);
-
 });
+
+window.addEventListener('message', function (e) {
+  var eventName = e.data[0];
+  var data      = e.data[1];
+
+  switch (eventName) {
+    case 'applicationFormHeight':
+      resizeApplicationFrame(data);
+      break;
+  }
+}, false);
