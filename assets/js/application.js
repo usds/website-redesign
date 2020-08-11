@@ -9,3 +9,4 @@
 - {% include_relative site/instagram.js %}
 - {% include_relative site/lazyload.js %}
 - {% include_relative site/console-message.js %}
+- {% include_relative site/apply.js %}

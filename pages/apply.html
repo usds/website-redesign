@@ -30,37 +30,6 @@ redirect_from:
 
   <iframe id="applicationFrame" class="site-c-apply" src="https://eop-fra.secure.force.com/digitalservice/" title="Join USDS form"></iframe>
 
-  <script>
-    // Lisa C height test
-    var ifr = document.getElementById("applicationFrame");
-    var isTestingMode = true;
-
-    function resizeApplicationFrame(height){
-      try{
-        var frameResizedHeight = parseInt(height) + 25;
-        if(isTestingMode){
-          console.log(frameResizedHeight);
-        } else{
-          ifr.style.height = frameResizedHeight + "px";
-        }
-      }
-      catch {
-      }
-    }
-
-    window.addEventListener('message', function (e) {
-      var eventName = e.data[0];
-      var data      = e.data[1];
-
-      switch (eventName) {
-        case 'applicationFormHeight':
-          resizeApplicationFrame(data);
-          break;
-      }
-    }, false);
-
-  </script>
-
   <section class="site-c-section">
     <div class="usa-prose">
       {{ content.eoe_statement | markdownify }}
