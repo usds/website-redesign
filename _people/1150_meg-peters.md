@@ -15,7 +15,7 @@ alumni: false
 cop: Design
 city_of_origin: Reston, VA
 previously_at: Library of Congress
-image_name: meg-peters.png
+image_name: meg-peters.jpg
 quote: "My friends here inspire me. When the work demands 110% from us, we lean on each other until we get “all the things” done."
 
 ---
