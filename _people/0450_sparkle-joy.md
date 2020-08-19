@@ -26,10 +26,6 @@ I’m a graduate of Stanford University with a degree in biomechanical engineeri
 I’ve had the opportunity to work at several startups, but was particularly impacted by the years I spent working at Facebook.
 The biggest impetus behind my move to USDS, was the opportunity to do great work that would have a tangible impact on the lives of, literally, everyone around me.
 
-**What inspired you to join USDS?**
-
-XXX
-
 **What has been your biggest challenge?**
 
 Sometimes, separating from the work is really hard. Especially as I’ve spent the last few months working from home, balancing a crazy schedule of navigating COVID, working on my USDS projects, being a single mother of two, and homeschooling a Kindergartner and 4th grader! Most recently in my work life, I’ve been focused a lot on having conversations with people who are working with families who have experienced a wide range of traumatic experiences, and hearing their stories, and the challenges they face can feel really heavy, particularly when the idea of developing quality solutions often feels really daunting. Despite this, I have been so encouraged by my fellow teammates who not only are incredible to work with, but who have also been able to have honest, open, and transparent conversations about the work we’re doing. Even when those conversations are hard.
@@ -41,11 +37,3 @@ The great work we do at USDS has been [on clear display during this time of pand
 Although DHS is my home agency, I’m currently working with fellow USDSers in Health and Human Services (HHS).
 Now more than ever, the American people are experiencing a national trauma that seems to get compounded day over day. USDS had already been working with agencies like SAMHSA (Substance Abuse and Mental Health Services Administration) to understand the types of challenges faced by providers and organizations all across America as they work with children who are dealing with past or present trauma.
 These conversations have been absolutely eye opening and as more of us are exposed to the trauma of the recent months, the work USDS is doing with SAMHSA to help better support our children and their families who have experienced trauma feels even more timely.
-
-**What do you want to do after USDS?**
-
-XXX
-
-**What will you miss most about USDS when you leave?**
-
-XXX
