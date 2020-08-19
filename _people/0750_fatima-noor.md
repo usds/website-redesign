@@ -32,19 +32,11 @@ When I learned more about the mission, I jumped at the opportunity to continue s
 Since USDS is part of the White House, they have a lot of convening power to bring agencies together to harness and scale repeatable best practices across the federal government.
 Our mission and the grounding thing we often say is that we’re doing the “greatest good for greatest number of people, in the greatest need.” I love that we prioritize delivering the most meaningful impact to communities that need it the most. Our explicit focus on how we can help actual human beings is at the core of what influenced me to join USDS.
 
-**What has been your biggest challenge?**
-
-XXX
-
 **How does your work make an impact?**
 
 Whenever we think of government services, there are regulations, policy, compliance as the backbone of these services. Not only is modernizing the technology important but understanding how to modernize the policy is also critical.
 USDS really understands the need to combine these two facets of a government service — the spirit and the implementation of the service — to build usable, modern solutions that serve all Americans.
 This has led to the work I’m currently doing at the Office of Personnel Management (OPM) to improve the experience of public servants across the federal workforce, as well as the millions of customers that rely on OPM’s services. As we are building towards a 21st century government, we must have an employee experience that is on-par with what the private sector has been delivering for decades.
-
-**What do you want to do after USDS?**
-
-XXX
 
 **What will you miss most about USDS when you leave?**
 
