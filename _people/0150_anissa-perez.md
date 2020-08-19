@@ -28,14 +28,6 @@ My work at CHCI included developing educational publications, recruiting student
 During my time there I also had the privilege to be invited into Supreme Court Justice Sonia Sotomayor’s chambers and I’ve had the honor to meet President Obama, four times!
 Other world celebrities I met through CHCI include the Prince of Spain Felipe IV, First Lady Michelle Obama, Vice President Joe Biden, myriad members of congress, and others. I cannot wait to tell my one-year-old son the stories and show him pictures!
 
-**What inspired you to join USDS?**
-
-XXX
-
-**What has been your biggest challenge?**
-
-XXX
-
 **How does your work make an impact?**
 
 As a Talent Management Manager here at USDS, my job is to make sure the onboarding process for new employees is as smooth and enjoyable as possible. Anyone who has joined the federal government knows how taxing the hiring process can be and my job is to shield folks from experiencing too much of that.
