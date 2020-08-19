@@ -15,7 +15,7 @@ alumni: false
 cop: Product
 city_of_origin: Gaithersburg, MD
 previously_at: Product Manager at Nuna
-image_name: misu-tasnim.png
+image_name: misu-tasnim.jpg
 quote: "The biggest challenge for me has been to face my own imposter syndrome."
 
 ---
@@ -39,11 +39,3 @@ The work at USDS pushes boundaries in many ways. The biggest challenge for me ha
 Work in government matters, USDS or not. USDS hires for empathy and passion. This allows us to make an impact by questioning the status quo and being a catalyst for action. What our team members bring to the table is a fearless energy to try and a resilience in the face of failure.
 Often we hear “we’re the government, our systems can’t break.” Yet the government has the highest rate of failed IT projects and private technology companies continuously outpace and outperform government technology products.
 Our impact is to demonstrate and empower a culture change within the government that views risk as something to mitigate, not to avoid.
-
-**What do you want to do after USDS?**
-
-XXX
-
-**What will you miss most about USDS when you leave?**
-
-XXX
