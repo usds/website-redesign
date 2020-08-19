@@ -30,19 +30,11 @@ After years of struggling at startups, the excitement faded away. Most of my sta
 I didn’t know much about USDS when applying; since there wasn’t a lot of content online showcasing the work, like there is today. An alumni friend described working in government as “making America better while managing a headache from face-palming every day.” I figured I had thick skin from failing at a ton of startups, and meaningfully helping people at government scale seemed like it could scratch my itches.
 Honestly, it was a leap of faith more than informed decision. I packed my things and moved to DC knowing no one in the city. Turns out it was a fantastic decision.
 
-**What has been your biggest challenge?**
-
-XXX
-
 **How does your work make an impact?**
 
 I’ve had two primary endeavors so far.
 The first was to address the 300K+ person backlog of asylum seekers who wait years before their cases are adjudicated. We first identified a major friction point, and then designed, built, launched, and iterated on a product that streamlines processing applicants while saving asylum officers thousands of hours.
 My most recent objective has been reforming how the government hires. Our team has broken policy barriers and introduced modern technology to make the process fairer to all applicants. We’ve overhauled the applicant experience and upgraded the evaluation process so hiring managers are much more confident with results. With continued momentum and iterations, our efforts can help bring in thousands of new, highly qualified, senior talent into federal government every year.
-
-**What do you want to do after USDS?**
-
-XXX
 
 **What will you miss most about USDS when you leave?**
 
