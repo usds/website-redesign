@@ -12,7 +12,7 @@ permalink: people/vivian-graubard
 name: Vivian Graubard
 pronouns: She/Her
 alumni: true
-cop: Strategy
+cop: Strategy & Operations
 city_of_origin:
 image_name: vivian-graubard.jpg
 quote: I think that President Obama instilled in all of his staff the sense to do what is right, not always what is easy.
