@@ -46,6 +46,6 @@ I’d also be interested to continue in public service after USDS, depending on 
 **What will you miss most about USDS when you leave?**
 
 This is a no brainer — I will miss my colleagues most of all when I leave USDS — both USDSers and government partners alike.
-I have been blessed to have made lifelong friendships and meaningful relationships with colleagues. I mean when else in my lifetime will I have such beautifully unique colleagues like the ones I currently have?
+I have been blessed to have made lifelong friendships and meaningful relationships with colleagues. I mean, when else in my lifetime will I have such beautifully unique colleagues like the ones I currently have?
 If I want to make sourdough bread and get stuck, I can call people who have mastered the art of bread making. If I want to learn how to draw microbiomes, I can call someone who has perfected their craft. If I need tips on climbing the Himalayas, I know exactly who to reach out to. If I want to train guide dogs, we got that too. Herbs for my dinner, style advice, joining the Peace Corps, our network is vast and spans all facets of life.
 I will never forget my USDS family when I move on.
