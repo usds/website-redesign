@@ -26,7 +26,7 @@ I’ve been in tech for the past ten years, and have really focused on working i
 
 **What inspired you to join USDS?**
 
-When I was living in Austin, I was volunteering for the local Code for America brigade and doing a lot of community organizing for my neighborhood on local issues. I believe in government services that are people-centered, are inclusive, and that work for the people who need to use them. When I heard about USDS, specifically about healthcare.gov, the efforts being made to digitize the immigration process, and the work for veterans, I jumped at the chance to join and make a difference at the federal level.
+When I was living in Austin, I was volunteering for the local Code for America brigade and doing a lot of community organizing for my neighborhood on local issues. I believe in government services that are people-centered, are inclusive, and that work for the people who need to use them. When I heard about USDS, specifically about healthcare.gov, the efforts being made to digitize the immigration process, and the work for Veterans, I jumped at the chance to join and make a difference at the federal level.
 
 **What has been your biggest challenge?**
 
