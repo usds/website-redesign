@@ -26,7 +26,7 @@ Prior to joining the USDS at DHS team, I provided administrative support for var
 
 **What inspired you to join USDS?**
 
-Community-service has always been a passion of mine and I was heavily involved in community service and outreach efforts at my previous job. I was attracted to USDS because of the focus on people-centered development. I love that USDS is intentional about selecting projects and is dedicated to helping underrepresented communities, such as veterans and immigrants.
+Community service has always been a passion of mine, and I was heavily involved in community service and outreach efforts at my previous job. I was attracted to USDS because of the focus on people-centered development. I love that USDS is intentional about selecting projects and is dedicated to helping underrepresented communities, such as Veterans and immigrants.
 
 **What do you want to do after USDS?**
 
