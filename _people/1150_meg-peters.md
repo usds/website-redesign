@@ -38,7 +38,7 @@ In three and a half years at USDS, I’ve worked at IRS, Small Business Administ
 
 **What do you want to do after USDS?**
 
-I want to keep making it easier for people to apply for and get government benefits. Since I love working on websites, I plan to do more of that.
+I want to keep making it easier for people to apply for and receive government benefits. Since I love working on websites, I plan to do more of that.
 
 **What will you miss most about USDS when you leave?**
 
