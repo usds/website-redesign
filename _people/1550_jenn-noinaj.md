@@ -30,7 +30,7 @@ When I was living in Austin, I was volunteering for the local Code for America b
 
 **What has been your biggest challenge?**
 
-My biggest challenge has been balancing the solutions that we propose with the organization’s appetite and willingness to embrace change. Even though I’m eager to roll out new initiatives to solve for all the things, I’ve learned to take a step back and determine what solutions make sense for the existing culture. Sometimes, that means that we have to do things incrementally. It’s more important that our work is sustainable, so I work with our government partners to understand where they’re coming from and solution together to find the right path forward.
+My biggest challenge has been balancing the solutions that we propose with the organization’s appetite and willingness to embrace change. Even though I’m eager to roll out new initiatives to solve for all the things, I’ve learned to take a step back and determine what solutions make sense for the existing culture. Sometimes, that means that we have to do things incrementally. It’s more important that our work is sustainable, so I work with our government partners to understand where they’re coming from and to find the right path forward, together.
 
 **How does your work make an impact?**
 
