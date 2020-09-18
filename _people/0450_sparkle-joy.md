@@ -24,7 +24,7 @@ quote: "Despite the challenges that arise on any given day, I wouldn’t trade t
 
 I’m a graduate of Stanford University with a degree in biomechanical engineering. I started my career doing research in biomechanics, but eventually transitioned to doing FDA trials and human subjects research in stroke and traumatic brain injury before moving into the tech space.
 I’ve had the opportunity to work at several startups, but was particularly impacted by the years I spent working at Facebook.
-The biggest impetus behind my move to USDS, was the opportunity to do great work that would have a tangible impact on the lives of, literally, everyone around me.
+The biggest impetus behind my move to USDS was the opportunity to do great work that would have a tangible impact on the lives of, literally, everyone around me.
 
 **What has been your biggest challenge?**
 
