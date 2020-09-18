@@ -26,7 +26,7 @@ As a kid, I loved drawing pictures and making things. I walked through our neigh
 
 **What inspired you to join USDS?**
 
-I joined USDS to help solve big, messy problems that make it hard for people to apply for and get government benefits. I wanted to work on teams that designed _with_ the people who would use what we designed. At USDS, we “design with users, not for them,” and we bake this process into everything we build. To design a thing well, you must understand why and how people use the thing. Sometimes you have to do a lot of digging to figure that out and translate it into a design that works well.
+I joined USDS to help solve big, messy problems that make it hard for people to apply for and get government benefits. I wanted to work on teams that designed _with_ the people who would use what we designed. At USDS, we “design with users, not for them,” and we bake this process into everything we build. To design a thing well, you must understand why and how people use the thing. Sometimes you have to do a lot of digging to figure that out and translate it into a design that works.
 
 **What has been your biggest challenge?**
 
