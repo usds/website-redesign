@@ -26,7 +26,7 @@ I originally came to DC from California six years ago to work at a national secu
 
 **What inspired you to join USDS?**
 
-I first heard about USDS when I was at OPC. They had reached out to us looking for user stories from Veterans about their interactions with VA. They were very much the cool kids in the room, wearing jeans and hoodies amidst the sea of suits. What struck me was how passionate they were about their work, and that spoke to me. I am mission driven and aim to work in spaces that deliver impact, even behind the scenes. It’s inspiring to see the work USDS has done, and continues to do, specifically in a very complicated environment in unprecedented times.
+I first heard about USDS when I was at OPC. They had reached out to us looking for user stories from Veterans about their interactions with the Department of Veterans Affairs (VA). They were very much the cool kids in the room, wearing jeans and hoodies amidst the sea of suits. What struck me was how passionate they were about their work, and that spoke to me. I am mission-driven and aim to work in spaces that deliver impact, even behind the scenes. It’s inspiring to see the work USDS has done, and continues to do, specifically in a very complicated environment in unprecedented times.
 
 **What has been your biggest challenge?**
 
