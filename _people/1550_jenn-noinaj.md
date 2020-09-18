@@ -34,7 +34,7 @@ My biggest challenge has been balancing the solutions that we propose with the o
 
 **How does your work make an impact?**
 
-I’ve been fortunate to work on a lot of different projects at USDS, and I think USDS’ value is in delivery and building capacity. We’re able to work on projects to take an idea to implementation, and guide teams on best practices for how to continue this momentum even after we’re gone. In terms of my work, this can mean firefighters get funding for equipment faster or helping federal agencies find and hire qualified talent.
+I’ve been fortunate to work on a lot of different projects at USDS, and I think USDS’ value is in delivery and building capacity. We’re able to work on projects to take an idea to implementation, and guide teams on best practices for how to continue this momentum even after we’re gone. In terms of my work, this can mean firefighters get funding for equipment faster, or federal agencies can find and hire qualified talent.
 
 **What do you want to do after USDS?**
 
