@@ -35,7 +35,7 @@ It’s not always easy to say, “I’ve totally got this,” or “everything w
 
 **How does your work make an impact?**
 
-My impact is team focused. The role of being an Ops Manager is unique in the sense that a jack-of-all-trades. I see my role as an enabler, a guardian, a gatekeeper of the team.
+My impact is team-focused. My role as an operations manager is unique in the sense that I'm a jack-of-all-trades. I see myself as an enabler, a guardian, a gatekeeper of the team.
 My job is to create a healthy environment, eliminate unnecessary fires, support, guide, and facilitate. Whether it’s ensuring we have a functional work space, the right tech equipment, helping newbies find their way, or wrangling ethics clearances for an event, there are a lot of moving pieces that demand quality service on my end to ensure the team’s ability to delivery working product.
 
 **What do you want to do after USDS?**
