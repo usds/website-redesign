@@ -22,7 +22,7 @@ quote: "I love that USDS is intentional about selecting projects and is dedicate
 
 **What’s your background?**
 
-Prior to joining the USDS at DHS team, I provided administrative support for various offices within the General Services Administration. Nine years ago, I started out supporting the GSA American Recovery Act office where I worked in the Limited Scopes office. I spent a bulk of my time with GSA supporting their Field Office and Opportunities Center at St. Elizabeths campus where we provided workforce development opportunities to residents in Ward 8. I then moved to the GSA maintenance office at the Nebraska Avenue Complex.
+Prior to joining the USDS team at the Department of Homeland Security (DHS), I provided administrative support for various offices within the General Services Administration (GSA). Nine years ago, I started out supporting the GSA American Recovery Act office, where I worked in the Limited Scopes office, then spent the bulk of my time supporting GSA's Field Office and Opportunities Center campus at St. Elizabeths, where we provided workforce development opportunities to residents in Ward 8. I then moved to the GSA maintenance office at the Nebraska Avenue Complex.
 
 **What inspired you to join USDS?**
 
