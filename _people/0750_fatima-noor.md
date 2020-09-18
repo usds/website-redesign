@@ -22,7 +22,7 @@ quote: "I love that we prioritize delivering the most meaningful impact to commu
 
 **What’s your background?**
 
-I was born in Somalia and know firsthand what it’s like to be a refugee. The experience I had growing up in different places from Kenya to Europe, and eventually the United States, influenced my decision to take a job working with new immigrants and future Americans just arriving in the US.
+I was born in Somalia and know firsthand what it’s like to be a refugee. The experiences I had growing up in Kenya, Europe, and eventually the United States, influenced my decision to take a job working with new immigrants and future Americans just arriving in the U.S.
 I enjoyed the work very much and wanted to scale my impact- leading me to join the Department of Homeland Security where I was assigned to the White House Domestic Policy Council to work on several federal immigration policies. I led the Taskforce on New Americans focused on the social and economic integration of our newest citizens and ran a national campaign aimed at providing assistance to local governments building welcoming communities for refugees.
 
 **What inspired you to join USDS?**
