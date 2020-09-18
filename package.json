@@ -37,8 +37,5 @@
     "tar": "^6.0.5",
     "uswds": "^2.8.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
-  },
-  "dependencies": {
-    "npm": "^6.14.8"
   }
 }
