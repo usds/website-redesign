@@ -30,7 +30,7 @@ I joined USDS to help solve big, messy problems that make it hard for people to 
 
 **What has been your biggest challenge?**
 
-Creating momentum has probably been the biggest challenge. Sometimes it seems impossible to move something forward, even one inch. Almost nothing we work on is small or simple, so I’ve learned to design my interactions with busy stakeholders with the same care I put into designing websites and applications. When asking stakeholders for feedback, I try to focus conversations on one thing at a time. This makes it easier to get thoughtful, targeted feedback. And it helps keep everyone on the same page. The scale and complexity we’re dealing with are daunting. Thousands of people apply for government benefits every day, often using fragile systems and technology that have been layered on top of each other for decades.
+Creating momentum has probably been the biggest challenge. Sometimes it seems impossible to move something forward, even one inch. Almost nothing we work on is small or simple, so I’ve learned to design my interactions with busy stakeholders with the same care I put into designing websites and applications. When asking stakeholders for feedback, I try to focus conversations on one thing at a time. This makes it easier to get thoughtful, targeted feedback, and it helps keep everyone on the same page. The scale and complexity we’re dealing with is daunting. Thousands of people apply for government benefits every day, often using fragile systems and technology that have been layered on top of one another for decades.
 
 **How does your work make an impact?**
 
