@@ -23,7 +23,7 @@ quote: "The biggest challenge for me has been to face my own imposter syndrome."
 **What’s your background?**
 
 My background is in electrical engineering, mainly telecommunications and networking. I worked for NASA at the Goddard Space Flight Center in Greenbelt, MD for three years before deciding I needed to make it my full time job to face my fear of speaking and attention.
-I stayed in the business of government contracting; learning everything from procurement, business strategy, team building, stakeholder management, and of course public speaking.
+I stayed in the business of government contracting, learning everything from procurement, business strategy, team building, stakeholder management, and of course public speaking.
 Through my meandering experience in government contracting, I found my way into the intersection of technology and policy, and am here to stay and grow.
 
 **What inspired you to join USDS?**
