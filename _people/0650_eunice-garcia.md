@@ -16,7 +16,7 @@ cop: Front Office
 city_of_origin: Los Angeles, CA
 previously_at: Office of Presidential Records
 image_name: eunice-garcia.jpg
-quote: "There is definitely a need for more women of color to speak tech and government at the same time. I believe in changing the status quo, and more importantly, empowering good people with the right tools especially in government."
+quote: "There is definitely a need for more women of color to speak tech and government at the same time. I believe in changing the status quo, and more importantly, empowering good people with the right tools, especially in government."
 
 ---
 
