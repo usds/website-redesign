@@ -34,7 +34,7 @@ Creating momentum has probably been the biggest challenge. Sometimes it seems im
 
 **How does your work make an impact?**
 
-In three-and-a-half years at USDS, I’ve worked at IRS, Small Business Administration, U.S. Citizenship and Immigration Services, Social Security Administration, Department of Justice, and Department of Housing and Urban Development. At the Small Business Administration (SBA), my team worked with our agency partners and contractors to digitize the application and renewal process for programs that help disadvantaged small businesses get government contracts. By February 2019, more than 48,000 small businesses had applied to SBA’s government contracting programs, and these programs supported 537,000 jobs and an estimated $90 billion in business across the federal government.
+In three and a half years at USDS, I’ve worked at IRS, Small Business Administration, U.S. Citizenship and Immigration Services, Social Security Administration, Department of Justice, and Department of Housing and Urban Development. At the Small Business Administration (SBA), my team worked with our agency partners and contractors to digitize the application and renewal process for programs that help disadvantaged small businesses get government contracts. By February 2019, more than 48,000 small businesses had applied to SBA’s government contracting programs, and these programs supported 537,000 jobs and an estimated $90 billion in business across the federal government.
 
 **What do you want to do after USDS?**
 
