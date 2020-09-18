@@ -40,7 +40,7 @@ My job is to create a healthy environment, put out fires, support, guide, and fa
 
 **What do you want to do after USDS?**
 
-Continue to work in the civic tech space. There is definitely a need for more women of color to speak tech and government at the same time. I believe in changing the status quo, and more importantly, empowering good people with the right tools especially in government, which could bring everlasting change.
+I want to continue to work in the civic tech space. There is definitely a need for more women of color to speak tech and government at the same time. I believe in changing the status quo, and more importantly, empowering good people with the right tools, especially in government, which could bring everlasting change.
 
 **What will you miss most about USDS when you leave?**
 
