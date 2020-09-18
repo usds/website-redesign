@@ -15,7 +15,7 @@ alumni: false
 cop: Product
 city_of_origin: Gaithersburg, MD
 previously_at: Product Manager at Nuna
-image_name: misu-tasnim.jpg
+image_name: misu-tasnim.png
 quote: "The biggest challenge for me has been to face my own imposter syndrome."
 
 ---
