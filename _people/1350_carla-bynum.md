@@ -34,4 +34,4 @@ I would love to continue working on people-centered projects that benefit commun
 
 **What will you miss most about USDS when you leave?**
 
-I will miss the family vibe USDS has. Everyone that I’ve interacted with has been super friendly and work to actively counteract stereotypes we often encounter around public servants.
+I will miss the family vibe USDS has. Everyone that I’ve interacted with has been super friendly, and works to actively counteract stereotypes we often encounter around public servants.
