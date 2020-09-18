@@ -41,6 +41,6 @@ This has led to the work I’m currently doing at the Office of Personnel Manage
 **What will you miss most about USDS when you leave?**
 
 The people! Without a question, the talented and awesome humans I get to call my colleagues are the best thing about USDS!
-It’s inspiring being around a group of people who are not afraid to dive into complex problems and constantly challenging themselves to think about the end user — the Veteran or the immigrant or the federal employee — relying on these services.
+It’s inspiring being around a group of people who are not afraid to dive into complex problems and constantly challenge themselves to think about the end user — the Veteran or the immigrant or the federal employee — who rely on these services.
 USDSers are the most empathetic group of people I’ve ever come across. Regardless of what problem we’re trying to solve, we always put ourselves in the shoes of the users and the people who are going to be impacted by our work.
 Not only are most people who join USDS driven by the mission, there’s a continuous challenge to ensure that our work truly addresses tangible human need. We constantly question the solutions we design and ensure they truly meet the needs of the people that we’re delivering for.
