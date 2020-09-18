@@ -31,7 +31,7 @@ I first heard about USDS when I was at OPC. They had reached out to us looking f
 **What has been your biggest challenge?**
 
 Owning my game, (a.k.a. imposter syndrome). I think I share similar sentiments, especially with many women on this one. There are days where my confidence lacks, and yet I'm depended on to make crucial decisions for the well-being of the team.
-It’s not always easy to say, “I’ve totally got this,” or “everything will be fine.” There is a lot more at play — hurdles, roadblocks, red tape, etc. and learning how to navigate that maze can be hard. I’ve learned to rely on bridges and encouraging voices in order to move forward.
+It’s not always easy to say, “I’ve totally got this,” or “everything will be fine.” There is a lot more at play — hurdles, roadblocks, red tape, etc. — and learning how to navigate that maze can be hard. I’ve learned to rely on bridges and encouraging voices in order to move forward.
 
 **How does your work make an impact?**
 
