@@ -27,7 +27,7 @@ Prior to joining USDS as an engineer, I worked mostly as a generalist founder at
 **What inspired you to join USDS?**
 
 After years of struggling at startups, the excitement faded away. Most of my startups didn’t move the needle — they had users, and sometimes even made money, but were not mission critical to anyone’s lives. I wanted to feel like I was adding value, not just in a business sense but also at a personal level. I also wanted to work on something I could contribute my whole self to, not just my engineering skills.
-I didn’t know much about USDS when applying; since there wasn’t a lot of content online showcasing the work, like there is today. An alumni friend described working in government as “making America better while managing a headache from face-palming every day.” I figured I had thick skin from failing at a ton of startups, and meaningfully helping people at government scale seemed like it could scratch my itches.
+I didn’t know much about USDS when applying; there wasn’t a lot of content online showcasing the work, like there is today. An alumni friend described working in government as “making America better while managing a headache from face-palming every day.” I figured I had thick skin from failing at a ton of startups, and meaningfully helping people at government scale seemed like it could scratch my itches.
 Honestly, it was a leap of faith more than informed decision. I packed my things and moved to DC knowing no one in the city. Turns out it was a fantastic decision.
 
 **How does your work make an impact?**
