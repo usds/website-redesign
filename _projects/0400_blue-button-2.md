@@ -58,3 +58,14 @@ The Center for Medicare & Medicaid Services tapped our team to work alongside th
 - [CMS to host Blue Button 2.0 conference](https://www.healthcareitnews.com/news/cms-host-blue-button-20-conference)
 - [New from the Digital Service team at CMS: Blue Button 2.0 is a Medicare claims data API](https://www.fedscoop.com/embargoed-new-digital-service-team-cms-blue-button-2-0-medicare-claims-data-api/)
 - [CMS, USDS innovators on the future of Blue Button 2.0](https://www.healthcareitnews.com/news/cms-usds-innovators-future-blue-button-20)
+
+### DPC
+
+- [White House proposes Data at the Point of Care](https://www.policymed.com/2019/09/12730.html)
+- [CMS aims to expand APIs to increase EHR interoperability](https://governmentciomedia.com/cms-aims-expand-apis-increase-ehr-interoperability)
+- [Medicare pilot gives physicians access to patients' claims data](https://www.modernhealthcare.com/care-delivery/medicare-pilot-gives-physicians-access-patients-claims-data)
+- [What USDS is doing to support patient, provider access to Medicare claims data](https://governmentciomedia.com/what-usds-doing-support-patient-provider-access-medicare-claims-data)
+- [Medicaid data made public for the first time](https://www.fedscoop.com/cms-medicaid-data-public/)
+- [Medicare data project gains momentum as CMS continues its push for interoperability](https://www.fedscoop.com/health-data-interoperability-cms-va/)
+- [A world without prior authorization — How analytics are helping health systems transition to value-based care](https://www.beckershospitalreview.com/payer-issues/a-world-without-prior-authorization-how-analytics-are-helping-health-systems-transition-to-value-based-care.html)
+- [Major reformations of the last decade that will shape US healthcare in 2020](https://www.mobihealthnews.com/news/major-reformations-last-decade-will-shape-us-healthcare-2020)
