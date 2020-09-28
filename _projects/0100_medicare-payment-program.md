@@ -48,3 +48,4 @@ USDS has partnered with CMS to stand up a new cloud environment to continue proc
 
 - [How USDS is modernizing Medicare's 50-year-old payment system](https://www.programmableweb.com/news/how-usds-modernizing-medicares-50-year-old-payment-system/native-case-study/2018/11/13)
 - [Medicare's new member of its healthcare data center: The cloud](https://searchhealthit.techtarget.com/news/252450112/Medicares-new-member-of-its-healthcare-data-center-The-cloud)
+- [USDS teams with CMS to spur IT modernization](https://fedtechmagazine.com/article/2018/06/usds-teams-cms-spur-it-modernization)
