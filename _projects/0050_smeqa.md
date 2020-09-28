@@ -50,3 +50,11 @@ Only the applicants who pass these assessment hurdles are considered qualified a
 Starting in early 2019, USDS tested the SME‑QA process with the Department of Health and Human Services (HHS) and the National Park Service at the Department of the Interior (DOI). Compared with data from previous hiring events at the agencies, SMEs participating in both SME‑QA pilots found fewer applicants qualified (11% at DOI and 22% at HHS), but ultimately selected more applicants to be hired (13 at DOI and 7 at HHS). The applicants hired through the pilots included Veterans and represented diversity in race, age, and gender.
  
 The OPM Director issued a [memo in September 2019](chcoc.gov/content/improving-federal-hiring-through-use-effective-assessment-strategies-advance-mission) informing agencies that SMEs can partner with HR specialists to review resumes and assess applicants using structured interviews before they’re determined to be qualified and receive Veterans’ preference. USDS has continued to pilot the SME‑QA process with several large federal agencies and is working to build and test tools to ease the assessment process for SMEs.
+
+## Press
+
+- [USDS, OPM test new ideas for improving hiring outcomes](https://www.govloop.com/usds-opm-test-new-ideas-for-improving-hiring-outcomes/)
+- [U.S. Digital Service recruitment reforms set for roll-out](https://www.globalgovernmentforum.com/us-digital-service-recruitment-reforms-set-for-roll-out/)
+- [USDS developing innovative approach to private-sector hiring](https://governmentciomedia.com/usds-developing-innovative-approach-private-sector-hiring)
+- [Agencies find higher quality candidates under new Digital Service, OPM hiring pilot](https://federalnewsnetwork.com/hiring-retention/2019/10/agencies-find-higher-quality-candidates-under-new-digital-service-opm-hiring-pilot/)
+- [USAJOBS aims to provide applicants with better job updates](https://www.fedscoop.com/usajobs-job-updates-2020/)
