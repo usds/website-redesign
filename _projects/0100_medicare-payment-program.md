@@ -28,7 +28,7 @@ impact_statement:
     description: |-
       New monthly claims priced in the cloud‑based service during the first few months of 2020
 
-  - figure: >75
+  - figure: ">75"
     unit: "%"
     description: |-
       Reduction in time needed to deploy new code in the cloud‑based system (from four weeks to a few days)
