@@ -12,7 +12,7 @@ permalink: people/marvo-dolor
 name: Marvourneen Dolor
 pronouns: She/Her
 alumni: true
-cop: Strategy & Operations
+cop: Product
 city_of_origin: St. Lucia/Caribbean
 previously_at: MKDolor Consulting
 image_name: marvo-dolor.jpg

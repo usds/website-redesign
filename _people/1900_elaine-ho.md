@@ -12,7 +12,7 @@ permalink: people/elaine-ho
 name: Elaine Ho
 pronouns: She/Her
 alumni: true
-cop: Chief of Staff, Front Office
+cop: Front Office
 city_of_origin:
 previously_at: "White House Leadership Development Program, Senior Policy Advisor: Office of the First Lady/The National Security Council (NSC)"
 image_name: elaine-ho.jpg
