@@ -32,7 +32,7 @@ $ npm start (runs bundle exec jekyll serve --livereload)
 * [How to add people](https://github.com/usds/website/wiki/Adding-People-(carousel-and-pages))
 * [How to add projects](https://github.com/usds/website/wiki/Adding-projects-(carousel-and-pages))
 
-## Maintenance
+## Regular Maintenance
 
 ### Updating USWDS
 
