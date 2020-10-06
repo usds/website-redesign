@@ -46,6 +46,5 @@ Nothing would make me prouder than getting my other than honorable discharge cha
 
 ## Press
 - [Vets kicked out for being gay can upgrade their discharges](https://www.ebar.com/news/news//288378)
-- [USDS Builds One-Stop Shop on the New VA.Gov](https://governmentciomedia.com/usds-builds-one-stop-shop-new-vagov)
 - [VA release online tool to help vets with discharge upgrade process](https://dod.defense.gov/News/Article/Article/1424677/dod-va-release-online-tool-to-help-vets-with-discharge-upgrade-process/)
 - [New online tool will provide veterans with customized instructions for discharge upgrade process](https://www.va.gov/opa/pressrel/pressrelease.cfm?id=4001)
