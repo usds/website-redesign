@@ -41,3 +41,10 @@ In 2016, USDS and OFPP created the Digital IT Acquisition Professional Program (
 a Federal Acquisition Certification in Contracting (FAC‑C) certification program that trains contracting professionals to execute digital service procurements by acting as business advisors to agencies seeking to buy better digital services. DITAP leverages flexibilities in the Federal Acquisition Regulation to better acquire today’s technology and works seamlessly with digital service teams or acquisition innovation labs. Graduates of the DITAP program can also lead agency training workshops and provide consultations, expanding digital service procurement expertise across the government. In a [May 2018 memo](whitehouse.gov/wp-content/uploads/2018/05/fac_c_digital_services_05_12_18.pdf), OMB determined that beginning in FY 2022, contracting professionals assigned to digital services acquisitions above $7 million will be required to have FAC‑C‑DS certification.
 
 ![](../images/project-smeqa-page.jpg)
+
+## Press
+
+- [U.S. Digital Service will teach you how to buy the latest tech](https://www.nextgov.com/cio-briefing/2018/05/us-digital-service-will-teach-you-how-buy-latest-tech/148422/)
+- [A new masterclass trains digital acquisition ‘Top Guns’](https://www.federaltimes.com/acquisition/2018/05/23/a-new-masterclass-trains-digital-acquisition-top-guns/)
+- [Agencies need in-house techies to know how to buy good tech, GAO reiterates](https://www.fedscoop.com/federal-agencies-tech-expertise-acquisition-gao-report/)
+- [How Acquisition Reforms Are Improving VA's Digital Modernization](https://governmentciomedia.com/how-acquisition-reforms-are-improving-vas-digital-modernization)
