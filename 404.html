@@ -10,10 +10,14 @@ banner_file_mobile: banner--404-sm.svg
 
 <div class="grid-container padding-y-3">
   <section class="site-c-section text-center">
-    <div class="site-c-section-heading flex-justify-center flex-column flex-align-center">
-      <span class="site-c-flag font-sans-sm">Error 404</span>
-      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
-      <div class="site-c-section-heading__text">
+    <div class="site-c-section-heading grid-row">
+      <div class="grid-col-12">
+        <span class="site-c-flag font-sans-sm">Error 404</span>
+      </div>
+      <div class="grid-col-12">
+        <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
+      </div>
+      <div class="grid-col-10 grid-offset-1 tablet:grid-col-8 tablet:grid-offset-2">
         {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
       </div>
     </div>
