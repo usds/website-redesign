@@ -33,11 +33,14 @@ impact_statement:
 
 Each month, over 10 million people attempt to access the digital tools and content at the Department of Veterans Affairs (VA) and have historically struggled to find what they’re looking for. Veterans experienced disjointed navigation between sites and pages, and found that the website was focused more on the structure of the agency than on their needs as Veterans. Digital modernization efforts needed to focus on improving the user experience.
 
+![](../images/project-va-va-dot-gov-page.jpg)
+*A diagram showing how VA systems and services are connected (from 2013).*
+
 ## The Solution
 
 The USDS team at VA and the Office of the Chief Technology Officer partnered with teams across VA to focus on quickly connecting users to the most commonly needed services and information VA offers. The result was the new VA.gov website, built with the input of over 5,000 Veterans, service members, caregivers, and family members.
 
-![](../images/project-va-va-dot-gov-page.jpg)
+![](../images/project-va-va-dot-gov-ui.jpg)
 
 ## Impact
 
