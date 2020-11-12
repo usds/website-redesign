@@ -47,14 +47,12 @@ The Center for Medicare & Medicaid Services tapped our team to work alongside th
 
 ## Press
 
-- [An in-depth peek inside the United States Digital Service at HHS](https://www.mobihealthnews.com/content/depth-peek-inside-united-states-digital-service-hhs)
-- [CMS launches API for Medicare claims data](https://fcw.com/articles/2018/03/06/cms-blue-button-api.aspx)
-- [Government’s most transformational agency: A look inside](https://www.federaltimes.com/it-networks/2018/07/26/governments-most-transformational-agency-a-look-inside/)
-- [Tech Giants Pledge Healthcare Interoperability Following White House Conference](https://www.meritalk.com/articles/tech-giants-pledge-healthcare-interoperability-following-white-house-conference/?doing_wp_cron=1551289642.8972449302673339843750)
-- [Healthcare app economy is coming: Get ready for the dataquake](https://www.healthcareitnews.com/news/healthcare-app-economy-coming-get-ready-dataquake)
-- [USDS in action](https://fcw.com/blogs/lectern/2018/04/kelman-cms-usds.aspx)
-- [Healthcare APIs get a new trial run for Medicare claims](https://searchhealthit.techtarget.com/news/252445566/Healthcare-APIs-get-a-new-trial-run-for-Medicare-claims)
-- [CMS Administrator Seema Verma calls on payers to release claims data in API format](https://www.healthcareitnews.com/news/cms-administrator-seema-verma-calls-payers-release-claims-data-api-format)
 - [CMS to host Blue Button 2.0 conference](https://www.healthcareitnews.com/news/cms-host-blue-button-20-conference)
 - [New from the Digital Service team at CMS: Blue Button 2.0 is a Medicare claims data API](https://www.fedscoop.com/embargoed-new-digital-service-team-cms-blue-button-2-0-medicare-claims-data-api/)
 - [CMS, USDS innovators on the future of Blue Button 2.0](https://www.healthcareitnews.com/news/cms-usds-innovators-future-blue-button-20)
+
+### DPC
+
+- [A world without prior authorization — How analytics are helping health systems transition to value-based care](https://www.beckershospitalreview.com/payer-issues/a-world-without-prior-authorization-how-analytics-are-helping-health-systems-transition-to-value-based-care.html)
+- [Major reformations of the last decade that will shape US healthcare in 2020](https://www.mobihealthnews.com/news/major-reformations-last-decade-will-shape-us-healthcare-2020)
+- [Medicaid data made public for the first time](https://www.fedscoop.com/cms-medicaid-data-public/)
