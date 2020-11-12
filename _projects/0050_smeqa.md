@@ -18,7 +18,7 @@ project_url:
 
 # Impact statement (Edit this)
 impact_statement:
-  - figure: "45 --> 16"
+  - figure: "45 &rarr; 16"
     unit: ""
     description: |-
       Change in average number of days to make a candidate selection in the Department of Interior pilot
