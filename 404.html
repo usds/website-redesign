@@ -9,16 +9,18 @@ banner_file_mobile: banner--404-sm.svg
 {% assign content = site.data._404 %}
 
 <div class="grid-container padding-y-3">
-  <section class="site-c-section text-center">
+  <section class="site-c-section">
     <div class="site-c-section-heading grid-row">
-      <div class="grid-col-12">
+      <div class="grid-col-12 text-center">
         <span class="site-c-flag font-sans-sm">Error 404</span>
       </div>
-      <div class="grid-col-12">
+      <div class="grid-col-12 text-center">
         <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
       </div>
-      <div class="grid-col-10 grid-offset-1 tablet:grid-col-8 tablet:grid-offset-2">
-        {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+      <div class="grid-col-12 tablet:grid-col-6 tablet:grid-offset-3">
+        <div class="site-c-section-heading__text usa-prose">
+          {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        </div>
       </div>
     </div>
   </section>
