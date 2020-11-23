@@ -9,11 +9,15 @@ banner_file_mobile: banner--thank-you-sm.svg
 {% assign content = site.data.thank_you %}
 
 <div class="grid-container padding-y-3">
-  <section class="site-c-section text-center">
-    <div class="site-c-section-heading flex-justify-center flex-column flex-align-center">
-      <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
-      <div class="site-c-section-heading__text usa-prose">
-        {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+  <section class="site-c-section">
+    <div class="site-c-section-heading grid-row">
+      <div class="grid-col-12 tablet:grid-col-8 tablet:grid-offset-2 text-center">
+        <h1 class="site-c-section-heading__heading site-c-section-heading__heading--h1">{{ content.page_title.heading_title }}</h1>
+      </div>
+      <div class="grid-col-12 tablet:grid-col-6 tablet:grid-offset-3">
+        <div class="site-c-section-heading__text usa-prose">
+          {{ content.page_title.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        </div>
       </div>
     </div>
   </section>
@@ -21,4 +25,3 @@ banner_file_mobile: banner--thank-you-sm.svg
     {% include _social-buttons.html %}
   </section>
 </div>
-
