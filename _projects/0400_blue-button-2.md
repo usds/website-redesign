@@ -14,7 +14,7 @@ carousel_image_name: project-hhs-bbdpc-card.jpg
 title: "Medicare Data API: Blue Button and Data at the Point of Care"
 agency: Health and Human Services
 permalink: projects/blue-button-2
-project_url: https://bluebutton.cms.gov/developers/
+project_url: https://dpc.cms.gov/
 
 # Impact statement (Edit this)
 impact_statement:
