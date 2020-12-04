@@ -19,7 +19,7 @@ gem "minima", "~> 2.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.13.0"
+  gem 'jekyll-feed'
   gem 'github-pages'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
