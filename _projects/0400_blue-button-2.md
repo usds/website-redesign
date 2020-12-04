@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 project_page: true
 
 # Carousel (Edit this)
-carousel_title: "Empowering beneficiares with their own healthcare data"
+carousel_title: "Empowering beneficiaries with their own healthcare data"
 carousel_summary: "USDS has worked with CMS to empower beneficiaries with their own health data. Leveraging CMS APIs, providers can view of their patients’ full healthcare history without patient intervention. Providers save valuable time that they can better spend talking to patients and preventing conflicts or gaps in care."
 carousel_image_name: project-hhs-bbdpc-card.jpg
 
