@@ -14,7 +14,7 @@ carousel_image_name: project-va-va-dot-gov-card.jpg
 title: "Simplifying Veteran‑facing services through VA.gov"
 agency: Veterans Affairs
 permalink: projects/va-dot-gov
-project_url: va.gov
+project_url: https://va.gov
 
 # Impact statement (Edit this)
 impact_statement:
@@ -42,7 +42,7 @@ The USDS team at VA and the Office of the Chief Technology Officer partnered wit
 
 ![](../images/project-va-va-dot-gov-ui.jpg)
 
-## Impact
+## The Impact
 
 Since the website relaunch in November 2018, VA.gov has supported nearly 1.7 million logins each month. Veterans have checked the status of their claims 1.6 million times, submitted more than 50,000 applications for education benefits, and applied for health care more than 9,000 times. In an interview with FedScoop at the time of the launch, VA Secretary Robert Wilkie said, 
 “...my main priority as Secretary is simple—to give our customers the best possible experience the minute they encounter VA. Today, we’re doing just that with the new VA.gov—the new online front door of your Department of Veterans Affairs.”
@@ -51,4 +51,4 @@ Since the website relaunch in November 2018, VA.gov has supported nearly 1.7 mil
 
 - [The new VA.gov shows what’s possible for government tech after the Healthcare.gov disaster](https://qz.com/1464919/new-veterans-affairs-site-va-gov-avoids-healthcare-gov-disaster/)
 - [How a quick fix skyrocketed VA.gov satisfaction scores](https://www.federaltimes.com/it-networks/2019/02/14/how-a-quick-fix-skyrocketed-vagov-satisfaction-scores/)
-- [USDS Continues IT Transformation at VA](https://governmentciomedia.com/usds-continues-it-transformation-va)
+- [USDS continues IT Transformation at VA](https://governmentciomedia.com/usds-continues-it-transformation-va)
