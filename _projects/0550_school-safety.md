@@ -14,7 +14,7 @@ carousel_image_name: project-dhs-school-safety-card.jpg
 title: "SchoolSafety.gov"
 agency: Department of Homeland Security
 permalink: projects/school-safety
-project_url: schoolsafety.gov
+project_url: https://schoolsafety.gov
 
 # Impact statement (Edit this)
 impact_statement:
