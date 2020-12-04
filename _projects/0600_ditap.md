@@ -33,7 +33,7 @@ impact_statement:
 
 ## The Challenge
 
-Current federal procurement practices rarely provide the flexibility required to buy and deliver modern digital services. Government’s use of digital solutions has not kept pace with peoples’ expectations. As the pace of innovation has accelerated, the government’s ability to meet people’s expectations of functional digital solutions has not kept pace. To meet this demand, the Office of Federal Procurement Policy (OFPP) and USDS needed an immersive development and training program to improve digital services acquisition expertise across government agencies.
+Current federal procurement practices rarely provide the flexibility required to buy and deliver modern digital services. As the pace of innovation has accelerated, the government’s ability to meet people’s expectations of functional digital solutions has not kept pace. To meet this demand, the Office of Federal Procurement Policy (OFPP) and USDS needed an immersive development and training program to improve digital services acquisition expertise across government agencies.
 
 ## The Solution
 
