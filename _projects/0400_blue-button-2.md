@@ -7,7 +7,7 @@ project_page: true
 
 # Carousel (Edit this)
 carousel_title: "Empowering beneficiaries with their own health data"
-carousel_summary: "USDS has worked with CMS to empower beneficiaries with their own health data. Leveraging CMS APIs, providers can view of their patients’ full healthcare history without patient intervention. Providers save valuable time that they can better spend talking to patients and preventing conflicts or gaps in care."
+carousel_summary: "Leveraging CMS APIs, providers can view of their patients’ full healthcare history without patient intervention. Providers save valuable time that they can better spend talking to patients and preventing conflicts or gaps in care."
 carousel_image_name: project-hhs-bbdpc-card.jpg
 
 # Project detail page (Edit this)
@@ -53,9 +53,6 @@ Blue Button and Data at the Point of Care help give beneficiaries and their prov
 - [CMS to host Blue Button 2.0 conference](https://www.healthcareitnews.com/news/cms-host-blue-button-20-conference)
 - [New from the Digital Service team at CMS: Blue Button 2.0 is a Medicare claims data API](https://www.fedscoop.com/embargoed-new-digital-service-team-cms-blue-button-2-0-medicare-claims-data-api/)
 - [CMS, USDS innovators on the future of Blue Button 2.0](https://www.healthcareitnews.com/news/cms-usds-innovators-future-blue-button-20)
-
-### DPC
-
 - [A world without prior authorization — How analytics are helping health systems transition to value-based care](https://www.beckershospitalreview.com/payer-issues/a-world-without-prior-authorization-how-analytics-are-helping-health-systems-transition-to-value-based-care.html)
 - [Major reformations of the last decade that will shape US healthcare in 2020](https://www.mobihealthnews.com/news/major-reformations-last-decade-will-shape-us-healthcare-2020)
 - [Medicaid data made public for the first time](https://www.fedscoop.com/cms-medicaid-data-public/)
