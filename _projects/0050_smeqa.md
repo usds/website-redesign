@@ -6,7 +6,7 @@ banner_file_mobile: banner--people-projects-sm.svg
 project_page: true
 
 # Carousel (Edit this)
-carousel_title: "Changing how the government hires"
+carousel_title: "Changing how the government hires technical talent"
 carousel_summary: "We helped develop a process that allows HR to leverage subject matter experts to evaluate candidates for specialized roles. The result restores fair and open access for all applicants, shortens the hiring timeline, and ensures applicants are truly qualified."
 carousel_image_name: project-smeqa-card.jpg
 
@@ -45,7 +45,7 @@ Only the applicants who pass these assessment hurdles are considered qualified a
 
 ![](../images/project-smeqa-page.jpg)
 
-## Impact
+## The Impact
 
 Starting in early 2019, USDS tested the SME‑QA process with the Department of Health and Human Services (HHS) and the National Park Service at the Department of the Interior (DOI). Compared with data from previous hiring events at the agencies, SMEs participating in both SME‑QA pilots found fewer applicants qualified (11% at DOI and 22% at HHS), but ultimately selected more applicants to be hired (13 at DOI and 7 at HHS). The applicants hired through the pilots included Veterans and represented diversity in race, age, and gender.
  
