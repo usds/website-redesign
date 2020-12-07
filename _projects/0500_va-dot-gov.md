@@ -9,7 +9,6 @@ project_page: true
 carousel_title: "Simplifying Veteran‑facing services through VA.gov"
 carousel_summary: "Each month, over 10 million people attempt to access the digital tools and content at the Department of Veterans Affairs (VA) and have historically struggled to find what they’re looking for. Digital modernization efforts needed to focus on improving the user experience."
 carousel_image_name: project-va-va-dot-gov-card.jpg
-hide: true
 
 # Project detail page (Edit this)
 title: "Simplifying Veteran‑facing services through VA.gov"
@@ -33,9 +32,6 @@ impact_statement:
 ## The Challenge
 
 Each month, over 10 million people attempt to access the digital tools and content at the Department of Veterans Affairs (VA) and have historically struggled to find what they’re looking for. Veterans experienced disjointed navigation between sites and pages, and found that the website was focused more on the structure of the agency than on their needs as Veterans. Digital modernization efforts needed to focus on improving the user experience.
-
-![](../images/project-va-va-dot-gov-page.jpg)
-*A diagram showing how VA systems and services are connected (from 2013).*
 
 ## The Solution
 
