@@ -9,6 +9,7 @@ project_page: true
 carousel_title: "Simplifying Veteran‑facing services through VA.gov"
 carousel_summary: "Each month, over 10 million people attempt to access the digital tools and content at the Department of Veterans Affairs (VA) and have historically struggled to find what they’re looking for. Digital modernization efforts needed to focus on improving the user experience."
 carousel_image_name: project-va-va-dot-gov-card.jpg
+hide: true
 
 # Project detail page (Edit this)
 title: "Simplifying Veteran‑facing services through VA.gov"
