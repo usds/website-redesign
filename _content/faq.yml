@@ -1,41 +1,5 @@
 - topic: Getting hired
   questions:
-    - q: "What is required to work for the U.S. Digital Service?"
-      a: |-
-        You must be a U.S. citizen and will need to complete a background check and drug test.
-
-        The background check starts by filling out either the SF-86 or SF-85P on the Office of Personnel Management website (<a href="https://www.opm.gov/forms/pdf_fill/sf86.pdf" target="_blank">view a sample SF-86</a>). The form is a detailed questionnaire about your personal background and where you’ve lived. This includes drug use. Getting your background check cleared can take several weeks or longer.
-
-    - q: "What kind of salary might I make?"
-      a: |-
-        The salary for digital service experts ranges from less than $100,000 to around $170,000. The Digital Service does not control salary determinations. Salaries are determined by HR officials based on résumé and experience.
-
-        To help with negotiations and get you close to previous salary, the government may require a pay stub or W-2. Only base salary will generally be considered; not bonuses, commissions, stock compensation, or hourly consulting.
-
-        Our staff are hired under a special authority and paid on the same General Schedule (GS) payscale as most other federal employees. The GS system has 15 “grades” and 10 “steps” per grade. Check out the Washington, D.C., GS payscale table on the [OPM website](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/).
-
-    - q: "What benefits will I receive?"
-      a: |-
-        Candidates receive health care and other benefits (such as retirement savings account eligibility). For a wealth of information and different benefit plans offered look on the [OPM website](https://www.opm.gov/healthcare-insurance/healthcare/plan-information/plans/).
-
-    - q: "How much of a time commitment will I make if I accept one of these positions?"
-      a: |-
-        We operate on a tour of service model. Most people serve for one or two years, with the option to extend up to four years. We want to be able to do their best work while they are here and share what they’ve learned at USDS across different industries when they leave. USDS can accept some shorter tours, typically when people are taking a leave of absence from their other job to temporarily join USDS on a full-time basis. Time commitments are not binding.
-
-    - q: "If I apply, how long will it take to go through the process?"
-      a: |-
-        It depends. We strive to have you go through the interview process within four weeks. Onboarding can take an additional four to six weeks depending on when you get an offer from the HR team and how long the background check takes. Your time in the onboarding process is generally out of our control at USDS.
-
-    - q: "When will I hear from USDS in this process?"
-      a: |-
-        A member of our talent team will reach out to you within two weeks with next steps.
-
-    - q: "Is USDS an equal opportunity employer?"
-      a: |-
-        Yes! We strongly encourage people of color, members of racial and ethnic minority groups, women, LGBTQI+ people, those with disabilities, and Veterans to apply. We build better products when our team represents all of America.
-
-        We do not discriminate based off of color, race, age, religion, sex, gender identity, sexual orientation, political affiliation, pregnancy, status as a parent, national origin, disability (physical or mental), family medical history or genetic information, political affiliation, military service, or other non-merit based factors.
-
     - q: "Why don’t you have job descriptions?"
       a: |-
         The roles and responsibilities of any given USDS staff member vary tremendously, because agencies have different technological needs. Even projects within the same agency require distinct skill sets.
@@ -43,10 +7,6 @@
         Because of the unpredictability and breadth of our engagements, we focus on hiring technical experts who can adapt to a project’s needs, though we also hire specialists for particular projects.
 
         We are always hiring for a number of different roles, so if you are an expert in your field and are interested in working at USDS, you should apply!
-
-    - q: "So I didn’t get the job? What's next?"
-      a: |-
-        You are welcome to apply again after one year with an updated résumé. We recommend looking into other civic tech organizations to stay involved in this important work at all levels — federal, state, and local.
 
     - q: "Do you have internships?"
       a: |-
@@ -72,10 +32,6 @@
 
 - topic: Relocation
   questions:
-    - q: "Do I have to live in Washington, D.C.?"
-      a: |-
-        The fourth USDS value is “Go where the work is.” Since most of the teams you’ll be working with are in the D.C. metro area we ask that you make D.C. or the surrounding area your base during the work week. If you are unable to make that work, consider [18F](https://18f.gsa.gov/), which operates differently and has staff distributed across the country.
-
     - q: "Where will I live?"
       a: |-
         It’s up to you! We have folks that live in D.C. and the surrounding metro area.
