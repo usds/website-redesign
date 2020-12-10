@@ -9,6 +9,7 @@ project_page: true
 carousel_title: "Providing NATO advisors mission-critical information"
 carousel_summary: "Our defense team spent 18 weeks building a critical software system with small teams on rotation to Afghanistan, working directly with NATO advisors and leadership."
 carousel_image_name: project-dod-advisor-network-card.jpg
+hide: true
 
 # Project detail page (Edit this)
 title: "Advisor Network (ANET)"
