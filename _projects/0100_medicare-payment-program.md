@@ -23,10 +23,10 @@ impact_statement:
     description: |-
       Americans depend on Medicare payments for their healthcare
 
-  - figure: 65
-    unit: "K"
+  - figure: 1.2
+    unit: "B"
     description: |-
-      New monthly claims priced in the cloud‑based service during the first few months of 2020
+      Claims per year
 
   - figure: ">75"
     unit: "%"
