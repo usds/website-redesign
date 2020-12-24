@@ -21,7 +21,7 @@ permalink: /faq
       {% for item in site.data.faq %}
         {% assign topic_index = forloop.index %}
         <h2>{{ item.topic }}</h2>
-        <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
+        <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true" >
         {% for entry in item.questions %}
           {% assign entry_index = forloop.index %}
           <h3 class="usa-accordion__heading">
