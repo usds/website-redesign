@@ -31,10 +31,10 @@
     "normalize.css": "^8.0.0",
     "path": "^0.12.7",
     "postcss-csso": "^4.0.0",
-    "sass": "^1.32.5",
+    "sass": "^1.26.11",
     "set-value": "^3.0.2",
-    "tar": "^6.1.0",
-    "uswds": "^2.10.0",
+    "tar": "^6.0.5",
+    "uswds": "^2.8.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }
