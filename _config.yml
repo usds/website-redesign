@@ -55,6 +55,8 @@ sass:
   sass_dir: assets/stylesheets/
   style: compressed
 
+
+
 # Plugins
 plugins:
   - jekyll-feed
@@ -90,3 +92,12 @@ exclude:
   - CODE_OF_CONDUCT.md
   - Staticfile
   - package-lock.json
+
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
