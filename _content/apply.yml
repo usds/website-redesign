@@ -1,3 +1,6 @@
+page_alert:
+  alert_heading: "High volume of applications"
+  alert_body: "The U.S. Digital Service is excited to report that we've recently received a large number of applications. We're reviewing them as quickly as we can, and will respond shortly. We thank you for your patience!"
 page_title:
   heading_title: "Apply to USDS"
   heading_text: "USDS operates on a tour-of-service model with a maximum term of four years. While most people serve for one or two years, we'll consider some shorter tours as well. Time commitments are not binding."
