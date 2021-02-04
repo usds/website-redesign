@@ -40,6 +40,11 @@ cops:
 
     Just like in private industry, every project at USDS has its own needs and quirks that change over time—flexibility and keeping a cool head in the face of ambiguity are some of the most important skills. We keep the focus on data to make product decisions based on reality, not politics. We write tickets and prioritise backlogs as well as negotiate contracts and present to high-level stakeholders. We do whatever needs to be done—we are the glue that holds everything else together.
   role_3_image: graphic-how-we-work-product.svg
+  
+  role_4_heading: "Digital Acquisition"
+  role_4_text: |-
+    (text to come)
+  role_4_image: graphic-how-we-work-procurement.svg
 
 best_practices:
   heading_title: "Bringing private sector best practices to the Federal Government"
