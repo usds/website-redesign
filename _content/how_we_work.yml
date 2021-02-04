@@ -22,9 +22,9 @@ cops:
   #team_roles_text: |-
   role_1_heading: "Design and user experience"
   role_1_text: |-
-    Our designers are seasoned practitioners with a range of expertise and skills from user research and content strategy to interaction, information, visual and service design. We all know that getting services and benefits from the government isn't easy, but unfortunately, it's not the only obstacle our users face. That's why it's our job to do the hard work to make it simple.
+    USDS designers know that people using government services come from an endless range of experiences and contexts, so we design alongside those people to make sure content is easily understood, and experiences are simple, consistent, and useful. We often introduce human-centered design practices to the government.
 
-    Understanding the range of contexts our users come from is key to designing quality government digital experiences. The sixth USDS value is to “design with users, not for them.” What’s implicit in that is that designing with users means all users regardless of their ability, context, or demographics. We’re designing technology for a diverse population so our research participants should be equally diverse. Our objective is to make content easily understandable and design for simplicity, consistency, and ease of use.
+    Skills you might bring as a designer: design process, systems thinking, leadership, user research, interaction design, service design, design operations, content strategy, visual design, front-end development, or art direction.
   role_1_image: graphic-how-we-work-design.svg
 
   role_2_heading: "Engineering"
@@ -36,9 +36,9 @@ cops:
 
   role_3_heading: "Product, strategy, and operations"
   role_3_text: |-
-    Our product managers and strategists come from a wide variety of backgrounds, but all of us are experts in getting things done while keeping quality high. Some are industry-hardened PMs from Silicon Valley, some are savvy and clever government specialists, others bring their own special blend of skills and experience.
+    Product folks at USDS focus on data to make product decisions based on reality, not politics. We're not necessarily the project leads; we may write tickets and prioritize backlogs, identify strategy, negotiate contracts, or present to high-level stakeholders. We work with our teams to identify the possible paths to success based on user research and technical feasibility, and deliver the best solution, together.
 
-    Just like in private industry, every project at USDS has its own needs and quirks that change over time—flexibility and keeping a cool head in the face of ambiguity are some of the most important skills. We keep the focus on data to make product decisions based on reality, not politics. We write tickets and prioritise backlogs as well as negotiate contracts and present to high-level stakeholders. We do whatever needs to be done—we are the glue that holds everything else together.
+    Skills you might bring to the product community: execution, communication, leadership, user focus, grit, product delivery, product strategy, capacity building, government expertise, and data analysis
   role_3_image: graphic-how-we-work-product.svg
   
   role_4_heading: "Digital Acquisition"
