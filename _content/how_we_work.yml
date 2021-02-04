@@ -66,31 +66,6 @@ best_practices:
     Focusing on data allows us to make choices that reflect reality while minimizing bias and politics.
   col_3_image: graphic-how-we-work-decisions.svg
 
-where_we_worked:
-  heading_title: "Going where the work is"
-  heading_text: "USDS embeds teams within federal agencies and their in-house digital technology divisions. Team engagements typically last between six months and two years. Agencies we've partnered with include:"
-  agencies:
-    - name: Department of Veterans Affairs
-      image_name: graphic-seal-va.png
-    - name: Health & Human Services
-      image_name: graphic-seal-hhs.png
-    - name: Department of Homeland Security
-      image_name: graphic-seal-dhs.png
-    - name: Department of Defense
-      image_name: graphic-seal-dod.png
-    - name: Small Business Administration
-      image_name: graphic-seal-sba.png
-    - name: Department of State
-      image_name: graphic-seal-state.png
-    - name: Department of Education
-      image_name: graphic-seal-ed.png
-    - name: Department of Agriculture
-      image_name: graphic-seal-usda.png
-    - name: Department of Justice
-      image_name: graphic-seal-doj.png
-    - name: Internal Revenue Service
-      image_name: graphic-seal-irs.png
-
 projects:
   heading_title: "Prioritizing the greatest good for the greatest number of people in the greatest need"
   heading_text: |-
