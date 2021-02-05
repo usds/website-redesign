@@ -64,8 +64,8 @@ redirect_from:
           <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.cops.role_2_image }}" alt="">
         </div>
       </div>
-
-      <div class="grid-row margin-top-8">
+      
+       <div class="grid-row margin-top-8">
         <div class="grid-col-12">
           <h3 class="margin-top-0">{{ content.cops.role_3_heading }}</h3>
         </div>
@@ -74,6 +74,18 @@ redirect_from:
         </div>
         <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
           <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.cops.role_3_image }}" alt="">
+        </div>
+      </div>
+
+      <div class="grid-row margin-top-8">
+        <div class="grid-col-12">
+          <h3 class="margin-top-0">{{ content.cops.role_4_heading }}</h3>
+        </div>
+        <div class="grid-col-12 tablet:grid-col-8 tablet:padding-right-4 desktop:padding-right-0 order-3 tablet:order-2 usa-prose">
+          {{ content.cops.role_4_text | replace: 'site.baseurl', site.baseurl | markdownify}}
+        </div>
+        <div class="grid-col-12 tablet:grid-col-4 order-2 tablet:order-3 margin-bottom-3">
+          <img class="width-full" src="{{ site.baseurl }}/assets/img/{{ content.cops.role_4_image }}" alt="">
         </div>
       </div>
     </div>
@@ -124,29 +136,6 @@ redirect_from:
           {{ content.best_practices.col_3_text | replace: 'site.baseurl', site.baseurl | markdownify}}
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <hr>
-
-  <section class="site-c-section">
-    <div class="site-c-section-heading">
-      <h2 class="site-c-section-heading__heading">{{ content.where_we_worked.heading_title }}</h2>
-      <div class="site-c-section-heading__text usa-prose">
-        {{ content.where_we_worked.heading_text | replace: 'site.baseurl', site.baseurl | markdownify}}
-      </div>
-    </div>
-    <div class="site-c-section__body">
-      <div class="grid-row margin-x-neg-2">
-      {% for item in content.where_we_worked.agencies %}
-        <div class="where-we-worked-item flex-auto grid-row margin-bottom-5 padding-x-2">
-          <div class="grid-col-12 width-full">
-            <img src="{{ site.baseurl }}/assets/img/{{ item.image_name }}" alt="{{ item.name }} seal">
-          </div>
-          <p class="grid-col-12 text-center padding-x-1 margin-top-1">{{ item.name }}</p>
-        </div>
-      {% endfor %}
       </div>
     </div>
   </section>
