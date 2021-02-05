@@ -6,7 +6,7 @@ page_title:
   heading_button_text: "Learn about our mission"
 
 cops:
-  heading_title: "Building a team with a broad range of experiences to transform government"
+  heading_title: "Building a team with a broad range of experiences to transform government."
   heading_text: |-
      With tours of service lasting no more than four years, the U.S. Digital Service brings fresh perspectives on technology and delivery to government. To build the best possible team, we focus on the same values in our hiring as we do in our work.
 
@@ -16,7 +16,7 @@ cops:
 
      •	Go where the work is. We prioritize our work based on how much we’re needed—and how much we can help. We go where we’re needed most to do the greatest good for the greatest number of people in the greatest need. 
 
-     Learn more about who we hire and how we work below. If you don’t find a description that fits you, but think you can help push our mission forward, we encourage you to apply. For more info on USDS recruitment, [read our Hiring FAQ](../faq).
+     Learn more about who we hire and how we work below. If you don’t find a description that fits you, but think you can help push our mission forward, we encourage you to apply.
 
   #team_roles_heading: Team Roles
   #team_roles_text: |-
@@ -24,7 +24,7 @@ cops:
   role_1_text: |-
     USDS designers know that people using government services come from an endless range of experiences and contexts, so we design alongside those people to make sure content is easily understood, and experiences are simple, consistent, and useful. We often introduce human-centered design practices to the government.
 
-    Skills you might bring as a designer: design process, systems thinking, leadership, user research, interaction design, service design, design operations, content strategy, visual design, front-end development, or art direction.
+    Skills you might bring to the design community: design process, systems thinking, leadership, user research, interaction design, service design, design operations, content strategy, visual design, front-end development, or art direction.
   role_1_image: graphic-how-we-work-design.svg
 
   role_2_heading: "Engineering"
@@ -38,12 +38,14 @@ cops:
   role_3_text: |-
     Product folks at USDS focus on data to make product decisions based on reality, not politics. We're not necessarily the project leads; we may write tickets and prioritize backlogs, identify strategy, negotiate contracts, or present to high-level stakeholders. We work with our teams to identify the possible paths to success based on user research and technical feasibility, and deliver the best solution, together.
 
-    Skills you might bring to the product community: execution, communication, leadership, user focus, grit, product delivery, product strategy, capacity building, government expertise, and data analysis
+    Skills you might bring to the product community: execution, communication, leadership, user focus, grit, product delivery, product strategy, capacity building, government expertise, or data analysis.
   role_3_image: graphic-how-we-work-product.svg
   
-  role_4_heading: "Digital Acquisition"
+  role_4_heading: "Procurement"
   role_4_text: |-
-    (text to come)
+    USDS acquisition strategists make buying digital services for the government more efficient and effective. Often, agencies don't have the capacity or expertise to build their own digital services, so they partner with technical experts outside the government. From jumping in on short discovery sprints to acquisition strategy across product portfolios, our biggest strengths are in market intelligence, innovating on evaluation methods, and creating contracts that focus on results over requirements.
+    
+    Skills you might bring to the procurement community: digital market knowledge, federal procurement process, strategic advice, or technical acumen.
   role_4_image: graphic-how-we-work-procurement.svg
 
 best_practices:
