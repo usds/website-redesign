@@ -29,9 +29,9 @@ cops:
 
   role_2_heading: "Engineering"
   role_2_text: |-
-    Our engineers think about the big picture, which doesn’t always involve writing code, and adapt to constraints to be effective on high-impact projects. Our engineers are mission-driven and span the full range of service delivery including frontend, backend, full-stack, site reliability, security, and data. We are not your typical software engineering shop. Successful engineers at USDS come from all over America—in every sense of the phrase. We promise you will work on something meaningful and important and invite you to hold us to that.
+    Engineers will rarely find the opportunity to work on systems that are more mission-critical than those you'll encounter at USDS, where we build, scale, and troubleshoot systems at incredible scale. The technology we work on is not bleeding edge, and USDS is not an engineering-first organization; we are most successful advocating for modern software practices when we work alongside product managers, UX designers, and acquisition specialists.
 
-    Expertise in legacy technologies is not necessary, but an ability to adapt to whatever you find under the covers is. Engineering at USDS involves a willingness to lead, in both delivery and mentorship. We iterate on a system and adapt to feedback and changing needs, rather than get locked in to what was decided in a 3-year-old design phase. To get to frequent releases, we build and leverage the capabilities we get with modern infrastructure and automation, like continuous integration and testing. Large 3 or 6-month releases change many things at once, which means a release is a high-risk event. So, we work hard to build confidence in an infrastructure that does small releases more frequently.
+    Skills you might bring as an engineer: programming, modern architecture, incident response [firefighting], technical communication, project and team management, and collaborative engineering practices.
   role_2_image: graphic-how-we-work-engineering.svg
 
   role_3_heading: "Product, strategy, and operations"
