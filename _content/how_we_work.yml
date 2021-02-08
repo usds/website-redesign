@@ -29,7 +29,7 @@ cops:
 
   role_2_heading: "Engineering"
   role_2_text: |-
-    Engineers will rarely find the opportunity to work on systems that are more mission-critical than those you'll encounter at USDS, where we build, scale, and troubleshoot systems at incredible scope. The technology we work on is not bleeding edge, and USDS is not an engineering-first organization; we are most successful advocating for modern software practices when we work alongside product managers, UX designers, and acquisition specialists.
+    Engineers will rarely find the opportunity to work on systems that are more mission-critical than those you'll encounter at USDS, where we build, scale, and troubleshoot systems of huge scope. The technology we work on is not bleeding edge, and USDS is not an engineering-first organization; we are most successful advocating for modern software practices when we work alongside product managers, UX designers, and acquisition specialists.
 
     _Skills you might bring to the engineering community:_ programming, modern architecture, incident response, technical communication, project and team management, and collaborative engineering practices.
   role_2_image: graphic-how-we-work-engineering.svg
