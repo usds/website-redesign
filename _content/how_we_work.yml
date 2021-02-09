@@ -1,39 +1,52 @@
 page_title:
   heading_title: "How we work"
   heading_text: |-
-     USDS deploys small, responsive groups of technology experts to work with and empower civil servants. These multi-disciplinary teams bring best practices and new approaches to untangle some of our nation’s most important problems.
+     USDS deploys small, responsive groups of technologists to work with and empower our nation’s leading civil servants. Our designers, engineers, product managers, bureaucracy hackers, and acquisition strategists bring best practices and new approaches to support government modernization.
 
   heading_button_text: "Learn about our mission"
 
 cops:
-  heading_title: "Recruiting the country’s best technologists for ‘tours of service’"
+  heading_title: "Building a team with a broad range of experiences to transform government."
   heading_text: |-
-     Our staff comes from all corners of the technology industry, nonprofit world, and government to serve ‘tours' of service, bringing a steady influx of fresh perspectives into government. Tours typically last between six months and two years, with a maximum length of four years.
+     With tours of service lasting no more than four years, the U.S. Digital Service brings fresh perspectives on technology and delivery to the government. To build the best possible team, we focus on the same values in our hiring as we do in our work.
 
-     Most of our staff have backgrounds in design, engineering, or product management. We also hire strategists, recruiters, procurement experts, attorneys, communications specialists and others, so if you don’t see yourself described below, you should still apply! For more info on USDS recruitment, [read our Hiring FAQ](../faq).
+     - **Hire and empower great people.** We work to untangle some of our nation’s most important and complex problems. We hire people with the experience, skills, compassion, curiosity, and tenacity to find new paths forward. 
+
+     - **Design with users, not for them.** We build better solutions when our team reflects the people we serve. We hire people from all backgrounds, all corners of the technology, nonprofit, and government worlds, and all across the United States.
+
+     - **Go where the work is.** We prioritize our work based on how much we’re needed—and how much we can help. We go where we’re needed most to do the greatest good for the greatest number of people in the greatest need. 
+
+     Learn more about who we hire and how we work below. If you don’t find a description that fits you, but think you can help push our mission forward, [we encourage you to apply](../apply).
 
   #team_roles_heading: Team Roles
   #team_roles_text: |-
   role_1_heading: "Design and user experience"
   role_1_text: |-
-    Our designers are seasoned practitioners with a range of expertise and skills from user research and content strategy to interaction, information, visual and service design. We all know that getting services and benefits from the government isn't easy, but unfortunately, it's not the only obstacle our users face. That's why it's our job to do the hard work to make it simple.
+    USDS designers know that people using government services come from an endless range of experiences and contexts, so we design alongside those people to make sure content is easily understood, and experiences are simple, consistent, and useful. We often introduce human-centered design practices to the government.
 
-    Understanding the range of contexts our users come from is key to designing quality government digital experiences. The sixth USDS value is to “design with users, not for them.” What’s implicit in that is that designing with users means all users regardless of their ability, context, or demographics. We’re designing technology for a diverse population so our research participants should be equally diverse. Our objective is to make content easily understandable and design for simplicity, consistency, and ease of use.
+    _Skills you might bring to the design community:_ design process, systems thinking, leadership, user research, interaction design, service design, design operations, content strategy, visual design, front-end development, or art direction.
   role_1_image: graphic-how-we-work-design.svg
 
   role_2_heading: "Engineering"
   role_2_text: |-
-    Our engineers think about the big picture, which doesn’t always involve writing code, and adapt to constraints to be effective on high-impact projects. Our engineers are mission-driven and span the full range of service delivery including frontend, backend, full-stack, site reliability, security, and data. We are not your typical software engineering shop. Successful engineers at USDS come from all over America—in every sense of the phrase. We promise you will work on something meaningful and important and invite you to hold us to that.
+    Engineers will rarely find the opportunity to work on systems that are more mission-critical than those you'll encounter at USDS, where we build, scale, and troubleshoot systems of huge reach. The technology we work on is not bleeding edge, and USDS is not an engineering-first organization; we are most successful advocating for modern software practices when we work alongside product managers, UX designers, and acquisition specialists.
 
-    Expertise in legacy technologies is not necessary, but an ability to adapt to whatever you find under the covers is. Engineering at USDS involves a willingness to lead, in both delivery and mentorship. We iterate on a system and adapt to feedback and changing needs, rather than get locked in to what was decided in a 3-year-old design phase. To get to frequent releases, we build and leverage the capabilities we get with modern infrastructure and automation, like continuous integration and testing. Large 3 or 6-month releases change many things at once, which means a release is a high-risk event. So, we work hard to build confidence in an infrastructure that does small releases more frequently.
+    _Skills you might bring to the engineering community:_ programming, modern architecture, incident response, technical communication, project and team management, and collaborative engineering practices.
   role_2_image: graphic-how-we-work-engineering.svg
 
   role_3_heading: "Product, strategy, and operations"
   role_3_text: |-
-    Our product managers and strategists come from a wide variety of backgrounds, but all of us are experts in getting things done while keeping quality high. Some are industry-hardened PMs from Silicon Valley, some are savvy and clever government specialists, others bring their own special blend of skills and experience.
+    Product folks at USDS focus on data to make product decisions based on reality, not politics. We're not necessarily the project leads; we may write tickets and prioritize backlogs, identify strategy, negotiate contracts, or present to high-level stakeholders. We work with our teams to identify the possible paths to success based on user research and technical feasibility, and deliver the best solution, together.
 
-    Just like in private industry, every project at USDS has its own needs and quirks that change over time—flexibility and keeping a cool head in the face of ambiguity are some of the most important skills. We keep the focus on data to make product decisions based on reality, not politics. We write tickets and prioritise backlogs as well as negotiate contracts and present to high-level stakeholders. We do whatever needs to be done—we are the glue that holds everything else together.
+    _Skills you might bring to the product community:_ execution, communication, leadership, user focus, grit, product delivery, product strategy, capacity building, government expertise, or data analysis.
   role_3_image: graphic-how-we-work-product.svg
+  
+  role_4_heading: "Procurement"
+  role_4_text: |-
+    USDS acquisition strategists make buying digital services for the government more efficient and effective. Often, agencies don't have the capacity or expertise to build their own digital services, so they partner with technical experts outside the government. From jumping in on short discovery sprints to acquisition strategy across product portfolios, our biggest strengths are in market intelligence, innovating on evaluation methods, and creating contracts that focus on results over requirements.
+    
+    _Skills you might bring to the procurement community:_ digital market knowledge, federal procurement process, strategic advice, or technical acumen.
+  role_4_image: graphic-how-we-work-procurement.svg
 
 best_practices:
   heading_title: "Bringing private sector best practices to the Federal Government"
@@ -54,31 +67,6 @@ best_practices:
   col_3_text: |-
     Focusing on data allows us to make choices that reflect reality while minimizing bias and politics.
   col_3_image: graphic-how-we-work-decisions.svg
-
-where_we_worked:
-  heading_title: "Going where the work is"
-  heading_text: "USDS embeds teams within federal agencies and their in-house digital technology divisions. Team engagements typically last between six months and two years. Agencies we've partnered with include:"
-  agencies:
-    - name: Department of Veterans Affairs
-      image_name: graphic-seal-va.png
-    - name: Health & Human Services
-      image_name: graphic-seal-hhs.png
-    - name: Department of Homeland Security
-      image_name: graphic-seal-dhs.png
-    - name: Department of Defense
-      image_name: graphic-seal-dod.png
-    - name: Small Business Administration
-      image_name: graphic-seal-sba.png
-    - name: Department of State
-      image_name: graphic-seal-state.png
-    - name: Department of Education
-      image_name: graphic-seal-ed.png
-    - name: Department of Agriculture
-      image_name: graphic-seal-usda.png
-    - name: Department of Justice
-      image_name: graphic-seal-doj.png
-    - name: Internal Revenue Service
-      image_name: graphic-seal-irs.png
 
 projects:
   heading_title: "Prioritizing the greatest good for the greatest number of people in the greatest need"
