@@ -92,7 +92,7 @@ gulp.task("build-sass", function(done) {
       grid: true
     }),
     // Minify
-    csso({ forceMediaMerge: false }),
+    csso({ forceMediaMerge: true }),
   ];
   return (
     gulp
