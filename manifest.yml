@@ -5,3 +5,5 @@ applications:
   instances: 1
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
   random-route: true
+  env:
+    JEKYLL_ENV: staging
