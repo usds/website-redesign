@@ -1,6 +1,6 @@
-page_alert:
-  alert_heading: "High volume of applications"
-  alert_body: "The U.S. Digital Service is excited to report that we've recently received a large number of applications. We're reviewing them as quickly as we can, and will respond shortly. We thank you for your patience!"
+#page_alert:
+#  alert_heading: "High volume of applications"
+#  alert_body: "The U.S. Digital Service is excited to report that we've recently received a large number of applications. We're reviewing them as quickly as we can, and will respond shortly. We thank you for your patience!"
 page_title:
   heading_title: "Apply to USDS"
   heading_text: |-
@@ -29,7 +29,7 @@ page_body:
   compensation_benefits: |-
     **Compensation and benefits**
 
-    Salaries at USDS vary, but don't exceed $170,800, determined by your experience and skills. We provide health care and other benefits, such as retirement savings accounts. For more information, see the <a href="https://www.opm.gov/healthcare-insurance/healthcare/plan-information/plans/" target="blank">Office of Personnel Management website</a>.
+    Salaries at USDS vary, but don't exceed $172,500, determined by your experience and skills. We provide health care and other benefits, such as retirement savings accounts. For more information, see the <a href="https://www.opm.gov/healthcare-insurance/healthcare/plan-information/plans/" target="blank">Office of Personnel Management website</a>.
 eoe_statement: |-
     <strong>U.S. Digital Service is proud to be an equal opportunity employer</strong>
 
