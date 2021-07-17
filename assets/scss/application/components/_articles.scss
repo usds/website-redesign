@@ -1,0 +1,22 @@
+.site-c-articles {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-c-article {
+  margin-bottom: $units-3;
+
+  @include at-media('tablet') {
+    margin-bottom: $units-4;
+  }
+}
+
+.site-c-article__title {
+  text-decoration: none;
+}
+
+.site-c-article__title:hover {
+  text-decoration: underline;
+}

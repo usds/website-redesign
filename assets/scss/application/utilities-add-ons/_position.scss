@@ -1,0 +1,5 @@
+.tablet\:position-absolute {
+  @include at-media('tablet') {
+    position: absolute;
+  }
+}

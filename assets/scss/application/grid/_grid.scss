@@ -1,0 +1,10 @@
+.grid-container {
+  padding-left: $units-2;
+  padding-right: $units-2;
+  max-width: 1024px !important;
+
+  @include at-media('tablet') {
+    padding-left: $units-4;
+    padding-right: $units-4;
+  }
+}

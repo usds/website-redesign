@@ -1,0 +1,62 @@
+// USWDS Overrides
+$color-grid-dark:   #727272;
+$color-grid-light:  #e3e4e5;
+$font-monospace:    Consolas, Monaco, 'Andale Mono', monospace;
+$asset-path: '../';
+$font-path: '#{$asset-path}fonts';
+$image-path: '#{$asset-path}img';
+
+$external-href:     '[href^="http"]:not([href*=".gov"])';
+
+$z-nav-secondary: 10;
+
+// Fix these
+$font-sans: "Source Sans Pro";
+
+// Site image path, relative to /assets/css/
+$site-image-path: '../../img';
+
+// Custom Variables
+$font-light: 300;
+$site-nav-font-size: 1.7rem;
+$media-block-header-font-size: 1.7rem;
+$media-block-body-font-size: 1.5rem;
+
+// Social colors
+
+$color-facebook-blue: #537BBE;
+$color-twitter-blue: #77CCF1;
+$color-instagram-red: #E4415F;
+$color-medium-green: #00AB6C;
+$color-linkedin-blue: #137BB8;
+
+// Units expressed as variables
+$units-05: units(05);
+$units-1: units(1);
+$units-105: units(1.5);
+$units-2: units(2);
+$units-205: units(2.5);
+$units-3: units(3);
+$units-4: units(4);
+$units-5: units(5);
+$units-6: units(6);
+$units-7: units(7);
+$units-8: units(8);
+$units-9: units(9);
+$units-10: units(10);
+$units-15: units(15);
+$units-card: units('card');
+$units-card-lg: units('card-lg');
+$units-mobile: units('mobile');
+$units-mobile-lg: units('mobile-lg');
+$units-tablet: units('tablet');
+$units-tablet-lg: units('tablet-lg');
+$units-desktop: units('desktop');
+$units-desktop-lg: units('desktop-lg');
+$units-widescreen: units('widescreen');
+$units-neg-05: units(-0.5);
+$units-neg-1: units(-1);
+$units-neg-105: units(-1.5);
+$units-neg-2: units(-2);
+$units-neg-205: units(-2.5);
+$units-neg-3: units(-3);

@@ -1,0 +1,115 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 100%;
+  font-family: family('body');
+  background: #232323 !important;
+}
+
+[class*="font-sans-"] {
+  font-family: family('body') !important;
+}
+
+body {
+  color: $color-usds-gray;
+  font-size: size('body', 5);
+
+  @include at-media('desktop') {
+    font-size: size('body', 6);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: family('body');
+  color: $theme-color-primary-dark;
+}
+
+h2 {
+  font-size: size('body', 12);
+}
+
+h3 {
+  font-size: size('body', 10);
+}
+
+blockquote {
+  border-left: 3px solid $color-usds-gray-light;
+  padding-left: units(3);
+  margin-left: 0;
+}
+
+hr {
+  @extend .grid-container;
+  background: url('#{$image-path}/3stars.png') no-repeat left center;
+  background-size: 70px 17px;
+  border: 0;
+  color: $color-cyan-10;
+  height: 17px;
+  margin: 0;
+  position: relative;
+
+  &:before,
+  &:after {
+    content: "";
+    border-top: 1px solid;
+    display: block;
+    height: 1px;
+    position: absolute;
+    left: 80px;
+    top: calc(50% - .5px);
+    width: calc(100% - 80px);
+
+    @include at-media('desktop') {
+      width: 100vw;
+    }
+  }
+
+  &:before {
+    display: none;
+    left: calc(-100vw - 1rem);
+
+    @include at-media('desktop') {
+      display: block;
+    }
+  }
+}
+
+a {
+  color: $theme-color-primary;
+}
+
+.usa-button svg {
+  fill: white;
+  display: inline-block;
+  width: units(1.5);
+  height: units(1.5);
+  color: white;
+}
+
+.usa-banner-header img {
+  width: 16px;
+}
+
+.usa-banner-header-expanded img {
+  margin-right: 0.8rem;
+}
+
+.usa-banner-button[aria-expanded="false"] {
+  left: -8px;
+  @include at-media('tablet') {
+    left: 0;
+  }
+}
+
+.usa-prose > h2,
+.usa-prose > h3,
+.usa-prose > h4,
+.usa-prose > h5,
+.usa-prose > h6 {
+  @include u-font-family('sans');
+}

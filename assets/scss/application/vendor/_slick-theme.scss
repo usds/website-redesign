@@ -1,0 +1,108 @@
+@charset 'UTF-8';
+/* Arrows */
+.slick-prev,
+.slick-next {
+    background: url('#{$image-path}/arrow-right.png') no-repeat left center;
+    background: url('#{$image-path}/arrow-right.svg') no-repeat left center;
+    font-size: 0;
+    line-height: 0;
+    background-size: cover;
+    position: absolute;
+    top: calc(50% - 27px);
+    right: 0;
+    display: none !important;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    opacity: .25;
+
+    @include at-media('desktop-lg') {
+      display: block !important;
+    }
+}
+
+.slick-prev {
+    transform: rotate(180deg);
+    top: calc(50% - 37px);
+    left: -25px;
+}
+
+.slick-next {
+  right: -25px;
+}
+
+/* Dots */
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: $units-2 0 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    content: '';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    border-radius: 50%;
+    background: #000000;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+
+/* Slides */
+.slick-slide {
+  outline: 0;
+}

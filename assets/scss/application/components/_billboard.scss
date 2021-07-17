@@ -1,0 +1,27 @@
+.site-c-billboard {
+  @include u-font-size('sans', 'lg');
+  background: $theme-color-primary;
+  color: #ffffff;
+  font-weight: $theme-font-weight-bold;
+  padding: $units-7 0;
+  text-align: center;
+
+  @include at-media('tablet') {
+    @include u-font-size('sans', 'lg');
+    padding: $units-8 0;
+  }
+
+  @include at-media('desktop') {
+    @include u-font-size('sans', 'xl');
+    padding: $units-8 0;
+  }
+
+  p {
+    line-height: 1.2;
+    margin: 0 auto;
+
+    &:last-child {
+      margin-top: $units-2;
+    }
+  }
+}

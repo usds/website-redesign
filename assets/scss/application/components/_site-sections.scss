@@ -1,0 +1,103 @@
+.site-c-section {
+  margin: $units-5 0;
+}
+
+.site-c-section-heading {
+  display: flex;
+  flex-direction: column;
+
+  @include at-media('tablet-lg') {
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.site-c-section-heading--keep-column {
+  @include at-media('tablet-lg') {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    max-width: 100%;
+  }
+}
+
+.site-c-section-heading--keep-column .site-c-section-heading__heading,
+.site-c-section-heading--keep-column .site-c-section-heading__text {
+  flex: 0 0 auto;
+}
+
+.site-c-section-heading__heading {
+  @include u-font-size('sans', 11);
+  color: $theme-color-primary-dark;
+  flex: 0 0 auto;
+  margin: 0 0 $units-2 0;
+
+  @include at-media('tablet-lg') {
+    @include u-font-size('sans', 11);
+    flex: 0 0 62%;
+  }
+
+  @include at-media('desktop') {
+    @include u-font-size('sans', 12);
+  }
+}
+
+.site-c-section-heading__heading--h1 {
+  @include u-font-size('sans', 11);
+
+  @include at-media('tablet-lg') {
+    @include u-font-size('sans', 11);
+  }
+
+  @include at-media('desktop') {
+    @include u-font-size('sans', 14);
+  }
+}
+
+.site-c-section-heading__text {
+  flex: 0 0 auto;
+  margin: 0 0 $units-2 0;
+
+  @include at-media('tablet-lg') {
+    flex: 0 0 62%;
+  }
+}
+
+.site-c-section-heading__links {
+  flex: 0 0 auto;
+  margin: 0 auto $units-2 auto;
+
+  @include at-media('tablet') {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @include at-media('tablet-lg') {
+    text-align: right;
+    flex: 0 0 38%;
+  }
+}
+
+.site-c-section-heading__text--big {
+  flex: 100%;
+  color: $theme-color-primary-dark;
+  font-size: size('body', 9);
+  font-weight: 300;
+  width: 100%;
+
+  @include at-media('tablet') {
+    font-size: size('body', 12)
+  }
+
+  @include at-media('desktop') {
+    font-size: size('body', 14);
+  }
+}
+
+// Body
+.site-c-section__body {
+  margin-top: $units-4;
+}

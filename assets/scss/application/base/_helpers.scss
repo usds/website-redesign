@@ -1,0 +1,57 @@
+.site-c-project-content {
+  > h2 {
+    font-size: size('body', 10);
+  }
+
+  > p {
+    max-width: 76ch;
+  }
+
+  > img + em,
+  > p > img + em {
+    font-size: size('body', 5);
+  }
+}
+
+.pullquote {
+  background: url('../img/quote-left.svg') no-repeat top center;
+  background-size: 36px;
+  border: none !important;
+  color: $theme-color-primary-darker;
+  font-size: size('body', 9);
+  font-weight: 300;
+  margin: units(4) 0;
+  padding-top: 40px;
+  padding-left: 0 !important;
+  line-height: 1.4;
+
+  @include at-media('tablet') {
+    background-size: 58px 48px;
+    font-size: size('body', 10);
+    padding-top: 60px;
+  }
+
+  @include at-media('desktop') {
+    font-size: size('body', 12);
+    max-width: 40ch;
+  }
+
+  footer {
+    font-weight: $theme-font-weight-bold;
+    font-size: size('body', 6);
+    text-align: right;
+    margin-left: auto;
+  }
+}
+
+.usa-banner-inner {
+  max-width: none;
+}
+
+.usa-header {
+    border-bottom: 1px solid #dbdee1;
+}
+
+.usa-header::after {
+  display: none;
+}

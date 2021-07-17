@@ -1,0 +1,66 @@
+.site-c-social-buttons {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-c-social-buttons__item {
+  display: inline-block;
+  margin-left: units(.5);
+}
+
+.site-c-social-buttons__link {
+  background-color: $color-usds-gray;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: units(6);
+  height: units(6);
+  text-align: center;
+}
+
+.site-c-social-buttons__link--facebook {
+  background-color: $color-facebook-blue;
+}
+
+.site-c-social-buttons__link--twitter {
+  background-color: $color-twitter-blue;
+}
+
+.site-c-social-buttons__link--instagram {
+  background-color: $color-instagram-red;
+}
+
+.site-c-social-buttons__link--medium {
+  background-color: $color-medium-green;
+}
+
+.site-c-social-buttons__link--linkedin {
+  background-color: $color-linkedin-blue;
+}
+
+.site-c-social-buttons__icon {
+  height: units(2.5);
+  color: #fff;
+  fill: #ffffff;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.site-c-social-buttons--mini {
+  margin-left: $units-neg-05;
+}
+
+.site-c-social-buttons--mini .site-c-social-buttons__link {
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  padding: units(1);
+}
+
+.site-c-social-buttons--mini .site-c-social-buttons__icon {
+  height: units(2.5);
+  width: units(2.5);
+}
