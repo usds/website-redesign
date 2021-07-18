@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "gulp build-sass & jekyll build",
+    "build": "gulp build-sass & bundle exec jekyll build",
+    "build-staging": "gulp build-sass & JEKYLL_ENV=staging bundle exec jekyll build",
     "serve": "gulp watch & bundle exec jekyll serve --livereload",
-    "start": "npm run serve"    
+    "start": "npm run serve"
   },
   "repository": {
     "type": "git",
