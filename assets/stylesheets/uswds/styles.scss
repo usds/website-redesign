@@ -79,9 +79,12 @@
 @import "uswds";
 
 // -------------------------------------
-// Import theme custom styles
+// Import custom styles
 
 @import "uswds-theme-custom-styles";
+
+// -------------------------------------
+// Import USDS custom styles
 
 @import "../application/variables";
 @import "../application/base/base";

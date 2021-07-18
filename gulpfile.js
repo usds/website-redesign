@@ -38,10 +38,10 @@ PATHS
 */
 
 // Project Sass source directory
-const PROJECT_SASS_SRC = "./assets/scss/uswds";
+const PROJECT_SASS_SRC = "./assets/stylesheets/uswds";
 
-// Project Sass source directory
-const APPLICATION_SASS_SRC = './assets/scss/application';
+// Watch all Sass files
+const WATCH_SASS_SRC = "./assets/stylesheets";
 
 // Images destination
 const IMG_DEST = "./assets/img";
@@ -53,7 +53,7 @@ const FONTS_DEST = "./assets/fonts";
 const JS_DEST = "./assets/js/vendor";
 
 // Compiled CSS destination
-const CSS_DEST = "./assets/stylesheets";
+const CSS_DEST = "./assets/stylesheets/";
 
 // Site CSS destination
 // Like the _site/assets/css directory in Jekyll, if necessary.
@@ -176,7 +176,7 @@ gulp.task(
 );
 
 gulp.task("watch-sass", function() {
-  gulp.watch(`${APPLICATION_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
+  gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
 });
 
 gulp.task("watch", gulp.series("build-sass", "watch-sass"));

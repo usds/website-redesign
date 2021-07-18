@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "bundle exec jekyll serve --livereload",
     "build": "gulp build-sass & jekyll build",
-    "serve": "gulp watch & bundle exec jekyll serve --livereload"
+    "serve": "gulp watch & bundle exec jekyll serve --livereload",
+    "start": "npm run serve"    
   },
   "repository": {
     "type": "git",
