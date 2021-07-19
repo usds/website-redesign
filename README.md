@@ -45,7 +45,7 @@ Builds staging Jekyll site using `JEKYLL_ENV=staging` and compiles main styleshe
 
 Staging builds are used for temporary testing on cloud.gov. Do not deploy a staging build to GitHub pages.
 
-For more information, see [deploy a temporary staging site to cloud.gov](#deploy-a-temporary-staging-site-to-cloud.gov).
+For more information, see [deploy a temporary staging site to cloud.gov](#deploy-a-temporary-staging-site-to-cloudgov).
 
 ## Maintenance
 
@@ -57,7 +57,7 @@ USWDS is brought into the project using [uswds-gulp](https://github.com/uswds/us
 
 Custom USWDS theme settings are declared in `assets/stylesheets/uswds/_uswds-theme-*.scss`. Use these files to [add or remove utilities, edit variables, or change how the design system builds](https://designsystem.digital.gov/documentation/settings/).
 
-After updating, make a [new build or restart your localhost](#-running-and-building) to see any changes.
+After updating, make a [new build or restart your localhost](#running-and-building) to see any changes.
 
 #### Updating USWDS
 
@@ -70,7 +70,7 @@ Updating USWDS may overwrite custom settings, break the theme and manifest files
 2. Install (`$ npm install`) or update (`$npm update`) packages.
 3. Double check that updates don't alter the theme or manifest files in `assets/stylesheets/uswds`.
  - If theme updates are required, backup the existing theme files, and re-run the uswds-gulp setup task (`$ gulp init`) to copy over the new files. Diff check the new files with the originals to see what settings need to be copied _back_ over.
-4. Make a [new build or start your localhost](#-running-and-building).
+4. Make a [new build or start your localhost](#running-and-building).
 
 ### Content updates
 
