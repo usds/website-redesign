@@ -69,10 +69,8 @@ Updating USWDS may overwrite custom settings, break the theme and manifest files
 2. Update the USWDS version number in `package.json`.
 3. Install (`$ npm install`) or update (`$npm update`) packages.
 4. Double check that updates don't alter the theme or manifest files in `assets/stylesheets/uswds`.
-
-  > If theme updates are required for the new version, backup the existing theme files and re-run the uswds-gulp setup task (`$ gulp init`) to copy over the updated theme files.
-  >
-  > Diff check the new files with the originals to see what custom settings need to be manually re-added or restored.
+    - If theme updates are required for the new version, backup the existing theme files and re-run the uswds-gulp setup task (`$ gulp init`) to copy over the updated theme files.
+    - Diff check the new files with the originals to see what custom settings need to be manually re-added or restored.
 
 5. Make a [new build or start your localhost](#running-and-building).
 
