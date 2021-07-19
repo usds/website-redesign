@@ -176,7 +176,7 @@ gulp.task(
 );
 
 gulp.task("watch-sass", function() {
-  gulp.watch(`${PROJECT_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
+  gulp.watch(`${WATCH_SASS_SRC}/**/*.scss`, gulp.series("build-sass"));
 });
 
 gulp.task("watch", gulp.series("build-sass", "watch-sass"));
